@@ -3,6 +3,8 @@
   "version": "1.0.0",
   "type": "module",
   "scripts": {
+    "postinstall": "npx puppeteer browsers install chrome || true",
+    "setup": "node setup.js",
     "dev": "nodemon server.js",
     "start": "node server.js",
     "db:push": "prisma db push",

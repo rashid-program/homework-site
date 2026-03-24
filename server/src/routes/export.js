@@ -33,7 +33,7 @@ router.post('/pdf', async (req, res, next) => {
     const url = `http://localhost:${PORT}/pdf-template.html?${qs}`;
 
     browser = await puppeteer.launch({
-      headless: true,
+      headless: 'new',
       args: ['--no-sandbox', '--disable-setuid-sandbox', '--disable-dev-shm-usage'],
     });
 

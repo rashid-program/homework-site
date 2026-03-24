@@ -1,0 +1,670 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Добавить задание — ОГЭ Математика</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            brand: {
+              blue: '#0399E9',
+              'blue-hover': '#027BBF',
+              'blue-light': '#E5F4FC',
+              'blue-pale': '#F0F9FF',
+            },
+            ink: {
+              dark: '#001B29',
+              body: '#445371',
+              muted: '#8D96AF',
+              faint: '#A1A9B8',
+            },
+            surface: {
+              page: '#DFE2EA',
+              card: '#FFFFFF',
+              middle: '#F3F4F7',
+              border: '#E7E9EF',
+              'border-strong': '#CFD2D9',
+            },
+            header: { bg: '#181E2B' },
+            state: {
+              green: '#019F3C',
+              red: '#D91528',
+              yellow: '#FBB82B',
+            }
+          },
+          fontFamily: { montserrat: ['Montserrat', 'sans-serif'] },
+          boxShadow: {
+            'card': '0 1px 3px rgba(0,0,0,0.04), 0 4px 12px rgba(0,0,0,0.06)',
+            'btn':  '0 2px 8px rgba(3,153,233,0.25)',
+            'btn-hover': '0 4px 16px rgba(3,153,233,0.35)',
+          }
+        }
+      }
+    }
+  </script>
+  <style>
+    * { box-sizing: border-box; }
+    body { font-family: 'Montserrat', sans-serif; -webkit-font-smoothing: antialiased; }
+
+    ::-webkit-scrollbar { width: 8px; }
+    ::-webkit-scrollbar-track { background: #EEEFF2; }
+    ::-webkit-scrollbar-thumb { background: #BFC1C4; border-radius: 4px; }
+    ::-webkit-scrollbar-thumb:hover { background: #8D96AF; }
+
+    /* ── Fields ─────────────────────────────────────────────────── */
+    .field-input {
+      width: 100%;
+      padding: 10px 14px;
+      font-family: 'Montserrat', sans-serif;
+      font-size: 0.875rem;
+      font-weight: 500;
+      color: #001B29;
+      background: #FFFFFF;
+      border: 1.5px solid #E7E9EF;
+      border-radius: 10px;
+      outline: none;
+      transition: border-color 0.15s ease, box-shadow 0.15s ease;
+    }
+    .field-input:focus { border-color: #0399E9; box-shadow: 0 0 0 3px rgba(3,153,233,0.12); }
+    .field-input::placeholder { color: #A1A9B8; font-weight: 400; }
+    textarea.field-input { resize: vertical; min-height: 120px; line-height: 1.6; }
+    select.field-input {
+      cursor: pointer; appearance: none;
+      background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16' viewBox='0 0 16 16' fill='none'%3E%3Cpath d='M4 6l4 4 4-4' stroke='%238D96AF' stroke-width='1.5' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E");
+      background-repeat: no-repeat; background-position: right 12px center; padding-right: 36px;
+    }
+
+    .field-label { display: block; font-size: 0.8125rem; font-weight: 600; color: #445371; margin-bottom: 6px; letter-spacing: 0.01em; }
+    .field-label .req { color: #D91528; margin-left: 3px; }
+    .field-label .opt { color: #8D96AF; font-weight: 400; margin-left: 4px; font-size: 0.75rem; }
+    .field-hint { font-size: 0.75rem; color: #8D96AF; margin-top: 5px; font-weight: 400; }
+
+    /* ── Drop zone ──────────────────────────────────────────────── */
+    .drop-zone {
+      border: 2px dashed #CFD2D9;
+      border-radius: 12px;
+      padding: 28px 20px;
+      text-align: center;
+      cursor: pointer;
+      transition: border-color 0.2s ease, background-color 0.2s ease;
+      background: #F3F4F7;
+      position: relative;
+    }
+    .drop-zone:hover, .drop-zone.dragover {
+      border-color: #0399E9;
+      background: #E5F4FC;
+    }
+    .drop-zone input[type="file"] {
+      position: absolute; inset: 0; opacity: 0; cursor: pointer; width: 100%; height: 100%;
+    }
+
+    /* ── Image previews ─────────────────────────────────────────── */
+    .img-preview-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(110px, 1fr));
+      gap: 10px;
+      margin-top: 12px;
+    }
+    .img-preview-item {
+      position: relative;
+      border-radius: 10px;
+      overflow: hidden;
+      background: #E7E9EF;
+      aspect-ratio: 1;
+    }
+    .img-preview-item img {
+      width: 100%; height: 100%; object-fit: cover; display: block;
+    }
+    .img-preview-item .remove-overlay {
+      position: absolute; inset: 0;
+      background: rgba(0,0,0,0);
+      display: flex; align-items: center; justify-content: center;
+      opacity: 0;
+      transition: background-color 0.15s ease, opacity 0.15s ease;
+      cursor: pointer;
+    }
+    .img-preview-item:hover .remove-overlay {
+      background: rgba(217,21,40,0.55);
+      opacity: 1;
+    }
+    .img-preview-item .uploading-overlay {
+      position: absolute; inset: 0;
+      background: rgba(255,255,255,0.8);
+      display: flex; align-items: center; justify-content: center;
+    }
+    .spinner {
+      width: 22px; height: 22px;
+      border: 2.5px solid #E7E9EF;
+      border-top-color: #0399E9;
+      border-radius: 50%;
+      animation: spin 0.7s linear infinite;
+    }
+    @keyframes spin { to { transform: rotate(360deg); } }
+
+    /* ── URL row ────────────────────────────────────────────────── */
+    .img-url-row { display: flex; gap: 8px; align-items: center; }
+    .remove-img-btn {
+      flex-shrink: 0; width: 32px; height: 32px; border-radius: 8px;
+      border: 1.5px solid #E7E9EF; background: #F3F4F7; color: #8D96AF;
+      display: flex; align-items: center; justify-content: center; cursor: pointer;
+      transition: border-color 0.15s ease, color 0.15s ease, background-color 0.15s ease;
+    }
+    .remove-img-btn:hover { border-color: #D91528; color: #D91528; background: #FFF0F0; }
+    .remove-img-btn:focus-visible { outline: 2px solid #0399E9; outline-offset: 2px; }
+
+    .add-url-btn {
+      display: inline-flex; align-items: center; gap: 6px;
+      padding: 7px 14px; font-family: 'Montserrat', sans-serif;
+      font-size: 0.8125rem; font-weight: 600; color: #8D96AF;
+      background: #F3F4F7; border: 1.5px solid #E7E9EF; border-radius: 9px;
+      cursor: pointer;
+      transition: color 0.15s ease, border-color 0.15s ease, background-color 0.15s ease;
+    }
+    .add-url-btn:hover { color: #0399E9; background: #E5F4FC; border-color: rgba(3,153,233,0.25); }
+    .add-url-btn:focus-visible { outline: 2px solid #0399E9; outline-offset: 2px; }
+
+    /* ── Buttons ────────────────────────────────────────────────── */
+    .submit-btn {
+      transition: transform 0.2s cubic-bezier(0.34, 1.56, 0.64, 1), box-shadow 0.2s ease, opacity 0.2s ease;
+    }
+    .submit-btn:hover:not(:disabled) { transform: translateY(-1px); }
+    .submit-btn:active:not(:disabled) { transform: translateY(0px) scale(0.98); }
+    .submit-btn:focus-visible { outline: 2px solid #0399E9; outline-offset: 2px; }
+
+    /* ── Toast ──────────────────────────────────────────────────── */
+    .toast {
+      position: fixed; bottom: 28px; left: 50%;
+      transform: translateX(-50%) translateY(80px);
+      opacity: 0; background: #FFFFFF; border-radius: 12px; padding: 14px 20px;
+      box-shadow: 0 4px 24px rgba(0,0,0,0.12), 0 1px 4px rgba(0,0,0,0.06);
+      display: flex; align-items: center; gap: 10px;
+      font-size: 0.875rem; font-weight: 600; color: #001B29;
+      white-space: nowrap; z-index: 1000;
+      transition: transform 0.35s cubic-bezier(0.34, 1.56, 0.64, 1), opacity 0.35s ease;
+      pointer-events: none;
+    }
+    .toast.show { transform: translateX(-50%) translateY(0); opacity: 1; }
+    .toast-dot { width: 8px; height: 8px; border-radius: 50%; flex-shrink: 0; }
+
+    /* ── Section animation ──────────────────────────────────────── */
+    .section-card { animation: fadeInUp 0.4s cubic-bezier(0.22, 1, 0.36, 1) both; }
+    .section-card:nth-child(1) { animation-delay: 0.05s; }
+    .section-card:nth-child(2) { animation-delay: 0.10s; }
+    .section-card:nth-child(3) { animation-delay: 0.15s; }
+    @keyframes fadeInUp {
+      from { opacity: 0; transform: translateY(12px); }
+      to   { opacity: 1; transform: translateY(0); }
+    }
+  </style>
+</head>
+
+<body class="bg-surface-page font-montserrat text-ink-dark min-h-screen flex flex-col">
+
+  <!-- HEADER -->
+  <header class="bg-header-bg sticky top-0 z-50">
+    <div class="max-w-[860px] mx-auto px-5 h-14 flex items-center gap-4">
+      <a href="index.html" class="text-white/60 hover:text-white flex items-center gap-1.5 text-sm font-medium" style="transition: color 0.15s ease;">
+        <svg width="16" height="16" viewBox="0 0 16 16" fill="none">
+          <path d="M10 3L5 8l5 5" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+        </svg>
+        Конструктор
+      </a>
+      <span class="text-white/20 text-sm">/</span>
+      <span class="text-white font-bold text-sm">Добавить задание</span>
+    </div>
+  </header>
+
+  <!-- MAIN -->
+  <main class="flex-1 w-full max-w-[860px] mx-auto px-5 py-8 md:py-10">
+
+    <div class="mb-8">
+      <h1 class="text-2xl md:text-3xl font-bold text-ink-dark" style="letter-spacing: -0.03em;">Добавить задание</h1>
+      <p class="text-ink-muted text-sm mt-2 font-medium">Заполните поля и нажмите «Сохранить» — задание сразу появится в базе</p>
+    </div>
+
+    <form id="task-form" novalidate>
+      <div class="flex flex-col gap-5">
+
+        <!-- ===== СЕКЦИЯ 1: Идентификация ===== -->
+        <div class="section-card bg-surface-card rounded-2xl shadow-card overflow-hidden">
+          <div class="px-6 md:px-8 pt-5 pb-4 border-b border-surface-border flex items-center gap-3">
+            <div class="w-8 h-8 rounded-lg bg-brand-blue-light flex items-center justify-center flex-shrink-0">
+              <svg width="16" height="16" viewBox="0 0 16 16" fill="none">
+                <rect x="2" y="2" width="5" height="5" rx="1.5" fill="#0399E9"/>
+                <rect x="9" y="2" width="5" height="5" rx="1.5" fill="#0399E9" opacity="0.4"/>
+                <rect x="2" y="9" width="5" height="5" rx="1.5" fill="#0399E9" opacity="0.4"/>
+                <rect x="9" y="9" width="5" height="5" rx="1.5" fill="#0399E9" opacity="0.2"/>
+              </svg>
+            </div>
+            <h2 class="text-sm font-bold text-ink-dark">Идентификация</h2>
+          </div>
+
+          <div class="px-6 md:px-8 py-5 grid grid-cols-1 sm:grid-cols-2 gap-5">
+            <!-- Тип задания -->
+            <div class="sm:col-span-2">
+              <label class="field-label" for="typeId">Тип задания <span class="req">*</span></label>
+              <select class="field-input" id="typeId" name="typeId" required>
+                <option value="" disabled selected>Выберите тип задания...</option>
+              </select>
+            </div>
+
+            <!-- Прототип -->
+            <div>
+              <label class="field-label" for="prototype">
+                Прототип <span class="req">*</span>
+              </label>
+              <input type="number" class="field-input" id="prototype" name="prototype" min="1" max="9999" placeholder="например: 15" required>
+              <p class="field-hint">Номер шаблона задания (несколько заданий могут иметь одинаковый прототип)</p>
+            </div>
+
+            <!-- Сложность -->
+            <div>
+              <label class="field-label" for="difficulty">Сложность</label>
+              <select class="field-input" id="difficulty" name="difficulty">
+                <option value="1" selected>1 — Лёгкое</option>
+                <option value="2">2 — Среднее</option>
+                <option value="3">3 — Сложное</option>
+              </select>
+            </div>
+          </div>
+        </div>
+
+        <!-- ===== СЕКЦИЯ 2: Содержание ===== -->
+        <div class="section-card bg-surface-card rounded-2xl shadow-card overflow-hidden">
+          <div class="px-6 md:px-8 pt-5 pb-4 border-b border-surface-border flex items-center gap-3">
+            <div class="w-8 h-8 rounded-lg bg-brand-blue-light flex items-center justify-center flex-shrink-0">
+              <svg width="16" height="16" viewBox="0 0 16 16" fill="none">
+                <path d="M2 4h12M2 7h8M2 10h12M2 13h6" stroke="#0399E9" stroke-width="1.5" stroke-linecap="round"/>
+              </svg>
+            </div>
+            <h2 class="text-sm font-bold text-ink-dark">Содержание</h2>
+          </div>
+
+          <div class="px-6 md:px-8 py-5 flex flex-col gap-5">
+
+            <!-- Изображения (загрузка файла) -->
+            <div>
+              <label class="field-label">
+                Скриншот / изображение
+                <span class="opt">(необязательно если есть текст)</span>
+              </label>
+
+              <!-- Drop zone -->
+              <div class="drop-zone" id="drop-zone">
+                <input type="file" id="file-input" accept="image/*" multiple>
+                <div class="pointer-events-none">
+                  <svg width="32" height="32" viewBox="0 0 32 32" fill="none" class="mx-auto mb-3 text-ink-faint">
+                    <path d="M16 21V11M16 11l-4 4M16 11l4 4" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+                    <rect x="4" y="4" width="24" height="24" rx="6" stroke="currentColor" stroke-width="1.5" stroke-dasharray="3 2"/>
+                  </svg>
+                  <p class="text-sm font-semibold text-ink-body">Нажмите или перетащите файл</p>
+                  <p class="text-xs text-ink-muted mt-1">PNG, JPG, WEBP — до 15 МБ</p>
+                </div>
+              </div>
+
+              <!-- Previews grid -->
+              <div class="img-preview-grid" id="img-preview-grid"></div>
+
+              <!-- URL list (дополнительно) -->
+              <div id="url-list" class="flex flex-col gap-2 mt-3"></div>
+              <button type="button" class="add-url-btn mt-2" id="add-url-btn">
+                <svg width="12" height="12" viewBox="0 0 14 14" fill="none">
+                  <path d="M7 2v10M2 7h10" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/>
+                </svg>
+                Добавить по ссылке
+              </button>
+              <p class="field-hint mt-1">ID задания формируется автоматически — он используется для проверки ответов</p>
+            </div>
+
+            <!-- Текст задания -->
+            <div>
+              <label class="field-label" for="text">
+                Текст задания
+                <span id="text-req-badge" class="req" style="display:none;">*</span>
+                <span id="text-opt-badge" class="opt">(необязательно если есть изображение)</span>
+              </label>
+              <textarea class="field-input" id="text" name="text" rows="5"
+                placeholder="Введите условие задачи. Для формул используйте LaTeX: $x^2 + 2x + 1 = 0$"></textarea>
+              <p class="field-hint">Поддерживается LaTeX: формулы в $...$ или $$...$$</p>
+            </div>
+
+            <!-- Ответ -->
+            <div>
+              <label class="field-label" for="answer">Ответ <span class="opt">(необязательно для 2 части)</span></label>
+              <input type="text" class="field-input" id="answer" name="answer" placeholder="например: 12 или 4/3">
+            </div>
+
+          </div>
+        </div>
+
+        <!-- ===== СЕКЦИЯ 3: Источник ===== -->
+        <div class="section-card bg-surface-card rounded-2xl shadow-card overflow-hidden">
+          <div class="px-6 md:px-8 pt-5 pb-4 border-b border-surface-border flex items-center gap-3">
+            <div class="w-8 h-8 rounded-lg bg-brand-blue-light flex items-center justify-center flex-shrink-0">
+              <svg width="16" height="16" viewBox="0 0 16 16" fill="none">
+                <circle cx="8" cy="8" r="6" stroke="#0399E9" stroke-width="1.5"/>
+                <path d="M8 5v3.5l2 1.5" stroke="#0399E9" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+              </svg>
+            </div>
+            <h2 class="text-sm font-bold text-ink-dark">Источник <span class="text-ink-muted font-medium text-xs">(необязательно)</span></h2>
+          </div>
+
+          <div class="px-6 md:px-8 py-5 grid grid-cols-1 sm:grid-cols-2 gap-5">
+            <div>
+              <label class="field-label" for="source">Название источника</label>
+              <input type="text" class="field-input" id="source" name="source" placeholder="например: СдамГИА 2024">
+            </div>
+            <div>
+              <label class="field-label" for="sourceUrl">Ссылка</label>
+              <input type="url" class="field-input" id="sourceUrl" name="sourceUrl" placeholder="https://...">
+            </div>
+          </div>
+        </div>
+
+        <!-- КНОПКА -->
+        <div class="flex flex-col sm:flex-row items-center justify-between gap-4 py-2">
+          <p class="text-xs text-ink-muted font-medium order-2 sm:order-1">
+            <span class="text-state-red">*</span> — обязательные поля
+          </p>
+          <button type="submit" id="submit-btn"
+            class="submit-btn order-1 sm:order-2 w-full sm:w-auto px-10 py-3.5 bg-brand-blue text-white font-bold text-sm rounded-xl shadow-btn hover:bg-brand-blue-hover hover:shadow-btn-hover disabled:opacity-40 disabled:cursor-not-allowed disabled:transform-none">
+            Сохранить задание
+          </button>
+        </div>
+
+      </div>
+    </form>
+  </main>
+
+  <footer class="py-6 text-center">
+    <p class="text-xs text-ink-muted font-medium">Конструктор заданий &copy; 2026</p>
+  </footer>
+
+  <!-- TOAST -->
+  <div class="toast" id="toast">
+    <div class="toast-dot" id="toast-dot"></div>
+    <span id="toast-msg"></span>
+  </div>
+
+  <script>
+    // ── Fallback task types ────────────────────────────────────────────────────
+    const FALLBACK_TYPES = [
+      { id:1,  name:'Задание 1',  topic:'Вычисления', part:1 },
+      { id:2,  name:'Задание 2',  topic:'Числовые неравенства, координатная прямая', part:1 },
+      { id:3,  name:'Задание 3',  topic:'Числа и вычисления', part:1 },
+      { id:4,  name:'Задание 4',  topic:'Алгебраические выражения', part:1 },
+      { id:5,  name:'Задание 5',  topic:'Уравнения и неравенства', part:1 },
+      { id:6,  name:'Задание 6',  topic:'Графики функций', part:1 },
+      { id:7,  name:'Задание 7',  topic:'Арифметические и геометрические прогрессии', part:1 },
+      { id:8,  name:'Задание 8',  topic:'Неравенства и системы неравенств', part:1 },
+      { id:9,  name:'Задание 9',  topic:'Задачи по теории вероятностей', part:1 },
+      { id:10, name:'Задание 10', topic:'Статистика, графики и диаграммы', part:1 },
+      { id:11, name:'Задание 11', topic:'Числовые последовательности', part:1 },
+      { id:12, name:'Задание 12', topic:'Преобразование выражений', part:1 },
+      { id:13, name:'Задание 13', topic:'Алгебраические выражения и их преобразования', part:1 },
+      { id:14, name:'Задание 14', topic:'Практико-ориентированные задачи', part:1 },
+      { id:15, name:'Задание 15', topic:'Треугольники и их элементы', part:1 },
+      { id:16, name:'Задание 16', topic:'Окружность, вписанные и центральные углы', part:1 },
+      { id:17, name:'Задание 17', topic:'Четырёхугольники и их свойства', part:1 },
+      { id:18, name:'Задание 18', topic:'Площади фигур', part:1 },
+      { id:19, name:'Задание 19', topic:'Анализ геометрических высказываний', part:1 },
+      { id:20, name:'Задание 20', topic:'Уравнения и системы уравнений', part:2 },
+      { id:21, name:'Задание 21', topic:'Текстовые задачи', part:2 },
+      { id:22, name:'Задание 22', topic:'Функции и их свойства', part:2 },
+      { id:23, name:'Задание 23', topic:'Геометрическая задача (вычисление)', part:2 },
+      { id:24, name:'Задание 24', topic:'Геометрическая задача (доказательство)', part:2 },
+      { id:25, name:'Задание 25', topic:'Геометрическая задача повышенной сложности', part:2 },
+    ];
+
+    // ── State ──────────────────────────────────────────────────────────────────
+    // Each item: { url: '/uploads/xxx.png', source: 'upload' | 'url' }
+    const images = [];
+
+    // ── Load task types ────────────────────────────────────────────────────────
+    async function loadTaskTypes() {
+      let types = FALLBACK_TYPES;
+      try {
+        const res = await fetch('/api/task-types');
+        const json = await res.json();
+        if (json.success && json.data.length > 0) types = json.data;
+      } catch {}
+
+      const select = document.getElementById('typeId');
+      const part1  = types.filter(t => t.part === 1);
+      const part2  = types.filter(t => t.part === 2);
+
+      const makeGroup = (label, items) => {
+        const g = document.createElement('optgroup');
+        g.label = label;
+        items.forEach(t => {
+          const o = document.createElement('option');
+          o.value = t.id;
+          o.textContent = `${t.name} — ${t.topic}`;
+          g.appendChild(o);
+        });
+        return g;
+      };
+      select.appendChild(makeGroup('Первая часть (1–19)', part1));
+      select.appendChild(makeGroup('Вторая часть (20–25)', part2));
+    }
+
+    // ── Image state helpers ────────────────────────────────────────────────────
+    function getImageUrls() {
+      // uploaded files
+      const uploaded = images.map(i => i.url);
+      // manual URL inputs
+      const manual = Array.from(document.querySelectorAll('#url-list input'))
+        .map(i => i.value.trim()).filter(Boolean);
+      return [...uploaded, ...manual];
+    }
+
+    function hasImages() {
+      return images.length > 0 ||
+        Array.from(document.querySelectorAll('#url-list input')).some(i => i.value.trim());
+    }
+
+    function updateTextRequired() {
+      const hasImg = hasImages();
+      document.getElementById('text-req-badge').style.display = hasImg ? 'none' : 'inline';
+      document.getElementById('text-opt-badge').style.display = hasImg ? 'inline' : 'none';
+    }
+
+    // ── Render preview grid ────────────────────────────────────────────────────
+    function renderPreviews() {
+      const grid = document.getElementById('img-preview-grid');
+      grid.innerHTML = '';
+      images.forEach((img, idx) => {
+        const item = document.createElement('div');
+        item.className = 'img-preview-item';
+        item.innerHTML = `
+          <img src="${img.url}" alt="Изображение ${idx+1}">
+          <div class="remove-overlay" data-idx="${idx}" title="Удалить">
+            <svg width="20" height="20" viewBox="0 0 20 20" fill="none">
+              <path d="M5 5l10 10M15 5L5 15" stroke="white" stroke-width="2" stroke-linecap="round"/>
+            </svg>
+          </div>
+        `;
+        grid.appendChild(item);
+      });
+      updateTextRequired();
+    }
+
+    // ── File upload ────────────────────────────────────────────────────────────
+    async function uploadFile(file) {
+      // Show placeholder with spinner while uploading
+      const idx = images.length;
+      images.push({ url: URL.createObjectURL(file), source: 'uploading' });
+      renderPreviews();
+
+      const formData = new FormData();
+      formData.append('image', file);
+
+      try {
+        const res  = await fetch('/api/upload', { method: 'POST', body: formData });
+        const json = await res.json();
+        if (!res.ok || !json.success) throw new Error(json.error || 'Ошибка загрузки');
+        images[idx] = { url: json.url, source: 'upload' };
+        renderPreviews();
+      } catch (err) {
+        images.splice(idx, 1);
+        renderPreviews();
+        showToast('Не удалось загрузить файл: ' + err.message, 'error');
+      }
+    }
+
+    async function handleFiles(files) {
+      for (const file of files) {
+        if (!file.type.startsWith('image/')) {
+          showToast('Допускаются только изображения', 'error');
+          continue;
+        }
+        if (file.size > 15 * 1024 * 1024) {
+          showToast('Файл слишком большой (макс. 15 МБ)', 'error');
+          continue;
+        }
+        await uploadFile(file);
+      }
+    }
+
+    // ── Drop zone ──────────────────────────────────────────────────────────────
+    function initDropZone() {
+      const zone  = document.getElementById('drop-zone');
+      const input = document.getElementById('file-input');
+
+      input.addEventListener('change', () => handleFiles([...input.files]));
+
+      zone.addEventListener('dragover', e => { e.preventDefault(); zone.classList.add('dragover'); });
+      zone.addEventListener('dragleave', () => zone.classList.remove('dragover'));
+      zone.addEventListener('drop', e => {
+        e.preventDefault();
+        zone.classList.remove('dragover');
+        handleFiles([...e.dataTransfer.files]);
+      });
+    }
+
+    // ── Remove preview image ───────────────────────────────────────────────────
+    document.getElementById('img-preview-grid').addEventListener('click', e => {
+      const overlay = e.target.closest('.remove-overlay');
+      if (!overlay) return;
+      const idx = parseInt(overlay.dataset.idx);
+      images.splice(idx, 1);
+      renderPreviews();
+    });
+
+    // ── URL list ───────────────────────────────────────────────────────────────
+    let urlCount = 0;
+    function addUrlRow() {
+      urlCount++;
+      const row = document.createElement('div');
+      row.className = 'img-url-row';
+      row.innerHTML = `
+        <input type="url" class="field-input" style="flex:1" placeholder="https://example.com/image.png">
+        <button type="button" class="remove-img-btn" title="Удалить" aria-label="Удалить ссылку">
+          <svg width="14" height="14" viewBox="0 0 14 14" fill="none">
+            <path d="M2 2l10 10M12 2L2 12" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/>
+          </svg>
+        </button>
+      `;
+      row.querySelector('.remove-img-btn').addEventListener('click', () => {
+        row.remove();
+        updateTextRequired();
+      });
+      row.querySelector('input').addEventListener('input', updateTextRequired);
+      document.getElementById('url-list').appendChild(row);
+      updateTextRequired();
+    }
+
+    // ── Toast ──────────────────────────────────────────────────────────────────
+    let toastTimer = null;
+    function showToast(message, type = 'success') {
+      document.getElementById('toast-dot').style.background = type === 'success' ? '#019F3C' : '#D91528';
+      document.getElementById('toast-msg').textContent = message;
+      document.getElementById('toast').classList.add('show');
+      clearTimeout(toastTimer);
+      toastTimer = setTimeout(() => document.getElementById('toast').classList.remove('show'), 3500);
+    }
+
+    // ── Validation ─────────────────────────────────────────────────────────────
+    function validate(data) {
+      if (!data.typeId)    { showToast('Выберите тип задания', 'error'); document.getElementById('typeId').focus(); return false; }
+      if (!data.prototype) { showToast('Укажите номер прототипа', 'error'); document.getElementById('prototype').focus(); return false; }
+      if (!data.text && data.images.length === 0) {
+        showToast('Введите текст задания или добавьте изображение', 'error');
+        document.getElementById('text').focus();
+        return false;
+      }
+      return true;
+    }
+
+    // ── Submit ─────────────────────────────────────────────────────────────────
+    document.getElementById('task-form').addEventListener('submit', async e => {
+      e.preventDefault();
+      const btn = document.getElementById('submit-btn');
+
+      const data = {
+        typeId:     parseInt(document.getElementById('typeId').value) || 0,
+        prototype:  parseInt(document.getElementById('prototype').value) || 0,
+        text:       document.getElementById('text').value.trim() || null,
+        answer:     document.getElementById('answer').value.trim() || null,
+        images:     getImageUrls(),
+        difficulty: parseInt(document.getElementById('difficulty').value),
+        source:     document.getElementById('source').value.trim() || null,
+        sourceUrl:  document.getElementById('sourceUrl').value.trim() || null,
+      };
+
+      if (!validate(data)) return;
+
+      btn.disabled    = true;
+      btn.textContent = 'Сохраняю...';
+
+      try {
+        const res  = await fetch('/api/tasks', {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/json' },
+          body: JSON.stringify(data),
+        });
+        const json = await res.json();
+        if (!res.ok || !json.success) throw new Error(json.error || `HTTP ${res.status}`);
+
+        showToast(`Задание ${json.data.type?.name ?? ''} (прототип ${json.data.prototype}) сохранено!`, 'success');
+        resetForm();
+      } catch (err) {
+        showToast(err.message || 'Не удалось сохранить задание', 'error');
+      } finally {
+        btn.disabled    = false;
+        btn.textContent = 'Сохранить задание';
+      }
+    });
+
+    // ── Reset ──────────────────────────────────────────────────────────────────
+    function resetForm() {
+      document.getElementById('typeId').value     = '';
+      document.getElementById('prototype').value  = '';
+      document.getElementById('text').value       = '';
+      document.getElementById('answer').value     = '';
+      document.getElementById('difficulty').value = '1';
+      document.getElementById('source').value     = '';
+      document.getElementById('sourceUrl').value  = '';
+      document.getElementById('url-list').innerHTML = '';
+      images.length = 0;
+      renderPreviews();
+      window.scrollTo({ top: 0, behavior: 'smooth' });
+    }
+
+    // ── Init ───────────────────────────────────────────────────────────────────
+    document.addEventListener('DOMContentLoaded', async () => {
+      await loadTaskTypes();
+      initDropZone();
+      updateTextRequired();
+      document.getElementById('add-url-btn').addEventListener('click', addUrlRow);
+    });
+  </script>
+</body>
+</html>

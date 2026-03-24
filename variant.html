@@ -1,0 +1,601 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Вариант — Конструктор заданий</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            brand: {
+              blue: '#0399E9',
+              'blue-hover': '#027BBF',
+              'blue-light': '#E5F4FC',
+              'blue-pale': '#F0F9FF',
+            },
+            ink: {
+              dark: '#001B29',
+              body: '#445371',
+              muted: '#8D96AF',
+              faint: '#A1A9B8',
+            },
+            surface: {
+              page: '#DFE2EA',
+              card: '#FFFFFF',
+              middle: '#F3F4F7',
+              border: '#E7E9EF',
+              'border-strong': '#CFD2D9',
+            },
+            header: {
+              bg: '#181E2B',
+            },
+            state: {
+              green: '#019F3C',
+              'green-light': '#E8F5E9',
+              red: '#D91528',
+              'red-light': '#FFEBEE',
+            }
+          },
+          fontFamily: {
+            montserrat: ['Montserrat', 'sans-serif'],
+          },
+          boxShadow: {
+            'card': '0 1px 3px rgba(0,0,0,0.04), 0 4px 12px rgba(0,0,0,0.06)',
+            'card-hover': '0 2px 6px rgba(0,0,0,0.06), 0 8px 24px rgba(0,0,0,0.08)',
+            'btn': '0 2px 8px rgba(3,153,233,0.25)',
+            'btn-hover': '0 4px 16px rgba(3,153,233,0.35)',
+          }
+        }
+      }
+    }
+  </script>
+  <style>
+    * { box-sizing: border-box; }
+
+    body {
+      font-family: 'Montserrat', sans-serif;
+      -webkit-font-smoothing: antialiased;
+      -moz-osx-font-smoothing: grayscale;
+    }
+
+    .task-card {
+      transition: box-shadow 0.2s cubic-bezier(0.22, 1, 0.36, 1);
+    }
+    .task-card:hover {
+      box-shadow: 0 2px 6px rgba(0,0,0,0.06), 0 8px 24px rgba(0,0,0,0.08);
+    }
+
+    .answer-input {
+      transition: border-color 0.15s ease, box-shadow 0.15s ease;
+    }
+    .answer-input:focus {
+      border-color: #0399E9;
+      box-shadow: 0 0 0 3px rgba(3, 153, 233, 0.12);
+    }
+
+    .btn-primary {
+      transition: transform 0.2s cubic-bezier(0.34, 1.56, 0.64, 1),
+                  opacity 0.2s ease,
+                  box-shadow 0.2s ease;
+    }
+    .btn-primary:hover { transform: translateY(-1px); }
+    .btn-primary:active { transform: translateY(0) scale(0.98); }
+
+    .btn-secondary {
+      transition: transform 0.15s ease, background-color 0.15s ease;
+    }
+    .btn-secondary:hover { background-color: #E7E9EF; }
+    .btn-secondary:active { transform: scale(0.98); }
+
+    .btn-primary:focus-visible,
+    .btn-secondary:focus-visible {
+      outline: 2px solid #0399E9;
+      outline-offset: 2px;
+    }
+
+    /* Scrollbar */
+    ::-webkit-scrollbar { width: 8px; }
+    ::-webkit-scrollbar-track { background: #EEEFF2; }
+    ::-webkit-scrollbar-thumb { background: #BFC1C4; border-radius: 4px; }
+    ::-webkit-scrollbar-thumb:hover { background: #8D96AF; }
+  </style>
+</head>
+
+<body class="bg-surface-page font-montserrat text-ink-dark min-h-screen flex flex-col">
+
+  <!-- ==================== HEADER ==================== -->
+  <header class="bg-header-bg sticky top-0 z-50">
+    <div class="max-w-[1060px] mx-auto px-5 h-14 flex items-center justify-between">
+      <a href="index.html" class="text-white font-bold text-lg tracking-tight hover:opacity-90" style="transition: opacity 0.15s ease;">
+        Конструктор заданий
+      </a>
+      <a href="index.html" class="btn-secondary flex items-center gap-2 text-sm font-medium text-white/80 hover:text-white px-3 py-1.5 rounded-lg" style="transition: color 0.15s ease, background-color 0.15s ease; background: rgba(255,255,255,0.08);">
+        <svg width="16" height="16" viewBox="0 0 16 16" fill="none"><path d="M10 12L6 8l4-4" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        Назад
+      </a>
+    </div>
+  </header>
+
+  <!-- ==================== MAIN ==================== -->
+  <main class="flex-1 w-full max-w-[1060px] mx-auto px-5 py-8 md:py-10">
+
+    <!-- ===== СТРАНИЦА ВЫБОРА (показывается по умолчанию) ===== -->
+    <div id="choice-page" class="hidden">
+      <div class="text-center mb-8">
+        <h1 class="text-2xl md:text-3xl font-bold text-ink-dark" style="letter-spacing:-0.03em;">
+          Вариант ОГЭ по математике
+        </h1>
+        <p class="text-ink-muted text-sm mt-2 font-medium" id="choice-summary">Загрузка...</p>
+      </div>
+
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-5 max-w-[720px] mx-auto">
+
+        <!-- Карточка: Начать решение -->
+        <div class="bg-surface-card rounded-2xl shadow-card p-6 flex flex-col gap-5">
+          <div class="flex items-center gap-3">
+            <div class="w-10 h-10 rounded-xl bg-brand-blue-light flex items-center justify-center flex-shrink-0">
+              <svg width="20" height="20" viewBox="0 0 20 20" fill="none">
+                <path d="M4 10h12M12 6l4 4-4 4" stroke="#0399E9" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+              </svg>
+            </div>
+            <h2 class="text-base font-bold text-ink-dark">Начать решение</h2>
+          </div>
+          <p class="text-sm text-ink-muted font-medium leading-relaxed">
+            Решайте задания онлайн прямо в браузере. Введите ответы и проверьте результат.
+          </p>
+          <button
+            id="start-solve-btn"
+            class="btn-primary mt-auto w-full py-3 bg-brand-blue text-white font-bold text-sm rounded-xl shadow-btn hover:bg-brand-blue-hover hover:shadow-btn-hover"
+          >
+            Начать решение
+          </button>
+        </div>
+
+        <!-- Карточка: Скачать PDF -->
+        <div class="bg-surface-card rounded-2xl shadow-card p-6 flex flex-col gap-5">
+          <div class="flex items-center gap-3">
+            <div class="w-10 h-10 rounded-xl bg-brand-blue-light flex items-center justify-center flex-shrink-0">
+              <svg width="20" height="20" viewBox="0 0 20 20" fill="none">
+                <path d="M10 3v10M6 9l4 4 4-4" stroke="#0399E9" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+                <path d="M3 15h14" stroke="#0399E9" stroke-width="1.8" stroke-linecap="round"/>
+              </svg>
+            </div>
+            <h2 class="text-base font-bold text-ink-dark">Скачать в PDF</h2>
+          </div>
+
+          <!-- Чекбоксы -->
+          <div class="flex flex-col gap-3">
+            <label class="flex items-center gap-3 cursor-pointer group">
+              <input type="checkbox" id="cb-tasks" checked
+                class="w-4 h-4 rounded border-surface-border-strong accent-brand-blue cursor-pointer">
+              <span class="text-sm font-semibold text-ink-dark group-hover:text-brand-blue" style="transition:color 0.15s ease;">
+                Вариант с заданиями
+              </span>
+            </label>
+            <label class="flex items-center gap-3 cursor-pointer group">
+              <input type="checkbox" id="cb-answers"
+                class="w-4 h-4 rounded border-surface-border-strong accent-brand-blue cursor-pointer">
+              <span class="text-sm font-semibold text-ink-dark group-hover:text-brand-blue" style="transition:color 0.15s ease;">
+                Ключ с ответами
+              </span>
+            </label>
+          </div>
+
+          <button
+            id="download-pdf-btn"
+            class="btn-primary mt-auto w-full py-3 bg-surface-middle text-ink-body font-bold text-sm rounded-xl border border-surface-border hover:bg-surface-border hover:text-ink-dark flex items-center justify-center gap-2"
+            style="transition: background-color 0.15s ease, color 0.15s ease, border-color 0.15s ease; box-shadow: none;"
+          >
+            <svg width="15" height="15" viewBox="0 0 15 15" fill="none">
+              <path d="M7.5 2v8M4 7l3.5 3.5L11 7" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"/>
+              <path d="M2 12h11" stroke="currentColor" stroke-width="1.7" stroke-linecap="round"/>
+            </svg>
+            Скачать PDF
+          </button>
+          <p id="pdf-error" class="text-xs text-state-red font-medium hidden">Выберите хотя бы один тип PDF</p>
+        </div>
+
+      </div>
+    </div>
+
+    <!-- ===== СТРАНИЦА РЕШЕНИЯ (mode=solve) ===== -->
+    <div id="solve-page" class="hidden">
+
+      <!-- Page title -->
+      <div class="text-center mb-8">
+        <h1 class="text-2xl md:text-3xl font-bold text-ink-dark tracking-tight" style="letter-spacing: -0.03em;">
+          Вариант ОГЭ по математике
+        </h1>
+        <p class="text-ink-muted text-sm mt-2 font-medium" id="variant-summary">
+          Загрузка варианта...
+        </p>
+      </div>
+
+      <!-- Empty state -->
+      <div id="empty-state" class="hidden">
+        <div class="bg-surface-card rounded-2xl shadow-card p-8 md:p-12 text-center">
+          <div class="w-16 h-16 rounded-2xl bg-surface-middle flex items-center justify-center mx-auto mb-4">
+            <svg width="32" height="32" viewBox="0 0 32 32" fill="none"><path d="M8 10h16M8 16h12M8 22h8" stroke="#8D96AF" stroke-width="2" stroke-linecap="round"/></svg>
+          </div>
+          <h2 class="text-lg font-bold text-ink-dark mb-2">Вариант пуст</h2>
+          <p class="text-sm text-ink-muted mb-6">Не выбрано ни одного задания.</p>
+          <a href="index.html" class="btn-primary inline-flex items-center gap-2 px-6 py-3 bg-brand-blue text-white font-semibold text-sm rounded-xl shadow-btn hover:bg-brand-blue-hover hover:shadow-btn-hover">
+            К конструктору
+          </a>
+        </div>
+      </div>
+
+      <!-- Tasks container -->
+      <div id="tasks-container" class="space-y-4"></div>
+
+      <!-- Actions bar -->
+      <div id="actions-bar" class="hidden mt-8">
+        <div class="bg-surface-card rounded-2xl shadow-card px-6 md:px-8 py-5">
+          <div class="flex flex-col sm:flex-row items-center justify-between gap-4">
+            <a href="index.html" class="btn-secondary flex items-center gap-2 px-5 py-2.5 text-sm font-semibold text-ink-body bg-surface-middle rounded-xl border border-surface-border hover:border-surface-border-strong">
+              <svg width="16" height="16" viewBox="0 0 16 16" fill="none"><path d="M10 12L6 8l4-4" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg>
+              Назад к конструктору
+            </a>
+            <button id="check-btn" class="btn-primary w-full sm:w-auto px-8 py-3 bg-brand-blue text-white font-semibold text-sm rounded-xl shadow-btn hover:bg-brand-blue-hover hover:shadow-btn-hover">
+              Проверить ответы
+            </button>
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+  </main>
+
+  <!-- ==================== FOOTER ==================== -->
+  <footer class="py-6 text-center">
+    <p class="text-xs text-ink-muted font-medium">Конструктор заданий &copy; 2026</p>
+  </footer>
+
+  <!-- ==================== SCRIPTS ==================== -->
+  <script>
+    /**
+     * Task data — mirrors the constructor page
+     */
+    const TASKS_MAP = {
+      1:  { topic: 'Вычисления', part: 1 },
+      2:  { topic: 'Числовые неравенства, координатная прямая', part: 1 },
+      3:  { topic: 'Числа и вычисления', part: 1 },
+      4:  { topic: 'Алгебраические выражения', part: 1 },
+      5:  { topic: 'Уравнения и неравенства', part: 1 },
+      6:  { topic: 'Графики функций', part: 1 },
+      7:  { topic: 'Арифметические и геометрические прогрессии', part: 1 },
+      8:  { topic: 'Неравенства и системы неравенств', part: 1 },
+      9:  { topic: 'Задачи по теории вероятностей', part: 1 },
+      10: { topic: 'Статистика, графики и диаграммы', part: 1 },
+      11: { topic: 'Числовые последовательности', part: 1 },
+      12: { topic: 'Преобразование выражений', part: 1 },
+      13: { topic: 'Алгебраические выражения и их преобразования', part: 1 },
+      14: { topic: 'Практико-ориентированные задачи', part: 1 },
+      15: { topic: 'Треугольники и их элементы', part: 1 },
+      16: { topic: 'Окружность, вписанные и центральные углы', part: 1 },
+      17: { topic: 'Четырёхугольники и их свойства', part: 1 },
+      18: { topic: 'Площади фигур', part: 1 },
+      19: { topic: 'Анализ геометрических высказываний', part: 1 },
+      20: { topic: 'Уравнения и системы уравнений', part: 2 },
+      21: { topic: 'Текстовые задачи', part: 2 },
+      22: { topic: 'Функции и их свойства', part: 2 },
+      23: { topic: 'Геометрическая задача (вычисление)', part: 2 },
+      24: { topic: 'Геометрическая задача (доказательство)', part: 2 },
+      25: { topic: 'Геометрическая задача повышенной сложности', part: 2 },
+    };
+
+    /**
+     * Parse config from URL: ?config=1:2,5:1,20:3
+     * Returns array of { taskTypeId, instanceIndex } in display order
+     */
+    function parseConfig() {
+      const params = new URLSearchParams(window.location.search);
+      const configStr = params.get('config');
+      if (!configStr) return [];
+
+      const tasks = [];
+      const pairs = configStr.split(',');
+
+      for (const pair of pairs) {
+        const [idStr, countStr] = pair.split(':');
+        const taskTypeId = parseInt(idStr);
+        const count = parseInt(countStr);
+
+        if (!taskTypeId || !count || !TASKS_MAP[taskTypeId]) continue;
+
+        for (let i = 0; i < count; i++) {
+          tasks.push({ taskTypeId, instanceIndex: i });
+        }
+      }
+
+      return tasks;
+    }
+
+    /**
+     * Рендер карточки задания.
+     * apiTask — объект из API (может быть null при placeholder)
+     * fallbackMeta — { topic, part } из TASKS_MAP как запасной вариант
+     */
+    function renderTaskCard(apiTask, fallbackMeta, displayNum, totalTasks) {
+      const isPlaceholder = !apiTask || apiTask.placeholder || (!apiTask.text && (!apiTask.images || apiTask.images.length === 0));
+      const topic    = apiTask?.type?.topic   ?? fallbackMeta?.topic  ?? '—';
+      const part     = apiTask?.type?.part    ?? fallbackMeta?.part   ?? 1;
+      const typeId   = apiTask?.typeId        ?? fallbackMeta?.typeId ?? '?';
+      const partLabel = part === 1 ? 'Часть 1' : 'Часть 2';
+
+      // Тело задания: реальный текст или заглушка
+      const bodyHtml = isPlaceholder
+        ? `<div class="bg-surface-middle/60 rounded-xl p-5 border border-surface-border border-dashed">
+             <p class="text-sm text-ink-muted text-center font-medium">
+               Задание №${typeId} будет добавлено позже
+             </p>
+           </div>`
+        : `${apiTask.text ? `<div class="task-text text-sm text-ink-dark leading-relaxed">${escapeHtml(apiTask.text)}</div>` : ''}
+           ${apiTask.images?.length
+             ? `<div class="mt-4 flex flex-wrap gap-3">
+                  ${apiTask.images.map(src =>
+                    `<img src="${src}" alt="Иллюстрация к заданию" class="max-h-52 rounded-xl border border-surface-border object-contain">`
+                  ).join('')}
+                </div>`
+             : ''}`;
+
+      return `
+        <div class="task-card bg-surface-card rounded-2xl shadow-card overflow-hidden" data-task-db-id="${apiTask?.id ?? ''}">
+          <div class="px-5 md:px-6 py-4 flex items-center gap-3 border-b border-surface-border">
+            <div class="w-9 h-9 rounded-full bg-brand-blue flex items-center justify-center flex-shrink-0">
+              <span class="text-white text-xs font-bold">${String(displayNum).padStart(2, '0')}</span>
+            </div>
+            <div class="flex-1 min-w-0">
+              <div class="text-sm font-semibold text-ink-dark">Задание ${displayNum}</div>
+              <div class="text-xs text-ink-muted mt-0.5">
+                Тип ${typeId}: ${topic}
+                <span class="inline-block ml-2 px-1.5 py-0.5 text-[10px] font-semibold rounded bg-surface-middle text-ink-faint">${partLabel}</span>
+              </div>
+            </div>
+            <div class="text-xs text-ink-faint font-medium flex-shrink-0">${displayNum} / ${totalTasks}</div>
+          </div>
+
+          <div class="px-5 md:px-6 py-6">${bodyHtml}</div>
+
+          <div class="px-5 md:px-6 pb-5">
+            <label class="block text-xs font-semibold text-ink-body mb-2" for="answer-${displayNum}">Ответ:</label>
+            <input
+              type="text"
+              id="answer-${displayNum}"
+              class="answer-input w-full px-4 py-2.5 text-sm text-ink-dark bg-surface-card border border-surface-border rounded-xl placeholder:text-ink-faint focus:outline-none"
+              placeholder="Введите ответ..."
+              autocomplete="off"
+            />
+          </div>
+        </div>
+      `;
+    }
+
+    function escapeHtml(str) {
+      if (!str) return '';
+      return str.replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;');
+    }
+
+    /**
+     * Initialize the variant page
+     */
+    async function init() {
+      const configParam = new URLSearchParams(window.location.search).get('config');
+      const parsedTasks = parseConfig();
+
+      if (parsedTasks.length === 0) {
+        document.getElementById('empty-state').classList.remove('hidden');
+        document.getElementById('variant-summary').textContent = 'Задания не выбраны';
+        return;
+      }
+
+      const totalCount = parsedTasks.length;
+      const word = getPluralForm(totalCount, 'задание', 'задания', 'заданий');
+      document.getElementById('variant-summary').textContent = `${totalCount} ${word} в варианте`;
+
+      // Попытка получить реальные задания из API
+      let apiTasks = null;
+      try {
+        const res  = await fetch(`/api/tasks/random?config=${encodeURIComponent(configParam)}`);
+        const json = await res.json();
+        if (json.success) apiTasks = json.data;
+      } catch { /* API недоступен */ }
+
+      // Рендер: совмещаем API-ответ с конфигурацией
+      const container = document.getElementById('tasks-container');
+      const cards = parsedTasks.map((t, i) => {
+        const apiTask = apiTasks ? apiTasks[i] ?? null : null;
+        const fallback = { ...TASKS_MAP[t.taskTypeId], typeId: t.taskTypeId };
+        return renderTaskCard(apiTask, fallback, i + 1, totalCount);
+      });
+
+      container.innerHTML = cards.join('');
+
+      // KaTeX: рендерим формулы если библиотека загружена
+      if (window.renderMathInElement) {
+        renderMathInElement(container, { delimiters: [
+          { left: '$$', right: '$$', display: true },
+          { left: '$',  right: '$',  display: false },
+        ]});
+      }
+
+      // Show actions bar
+      document.getElementById('actions-bar').classList.remove('hidden');
+
+      // Check button handler (placeholder)
+      document.getElementById('check-btn').addEventListener('click', () => {
+        const answers = [];
+        for (let i = 1; i <= parsedTasks.length; i++) {
+          const input = document.getElementById(`answer-${i}`);
+          answers.push({ task: i, answer: input.value.trim() });
+        }
+
+        const filled = answers.filter(a => a.answer).length;
+        const empty = parsedTasks.length - filled;
+
+        if (filled === 0) {
+          showNotification('Введите хотя бы один ответ', 'warning');
+          return;
+        }
+
+        let message = `Заполнено ${filled} из ${parsedTasks.length} ответов.`;
+        if (empty > 0) {
+          message += ` Осталось: ${empty}.`;
+        }
+        message += '\n\nПроверка ответов будет доступна позже.';
+
+        showNotification(message, 'info');
+      });
+    }
+
+    /**
+     * Plural form helper for Russian
+     */
+    function getPluralForm(n, form1, form2, form5) {
+      const abs = Math.abs(n) % 100;
+      const lastDigit = abs % 10;
+      if (abs > 10 && abs < 20) return form5;
+      if (lastDigit > 1 && lastDigit < 5) return form2;
+      if (lastDigit === 1) return form1;
+      return form5;
+    }
+
+    /**
+     * Simple notification display
+     */
+    function showNotification(message, type = 'info') {
+      // Remove existing notification
+      const existing = document.getElementById('notification');
+      if (existing) existing.remove();
+
+      const colors = {
+        info: 'bg-brand-blue-light border-brand-blue/20 text-brand-blue',
+        warning: 'bg-yellow-50 border-yellow-200 text-yellow-800',
+        success: 'bg-state-green-light border-state-green/20 text-state-green',
+        error: 'bg-state-red-light border-state-red/20 text-state-red',
+      };
+
+      const notification = document.createElement('div');
+      notification.id = 'notification';
+      notification.className = `fixed top-20 left-1/2 -translate-x-1/2 z-50 max-w-md w-[calc(100%-2rem)] px-5 py-3.5 rounded-xl border text-sm font-medium shadow-card ${colors[type] || colors.info}`;
+      notification.style.cssText = 'animation: slideDown 0.3s cubic-bezier(0.22, 1, 0.36, 1); white-space: pre-line;';
+      notification.textContent = message;
+
+      document.body.appendChild(notification);
+
+      // Auto dismiss
+      setTimeout(() => {
+        notification.style.opacity = '0';
+        notification.style.transform = 'translateX(-50%) translateY(-8px)';
+        notification.style.transition = 'opacity 0.3s ease, transform 0.3s ease';
+        setTimeout(() => notification.remove(), 300);
+      }, 4000);
+    }
+
+    // Add notification animation
+    const style = document.createElement('style');
+    style.textContent = `
+      @keyframes slideDown {
+        from { opacity: 0; transform: translateX(-50%) translateY(-12px); }
+        to { opacity: 1; transform: translateX(-50%) translateY(0); }
+      }
+    `;
+    document.head.appendChild(style);
+
+    /**
+     * Страница выбора: показать нужную секцию в зависимости от mode
+     */
+    function initChoicePage(configParam, taskCount) {
+      document.getElementById('choice-page').classList.remove('hidden');
+      document.getElementById('choice-summary').textContent =
+        `${taskCount} ${getPluralForm(taskCount, 'задание', 'задания', 'заданий')} в варианте`;
+
+      // Кнопка «Начать решение»
+      document.getElementById('start-solve-btn').addEventListener('click', () => {
+        const url = new URL(window.location.href);
+        url.searchParams.set('mode', 'solve');
+        window.location.href = url.toString();
+      });
+
+      // Кнопка «Скачать PDF»
+      document.getElementById('download-pdf-btn').addEventListener('click', async () => {
+        const includeTasks   = document.getElementById('cb-tasks').checked;
+        const includeAnswers = document.getElementById('cb-answers').checked;
+        const errEl          = document.getElementById('pdf-error');
+
+        if (!includeTasks && !includeAnswers) {
+          errEl.classList.remove('hidden');
+          return;
+        }
+        errEl.classList.add('hidden');
+
+        const btn = document.getElementById('download-pdf-btn');
+        btn.disabled     = true;
+        btn.innerHTML    = `<svg class="animate-spin" width="15" height="15" viewBox="0 0 15 15" fill="none" style="animation:spin 0.7s linear infinite"><circle cx="7.5" cy="7.5" r="6" stroke="currentColor" stroke-width="2" stroke-dasharray="28" stroke-dashoffset="10"/></svg> Генерируется...`;
+
+        try {
+          const res = await fetch('/api/export/pdf', {
+            method:  'POST',
+            headers: { 'Content-Type': 'application/json' },
+            body:    JSON.stringify({ config: configParam, includeTasks, includeAnswers }),
+          });
+
+          if (!res.ok) {
+            const json = await res.json().catch(() => ({}));
+            throw new Error(json.error || `HTTP ${res.status}`);
+          }
+
+          const blob = await res.blob();
+          const url  = URL.createObjectURL(blob);
+          const a    = document.createElement('a');
+          a.href     = url;
+          a.download = `variant-oge-${Date.now()}.pdf`;
+          document.body.appendChild(a);
+          a.click();
+          document.body.removeChild(a);
+          URL.revokeObjectURL(url);
+
+        } catch (err) {
+          errEl.textContent = 'Ошибка: ' + err.message;
+          errEl.classList.remove('hidden');
+        } finally {
+          btn.disabled  = false;
+          btn.innerHTML = `<svg width="15" height="15" viewBox="0 0 15 15" fill="none"><path d="M7.5 2v8M4 7l3.5 3.5L11 7" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"/><path d="M2 12h11" stroke="currentColor" stroke-width="1.7" stroke-linecap="round"/></svg> Скачать PDF`;
+        }
+      });
+    }
+
+    document.addEventListener('DOMContentLoaded', () => {
+      const urlParams   = new URLSearchParams(window.location.search);
+      const mode        = urlParams.get('mode');
+      const configParam = urlParams.get('config') || '';
+      const parsedCount = parseConfig().length;
+
+      if (parsedCount === 0) {
+        // Пустой вариант — показываем solve-page с empty state
+        document.getElementById('solve-page').classList.remove('hidden');
+        init();
+        return;
+      }
+
+      if (mode === 'solve') {
+        document.getElementById('solve-page').classList.remove('hidden');
+        init();
+      } else {
+        initChoicePage(configParam, parsedCount);
+      }
+    });
+  </script>
+
+  <style>
+    @keyframes spin { to { transform: rotate(360deg); } }
+  </style>
+</body>
+</html>

@@ -1,0 +1,456 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Вариант ОГЭ — PDF</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/katex.min.css">
+  <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/katex.min.js"></script>
+  <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/contrib/auto-render.min.js"
+    onload="tryRenderMath()"></script>
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+
+    body {
+      font-family: 'Montserrat', sans-serif;
+      font-size: 11px;
+      line-height: 1.5;
+      color: #001B29;
+      background: #ffffff;
+      -webkit-print-color-adjust: exact;
+      print-color-adjust: exact;
+    }
+
+    /* ── Page layout ──────────────────────────────── */
+    .page {
+      width: 100%;
+      padding: 0;
+    }
+
+    /* ── Document header ──────────────────────────── */
+    .doc-header {
+      border-bottom: 2px solid #0399E9;
+      padding-bottom: 10px;
+      margin-bottom: 16px;
+      display: flex;
+      align-items: flex-end;
+      justify-content: space-between;
+      gap: 12px;
+    }
+    .doc-header-left h1 {
+      font-size: 16px;
+      font-weight: 700;
+      color: #001B29;
+      letter-spacing: -0.03em;
+      line-height: 1.2;
+    }
+    .doc-header-left p {
+      font-size: 10px;
+      color: #8D96AF;
+      font-weight: 500;
+      margin-top: 3px;
+    }
+    .doc-header-right {
+      font-size: 10px;
+      color: #8D96AF;
+      font-weight: 500;
+      text-align: right;
+      flex-shrink: 0;
+    }
+
+    /* ── Section title ────────────────────────────── */
+    .section-title {
+      font-size: 10px;
+      font-weight: 700;
+      color: #0399E9;
+      text-transform: uppercase;
+      letter-spacing: 0.08em;
+      margin-bottom: 8px;
+      margin-top: 14px;
+      display: flex;
+      align-items: center;
+      gap: 6px;
+    }
+    .section-title::after {
+      content: '';
+      flex: 1;
+      height: 1px;
+      background: #E7E9EF;
+    }
+
+    /* ── Task card ────────────────────────────────── */
+    .task-card {
+      border: 1px solid #E7E9EF;
+      border-radius: 8px;
+      margin-bottom: 8px;
+      overflow: hidden;
+      break-inside: avoid;
+      page-break-inside: avoid;
+    }
+
+    .task-header {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      padding: 6px 10px;
+      background: #F8F9FB;
+      border-bottom: 1px solid #E7E9EF;
+    }
+
+    .task-num {
+      width: 24px;
+      height: 24px;
+      border-radius: 50%;
+      background: #0399E9;
+      color: white;
+      font-size: 9px;
+      font-weight: 700;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-shrink: 0;
+    }
+
+    .task-meta {
+      flex: 1;
+      min-width: 0;
+    }
+    .task-meta-type {
+      font-size: 10px;
+      font-weight: 600;
+      color: #445371;
+    }
+    .task-meta-topic {
+      font-size: 9px;
+      color: #8D96AF;
+      font-weight: 400;
+      margin-top: 1px;
+    }
+
+    .task-part-badge {
+      font-size: 9px;
+      font-weight: 600;
+      color: #8D96AF;
+      background: #ECEEF2;
+      padding: 2px 7px;
+      border-radius: 4px;
+      flex-shrink: 0;
+    }
+
+    .task-body {
+      padding: 8px 10px 6px;
+    }
+
+    .task-text {
+      font-size: 11px;
+      color: #001B29;
+      line-height: 1.6;
+    }
+
+    .task-images {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 6px;
+      margin-top: 6px;
+    }
+    .task-images img {
+      max-height: 130px;
+      max-width: 100%;
+      border-radius: 4px;
+      border: 1px solid #E7E9EF;
+      object-fit: contain;
+    }
+
+    .task-placeholder {
+      font-size: 10px;
+      color: #8D96AF;
+      font-style: italic;
+      padding: 4px 0;
+    }
+
+    /* ── Answer line ──────────────────────────────── */
+    .answer-line {
+      margin-top: 7px;
+      display: flex;
+      align-items: center;
+      gap: 6px;
+      font-size: 10px;
+      font-weight: 600;
+      color: #445371;
+    }
+    .answer-line-dashes {
+      flex: 1;
+      border-bottom: 1.5px dashed #CFD2D9;
+      max-width: 200px;
+      height: 1px;
+      margin-bottom: -1px;
+    }
+
+    /* ── Answer key section ───────────────────────── */
+    .answers-page-break {
+      page-break-before: always;
+      break-before: always;
+    }
+
+    .answer-key-grid {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      gap: 6px;
+      margin-top: 10px;
+    }
+    .answer-key-item {
+      border: 1px solid #E7E9EF;
+      border-radius: 6px;
+      padding: 6px 8px;
+      background: #F8F9FB;
+    }
+    .answer-key-num {
+      font-size: 9px;
+      font-weight: 700;
+      color: #0399E9;
+      margin-bottom: 2px;
+    }
+    .answer-key-type {
+      font-size: 9px;
+      color: #8D96AF;
+      font-weight: 500;
+      margin-bottom: 3px;
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis;
+    }
+    .answer-key-answer {
+      font-size: 11px;
+      font-weight: 700;
+      color: #019F3C;
+    }
+    .answer-key-empty {
+      font-size: 10px;
+      font-weight: 500;
+      color: #CFD2D9;
+      font-style: italic;
+    }
+
+    /* ── Footer ───────────────────────────────────── */
+    .doc-footer {
+      margin-top: 16px;
+      padding-top: 8px;
+      border-top: 1px solid #E7E9EF;
+      font-size: 9px;
+      color: #A1A9B8;
+      display: flex;
+      justify-content: space-between;
+    }
+
+    /* Print: hide page numbers injected by browser */
+    @page {
+      margin: 0;
+    }
+  </style>
+</head>
+<body>
+<div class="page" id="root">
+  <p style="color:#8D96AF;font-size:12px;padding:20px;">Загрузка варианта...</p>
+</div>
+
+<script>
+  const params      = new URLSearchParams(location.search);
+  const config      = params.get('config') || '';
+  const showTasks   = params.get('tasks')   !== '0';
+  const showAnswers = params.get('answers') !== '0';
+
+  // ── Helpers ──────────────────────────────────────────────────────
+  function esc(str) {
+    if (!str) return '';
+    return str.replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;');
+  }
+
+  function pluralTasks(n) {
+    const a = Math.abs(n) % 100, d = a % 10;
+    if (a > 10 && a < 20) return 'заданий';
+    if (d > 1 && d < 5)  return 'задания';
+    if (d === 1)          return 'задание';
+    return 'заданий';
+  }
+
+  function today() {
+    return new Date().toLocaleDateString('ru-RU', { day:'2-digit', month:'long', year:'numeric' });
+  }
+
+  // ── Math rendering ────────────────────────────────────────────────
+  let mathReady = false;
+  window.tryRenderMath = function() { mathReady = true; }
+
+  function renderMath(el) {
+    if (!mathReady || !window.renderMathInElement) return;
+    renderMathInElement(el, {
+      delimiters: [
+        { left: '$$', right: '$$', display: true },
+        { left: '$',  right: '$',  display: false },
+      ],
+      throwOnError: false,
+    });
+  }
+
+  // ── Build task card HTML ──────────────────────────────────────────
+  function buildTaskCard(task, displayNum, total, showAnswerFilled) {
+    const type       = task.type || {};
+    const typeId     = task.typeId || '?';
+    const typeName   = type.name  || `Задание ${typeId}`;
+    const topic      = type.topic || '';
+    const part       = type.part  || 1;
+    const partLabel  = part === 1 ? 'Часть 1' : 'Часть 2';
+    const isPholder  = task.placeholder || (!task.text && (!task.images || task.images.length === 0));
+
+    // Body
+    let bodyHtml = '';
+    if (isPholder) {
+      bodyHtml = `<div class="task-placeholder">Задание №${typeId} будет добавлено позже</div>`;
+    } else {
+      if (task.text) {
+        bodyHtml += `<div class="task-text">${esc(task.text)}</div>`;
+      }
+      if (task.images && task.images.length > 0) {
+        const imgs = task.images.map(src =>
+          `<img src="${src}" alt="">`
+        ).join('');
+        bodyHtml += `<div class="task-images">${imgs}</div>`;
+      }
+    }
+
+    // Answer row
+    let answerHtml = '';
+    if (showTasks) {
+      if (showAnswerFilled && task.answer) {
+        answerHtml = `<div class="answer-line">Ответ: <strong style="color:#019F3C">${esc(task.answer)}</strong></div>`;
+      } else if (!showAnswerFilled) {
+        answerHtml = `<div class="answer-line">Ответ: <span class="answer-line-dashes"></span></div>`;
+      }
+    }
+
+    return `
+      <div class="task-card">
+        <div class="task-header">
+          <div class="task-num">${displayNum}</div>
+          <div class="task-meta">
+            <div class="task-meta-type">${esc(typeName)}</div>
+            <div class="task-meta-topic">${esc(topic)}</div>
+          </div>
+          <div class="task-part-badge">${partLabel}</div>
+        </div>
+        <div class="task-body">
+          ${bodyHtml}
+          ${answerHtml}
+        </div>
+      </div>`;
+  }
+
+  // ── Build answer key HTML ─────────────────────────────────────────
+  function buildAnswerKey(tasks) {
+    const items = tasks.map((task, i) => {
+      const type     = task.type || {};
+      const typeName = type.name || `Задание ${task.typeId}`;
+      const hasAns   = task.answer && task.answer.trim();
+      return `
+        <div class="answer-key-item">
+          <div class="answer-key-num">№${i + 1}</div>
+          <div class="answer-key-type">${esc(typeName)}</div>
+          ${hasAns
+            ? `<div class="answer-key-answer">${esc(task.answer)}</div>`
+            : `<div class="answer-key-empty">—</div>`}
+        </div>`;
+    });
+
+    return `
+      <div class="${showTasks ? 'answers-page-break' : ''}">
+        <div class="section-title">Ключ ответов</div>
+        <div class="answer-key-grid">${items.join('')}</div>
+      </div>`;
+  }
+
+  // ── Main render ───────────────────────────────────────────────────
+  async function render() {
+    const root = document.getElementById('root');
+
+    // Fetch tasks
+    let tasks = [];
+    try {
+      const res  = await fetch(`/api/tasks/random?config=${encodeURIComponent(config)}`);
+      const json = await res.json();
+      if (json.success) tasks = json.data;
+    } catch (e) {
+      root.innerHTML = `<p style="color:red;padding:20px">Ошибка загрузки заданий: ${e.message}</p>`;
+      document.body.dataset.ready = 'true';
+      return;
+    }
+
+    const total    = tasks.length;
+    const dateStr  = today();
+    const part1    = tasks.filter(t => (t.type?.part ?? 1) === 1);
+    const part2    = tasks.filter(t => (t.type?.part ?? 1) === 2);
+
+    let html = '';
+
+    // ── Document header ──────────────────────────────────────────
+    html += `
+      <div class="doc-header">
+        <div class="doc-header-left">
+          <h1>Вариант ОГЭ по математике</h1>
+          <p>${total} ${pluralTasks(total)}${showTasks && showAnswers ? ' · Вариант + ключ ответов' : showAnswers ? ' · Только ключ ответов' : ''}</p>
+        </div>
+        <div class="doc-header-right">
+          Дата: ${dateStr}
+        </div>
+      </div>`;
+
+    // ── Tasks section ─────────────────────────────────────────────
+    if (showTasks) {
+      if (part1.length > 0) {
+        html += `<div class="section-title">Часть 1 (задания 1–19)</div>`;
+        part1.forEach((t, i) => {
+          html += buildTaskCard(t, i + 1, total, showAnswers);
+        });
+      }
+      if (part2.length > 0) {
+        html += `<div class="section-title" style="margin-top:10px">Часть 2 (задания 20–25)</div>`;
+        part2.forEach((t, i) => {
+          html += buildTaskCard(t, part1.length + i + 1, total, showAnswers);
+        });
+      }
+    }
+
+    // ── Answer key section ────────────────────────────────────────
+    if (showAnswers) {
+      html += buildAnswerKey(tasks);
+    }
+
+    // ── Footer ────────────────────────────────────────────────────
+    html += `<div class="doc-footer"><span>Конструктор заданий ОГЭ</span><span>${dateStr}</span></div>`;
+
+    root.innerHTML = html;
+
+    // Wait for KaTeX
+    await new Promise(resolve => setTimeout(resolve, 400));
+    renderMath(root);
+
+    // Wait for all images to load
+    const imgs = Array.from(root.querySelectorAll('img'));
+    if (imgs.length > 0) {
+      await Promise.all(imgs.map(img =>
+        img.complete ? Promise.resolve() : new Promise(r => { img.onload = r; img.onerror = r; })
+      ));
+    }
+
+    await new Promise(resolve => setTimeout(resolve, 150));
+
+    // Signal Puppeteer
+    document.body.dataset.ready = 'true';
+  }
+
+  document.addEventListener('DOMContentLoaded', render);
+</script>
+</body>
+</html>

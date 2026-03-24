@@ -1,0 +1,397 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Конструктор заданий — ОГЭ Математика</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            brand: {
+              blue: '#0399E9',
+              'blue-hover': '#027BBF',
+              'blue-light': '#E5F4FC',
+              'blue-pale': '#F0F9FF',
+            },
+            ink: {
+              dark: '#001B29',
+              body: '#445371',
+              muted: '#8D96AF',
+              faint: '#A1A9B8',
+            },
+            surface: {
+              page: '#DFE2EA',
+              card: '#FFFFFF',
+              middle: '#F3F4F7',
+              border: '#E7E9EF',
+              'border-strong': '#CFD2D9',
+            },
+            header: {
+              bg: '#181E2B',
+            },
+            state: {
+              green: '#019F3C',
+              red: '#D91528',
+              yellow: '#FBB82B',
+            }
+          },
+          fontFamily: {
+            montserrat: ['Montserrat', 'sans-serif'],
+          },
+          boxShadow: {
+            'card': '0 1px 3px rgba(0,0,0,0.04), 0 4px 12px rgba(0,0,0,0.06)',
+            'card-hover': '0 2px 6px rgba(0,0,0,0.06), 0 8px 24px rgba(0,0,0,0.08)',
+            'btn': '0 2px 8px rgba(3,153,233,0.25)',
+            'btn-hover': '0 4px 16px rgba(3,153,233,0.35)',
+          }
+        }
+      }
+    }
+  </script>
+  <style>
+    * { box-sizing: border-box; }
+
+    body {
+      font-family: 'Montserrat', sans-serif;
+      -webkit-font-smoothing: antialiased;
+      -moz-osx-font-smoothing: grayscale;
+    }
+
+    /* Counter input - hide native spinner */
+    input[type="number"]::-webkit-inner-spin-button,
+    input[type="number"]::-webkit-outer-spin-button {
+      -webkit-appearance: none;
+      margin: 0;
+    }
+    input[type="number"] {
+      -moz-appearance: textfield;
+    }
+
+    /* Smooth hover transitions - only transform & opacity */
+    .task-row {
+      transition: background-color 0.2s cubic-bezier(0.22, 1, 0.36, 1);
+    }
+    .task-row:hover {
+      background-color: #F0F9FF;
+    }
+
+    .counter-btn {
+      transition: transform 0.15s cubic-bezier(0.34, 1.56, 0.64, 1),
+                  opacity 0.15s ease;
+    }
+    .counter-btn:hover {
+      transform: scale(1.12);
+    }
+    .counter-btn:active {
+      transform: scale(0.95);
+    }
+
+    .generate-btn {
+      transition: transform 0.2s cubic-bezier(0.34, 1.56, 0.64, 1),
+                  opacity 0.2s ease,
+                  box-shadow 0.2s ease;
+    }
+    .generate-btn:hover {
+      transform: translateY(-1px);
+    }
+    .generate-btn:active {
+      transform: translateY(0px) scale(0.98);
+    }
+
+    /* Focus visible styles */
+    .counter-btn:focus-visible,
+    .generate-btn:focus-visible {
+      outline: 2px solid #0399E9;
+      outline-offset: 2px;
+    }
+
+    /* Part divider */
+    .part-header {
+      letter-spacing: -0.01em;
+    }
+
+    /* Scrollbar */
+    ::-webkit-scrollbar { width: 8px; }
+    ::-webkit-scrollbar-track { background: #EEEFF2; }
+    ::-webkit-scrollbar-thumb { background: #BFC1C4; border-radius: 4px; }
+    ::-webkit-scrollbar-thumb:hover { background: #8D96AF; }
+  </style>
+</head>
+
+<body class="bg-surface-page font-montserrat text-ink-dark min-h-screen flex flex-col">
+
+  <!-- ==================== HEADER ==================== -->
+  <header class="bg-header-bg sticky top-0 z-50">
+    <div class="max-w-[1060px] mx-auto px-5 h-14 flex items-center justify-between">
+      <a href="index.html" class="text-white font-bold text-lg tracking-tight hover:opacity-90" style="transition: opacity 0.15s ease;">
+        Конструктор заданий
+      </a>
+      <a href="admin.html" class="flex items-center gap-2 px-4 py-2 rounded-lg bg-white/10 hover:bg-white/20 text-white text-sm font-semibold" style="transition: background-color 0.15s ease;">
+        <svg width="14" height="14" viewBox="0 0 14 14" fill="none">
+          <path d="M7 2v10M2 7h10" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/>
+        </svg>
+        Добавить задание
+      </a>
+    </div>
+  </header>
+
+  <!-- ==================== MAIN ==================== -->
+  <main class="flex-1 w-full max-w-[1060px] mx-auto px-5 py-8 md:py-10">
+
+    <!-- Page title -->
+    <div class="text-center mb-8">
+      <h1 class="text-2xl md:text-3xl font-bold text-ink-dark tracking-tight" style="letter-spacing: -0.03em;">
+        Конструктор заданий ОГЭ — Математика
+      </h1>
+      <p class="text-ink-muted text-sm mt-2 font-medium">
+        Выберите количество заданий каждого типа для генерации варианта
+      </p>
+    </div>
+
+    <!-- Constructor card -->
+    <div class="bg-surface-card rounded-2xl shadow-card overflow-hidden">
+
+      <!-- Card header -->
+      <div class="px-6 md:px-8 pt-6 pb-4 border-b border-surface-border">
+        <div class="flex items-center gap-3">
+          <div class="w-9 h-9 rounded-lg bg-brand-blue-light flex items-center justify-center flex-shrink-0">
+            <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M3 4h14M3 8h10M3 12h14M3 16h8" stroke="#0399E9" stroke-width="1.8" stroke-linecap="round"/>
+            </svg>
+          </div>
+          <h2 class="text-lg font-bold text-ink-dark">Конструктор варианта</h2>
+        </div>
+      </div>
+
+      <!-- ===== PART 1 ===== -->
+      <div class="px-6 md:px-8 pt-6">
+        <h3 class="part-header text-base font-bold text-ink-dark mb-4 flex items-center gap-2">
+          <span class="w-1.5 h-5 rounded-full bg-brand-blue inline-block"></span>
+          Первая часть
+          <span class="text-xs font-medium text-ink-muted ml-1">(задания 1–19)</span>
+        </h3>
+
+        <div class="divide-y divide-surface-border" id="part1-tasks">
+          <!-- Tasks 1-19 rendered by JS -->
+        </div>
+      </div>
+
+      <!-- ===== PART 2 ===== -->
+      <div class="px-6 md:px-8 pt-8">
+        <h3 class="part-header text-base font-bold text-ink-dark mb-4 flex items-center gap-2">
+          <span class="w-1.5 h-5 rounded-full bg-brand-blue inline-block"></span>
+          Вторая часть
+          <span class="text-xs font-medium text-ink-muted ml-1">(задания 20–25)</span>
+        </h3>
+
+        <div class="divide-y divide-surface-border" id="part2-tasks">
+          <!-- Tasks 20-25 rendered by JS -->
+        </div>
+      </div>
+
+      <!-- ===== SUMMARY & ACTION ===== -->
+      <div class="px-6 md:px-8 py-6 mt-4 border-t border-surface-border bg-surface-middle/50">
+        <div class="flex flex-col sm:flex-row items-center justify-between gap-4">
+          <div class="text-sm text-ink-body font-medium">
+            Выбрано заданий: <span id="total-count" class="text-brand-blue font-bold text-base">0</span>
+          </div>
+          <button
+            id="generate-btn"
+            class="generate-btn w-full sm:w-auto px-8 py-3 bg-brand-blue text-white font-semibold text-sm rounded-xl shadow-btn hover:bg-brand-blue-hover hover:shadow-btn-hover focus-visible:outline focus-visible:outline-2 focus-visible:outline-brand-blue focus-visible:outline-offset-2 active:shadow-none disabled:opacity-40 disabled:cursor-not-allowed disabled:transform-none"
+            disabled
+          >
+            Сгенерировать вариант
+          </button>
+        </div>
+      </div>
+
+    </div>
+  </main>
+
+  <!-- ==================== FOOTER ==================== -->
+  <footer class="py-6 text-center">
+    <p class="text-xs text-ink-muted font-medium">Конструктор заданий &copy; 2026</p>
+  </footer>
+
+  <!-- ==================== SCRIPTS ==================== -->
+  <script>
+    /**
+     * Fallback: данные на случай если API недоступен
+     */
+    const FALLBACK_TASKS = [
+      { id: 1,  topic: 'Вычисления', part: 1 },
+      { id: 2,  topic: 'Числовые неравенства, координатная прямая', part: 1 },
+      { id: 3,  topic: 'Числа и вычисления', part: 1 },
+      { id: 4,  topic: 'Алгебраические выражения', part: 1 },
+      { id: 5,  topic: 'Уравнения и неравенства', part: 1 },
+      { id: 6,  topic: 'Графики функций', part: 1 },
+      { id: 7,  topic: 'Арифметические и геометрические прогрессии', part: 1 },
+      { id: 8,  topic: 'Неравенства и системы неравенств', part: 1 },
+      { id: 9,  topic: 'Задачи по теории вероятностей', part: 1 },
+      { id: 10, topic: 'Статистика, графики и диаграммы', part: 1 },
+      { id: 11, topic: 'Числовые последовательности', part: 1 },
+      { id: 12, topic: 'Преобразование выражений', part: 1 },
+      { id: 13, topic: 'Алгебраические выражения и их преобразования', part: 1 },
+      { id: 14, topic: 'Практико-ориентированные задачи', part: 1 },
+      { id: 15, topic: 'Треугольники и их элементы', part: 1 },
+      { id: 16, topic: 'Окружность, вписанные и центральные углы', part: 1 },
+      { id: 17, topic: 'Четырёхугольники и их свойства', part: 1 },
+      { id: 18, topic: 'Площади фигур', part: 1 },
+      { id: 19, topic: 'Анализ геометрических высказываний', part: 1 },
+      { id: 20, topic: 'Уравнения и системы уравнений', part: 2 },
+      { id: 21, topic: 'Текстовые задачи', part: 2 },
+      { id: 22, topic: 'Функции и их свойства', part: 2 },
+      { id: 23, topic: 'Геометрическая задача (вычисление)', part: 2 },
+      { id: 24, topic: 'Геометрическая задача (доказательство)', part: 2 },
+      { id: 25, topic: 'Геометрическая задача повышенной сложности', part: 2 },
+    ];
+
+    let TASKS = FALLBACK_TASKS;
+
+    /** Track selected counts */
+    const counts = {};
+    TASKS.forEach(t => counts[t.id] = 0);
+
+    /** Render a single task row */
+    function renderTaskRow(task) {
+      const numStr = String(task.id).padStart(2, '0');
+      return `
+        <div class="task-row flex items-center gap-3 md:gap-4 py-3.5 px-2 md:px-3 rounded-lg -mx-2 md:-mx-3" data-task-id="${task.id}">
+          <!-- Number badge -->
+          <div class="w-9 h-9 rounded-full bg-brand-blue flex items-center justify-center flex-shrink-0">
+            <span class="text-white text-xs font-bold">${numStr}</span>
+          </div>
+
+          <!-- Task info -->
+          <div class="flex-1 min-w-0">
+            <div class="text-sm font-semibold text-ink-dark">Задание ${task.id}</div>
+            <div class="text-xs text-ink-muted mt-0.5 truncate">${task.topic}</div>
+          </div>
+
+          <!-- Counter -->
+          <div class="flex items-center gap-1.5 flex-shrink-0">
+            <button
+              class="counter-btn w-8 h-8 rounded-lg bg-surface-middle border border-surface-border flex items-center justify-center text-ink-muted hover:text-ink-dark hover:border-surface-border-strong focus-visible:outline focus-visible:outline-2 focus-visible:outline-brand-blue"
+              data-action="decrease"
+              data-task="${task.id}"
+              aria-label="Уменьшить количество задания ${task.id}"
+            >
+              <svg width="14" height="14" viewBox="0 0 14 14" fill="none"><path d="M3 7h8" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/></svg>
+            </button>
+
+            <input
+              type="number"
+              min="0"
+              max="99"
+              value="0"
+              class="w-10 h-8 text-center text-sm font-semibold text-ink-dark bg-surface-card border border-surface-border rounded-lg focus:outline-none focus:border-brand-blue focus:ring-1 focus:ring-brand-blue/30"
+              data-count="${task.id}"
+              aria-label="Количество заданий типа ${task.id}"
+            />
+
+            <button
+              class="counter-btn w-8 h-8 rounded-lg bg-brand-blue-light border border-brand-blue/20 flex items-center justify-center text-brand-blue hover:bg-brand-blue hover:text-white focus-visible:outline focus-visible:outline-2 focus-visible:outline-brand-blue"
+              data-action="increase"
+              data-task="${task.id}"
+              aria-label="Увеличить количество задания ${task.id}"
+            >
+              <svg width="14" height="14" viewBox="0 0 14 14" fill="none"><path d="M7 3v8M3 7h8" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/></svg>
+            </button>
+          </div>
+        </div>
+      `;
+    }
+
+    /** Render all tasks */
+    function renderTasks() {
+      const part1 = TASKS.filter(t => t.part === 1);
+      const part2 = TASKS.filter(t => t.part === 2);
+
+      document.getElementById('part1-tasks').innerHTML = part1.map(renderTaskRow).join('');
+      document.getElementById('part2-tasks').innerHTML = part2.map(renderTaskRow).join('');
+    }
+
+    /** Update total count display and button state */
+    function updateTotal() {
+      const total = Object.values(counts).reduce((a, b) => a + b, 0);
+      document.getElementById('total-count').textContent = total;
+      document.getElementById('generate-btn').disabled = total === 0;
+    }
+
+    /** Handle counter interactions */
+    function handleCounterClick(e) {
+      const btn = e.target.closest('[data-action]');
+      if (!btn) return;
+
+      const taskId = parseInt(btn.dataset.task);
+      const action = btn.dataset.action;
+
+      if (action === 'increase') {
+        counts[taskId] = Math.min(counts[taskId] + 1, 99);
+      } else if (action === 'decrease') {
+        counts[taskId] = Math.max(counts[taskId] - 1, 0);
+      }
+
+      const input = document.querySelector(`input[data-count="${taskId}"]`);
+      input.value = counts[taskId];
+      updateTotal();
+    }
+
+    /** Handle direct input in counter fields */
+    function handleCounterInput(e) {
+      if (!e.target.matches('input[data-count]')) return;
+      const taskId = parseInt(e.target.dataset.count);
+      let val = parseInt(e.target.value) || 0;
+      val = Math.max(0, Math.min(99, val));
+      counts[taskId] = val;
+      e.target.value = val;
+      updateTotal();
+    }
+
+    /** Generate variant and navigate */
+    function generateVariant() {
+      const config = Object.entries(counts)
+        .filter(([, count]) => count > 0)
+        .map(([id, count]) => `${id}:${count}`)
+        .join(',');
+
+      if (!config) return;
+      window.location.href = `variant.html?config=${encodeURIComponent(config)}`;
+    }
+
+    /**
+     * Загрузить типы заданий из API.
+     * Если API недоступен — используется FALLBACK_TASKS.
+     */
+    async function loadTaskTypes() {
+      try {
+        const res  = await fetch('/api/task-types');
+        const json = await res.json();
+        if (json.success && json.data.length > 0) {
+          // Приводим формат API к формату, который ожидает renderTaskRow
+          TASKS = json.data.map(t => ({ id: t.id, topic: t.topic, part: t.part, count: t._count?.tasks ?? 0 }));
+        }
+      } catch {
+        // Сервер не запущен или недоступен — молча используем fallback
+      }
+    }
+
+    /** Initialize */
+    document.addEventListener('DOMContentLoaded', async () => {
+      await loadTaskTypes();
+      renderTasks();
+      updateTotal();
+
+      document.addEventListener('click', handleCounterClick);
+      document.addEventListener('input', handleCounterInput);
+      document.getElementById('generate-btn').addEventListener('click', generateVariant);
+    });
+  </script>
+</body>
+</html>

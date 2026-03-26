@@ -1,0 +1,25 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(curl -s http://localhost:9222/json/version)",
+      "Bash(curl -s http://localhost:9223/json/version)",
+      "Bash(node -e \":*)",
+      "Bash(start C:UsersRashid.cachepuppeteerchromewin64-146.0.7680.153chrome-win64chrome.exe --remote-debugging-port=9223 --user-data-dir=C:chrome-debug-2)",
+      "Bash(npm install:*)",
+      "Read(//c/Users/Rashid/**)",
+      "Bash(find c:/Users/Rashid/homework-site -name scrape-task*.mjs)",
+      "Bash(find c:/Users/Rashid -name scrape-task*.mjs)",
+      "Bash(node -e \"console.log\\(require.resolve\\(''puppeteer''\\)\\)\")",
+      "Bash(node --input-type=commonjs -e \"console.log\\(require.resolve\\(''puppeteer''\\)\\)\")",
+      "Bash(cmd /c \"cd /d C:\\\\Users\\\\Rashid\\\\OneDrive\\\\Desktop\\\\homework-site && node -e \"\"console.log\\(require.resolve\\(''puppeteer''\\)\\)\"\"\")",
+      "Bash(cmd /c \"cd /d C:\\\\Users\\\\Rashid\\\\OneDrive\\\\Desktop\\\\homework-site && node scrape-task20.mjs\")",
+      "Bash(cmd /c \"cd /d C:\\\\Users\\\\Rashid\\\\OneDrive\\\\Desktop\\\\homework-site && node scrape-task20.mjs 2>&1\")",
+      "Bash(cmd /c \"cd /d C:\\\\Users\\\\Rashid\\\\OneDrive\\\\Desktop\\\\homework-site && node -e \"\"import\\(''puppeteer''\\).then\\(m => console.log\\(''OK'', Object.keys\\(m\\)\\)\\).catch\\(e => console.error\\(''ERR'', e.message\\)\\)\"\" > C:\\\\temp_out.txt 2>&1\")",
+      "Read(//c//**)",
+      "Bash(node ../get_subthemes22.mjs)"
+    ],
+    "additionalDirectories": [
+      "c:\\Users\\Rashid\\homework-site"
+    ]
+  }
+}

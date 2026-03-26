@@ -1,0 +1,4281 @@
+[
+  {
+    "id": "90568",
+    "title": "Задача 1",
+    "prototype": "Тип 1",
+    "parts": [
+      {
+        "type": "text",
+        "value": "Решите уравнение",
+        "newParagraph": true
+      },
+      {
+        "type": "img",
+        "file": "formulas/task20/90568.svg"
+      }
+    ],
+    "answer": "formulas/task20/90568_answer.svg",
+    "svgFiles": [
+      "formulas/task20/90568.svg",
+      "formulas/task20/90568_answer.svg"
+    ]
+  },
+  {
+    "id": "22835",
+    "title": "Задача 2",
+    "prototype": "Тип 1",
+    "parts": [
+      {
+        "type": "text",
+        "value": "Решите уравнение",
+        "newParagraph": true
+      },
+      {
+        "type": "img",
+        "file": "formulas/task20/22835.svg"
+      }
+    ],
+    "answer": "formulas/task20/22835_answer.svg",
+    "svgFiles": [
+      "formulas/task20/22835.svg",
+      "formulas/task20/22835_answer.svg"
+    ]
+  },
+  {
+    "id": "54965",
+    "title": "Задача 3",
+    "prototype": "Тип 1",
+    "parts": [
+      {
+        "type": "text",
+        "value": "Решите уравнение",
+        "newParagraph": true
+      },
+      {
+        "type": "img",
+        "file": "formulas/task20/54965.svg"
+      }
+    ],
+    "answer": "formulas/task20/54965_answer.svg",
+    "svgFiles": [
+      "formulas/task20/54965.svg",
+      "formulas/task20/54965_answer.svg"
+    ]
+  },
+  {
+    "id": "90555",
+    "title": "Задача 4",
+    "prototype": "Тип 1",
+    "parts": [
+      {
+        "type": "text",
+        "value": "Решите уравнение",
+        "newParagraph": true
+      },
+      {
+        "type": "img",
+        "file": "formulas/task20/90555.svg"
+      }
+    ],
+    "answer": "formulas/task20/90555_answer.svg",
+    "svgFiles": [
+      "formulas/task20/90555.svg",
+      "formulas/task20/90555_answer.svg"
+    ]
+  },
+  {
+    "id": "90556",
+    "title": "Задача 5",
+    "prototype": "Тип 1",
+    "parts": [
+      {
+        "type": "text",
+        "value": "Решите уравнение",
+        "newParagraph": true
+      },
+      {
+        "type": "img",
+        "file": "formulas/task20/90556.svg"
+      }
+    ],
+    "answer": "formulas/task20/90556_answer.svg",
+    "svgFiles": [
+      "formulas/task20/90556.svg",
+      "formulas/task20/90556_answer.svg"
+    ]
+  },
+  {
+    "id": "90559",
+    "title": "Задача 6",
+    "prototype": "Тип 1",
+    "parts": [
+      {
+        "type": "text",
+        "value": "Решите уравнение",
+        "newParagraph": true
+      },
+      {
+        "type": "img",
+        "file": "formulas/task20/90559.svg"
+      }
+    ],
+    "answer": "formulas/task20/90559_answer.svg",
+    "svgFiles": [
+      "formulas/task20/90559.svg",
+      "formulas/task20/90559_answer.svg"
+    ]
+  },
+  {
+    "id": "90566",
+    "title": "Задача 7",
+    "prototype": "Тип 1",
+    "parts": [
+      {
+        "type": "text",
+        "value": "Решите уравнение",
+        "newParagraph": true
+      },
+      {
+        "type": "img",
+        "file": "formulas/task20/90566.svg"
+      }
+    ],
+    "answer": "formulas/task20/90566_answer.svg",
+    "svgFiles": [
+      "formulas/task20/90566.svg",
+      "formulas/task20/90566_answer.svg"
+    ]
+  },
+  {
+    "id": "90567",
+    "title": "Задача 8",
+    "prototype": "Тип 1",
+    "parts": [
+      {
+        "type": "text",
+        "value": "Решите уравнение",
+        "newParagraph": true
+      },
+      {
+        "type": "img",
+        "file": "formulas/task20/90567.svg"
+      }
+    ],
+    "answer": "formulas/task20/90567_answer.svg",
+    "svgFiles": [
+      "formulas/task20/90567.svg",
+      "formulas/task20/90567_answer.svg"
+    ]
+  },
+  {
+    "id": "90569",
+    "title": "Задача 9",
+    "prototype": "Тип 1",
+    "parts": [
+      {
+        "type": "text",
+        "value": "Решите уравнение",
+        "newParagraph": true
+      },
+      {
+        "type": "img",
+        "file": "formulas/task20/90569.svg"
+      }
+    ],
+    "answer": "formulas/task20/90569_answer.svg",
+    "svgFiles": [
+      "formulas/task20/90569.svg",
+      "formulas/task20/90569_answer.svg"
+    ]
+  },
+  {
+    "id": "90570",
+    "title": "Задача 10",
+    "prototype": "Тип 1",
+    "parts": [
+      {
+        "type": "text",
+        "value": "Решите уравнение",
+        "newParagraph": true
+      },
+      {
+        "type": "img",
+        "file": "formulas/task20/90570.svg"
+      }
+    ],
+    "answer": "formulas/task20/90570_answer.svg",
+    "svgFiles": [
+      "formulas/task20/90570.svg",
+      "formulas/task20/90570_answer.svg"
+    ]
+  },
+  {
+    "id": "90575",
+    "title": "Задача 1",
+    "prototype": "Тип 2",
+    "parts": [
+      {
+        "type": "text",
+        "value": "Решите уравнение",
+        "newParagraph": true
+      },
+      {
+        "type": "img",
+        "file": "formulas/task20/90575.svg"
+      }
+    ],
+    "answer": "formulas/task20/90575_answer.svg",
+    "svgFiles": [
+      "formulas/task20/90575.svg",
+      "formulas/task20/90575_answer.svg"
+    ]
+  },
+  {
+    "id": "48622",
+    "title": "Задача 2",
+    "prototype": "Тип 2",
+    "parts": [
+      {
+        "type": "text",
+        "value": "Решите уравнение",
+        "newParagraph": true
+      },
+      {
+        "type": "img",
+        "file": "formulas/task20/48622.svg"
+      }
+    ],
+    "answer": "formulas/task20/48622_answer.svg",
+    "svgFiles": [
+      "formulas/task20/48622.svg",
+      "formulas/task20/48622_answer.svg"
+    ]
+  },
+  {
+    "id": "49724",
+    "title": "Задача 3",
+    "prototype": "Тип 2",
+    "parts": [
+      {
+        "type": "text",
+        "value": "Решите уравнение",
+        "newParagraph": true
+      },
+      {
+        "type": "img",
+        "file": "formulas/task20/49724.svg"
+      }
+    ],
+    "answer": "formulas/task20/49724_answer.svg",
+    "svgFiles": [
+      "formulas/task20/49724.svg",
+      "formulas/task20/49724_answer.svg"
+    ]
+  },
+  {
+    "id": "90571",
+    "title": "Задача 4",
+    "prototype": "Тип 2",
+    "parts": [
+      {
+        "type": "text",
+        "value": "Решите уравнение",
+        "newParagraph": true
+      },
+      {
+        "type": "img",
+        "file": "formulas/task20/90571.svg"
+      }
+    ],
+    "answer": "formulas/task20/90571_answer.svg",
+    "svgFiles": [
+      "formulas/task20/90571.svg",
+      "formulas/task20/90571_answer.svg"
+    ]
+  },
+  {
+    "id": "90572",
+    "title": "Задача 5",
+    "prototype": "Тип 2",
+    "parts": [
+      {
+        "type": "text",
+        "value": "Решите уравнение",
+        "newParagraph": true
+      },
+      {
+        "type": "img",
+        "file": "formulas/task20/90572.svg"
+      }
+    ],
+    "answer": "formulas/task20/90572_answer.svg",
+    "svgFiles": [
+      "formulas/task20/90572.svg",
+      "formulas/task20/90572_answer.svg"
+    ]
+  },
+  {
+    "id": "90573",
+    "title": "Задача 6",
+    "prototype": "Тип 2",
+    "parts": [
+      {
+        "type": "text",
+        "value": "Решите уравнение",
+        "newParagraph": true
+      },
+      {
+        "type": "img",
+        "file": "formulas/task20/90573.svg"
+      }
+    ],
+    "answer": "formulas/task20/90573_answer.svg",
+    "svgFiles": [
+      "formulas/task20/90573.svg",
+      "formulas/task20/90573_answer.svg"
+    ]
+  },
+  {
+    "id": "90574",
+    "title": "Задача 7",
+    "prototype": "Тип 2",
+    "parts": [
+      {
+        "type": "text",
+        "value": "Решите уравнение",
+        "newParagraph": true
+      },
+      {
+        "type": "img",
+        "file": "formulas/task20/90574.svg"
+      }
+    ],
+    "answer": "formulas/task20/90574_answer.svg",
+    "svgFiles": [
+      "formulas/task20/90574.svg",
+      "formulas/task20/90574_answer.svg"
+    ]
+  },
+  {
+    "id": "90576",
+    "title": "Задача 8",
+    "prototype": "Тип 2",
+    "parts": [
+      {
+        "type": "text",
+        "value": "Решите уравнение",
+        "newParagraph": true
+      },
+      {
+        "type": "img",
+        "file": "formulas/task20/90576.svg"
+      }
+    ],
+    "answer": "formulas/task20/90576_answer.svg",
+    "svgFiles": [
+      "formulas/task20/90576.svg",
+      "formulas/task20/90576_answer.svg"
+    ]
+  },
+  {
+    "id": "90577",
+    "title": "Задача 9",
+    "prototype": "Тип 2",
+    "parts": [
+      {
+        "type": "text",
+        "value": "Решите уравнение",
+        "newParagraph": true
+      },
+      {
+        "type": "img",
+        "file": "formulas/task20/90577.svg"
+      }
+    ],
+    "answer": "formulas/task20/90577_answer.svg",
+    "svgFiles": [
+      "formulas/task20/90577.svg",
+      "formulas/task20/90577_answer.svg"
+    ]
+  },
+  {
+    "id": "90578",
+    "title": "Задача 10",
+    "prototype": "Тип 2",
+    "parts": [
+      {
+        "type": "text",
+        "value": "Решите уравнение",
+        "newParagraph": true
+      },
+      {
+        "type": "img",
+        "file": "formulas/task20/90578.svg"
+      }
+    ],
+    "answer": "formulas/task20/90578_answer.svg",
+    "svgFiles": [
+      "formulas/task20/90578.svg",
+      "formulas/task20/90578_answer.svg"
+    ]
+  },
+  {
+    "id": "90590",
+    "title": "Задача 1",
+    "prototype": "Тип 3",
+    "parts": [
+      {
+        "type": "text",
+        "value": "Решите уравнение",
+        "newParagraph": true
+      },
+      {
+        "type": "img",
+        "file": "formulas/task20/90590.svg"
+      }
+    ],
+    "answer": "formulas/task20/90590_answer.svg",
+    "svgFiles": [
+      "formulas/task20/90590.svg",
+      "formulas/task20/90590_answer.svg"
+    ]
+  },
+  {
+    "id": "54967",
+    "title": "Задача 2",
+    "prototype": "Тип 3",
+    "parts": [
+      {
+        "type": "text",
+        "value": "Решите уравнение",
+        "newParagraph": true
+      },
+      {
+        "type": "img",
+        "file": "formulas/task20/54967.svg"
+      }
+    ],
+    "answer": "formulas/task20/54967_answer.svg",
+    "svgFiles": [
+      "formulas/task20/54967.svg",
+      "formulas/task20/54967_answer.svg"
+    ]
+  },
+  {
+    "id": "22834",
+    "title": "Задача 3",
+    "prototype": "Тип 3",
+    "parts": [
+      {
+        "type": "text",
+        "value": "Решите уравнение",
+        "newParagraph": true
+      },
+      {
+        "type": "img",
+        "file": "formulas/task20/22834.svg"
+      }
+    ],
+    "answer": "formulas/task20/22834_answer.svg",
+    "svgFiles": [
+      "formulas/task20/22834.svg",
+      "formulas/task20/22834_answer.svg"
+    ]
+  },
+  {
+    "id": "45465",
+    "title": "Задача 4",
+    "prototype": "Тип 3",
+    "parts": [
+      {
+        "type": "text",
+        "value": "Решите уравнение",
+        "newParagraph": true
+      },
+      {
+        "type": "img",
+        "file": "formulas/task20/45465.svg"
+      }
+    ],
+    "answer": "formulas/task20/45465_answer.svg",
+    "svgFiles": [
+      "formulas/task20/45465.svg",
+      "formulas/task20/45465_answer.svg"
+    ]
+  },
+  {
+    "id": "49725",
+    "title": "Задача 5",
+    "prototype": "Тип 3",
+    "parts": [
+      {
+        "type": "text",
+        "value": "Решите уравнение",
+        "newParagraph": true
+      },
+      {
+        "type": "img",
+        "file": "formulas/task20/49725.svg"
+      }
+    ],
+    "answer": "formulas/task20/49725_answer.svg",
+    "svgFiles": [
+      "formulas/task20/49725.svg",
+      "formulas/task20/49725_answer.svg"
+    ]
+  },
+  {
+    "id": "90583",
+    "title": "Задача 6",
+    "prototype": "Тип 3",
+    "parts": [
+      {
+        "type": "text",
+        "value": "Решите уравнение",
+        "newParagraph": true
+      },
+      {
+        "type": "img",
+        "file": "formulas/task20/90583.svg"
+      }
+    ],
+    "answer": "formulas/task20/90583_answer.svg",
+    "svgFiles": [
+      "formulas/task20/90583.svg",
+      "formulas/task20/90583_answer.svg"
+    ]
+  },
+  {
+    "id": "90588",
+    "title": "Задача 7",
+    "prototype": "Тип 3",
+    "parts": [
+      {
+        "type": "text",
+        "value": "Решите уравнение",
+        "newParagraph": true
+      },
+      {
+        "type": "img",
+        "file": "formulas/task20/90588.svg"
+      }
+    ],
+    "answer": "formulas/task20/90588_answer.svg",
+    "svgFiles": [
+      "formulas/task20/90588.svg",
+      "formulas/task20/90588_answer.svg"
+    ]
+  },
+  {
+    "id": "90589",
+    "title": "Задача 8",
+    "prototype": "Тип 3",
+    "parts": [
+      {
+        "type": "text",
+        "value": "Решите уравнение",
+        "newParagraph": true
+      },
+      {
+        "type": "img",
+        "file": "formulas/task20/90589.svg"
+      }
+    ],
+    "answer": "formulas/task20/90589_answer.svg",
+    "svgFiles": [
+      "formulas/task20/90589.svg",
+      "formulas/task20/90589_answer.svg"
+    ]
+  },
+  {
+    "id": "90603",
+    "title": "Задача 9",
+    "prototype": "Тип 3",
+    "parts": [
+      {
+        "type": "text",
+        "value": "Решите уравнение",
+        "newParagraph": true
+      },
+      {
+        "type": "img",
+        "file": "formulas/task20/90603.svg"
+      }
+    ],
+    "answer": "formulas/task20/90603_answer.svg",
+    "svgFiles": [
+      "formulas/task20/90603.svg",
+      "formulas/task20/90603_answer.svg"
+    ]
+  },
+  {
+    "id": "90604",
+    "title": "Задача 10",
+    "prototype": "Тип 3",
+    "parts": [
+      {
+        "type": "text",
+        "value": "Решите уравнение",
+        "newParagraph": true
+      },
+      {
+        "type": "img",
+        "file": "formulas/task20/90604.svg"
+      }
+    ],
+    "answer": "formulas/task20/90604_answer.svg",
+    "svgFiles": [
+      "formulas/task20/90604.svg",
+      "formulas/task20/90604_answer.svg"
+    ]
+  },
+  {
+    "id": "90610",
+    "title": "Задача 1",
+    "prototype": "Тип 4",
+    "parts": [
+      {
+        "type": "text",
+        "value": "Решите уравнение",
+        "newParagraph": true
+      },
+      {
+        "type": "img",
+        "file": "formulas/task20/90610.svg"
+      }
+    ],
+    "answer": "formulas/task20/90610_answer.svg",
+    "svgFiles": [
+      "formulas/task20/90610.svg",
+      "formulas/task20/90610_answer.svg"
+    ]
+  },
+  {
+    "id": "90608",
+    "title": "Задача 2",
+    "prototype": "Тип 4",
+    "parts": [
+      {
+        "type": "text",
+        "value": "Решите уравнение",
+        "newParagraph": true
+      },
+      {
+        "type": "img",
+        "file": "formulas/task20/90608.svg"
+      }
+    ],
+    "answer": "formulas/task20/90608_answer.svg",
+    "svgFiles": [
+      "formulas/task20/90608.svg",
+      "formulas/task20/90608_answer.svg"
+    ]
+  },
+  {
+    "id": "46327",
+    "title": "Задача 3",
+    "prototype": "Тип 4",
+    "parts": [
+      {
+        "type": "text",
+        "value": "Решите уравнение",
+        "newParagraph": true
+      },
+      {
+        "type": "img",
+        "file": "formulas/task20/46327.svg"
+      }
+    ],
+    "answer": "formulas/task20/46327_answer.svg",
+    "svgFiles": [
+      "formulas/task20/46327.svg",
+      "formulas/task20/46327_answer.svg"
+    ]
+  },
+  {
+    "id": "54127",
+    "title": "Задача 4",
+    "prototype": "Тип 4",
+    "parts": [
+      {
+        "type": "text",
+        "value": "Решите уравнение",
+        "newParagraph": true
+      },
+      {
+        "type": "img",
+        "file": "formulas/task20/54127.svg"
+      }
+    ],
+    "answer": "formulas/task20/54127_answer.svg",
+    "svgFiles": [
+      "formulas/task20/54127.svg",
+      "formulas/task20/54127_answer.svg"
+    ]
+  },
+  {
+    "id": "54964",
+    "title": "Задача 5",
+    "prototype": "Тип 4",
+    "parts": [
+      {
+        "type": "text",
+        "value": "Решите уравнение",
+        "newParagraph": true
+      },
+      {
+        "type": "img",
+        "file": "formulas/task20/54964.svg"
+      }
+    ],
+    "answer": "formulas/task20/54964_answer.svg",
+    "svgFiles": [
+      "formulas/task20/54964.svg",
+      "formulas/task20/54964_answer.svg"
+    ]
+  },
+  {
+    "id": "90605",
+    "title": "Задача 6",
+    "prototype": "Тип 4",
+    "parts": [
+      {
+        "type": "text",
+        "value": "Решите уравнение",
+        "newParagraph": true
+      },
+      {
+        "type": "img",
+        "file": "formulas/task20/90605.svg"
+      }
+    ],
+    "answer": "formulas/task20/90605_answer.svg",
+    "svgFiles": [
+      "formulas/task20/90605.svg",
+      "formulas/task20/90605_answer.svg"
+    ]
+  },
+  {
+    "id": "90606",
+    "title": "Задача 7",
+    "prototype": "Тип 4",
+    "parts": [
+      {
+        "type": "text",
+        "value": "Решите уравнение",
+        "newParagraph": true
+      },
+      {
+        "type": "img",
+        "file": "formulas/task20/90606.svg"
+      }
+    ],
+    "answer": "formulas/task20/90606_answer.svg",
+    "svgFiles": [
+      "formulas/task20/90606.svg",
+      "formulas/task20/90606_answer.svg"
+    ]
+  },
+  {
+    "id": "90607",
+    "title": "Задача 8",
+    "prototype": "Тип 4",
+    "parts": [
+      {
+        "type": "text",
+        "value": "Решите уравнение",
+        "newParagraph": true
+      },
+      {
+        "type": "img",
+        "file": "formulas/task20/90607.svg"
+      }
+    ],
+    "answer": "formulas/task20/90607_answer.svg",
+    "svgFiles": [
+      "formulas/task20/90607.svg",
+      "formulas/task20/90607_answer.svg"
+    ]
+  },
+  {
+    "id": "90609",
+    "title": "Задача 9",
+    "prototype": "Тип 4",
+    "parts": [
+      {
+        "type": "text",
+        "value": "Решите уравнение",
+        "newParagraph": true
+      },
+      {
+        "type": "img",
+        "file": "formulas/task20/90609.svg"
+      }
+    ],
+    "answer": "formulas/task20/90609_answer.svg",
+    "svgFiles": [
+      "formulas/task20/90609.svg",
+      "formulas/task20/90609_answer.svg"
+    ]
+  },
+  {
+    "id": "90611",
+    "title": "Задача 10",
+    "prototype": "Тип 4",
+    "parts": [
+      {
+        "type": "text",
+        "value": "Решите уравнение",
+        "newParagraph": true
+      },
+      {
+        "type": "img",
+        "file": "formulas/task20/90611.svg"
+      }
+    ],
+    "answer": "formulas/task20/90611_answer.svg",
+    "svgFiles": [
+      "formulas/task20/90611.svg",
+      "formulas/task20/90611_answer.svg"
+    ]
+  },
+  {
+    "id": "42120",
+    "title": "Задача 1",
+    "prototype": "Тип 5",
+    "parts": [
+      {
+        "type": "text",
+        "value": "Решите уравнения",
+        "newParagraph": true
+      },
+      {
+        "type": "img",
+        "file": "formulas/task20/42120.svg"
+      }
+    ],
+    "answer": "formulas/task20/42120_answer.svg",
+    "svgFiles": [
+      "formulas/task20/42120.svg",
+      "formulas/task20/42120_answer.svg"
+    ]
+  },
+  {
+    "id": "90617",
+    "title": "Задача 2",
+    "prototype": "Тип 5",
+    "parts": [
+      {
+        "type": "text",
+        "value": "Решите уравнение",
+        "newParagraph": true
+      },
+      {
+        "type": "img",
+        "file": "formulas/task20/90617.svg"
+      }
+    ],
+    "answer": "formulas/task20/90617_answer.svg",
+    "svgFiles": [
+      "formulas/task20/90617.svg",
+      "formulas/task20/90617_answer.svg"
+    ]
+  },
+  {
+    "id": "38563",
+    "title": "Задача 3",
+    "prototype": "Тип 5",
+    "parts": [
+      {
+        "type": "text",
+        "value": "Решите уравнение",
+        "newParagraph": true
+      },
+      {
+        "type": "img",
+        "file": "formulas/task20/38563.svg"
+      }
+    ],
+    "answer": "formulas/task20/38563_answer.svg",
+    "svgFiles": [
+      "formulas/task20/38563.svg",
+      "formulas/task20/38563_answer.svg"
+    ]
+  },
+  {
+    "id": "54963",
+    "title": "Задача 4",
+    "prototype": "Тип 5",
+    "parts": [
+      {
+        "type": "text",
+        "value": "Решите уравнение",
+        "newParagraph": true
+      },
+      {
+        "type": "img",
+        "file": "formulas/task20/54963.svg"
+      }
+    ],
+    "answer": "formulas/task20/54963_answer.svg",
+    "svgFiles": [
+      "formulas/task20/54963.svg",
+      "formulas/task20/54963_answer.svg"
+    ]
+  },
+  {
+    "id": "90615",
+    "title": "Задача 5",
+    "prototype": "Тип 5",
+    "parts": [
+      {
+        "type": "text",
+        "value": "Решите уравнение",
+        "newParagraph": true
+      },
+      {
+        "type": "img",
+        "file": "formulas/task20/90615.svg"
+      }
+    ],
+    "answer": "formulas/task20/90615_answer.svg",
+    "svgFiles": [
+      "formulas/task20/90615.svg",
+      "formulas/task20/90615_answer.svg"
+    ]
+  },
+  {
+    "id": "90616",
+    "title": "Задача 6",
+    "prototype": "Тип 5",
+    "parts": [
+      {
+        "type": "text",
+        "value": "Решите уравнение",
+        "newParagraph": true
+      },
+      {
+        "type": "img",
+        "file": "formulas/task20/90616.svg"
+      }
+    ],
+    "answer": "formulas/task20/90616_answer.svg",
+    "svgFiles": [
+      "formulas/task20/90616.svg",
+      "formulas/task20/90616_answer.svg"
+    ]
+  },
+  {
+    "id": "90618",
+    "title": "Задача 7",
+    "prototype": "Тип 5",
+    "parts": [
+      {
+        "type": "text",
+        "value": "Решите уравнение",
+        "newParagraph": true
+      },
+      {
+        "type": "img",
+        "file": "formulas/task20/90618.svg"
+      }
+    ],
+    "answer": "formulas/task20/90618_answer.svg",
+    "svgFiles": [
+      "formulas/task20/90618.svg",
+      "formulas/task20/90618_answer.svg"
+    ]
+  },
+  {
+    "id": "90619",
+    "title": "Задача 8",
+    "prototype": "Тип 5",
+    "parts": [
+      {
+        "type": "text",
+        "value": "Решите уравнение",
+        "newParagraph": true
+      },
+      {
+        "type": "img",
+        "file": "formulas/task20/90619.svg"
+      }
+    ],
+    "answer": "formulas/task20/90619_answer.svg",
+    "svgFiles": [
+      "formulas/task20/90619.svg",
+      "formulas/task20/90619_answer.svg"
+    ]
+  },
+  {
+    "id": "90620",
+    "title": "Задача 9",
+    "prototype": "Тип 5",
+    "parts": [
+      {
+        "type": "text",
+        "value": "Решите уравнение",
+        "newParagraph": true
+      },
+      {
+        "type": "img",
+        "file": "formulas/task20/90620.svg"
+      }
+    ],
+    "answer": "formulas/task20/90620_answer.svg",
+    "svgFiles": [
+      "formulas/task20/90620.svg",
+      "formulas/task20/90620_answer.svg"
+    ]
+  },
+  {
+    "id": "90621",
+    "title": "Задача 10",
+    "prototype": "Тип 5",
+    "parts": [
+      {
+        "type": "text",
+        "value": "Решите уравнение",
+        "newParagraph": true
+      },
+      {
+        "type": "img",
+        "file": "formulas/task20/90621.svg"
+      }
+    ],
+    "answer": "formulas/task20/90621_answer.svg",
+    "svgFiles": [
+      "formulas/task20/90621.svg",
+      "formulas/task20/90621_answer.svg"
+    ]
+  },
+  {
+    "id": "57252",
+    "title": "Задача 1",
+    "prototype": "Тип 6",
+    "parts": [
+      {
+        "type": "text",
+        "value": "Решите уравнение",
+        "newParagraph": true
+      },
+      {
+        "type": "img",
+        "file": "formulas/task20/57252.svg"
+      }
+    ],
+    "answer": "formulas/task20/57252_answer.svg",
+    "svgFiles": [
+      "formulas/task20/57252.svg",
+      "formulas/task20/57252_answer.svg"
+    ]
+  },
+  {
+    "id": "22829",
+    "title": "Задача 2",
+    "prototype": "Тип 6",
+    "parts": [
+      {
+        "type": "text",
+        "value": "Решите уравнение",
+        "newParagraph": true
+      },
+      {
+        "type": "img",
+        "file": "formulas/task20/22829.svg"
+      }
+    ],
+    "answer": "formulas/task20/22829_answer.svg",
+    "svgFiles": [
+      "formulas/task20/22829.svg",
+      "formulas/task20/22829_answer.svg"
+    ]
+  },
+  {
+    "id": "31264",
+    "title": "Задача 3",
+    "prototype": "Тип 6",
+    "parts": [
+      {
+        "type": "text",
+        "value": "Решите уравнение",
+        "newParagraph": true
+      },
+      {
+        "type": "img",
+        "file": "formulas/task20/31264.svg"
+      }
+    ],
+    "answer": "formulas/task20/31264_answer.svg",
+    "svgFiles": [
+      "formulas/task20/31264.svg",
+      "formulas/task20/31264_answer.svg"
+    ]
+  },
+  {
+    "id": "38044",
+    "title": "Задача 4",
+    "prototype": "Тип 6",
+    "parts": [
+      {
+        "type": "text",
+        "value": "Решите уравнение",
+        "newParagraph": true
+      },
+      {
+        "type": "img",
+        "file": "formulas/task20/38044.svg"
+      }
+    ],
+    "answer": "-2",
+    "svgFiles": [
+      "formulas/task20/38044.svg"
+    ]
+  },
+  {
+    "id": "90622",
+    "title": "Задача 5",
+    "prototype": "Тип 6",
+    "parts": [
+      {
+        "type": "text",
+        "value": "Решите уравнение",
+        "newParagraph": true
+      },
+      {
+        "type": "img",
+        "file": "formulas/task20/90622.svg"
+      }
+    ],
+    "answer": "formulas/task20/90622_answer.svg",
+    "svgFiles": [
+      "formulas/task20/90622.svg",
+      "formulas/task20/90622_answer.svg"
+    ]
+  },
+  {
+    "id": "90623",
+    "title": "Задача 6",
+    "prototype": "Тип 6",
+    "parts": [
+      {
+        "type": "text",
+        "value": "Решите уравнение",
+        "newParagraph": true
+      },
+      {
+        "type": "img",
+        "file": "formulas/task20/90623.svg"
+      }
+    ],
+    "answer": "formulas/task20/90623_answer.svg",
+    "svgFiles": [
+      "formulas/task20/90623.svg",
+      "formulas/task20/90623_answer.svg"
+    ]
+  },
+  {
+    "id": "90624",
+    "title": "Задача 7",
+    "prototype": "Тип 6",
+    "parts": [
+      {
+        "type": "text",
+        "value": "Решите уравнение",
+        "newParagraph": true
+      },
+      {
+        "type": "img",
+        "file": "formulas/task20/90624.svg"
+      }
+    ],
+    "answer": "formulas/task20/90624_answer.svg",
+    "svgFiles": [
+      "formulas/task20/90624.svg",
+      "formulas/task20/90624_answer.svg"
+    ]
+  },
+  {
+    "id": "90625",
+    "title": "Задача 8",
+    "prototype": "Тип 6",
+    "parts": [
+      {
+        "type": "text",
+        "value": "Решите уравнение",
+        "newParagraph": true
+      },
+      {
+        "type": "img",
+        "file": "formulas/task20/90625.svg"
+      }
+    ],
+    "answer": "formulas/task20/90625_answer.svg",
+    "svgFiles": [
+      "formulas/task20/90625.svg",
+      "formulas/task20/90625_answer.svg"
+    ]
+  },
+  {
+    "id": "90626",
+    "title": "Задача 9",
+    "prototype": "Тип 6",
+    "parts": [
+      {
+        "type": "text",
+        "value": "Решите уравнение",
+        "newParagraph": true
+      },
+      {
+        "type": "img",
+        "file": "formulas/task20/90626.svg"
+      }
+    ],
+    "answer": "formulas/task20/90626_answer.svg",
+    "svgFiles": [
+      "formulas/task20/90626.svg",
+      "formulas/task20/90626_answer.svg"
+    ]
+  },
+  {
+    "id": "90627",
+    "title": "Задача 10",
+    "prototype": "Тип 6",
+    "parts": [
+      {
+        "type": "text",
+        "value": "Решите уравнение",
+        "newParagraph": true
+      },
+      {
+        "type": "img",
+        "file": "formulas/task20/90627.svg"
+      }
+    ],
+    "answer": "formulas/task20/90627_answer.svg",
+    "svgFiles": [
+      "formulas/task20/90627.svg",
+      "formulas/task20/90627_answer.svg"
+    ]
+  },
+  {
+    "id": "90631",
+    "title": "Задача 1",
+    "prototype": "Тип 7",
+    "parts": [
+      {
+        "type": "text",
+        "value": "Решите уравнение",
+        "newParagraph": true
+      },
+      {
+        "type": "img",
+        "file": "formulas/task20/90631.svg"
+      }
+    ],
+    "answer": "formulas/task20/90631_answer.svg",
+    "svgFiles": [
+      "formulas/task20/90631.svg",
+      "formulas/task20/90631_answer.svg"
+    ]
+  },
+  {
+    "id": "38713",
+    "title": "Задача 2",
+    "prototype": "Тип 7",
+    "parts": [
+      {
+        "type": "text",
+        "value": "Решите уравнение",
+        "newParagraph": true
+      },
+      {
+        "type": "img",
+        "file": "formulas/task20/38713.svg"
+      }
+    ],
+    "answer": "formulas/task20/38713_answer.svg",
+    "svgFiles": [
+      "formulas/task20/38713.svg",
+      "formulas/task20/38713_answer.svg"
+    ]
+  },
+  {
+    "id": "90628",
+    "title": "Задача 3",
+    "prototype": "Тип 7",
+    "parts": [
+      {
+        "type": "text",
+        "value": "Решите уравнение",
+        "newParagraph": true
+      },
+      {
+        "type": "img",
+        "file": "formulas/task20/90628.svg"
+      }
+    ],
+    "answer": "formulas/task20/90628_answer.svg",
+    "svgFiles": [
+      "formulas/task20/90628.svg",
+      "formulas/task20/90628_answer.svg"
+    ]
+  },
+  {
+    "id": "90629",
+    "title": "Задача 4",
+    "prototype": "Тип 7",
+    "parts": [
+      {
+        "type": "text",
+        "value": "Решите уравнение",
+        "newParagraph": true
+      },
+      {
+        "type": "img",
+        "file": "formulas/task20/90629.svg"
+      }
+    ],
+    "answer": "formulas/task20/90629_answer.svg",
+    "svgFiles": [
+      "formulas/task20/90629.svg",
+      "formulas/task20/90629_answer.svg"
+    ]
+  },
+  {
+    "id": "90630",
+    "title": "Задача 5",
+    "prototype": "Тип 7",
+    "parts": [
+      {
+        "type": "text",
+        "value": "Решите уравнение",
+        "newParagraph": true
+      },
+      {
+        "type": "img",
+        "file": "formulas/task20/90630.svg"
+      }
+    ],
+    "answer": "formulas/task20/90630_answer.svg",
+    "svgFiles": [
+      "formulas/task20/90630.svg",
+      "formulas/task20/90630_answer.svg"
+    ]
+  },
+  {
+    "id": "54968",
+    "title": "Задача 1",
+    "prototype": "Тип 8",
+    "parts": [
+      {
+        "type": "text",
+        "value": "Решите уравнение",
+        "newParagraph": true
+      },
+      {
+        "type": "img",
+        "file": "formulas/task20/54968.svg"
+      }
+    ],
+    "answer": "formulas/task20/54968_answer.svg",
+    "svgFiles": [
+      "formulas/task20/54968.svg",
+      "formulas/task20/54968_answer.svg"
+    ]
+  },
+  {
+    "id": "22832",
+    "title": "Задача 2",
+    "prototype": "Тип 8",
+    "parts": [
+      {
+        "type": "text",
+        "value": "Решите уравнение",
+        "newParagraph": true
+      },
+      {
+        "type": "img",
+        "file": "formulas/task20/22832.svg"
+      }
+    ],
+    "answer": "formulas/task20/22832_answer.svg",
+    "svgFiles": [
+      "formulas/task20/22832.svg",
+      "formulas/task20/22832_answer.svg"
+    ]
+  },
+  {
+    "id": "43612",
+    "title": "Задача 3",
+    "prototype": "Тип 8",
+    "parts": [
+      {
+        "type": "text",
+        "value": "Решите уравнение",
+        "newParagraph": true
+      },
+      {
+        "type": "img",
+        "file": "formulas/task20/43612.svg"
+      }
+    ],
+    "answer": "formulas/task20/43612_answer.svg",
+    "svgFiles": [
+      "formulas/task20/43612.svg",
+      "formulas/task20/43612_answer.svg"
+    ]
+  },
+  {
+    "id": "90633",
+    "title": "Задача 4",
+    "prototype": "Тип 8",
+    "parts": [
+      {
+        "type": "text",
+        "value": "Решите уравнение",
+        "newParagraph": true
+      },
+      {
+        "type": "img",
+        "file": "formulas/task20/90633.svg"
+      }
+    ],
+    "answer": "formulas/task20/90633_answer.svg",
+    "svgFiles": [
+      "formulas/task20/90633.svg",
+      "formulas/task20/90633_answer.svg"
+    ]
+  },
+  {
+    "id": "90637",
+    "title": "Задача 5",
+    "prototype": "Тип 8",
+    "parts": [
+      {
+        "type": "text",
+        "value": "Решите уравнение",
+        "newParagraph": true
+      },
+      {
+        "type": "img",
+        "file": "formulas/task20/90637.svg"
+      }
+    ],
+    "answer": "formulas/task20/90637_answer.svg",
+    "svgFiles": [
+      "formulas/task20/90637.svg",
+      "formulas/task20/90637_answer.svg"
+    ]
+  },
+  {
+    "id": "55282",
+    "title": "Задача 1",
+    "prototype": "Тип 9",
+    "parts": [
+      {
+        "type": "text",
+        "value": "Решите уравнение",
+        "newParagraph": true
+      },
+      {
+        "type": "img",
+        "file": "formulas/task20/55282.svg"
+      }
+    ],
+    "answer": "formulas/task20/55282_answer.svg",
+    "svgFiles": [
+      "formulas/task20/55282.svg",
+      "formulas/task20/55282_answer.svg"
+    ]
+  },
+  {
+    "id": "90645",
+    "title": "Задача 2",
+    "prototype": "Тип 9",
+    "parts": [
+      {
+        "type": "text",
+        "value": "Решите уравнение",
+        "newParagraph": true
+      },
+      {
+        "type": "img",
+        "file": "formulas/task20/90645.svg"
+      }
+    ],
+    "answer": "formulas/task20/90645_answer.svg",
+    "svgFiles": [
+      "formulas/task20/90645.svg",
+      "formulas/task20/90645_answer.svg"
+    ]
+  },
+  {
+    "id": "40195",
+    "title": "Задача 3",
+    "prototype": "Тип 9",
+    "parts": [
+      {
+        "type": "text",
+        "value": "Решите уравнение",
+        "newParagraph": true
+      },
+      {
+        "type": "img",
+        "file": "formulas/task20/40195.svg"
+      }
+    ],
+    "answer": "formulas/task20/40195_answer.svg",
+    "svgFiles": [
+      "formulas/task20/40195.svg",
+      "formulas/task20/40195_answer.svg"
+    ]
+  },
+  {
+    "id": "49727",
+    "title": "Задача 4",
+    "prototype": "Тип 9",
+    "parts": [
+      {
+        "type": "text",
+        "value": "Решите уравнение",
+        "newParagraph": true
+      },
+      {
+        "type": "img",
+        "file": "formulas/task20/49727.svg"
+      }
+    ],
+    "answer": "formulas/task20/49727_answer.svg",
+    "svgFiles": [
+      "formulas/task20/49727.svg",
+      "formulas/task20/49727_answer.svg"
+    ]
+  },
+  {
+    "id": "54966",
+    "title": "Задача 5",
+    "prototype": "Тип 9",
+    "parts": [
+      {
+        "type": "text",
+        "value": "Решите уравнение",
+        "newParagraph": true
+      },
+      {
+        "type": "img",
+        "file": "formulas/task20/54966.svg"
+      }
+    ],
+    "answer": "formulas/task20/54966_answer.svg",
+    "svgFiles": [
+      "formulas/task20/54966.svg",
+      "formulas/task20/54966_answer.svg"
+    ]
+  },
+  {
+    "id": "90641",
+    "title": "Задача 6",
+    "prototype": "Тип 9",
+    "parts": [
+      {
+        "type": "text",
+        "value": "Решите уравнение",
+        "newParagraph": true
+      },
+      {
+        "type": "img",
+        "file": "formulas/task20/90641.svg"
+      }
+    ],
+    "answer": "formulas/task20/90641_answer.svg",
+    "svgFiles": [
+      "formulas/task20/90641.svg",
+      "formulas/task20/90641_answer.svg"
+    ]
+  },
+  {
+    "id": "90642",
+    "title": "Задача 7",
+    "prototype": "Тип 9",
+    "parts": [
+      {
+        "type": "text",
+        "value": "Решите уравнение",
+        "newParagraph": true
+      },
+      {
+        "type": "img",
+        "file": "formulas/task20/90642.svg"
+      }
+    ],
+    "answer": "formulas/task20/90642_answer.svg",
+    "svgFiles": [
+      "formulas/task20/90642.svg",
+      "formulas/task20/90642_answer.svg"
+    ]
+  },
+  {
+    "id": "90643",
+    "title": "Задача 8",
+    "prototype": "Тип 9",
+    "parts": [
+      {
+        "type": "text",
+        "value": "Решите уравнение",
+        "newParagraph": true
+      },
+      {
+        "type": "img",
+        "file": "formulas/task20/90643.svg"
+      }
+    ],
+    "answer": "formulas/task20/90643_answer.svg",
+    "svgFiles": [
+      "formulas/task20/90643.svg",
+      "formulas/task20/90643_answer.svg"
+    ]
+  },
+  {
+    "id": "90644",
+    "title": "Задача 9",
+    "prototype": "Тип 9",
+    "parts": [
+      {
+        "type": "text",
+        "value": "Решите уравнение",
+        "newParagraph": true
+      },
+      {
+        "type": "img",
+        "file": "formulas/task20/90644.svg"
+      }
+    ],
+    "answer": "formulas/task20/90644_answer.svg",
+    "svgFiles": [
+      "formulas/task20/90644.svg",
+      "formulas/task20/90644_answer.svg"
+    ]
+  },
+  {
+    "id": "90647",
+    "title": "Задача 10",
+    "prototype": "Тип 9",
+    "parts": [
+      {
+        "type": "text",
+        "value": "Решите уравнение",
+        "newParagraph": true
+      },
+      {
+        "type": "img",
+        "file": "formulas/task20/90647.svg"
+      }
+    ],
+    "answer": "formulas/task20/90647_answer.svg",
+    "svgFiles": [
+      "formulas/task20/90647.svg",
+      "formulas/task20/90647_answer.svg"
+    ]
+  },
+  {
+    "id": "42458",
+    "title": "Задача 1",
+    "prototype": "Тип 10",
+    "parts": [
+      {
+        "type": "text",
+        "value": "Решите систему уравнений",
+        "newParagraph": true
+      },
+      {
+        "type": "img",
+        "file": "formulas/task20/42458.svg"
+      }
+    ],
+    "answer": "formulas/task20/42458_answer.svg",
+    "svgFiles": [
+      "formulas/task20/42458.svg",
+      "formulas/task20/42458_answer.svg"
+    ]
+  },
+  {
+    "id": "90651",
+    "title": "Задача 2",
+    "prototype": "Тип 10",
+    "parts": [
+      {
+        "type": "text",
+        "value": "Решите систему уравнений",
+        "newParagraph": true
+      },
+      {
+        "type": "img",
+        "file": "formulas/task20/90651.svg"
+      }
+    ],
+    "answer": "formulas/task20/90651_answer.svg",
+    "svgFiles": [
+      "formulas/task20/90651.svg",
+      "formulas/task20/90651_answer.svg"
+    ]
+  },
+  {
+    "id": "41327",
+    "title": "Задача 3",
+    "prototype": "Тип 10",
+    "parts": [
+      {
+        "type": "text",
+        "value": "Решите систему уравнений",
+        "newParagraph": true
+      },
+      {
+        "type": "img",
+        "file": "formulas/task20/41327.svg"
+      }
+    ],
+    "answer": "formulas/task20/41327_answer.svg",
+    "svgFiles": [
+      "formulas/task20/41327.svg",
+      "formulas/task20/41327_answer.svg"
+    ]
+  },
+  {
+    "id": "90649",
+    "title": "Задача 4",
+    "prototype": "Тип 10",
+    "parts": [
+      {
+        "type": "text",
+        "value": "Решите систему уравнений",
+        "newParagraph": true
+      },
+      {
+        "type": "img",
+        "file": "formulas/task20/90649.svg"
+      }
+    ],
+    "answer": "formulas/task20/90649_answer.svg",
+    "svgFiles": [
+      "formulas/task20/90649.svg",
+      "formulas/task20/90649_answer.svg"
+    ]
+  },
+  {
+    "id": "90650",
+    "title": "Задача 5",
+    "prototype": "Тип 10",
+    "parts": [
+      {
+        "type": "text",
+        "value": "Решите систему уравнений",
+        "newParagraph": true
+      },
+      {
+        "type": "img",
+        "file": "formulas/task20/90650.svg"
+      }
+    ],
+    "answer": "formulas/task20/90650_answer.svg",
+    "svgFiles": [
+      "formulas/task20/90650.svg",
+      "formulas/task20/90650_answer.svg"
+    ]
+  },
+  {
+    "id": "90652",
+    "title": "Задача 6",
+    "prototype": "Тип 10",
+    "parts": [
+      {
+        "type": "text",
+        "value": "Решите систему уравнений",
+        "newParagraph": true
+      },
+      {
+        "type": "img",
+        "file": "formulas/task20/90652.svg"
+      }
+    ],
+    "answer": "formulas/task20/90652_answer.svg",
+    "svgFiles": [
+      "formulas/task20/90652.svg",
+      "formulas/task20/90652_answer.svg"
+    ]
+  },
+  {
+    "id": "90653",
+    "title": "Задача 7",
+    "prototype": "Тип 10",
+    "parts": [
+      {
+        "type": "text",
+        "value": "Решите систему уравнений",
+        "newParagraph": true
+      },
+      {
+        "type": "img",
+        "file": "formulas/task20/90653.svg"
+      }
+    ],
+    "answer": "formulas/task20/90653_answer.svg",
+    "svgFiles": [
+      "formulas/task20/90653.svg",
+      "formulas/task20/90653_answer.svg"
+    ]
+  },
+  {
+    "id": "90654",
+    "title": "Задача 8",
+    "prototype": "Тип 10",
+    "parts": [
+      {
+        "type": "text",
+        "value": "Решите систему уравнений",
+        "newParagraph": true
+      },
+      {
+        "type": "img",
+        "file": "formulas/task20/90654.svg"
+      }
+    ],
+    "answer": "formulas/task20/90654_answer.svg",
+    "svgFiles": [
+      "formulas/task20/90654.svg",
+      "formulas/task20/90654_answer.svg"
+    ]
+  },
+  {
+    "id": "90655",
+    "title": "Задача 9",
+    "prototype": "Тип 10",
+    "parts": [
+      {
+        "type": "text",
+        "value": "Решите систему уравнений",
+        "newParagraph": true
+      },
+      {
+        "type": "img",
+        "file": "formulas/task20/90655.svg"
+      }
+    ],
+    "answer": "formulas/task20/90655_answer.svg",
+    "svgFiles": [
+      "formulas/task20/90655.svg",
+      "formulas/task20/90655_answer.svg"
+    ]
+  },
+  {
+    "id": "90656",
+    "title": "Задача 10",
+    "prototype": "Тип 10",
+    "parts": [
+      {
+        "type": "text",
+        "value": "Решите систему уравнений",
+        "newParagraph": true
+      },
+      {
+        "type": "img",
+        "file": "formulas/task20/90656.svg"
+      }
+    ],
+    "answer": "formulas/task20/90656_answer.svg",
+    "svgFiles": [
+      "formulas/task20/90656.svg",
+      "formulas/task20/90656_answer.svg"
+    ]
+  },
+  {
+    "id": "90661",
+    "title": "Задача 1",
+    "prototype": "Тип 11",
+    "parts": [
+      {
+        "type": "text",
+        "value": "Решите систему уравнений",
+        "newParagraph": true
+      },
+      {
+        "type": "img",
+        "file": "formulas/task20/90661.svg"
+      }
+    ],
+    "answer": "formulas/task20/90661_answer.svg",
+    "svgFiles": [
+      "formulas/task20/90661.svg",
+      "formulas/task20/90661_answer.svg"
+    ]
+  },
+  {
+    "id": "49732",
+    "title": "Задача 2",
+    "prototype": "Тип 11",
+    "parts": [
+      {
+        "type": "text",
+        "value": "Решите систему уравнений",
+        "newParagraph": true
+      },
+      {
+        "type": "img",
+        "file": "formulas/task20/49732.svg"
+      }
+    ],
+    "answer": "formulas/task20/49732_answer.svg",
+    "svgFiles": [
+      "formulas/task20/49732.svg",
+      "formulas/task20/49732_answer.svg"
+    ]
+  },
+  {
+    "id": "90657",
+    "title": "Задача 3",
+    "prototype": "Тип 11",
+    "parts": [
+      {
+        "type": "text",
+        "value": "Решите систему уравнений",
+        "newParagraph": true
+      },
+      {
+        "type": "img",
+        "file": "formulas/task20/90657.svg"
+      }
+    ],
+    "answer": "formulas/task20/90657_answer.svg",
+    "svgFiles": [
+      "formulas/task20/90657.svg",
+      "formulas/task20/90657_answer.svg"
+    ]
+  },
+  {
+    "id": "90658",
+    "title": "Задача 4",
+    "prototype": "Тип 11",
+    "parts": [
+      {
+        "type": "text",
+        "value": "Решите систему уравнений",
+        "newParagraph": true
+      },
+      {
+        "type": "img",
+        "file": "formulas/task20/90658.svg"
+      }
+    ],
+    "answer": "formulas/task20/90658_answer.svg",
+    "svgFiles": [
+      "formulas/task20/90658.svg",
+      "formulas/task20/90658_answer.svg"
+    ]
+  },
+  {
+    "id": "90659",
+    "title": "Задача 5",
+    "prototype": "Тип 11",
+    "parts": [
+      {
+        "type": "text",
+        "value": "Решите систему уравнений",
+        "newParagraph": true
+      },
+      {
+        "type": "img",
+        "file": "formulas/task20/90659.svg"
+      }
+    ],
+    "answer": "formulas/task20/90659_answer.svg",
+    "svgFiles": [
+      "formulas/task20/90659.svg",
+      "formulas/task20/90659_answer.svg"
+    ]
+  },
+  {
+    "id": "90660",
+    "title": "Задача 6",
+    "prototype": "Тип 11",
+    "parts": [
+      {
+        "type": "text",
+        "value": "Решите систему уравнений",
+        "newParagraph": true
+      },
+      {
+        "type": "img",
+        "file": "formulas/task20/90660.svg"
+      }
+    ],
+    "answer": "formulas/task20/90660_answer.svg",
+    "svgFiles": [
+      "formulas/task20/90660.svg",
+      "formulas/task20/90660_answer.svg"
+    ]
+  },
+  {
+    "id": "90662",
+    "title": "Задача 7",
+    "prototype": "Тип 11",
+    "parts": [
+      {
+        "type": "text",
+        "value": "Решите систему уравнений",
+        "newParagraph": true
+      },
+      {
+        "type": "img",
+        "file": "formulas/task20/90662.svg"
+      }
+    ],
+    "answer": "formulas/task20/90662_answer.svg",
+    "svgFiles": [
+      "formulas/task20/90662.svg",
+      "formulas/task20/90662_answer.svg"
+    ]
+  },
+  {
+    "id": "90664",
+    "title": "Задача 8",
+    "prototype": "Тип 11",
+    "parts": [
+      {
+        "type": "text",
+        "value": "Решите систему уравнений",
+        "newParagraph": true
+      },
+      {
+        "type": "img",
+        "file": "formulas/task20/90664.svg"
+      }
+    ],
+    "answer": "formulas/task20/90664_answer.svg",
+    "svgFiles": [
+      "formulas/task20/90664.svg",
+      "formulas/task20/90664_answer.svg"
+    ]
+  },
+  {
+    "id": "90665",
+    "title": "Задача 9",
+    "prototype": "Тип 11",
+    "parts": [
+      {
+        "type": "text",
+        "value": "Решите систему уравнений",
+        "newParagraph": true
+      },
+      {
+        "type": "img",
+        "file": "formulas/task20/90665.svg"
+      }
+    ],
+    "answer": "formulas/task20/90665_answer.svg",
+    "svgFiles": [
+      "formulas/task20/90665.svg",
+      "formulas/task20/90665_answer.svg"
+    ]
+  },
+  {
+    "id": "90666",
+    "title": "Задача 10",
+    "prototype": "Тип 11",
+    "parts": [
+      {
+        "type": "text",
+        "value": "Решите систему уравнений",
+        "newParagraph": true
+      },
+      {
+        "type": "img",
+        "file": "formulas/task20/90666.svg"
+      }
+    ],
+    "answer": "formulas/task20/90666_answer.svg",
+    "svgFiles": [
+      "formulas/task20/90666.svg",
+      "formulas/task20/90666_answer.svg"
+    ]
+  },
+  {
+    "id": "90701",
+    "title": "Задача 1",
+    "prototype": "Тип 12",
+    "parts": [
+      {
+        "type": "text",
+        "value": "Решите систему уравнений",
+        "newParagraph": true
+      },
+      {
+        "type": "img",
+        "file": "formulas/task20/90701.svg"
+      }
+    ],
+    "answer": "formulas/task20/90701_answer.svg",
+    "svgFiles": [
+      "formulas/task20/90701.svg",
+      "formulas/task20/90701_answer.svg"
+    ]
+  },
+  {
+    "id": "90698",
+    "title": "Задача 2",
+    "prototype": "Тип 12",
+    "parts": [
+      {
+        "type": "text",
+        "value": "Решите систему уравнений",
+        "newParagraph": true
+      },
+      {
+        "type": "img",
+        "file": "formulas/task20/90698.svg"
+      }
+    ],
+    "answer": "formulas/task20/90698_answer.svg",
+    "svgFiles": [
+      "formulas/task20/90698.svg",
+      "formulas/task20/90698_answer.svg"
+    ]
+  },
+  {
+    "id": "31450",
+    "title": "Задача 3",
+    "prototype": "Тип 12",
+    "parts": [
+      {
+        "type": "text",
+        "value": "Решите систему уравнений",
+        "newParagraph": true
+      },
+      {
+        "type": "img",
+        "file": "formulas/task20/31450.svg"
+      }
+    ],
+    "answer": "formulas/task20/31450_answer.svg",
+    "svgFiles": [
+      "formulas/task20/31450.svg",
+      "formulas/task20/31450_answer.svg"
+    ]
+  },
+  {
+    "id": "49733",
+    "title": "Задача 4",
+    "prototype": "Тип 12",
+    "parts": [
+      {
+        "type": "text",
+        "value": "Решите систему уравнений",
+        "newParagraph": true
+      },
+      {
+        "type": "img",
+        "file": "formulas/task20/49733.svg"
+      }
+    ],
+    "answer": "formulas/task20/49733_answer.svg",
+    "svgFiles": [
+      "formulas/task20/49733.svg",
+      "formulas/task20/49733_answer.svg"
+    ]
+  },
+  {
+    "id": "50257",
+    "title": "Задача 5",
+    "prototype": "Тип 12",
+    "parts": [
+      {
+        "type": "text",
+        "value": "Решите систему уравнений",
+        "newParagraph": true
+      },
+      {
+        "type": "img",
+        "file": "formulas/task20/50257.svg"
+      }
+    ],
+    "answer": "formulas/task20/50257_answer.svg",
+    "svgFiles": [
+      "formulas/task20/50257.svg",
+      "formulas/task20/50257_answer.svg"
+    ]
+  },
+  {
+    "id": "90694",
+    "title": "Задача 6",
+    "prototype": "Тип 12",
+    "parts": [
+      {
+        "type": "text",
+        "value": "Решите систему уравнений",
+        "newParagraph": true
+      },
+      {
+        "type": "img",
+        "file": "formulas/task20/90694.svg"
+      }
+    ],
+    "answer": "formulas/task20/90694_answer.svg",
+    "svgFiles": [
+      "formulas/task20/90694.svg",
+      "formulas/task20/90694_answer.svg"
+    ]
+  },
+  {
+    "id": "90695",
+    "title": "Задача 7",
+    "prototype": "Тип 12",
+    "parts": [
+      {
+        "type": "text",
+        "value": "Решите систему уравнений",
+        "newParagraph": true
+      },
+      {
+        "type": "img",
+        "file": "formulas/task20/90695.svg"
+      }
+    ],
+    "answer": "formulas/task20/90695_answer.svg",
+    "svgFiles": [
+      "formulas/task20/90695.svg",
+      "formulas/task20/90695_answer.svg"
+    ]
+  },
+  {
+    "id": "90696",
+    "title": "Задача 8",
+    "prototype": "Тип 12",
+    "parts": [
+      {
+        "type": "text",
+        "value": "Решите систему уравнений",
+        "newParagraph": true
+      },
+      {
+        "type": "img",
+        "file": "formulas/task20/90696.svg"
+      }
+    ],
+    "answer": "formulas/task20/90696_answer.svg",
+    "svgFiles": [
+      "formulas/task20/90696.svg",
+      "formulas/task20/90696_answer.svg"
+    ]
+  },
+  {
+    "id": "90697",
+    "title": "Задача 9",
+    "prototype": "Тип 12",
+    "parts": [
+      {
+        "type": "text",
+        "value": "Решите систему уравнений",
+        "newParagraph": true
+      },
+      {
+        "type": "img",
+        "file": "formulas/task20/90697.svg"
+      }
+    ],
+    "answer": "formulas/task20/90697_answer.svg",
+    "svgFiles": [
+      "formulas/task20/90697.svg",
+      "formulas/task20/90697_answer.svg"
+    ]
+  },
+  {
+    "id": "90699",
+    "title": "Задача 10",
+    "prototype": "Тип 12",
+    "parts": [
+      {
+        "type": "text",
+        "value": "Решите систему уравнений",
+        "newParagraph": true
+      },
+      {
+        "type": "img",
+        "file": "formulas/task20/90699.svg"
+      }
+    ],
+    "answer": "formulas/task20/90699_answer.svg",
+    "svgFiles": [
+      "formulas/task20/90699.svg",
+      "formulas/task20/90699_answer.svg"
+    ]
+  },
+  {
+    "id": "54958",
+    "title": "Задача 1",
+    "prototype": "Тип 13",
+    "parts": [
+      {
+        "type": "text",
+        "value": "Найдите значение выражения",
+        "newParagraph": true
+      },
+      {
+        "type": "img",
+        "file": "formulas/task20/54958_1.svg"
+      },
+      {
+        "type": "text",
+        "value": "если"
+      },
+      {
+        "type": "img",
+        "file": "formulas/task20/54958_2.svg"
+      }
+    ],
+    "answer": "15",
+    "svgFiles": [
+      "formulas/task20/54958_1.svg",
+      "formulas/task20/54958_2.svg"
+    ]
+  },
+  {
+    "id": "61041",
+    "title": "Задача 2",
+    "prototype": "Тип 13",
+    "parts": [
+      {
+        "type": "text",
+        "value": "Найдите значение выражения",
+        "newParagraph": true
+      },
+      {
+        "type": "img",
+        "file": "formulas/task20/61041_1.svg"
+      },
+      {
+        "type": "text",
+        "value": "если"
+      },
+      {
+        "type": "img",
+        "file": "formulas/task20/61041_2.svg"
+      }
+    ],
+    "answer": "6",
+    "svgFiles": [
+      "formulas/task20/61041_1.svg",
+      "formulas/task20/61041_2.svg"
+    ]
+  },
+  {
+    "id": "90702",
+    "title": "Задача 3",
+    "prototype": "Тип 13",
+    "parts": [
+      {
+        "type": "text",
+        "value": "Найдите значение выражения",
+        "newParagraph": true
+      },
+      {
+        "type": "img",
+        "file": "formulas/task20/90702_1.svg"
+      },
+      {
+        "type": "text",
+        "value": "если"
+      },
+      {
+        "type": "img",
+        "file": "formulas/task20/90702_2.svg"
+      }
+    ],
+    "answer": "1",
+    "svgFiles": [
+      "formulas/task20/90702_1.svg",
+      "formulas/task20/90702_2.svg"
+    ]
+  },
+  {
+    "id": "90703",
+    "title": "Задача 4",
+    "prototype": "Тип 13",
+    "parts": [
+      {
+        "type": "text",
+        "value": "Найдите значение выражения",
+        "newParagraph": true
+      },
+      {
+        "type": "img",
+        "file": "formulas/task20/90703_1.svg"
+      },
+      {
+        "type": "text",
+        "value": "если"
+      },
+      {
+        "type": "img",
+        "file": "formulas/task20/90703_2.svg"
+      }
+    ],
+    "answer": "9",
+    "svgFiles": [
+      "formulas/task20/90703_1.svg",
+      "formulas/task20/90703_2.svg"
+    ]
+  },
+  {
+    "id": "90704",
+    "title": "Задача 5",
+    "prototype": "Тип 13",
+    "parts": [
+      {
+        "type": "text",
+        "value": "Найдите значение выражения",
+        "newParagraph": true
+      },
+      {
+        "type": "img",
+        "file": "formulas/task20/90704_1.svg"
+      },
+      {
+        "type": "text",
+        "value": "если"
+      },
+      {
+        "type": "img",
+        "file": "formulas/task20/90704_2.svg"
+      }
+    ],
+    "answer": "7",
+    "svgFiles": [
+      "formulas/task20/90704_1.svg",
+      "formulas/task20/90704_2.svg"
+    ]
+  },
+  {
+    "id": "90705",
+    "title": "Задача 6",
+    "prototype": "Тип 13",
+    "parts": [
+      {
+        "type": "text",
+        "value": "Найдите значение выражения",
+        "newParagraph": true
+      },
+      {
+        "type": "img",
+        "file": "formulas/task20/90705_1.svg"
+      },
+      {
+        "type": "text",
+        "value": "если"
+      },
+      {
+        "type": "img",
+        "file": "formulas/task20/90705_2.svg"
+      }
+    ],
+    "answer": "8",
+    "svgFiles": [
+      "formulas/task20/90705_1.svg",
+      "formulas/task20/90705_2.svg"
+    ]
+  },
+  {
+    "id": "90706",
+    "title": "Задача 7",
+    "prototype": "Тип 13",
+    "parts": [
+      {
+        "type": "text",
+        "value": "Найдите значение выражения",
+        "newParagraph": true
+      },
+      {
+        "type": "img",
+        "file": "formulas/task20/90706_1.svg"
+      },
+      {
+        "type": "text",
+        "value": "если"
+      },
+      {
+        "type": "img",
+        "file": "formulas/task20/90706_2.svg"
+      }
+    ],
+    "answer": "5",
+    "svgFiles": [
+      "formulas/task20/90706_1.svg",
+      "formulas/task20/90706_2.svg"
+    ]
+  },
+  {
+    "id": "90707",
+    "title": "Задача 8",
+    "prototype": "Тип 13",
+    "parts": [
+      {
+        "type": "text",
+        "value": "Найдите значение выражения",
+        "newParagraph": true
+      },
+      {
+        "type": "img",
+        "file": "formulas/task20/90707_1.svg"
+      },
+      {
+        "type": "text",
+        "value": "если"
+      },
+      {
+        "type": "img",
+        "file": "formulas/task20/90707_2.svg"
+      }
+    ],
+    "answer": "10",
+    "svgFiles": [
+      "formulas/task20/90707_1.svg",
+      "formulas/task20/90707_2.svg"
+    ]
+  },
+  {
+    "id": "57051",
+    "title": "Задача 9",
+    "prototype": "Тип 13",
+    "parts": [
+      {
+        "type": "text",
+        "value": "Найдите значение выражения",
+        "newParagraph": true
+      },
+      {
+        "type": "img",
+        "file": "formulas/task20/57051_1.svg"
+      },
+      {
+        "type": "text",
+        "value": "если"
+      },
+      {
+        "type": "img",
+        "file": "formulas/task20/57051_2.svg"
+      }
+    ],
+    "answer": "3",
+    "svgFiles": [
+      "formulas/task20/57051_1.svg",
+      "formulas/task20/57051_2.svg"
+    ]
+  },
+  {
+    "id": "57052",
+    "title": "Задача 10",
+    "prototype": "Тип 13",
+    "parts": [
+      {
+        "type": "text",
+        "value": "Найдите значение выражения",
+        "newParagraph": true
+      },
+      {
+        "type": "img",
+        "file": "formulas/task20/57052_1.svg"
+      },
+      {
+        "type": "text",
+        "value": "если"
+      },
+      {
+        "type": "img",
+        "file": "formulas/task20/57052_2.svg"
+      }
+    ],
+    "answer": "4",
+    "svgFiles": [
+      "formulas/task20/57052_1.svg",
+      "formulas/task20/57052_2.svg"
+    ]
+  },
+  {
+    "id": "42143",
+    "title": "Задача 1",
+    "prototype": "Тип 14",
+    "parts": [
+      {
+        "type": "text",
+        "value": "Решите неравенство",
+        "newParagraph": true
+      },
+      {
+        "type": "img",
+        "file": "formulas/task20/42143.svg"
+      }
+    ],
+    "answer": "formulas/task20/42143_answer.svg",
+    "svgFiles": [
+      "formulas/task20/42143.svg",
+      "formulas/task20/42143_answer.svg"
+    ]
+  },
+  {
+    "id": "48401",
+    "title": "Задача 2",
+    "prototype": "Тип 14",
+    "parts": [
+      {
+        "type": "text",
+        "value": "Решите неравенство",
+        "newParagraph": true
+      },
+      {
+        "type": "img",
+        "file": "formulas/task20/48401.svg"
+      }
+    ],
+    "answer": "formulas/task20/48401_answer.svg",
+    "svgFiles": [
+      "formulas/task20/48401.svg",
+      "formulas/task20/48401_answer.svg"
+    ]
+  },
+  {
+    "id": "49729",
+    "title": "Задача 3",
+    "prototype": "Тип 14",
+    "parts": [
+      {
+        "type": "text",
+        "value": "Решите неравенство",
+        "newParagraph": true
+      },
+      {
+        "type": "img",
+        "file": "formulas/task20/49729.svg"
+      }
+    ],
+    "answer": "formulas/task20/49729_answer.svg",
+    "svgFiles": [
+      "formulas/task20/49729.svg",
+      "formulas/task20/49729_answer.svg"
+    ]
+  },
+  {
+    "id": "57049",
+    "title": "Задача 4",
+    "prototype": "Тип 14",
+    "parts": [
+      {
+        "type": "text",
+        "value": "Решите неравенство",
+        "newParagraph": true
+      },
+      {
+        "type": "img",
+        "file": "formulas/task20/57049.svg"
+      }
+    ],
+    "answer": "formulas/task20/57049_answer.svg",
+    "svgFiles": [
+      "formulas/task20/57049.svg",
+      "formulas/task20/57049_answer.svg"
+    ]
+  },
+  {
+    "id": "90708",
+    "title": "Задача 5",
+    "prototype": "Тип 14",
+    "parts": [
+      {
+        "type": "text",
+        "value": "Решите неравенство",
+        "newParagraph": true
+      },
+      {
+        "type": "img",
+        "file": "formulas/task20/90708.svg"
+      }
+    ],
+    "answer": "formulas/task20/90708_answer.svg",
+    "svgFiles": [
+      "formulas/task20/90708.svg",
+      "formulas/task20/90708_answer.svg"
+    ]
+  },
+  {
+    "id": "90709",
+    "title": "Задача 6",
+    "prototype": "Тип 14",
+    "parts": [
+      {
+        "type": "text",
+        "value": "Решите неравенство",
+        "newParagraph": true
+      },
+      {
+        "type": "img",
+        "file": "formulas/task20/90709.svg"
+      }
+    ],
+    "answer": "formulas/task20/90709_answer.svg",
+    "svgFiles": [
+      "formulas/task20/90709.svg",
+      "formulas/task20/90709_answer.svg"
+    ]
+  },
+  {
+    "id": "90710",
+    "title": "Задача 7",
+    "prototype": "Тип 14",
+    "parts": [
+      {
+        "type": "text",
+        "value": "Решите неравенство",
+        "newParagraph": true
+      },
+      {
+        "type": "img",
+        "file": "formulas/task20/90710.svg"
+      }
+    ],
+    "answer": "formulas/task20/90710_answer.svg",
+    "svgFiles": [
+      "formulas/task20/90710.svg",
+      "formulas/task20/90710_answer.svg"
+    ]
+  },
+  {
+    "id": "90711",
+    "title": "Задача 8",
+    "prototype": "Тип 14",
+    "parts": [
+      {
+        "type": "text",
+        "value": "Решите неравенство",
+        "newParagraph": true
+      },
+      {
+        "type": "img",
+        "file": "formulas/task20/90711.svg"
+      }
+    ],
+    "answer": "formulas/task20/90711_answer.svg",
+    "svgFiles": [
+      "formulas/task20/90711.svg",
+      "formulas/task20/90711_answer.svg"
+    ]
+  },
+  {
+    "id": "90712",
+    "title": "Задача 9",
+    "prototype": "Тип 14",
+    "parts": [
+      {
+        "type": "text",
+        "value": "Решите неравенство",
+        "newParagraph": true
+      },
+      {
+        "type": "img",
+        "file": "formulas/task20/90712.svg"
+      }
+    ],
+    "answer": "formulas/task20/90712_answer.svg",
+    "svgFiles": [
+      "formulas/task20/90712.svg",
+      "formulas/task20/90712_answer.svg"
+    ]
+  },
+  {
+    "id": "90713",
+    "title": "Задача 10",
+    "prototype": "Тип 14",
+    "parts": [
+      {
+        "type": "text",
+        "value": "Решите неравенство",
+        "newParagraph": true
+      },
+      {
+        "type": "img",
+        "file": "formulas/task20/90713.svg"
+      }
+    ],
+    "answer": "formulas/task20/90713_answer.svg",
+    "svgFiles": [
+      "formulas/task20/90713.svg",
+      "formulas/task20/90713_answer.svg"
+    ]
+  },
+  {
+    "id": "90714",
+    "title": "Задача 1",
+    "prototype": "Тип 15",
+    "parts": [
+      {
+        "type": "text",
+        "value": "Решите неравенство",
+        "newParagraph": true
+      },
+      {
+        "type": "img",
+        "file": "formulas/task20/90714.svg"
+      }
+    ],
+    "answer": "formulas/task20/90714_answer.svg",
+    "svgFiles": [
+      "formulas/task20/90714.svg",
+      "formulas/task20/90714_answer.svg"
+    ]
+  },
+  {
+    "id": "90719",
+    "title": "Задача 2",
+    "prototype": "Тип 15",
+    "parts": [
+      {
+        "type": "text",
+        "value": "Решите неравенство",
+        "newParagraph": true
+      },
+      {
+        "type": "img",
+        "file": "formulas/task20/90719.svg"
+      }
+    ],
+    "answer": "formulas/task20/90719_answer.svg",
+    "svgFiles": [
+      "formulas/task20/90719.svg",
+      "formulas/task20/90719_answer.svg"
+    ]
+  },
+  {
+    "id": "45680",
+    "title": "Задача 3",
+    "prototype": "Тип 15",
+    "parts": [
+      {
+        "type": "text",
+        "value": "Решите неравенство",
+        "newParagraph": true
+      },
+      {
+        "type": "img",
+        "file": "formulas/task20/45680.svg"
+      }
+    ],
+    "answer": "formulas/task20/45680_answer.svg",
+    "svgFiles": [
+      "formulas/task20/45680.svg",
+      "formulas/task20/45680_answer.svg"
+    ]
+  },
+  {
+    "id": "49728",
+    "title": "Задача 4",
+    "prototype": "Тип 15",
+    "parts": [
+      {
+        "type": "text",
+        "value": "Решите неравенство",
+        "newParagraph": true
+      },
+      {
+        "type": "img",
+        "file": "formulas/task20/49728.svg"
+      }
+    ],
+    "answer": "formulas/task20/49728_answer.svg",
+    "svgFiles": [
+      "formulas/task20/49728.svg",
+      "formulas/task20/49728_answer.svg"
+    ]
+  },
+  {
+    "id": "50562",
+    "title": "Задача 5",
+    "prototype": "Тип 15",
+    "parts": [
+      {
+        "type": "text",
+        "value": "Решите неравенство",
+        "newParagraph": true
+      },
+      {
+        "type": "img",
+        "file": "formulas/task20/50562.svg"
+      }
+    ],
+    "answer": "formulas/task20/50562_answer.svg",
+    "svgFiles": [
+      "formulas/task20/50562.svg",
+      "formulas/task20/50562_answer.svg"
+    ]
+  },
+  {
+    "id": "57050",
+    "title": "Задача 6",
+    "prototype": "Тип 15",
+    "parts": [
+      {
+        "type": "text",
+        "value": "Решите неравенство",
+        "newParagraph": true
+      },
+      {
+        "type": "img",
+        "file": "formulas/task20/57050.svg"
+      }
+    ],
+    "answer": "formulas/task20/57050_answer.svg",
+    "svgFiles": [
+      "formulas/task20/57050.svg",
+      "formulas/task20/57050_answer.svg"
+    ]
+  },
+  {
+    "id": "90715",
+    "title": "Задача 7",
+    "prototype": "Тип 15",
+    "parts": [
+      {
+        "type": "text",
+        "value": "Решите неравенство",
+        "newParagraph": true
+      },
+      {
+        "type": "img",
+        "file": "formulas/task20/90715.svg"
+      }
+    ],
+    "answer": "formulas/task20/90715_answer.svg",
+    "svgFiles": [
+      "formulas/task20/90715.svg",
+      "formulas/task20/90715_answer.svg"
+    ]
+  },
+  {
+    "id": "90716",
+    "title": "Задача 8",
+    "prototype": "Тип 15",
+    "parts": [
+      {
+        "type": "text",
+        "value": "Решите неравенство",
+        "newParagraph": true
+      },
+      {
+        "type": "img",
+        "file": "formulas/task20/90716.svg"
+      }
+    ],
+    "answer": "formulas/task20/90716_answer.svg",
+    "svgFiles": [
+      "formulas/task20/90716.svg",
+      "formulas/task20/90716_answer.svg"
+    ]
+  },
+  {
+    "id": "90717",
+    "title": "Задача 9",
+    "prototype": "Тип 15",
+    "parts": [
+      {
+        "type": "text",
+        "value": "Решите неравенство",
+        "newParagraph": true
+      },
+      {
+        "type": "img",
+        "file": "formulas/task20/90717.svg"
+      }
+    ],
+    "answer": "formulas/task20/90717_answer.svg",
+    "svgFiles": [
+      "formulas/task20/90717.svg",
+      "formulas/task20/90717_answer.svg"
+    ]
+  },
+  {
+    "id": "90718",
+    "title": "Задача 10",
+    "prototype": "Тип 15",
+    "parts": [
+      {
+        "type": "text",
+        "value": "Решите неравенство",
+        "newParagraph": true
+      },
+      {
+        "type": "img",
+        "file": "formulas/task20/90718.svg"
+      }
+    ],
+    "answer": "formulas/task20/90718_answer.svg",
+    "svgFiles": [
+      "formulas/task20/90718.svg",
+      "formulas/task20/90718_answer.svg"
+    ]
+  },
+  {
+    "id": "171843",
+    "title": "Задача 1",
+    "prototype": "Тип 16",
+    "parts": [
+      {
+        "type": "text",
+        "value": "Решите неравенство",
+        "newParagraph": true
+      },
+      {
+        "type": "img",
+        "file": "formulas/task20/171843.svg"
+      }
+    ],
+    "answer": "formulas/task20/171843_answer.svg",
+    "svgFiles": [
+      "formulas/task20/171843.svg",
+      "formulas/task20/171843_answer.svg"
+    ]
+  },
+  {
+    "id": "171844",
+    "title": "Задача 2",
+    "prototype": "Тип 16",
+    "parts": [
+      {
+        "type": "text",
+        "value": "Решите неравенство",
+        "newParagraph": true
+      },
+      {
+        "type": "img",
+        "file": "formulas/task20/171844.svg"
+      }
+    ],
+    "answer": "formulas/task20/171844_answer.svg",
+    "svgFiles": [
+      "formulas/task20/171844.svg",
+      "formulas/task20/171844_answer.svg"
+    ]
+  },
+  {
+    "id": "171845",
+    "title": "Задача 3",
+    "prototype": "Тип 16",
+    "parts": [
+      {
+        "type": "text",
+        "value": "Решите неравенство",
+        "newParagraph": true
+      },
+      {
+        "type": "img",
+        "file": "formulas/task20/171845.svg"
+      }
+    ],
+    "answer": "formulas/task20/171845_answer.svg",
+    "svgFiles": [
+      "formulas/task20/171845.svg",
+      "formulas/task20/171845_answer.svg"
+    ]
+  },
+  {
+    "id": "171846",
+    "title": "Задача 4",
+    "prototype": "Тип 16",
+    "parts": [
+      {
+        "type": "text",
+        "value": "Решите неравенство",
+        "newParagraph": true
+      },
+      {
+        "type": "img",
+        "file": "formulas/task20/171846.svg"
+      }
+    ],
+    "answer": "formulas/task20/171846_answer.svg",
+    "svgFiles": [
+      "formulas/task20/171846.svg",
+      "formulas/task20/171846_answer.svg"
+    ]
+  },
+  {
+    "id": "174643",
+    "title": "Задача 5",
+    "prototype": "Тип 16",
+    "parts": [
+      {
+        "type": "text",
+        "value": "Решите неравенство",
+        "newParagraph": true
+      },
+      {
+        "type": "img",
+        "file": "formulas/task20/174643.svg"
+      }
+    ],
+    "answer": "formulas/task20/174643_answer.svg",
+    "svgFiles": [
+      "formulas/task20/174643.svg",
+      "formulas/task20/174643_answer.svg"
+    ]
+  },
+  {
+    "id": "174644",
+    "title": "Задача 6",
+    "prototype": "Тип 16",
+    "parts": [
+      {
+        "type": "text",
+        "value": "Решите неравенство",
+        "newParagraph": true
+      },
+      {
+        "type": "img",
+        "file": "formulas/task20/174644.svg"
+      }
+    ],
+    "answer": "formulas/task20/174644_answer.svg",
+    "svgFiles": [
+      "formulas/task20/174644.svg",
+      "formulas/task20/174644_answer.svg"
+    ]
+  },
+  {
+    "id": "171850",
+    "title": "Задача 1",
+    "prototype": "Тип 17",
+    "parts": [
+      {
+        "type": "text",
+        "value": "Решите неравенство",
+        "newParagraph": true
+      },
+      {
+        "type": "img",
+        "file": "formulas/task20/171850.svg"
+      }
+    ],
+    "answer": "formulas/task20/171850_answer.svg",
+    "svgFiles": [
+      "formulas/task20/171850.svg",
+      "formulas/task20/171850_answer.svg"
+    ]
+  },
+  {
+    "id": "171852",
+    "title": "Задача 2",
+    "prototype": "Тип 17",
+    "parts": [
+      {
+        "type": "text",
+        "value": "Решите неравенство",
+        "newParagraph": true
+      },
+      {
+        "type": "img",
+        "file": "formulas/task20/171852.svg"
+      }
+    ],
+    "answer": "formulas/task20/171852_answer.svg",
+    "svgFiles": [
+      "formulas/task20/171852.svg",
+      "formulas/task20/171852_answer.svg"
+    ]
+  },
+  {
+    "id": "171853",
+    "title": "Задача 3",
+    "prototype": "Тип 17",
+    "parts": [
+      {
+        "type": "text",
+        "value": "Решите неравенство",
+        "newParagraph": true
+      },
+      {
+        "type": "img",
+        "file": "formulas/task20/171853.svg"
+      }
+    ],
+    "answer": "formulas/task20/171853_answer.svg",
+    "svgFiles": [
+      "formulas/task20/171853.svg",
+      "formulas/task20/171853_answer.svg"
+    ]
+  },
+  {
+    "id": "171858",
+    "title": "Задача 4",
+    "prototype": "Тип 17",
+    "parts": [
+      {
+        "type": "text",
+        "value": "Решите неравенство",
+        "newParagraph": true
+      },
+      {
+        "type": "img",
+        "file": "formulas/task20/171858.svg"
+      }
+    ],
+    "answer": "formulas/task20/171858_answer.svg",
+    "svgFiles": [
+      "formulas/task20/171858.svg",
+      "formulas/task20/171858_answer.svg"
+    ]
+  },
+  {
+    "id": "174645",
+    "title": "Задача 5",
+    "prototype": "Тип 17",
+    "parts": [
+      {
+        "type": "text",
+        "value": "Решите неравенство",
+        "newParagraph": true
+      },
+      {
+        "type": "img",
+        "file": "formulas/task20/174645.svg"
+      }
+    ],
+    "answer": "formulas/task20/174645_answer.svg",
+    "svgFiles": [
+      "formulas/task20/174645.svg",
+      "formulas/task20/174645_answer.svg"
+    ]
+  },
+  {
+    "id": "174646",
+    "title": "Задача 6",
+    "prototype": "Тип 17",
+    "parts": [
+      {
+        "type": "text",
+        "value": "Решите неравенство",
+        "newParagraph": true
+      },
+      {
+        "type": "img",
+        "file": "formulas/task20/174646.svg"
+      }
+    ],
+    "answer": "formulas/task20/174646_answer.svg",
+    "svgFiles": [
+      "formulas/task20/174646.svg",
+      "formulas/task20/174646_answer.svg"
+    ]
+  },
+  {
+    "id": "171886",
+    "title": "Задача 1",
+    "prototype": "Тип 18",
+    "parts": [
+      {
+        "type": "text",
+        "value": "Решите неравенство",
+        "newParagraph": true
+      },
+      {
+        "type": "img",
+        "file": "formulas/task20/171886.svg"
+      }
+    ],
+    "answer": "formulas/task20/171886_answer.svg",
+    "svgFiles": [
+      "formulas/task20/171886.svg",
+      "formulas/task20/171886_answer.svg"
+    ]
+  },
+  {
+    "id": "171887",
+    "title": "Задача 2",
+    "prototype": "Тип 18",
+    "parts": [
+      {
+        "type": "text",
+        "value": "Решите неравенство",
+        "newParagraph": true
+      },
+      {
+        "type": "img",
+        "file": "formulas/task20/171887.svg"
+      }
+    ],
+    "answer": "formulas/task20/171887_answer.svg",
+    "svgFiles": [
+      "formulas/task20/171887.svg",
+      "formulas/task20/171887_answer.svg"
+    ]
+  },
+  {
+    "id": "171888",
+    "title": "Задача 3",
+    "prototype": "Тип 18",
+    "parts": [
+      {
+        "type": "text",
+        "value": "Решите неравенство",
+        "newParagraph": true
+      },
+      {
+        "type": "img",
+        "file": "formulas/task20/171888.svg"
+      }
+    ],
+    "answer": "formulas/task20/171888_answer.svg",
+    "svgFiles": [
+      "formulas/task20/171888.svg",
+      "formulas/task20/171888_answer.svg"
+    ]
+  },
+  {
+    "id": "171889",
+    "title": "Задача 4",
+    "prototype": "Тип 18",
+    "parts": [
+      {
+        "type": "text",
+        "value": "Решите неравенство",
+        "newParagraph": true
+      },
+      {
+        "type": "img",
+        "file": "formulas/task20/171889.svg"
+      }
+    ],
+    "answer": "formulas/task20/171889_answer.svg",
+    "svgFiles": [
+      "formulas/task20/171889.svg",
+      "formulas/task20/171889_answer.svg"
+    ]
+  },
+  {
+    "id": "171893",
+    "title": "Задача 5",
+    "prototype": "Тип 18",
+    "parts": [
+      {
+        "type": "text",
+        "value": "Решите неравенство",
+        "newParagraph": true
+      },
+      {
+        "type": "img",
+        "file": "formulas/task20/171893.svg"
+      }
+    ],
+    "answer": "formulas/task20/171893_answer.svg",
+    "svgFiles": [
+      "formulas/task20/171893.svg",
+      "formulas/task20/171893_answer.svg"
+    ]
+  },
+  {
+    "id": "171894",
+    "title": "Задача 6",
+    "prototype": "Тип 18",
+    "parts": [
+      {
+        "type": "text",
+        "value": "Решите неравенство",
+        "newParagraph": true
+      },
+      {
+        "type": "img",
+        "file": "formulas/task20/171894.svg"
+      }
+    ],
+    "answer": "formulas/task20/171894_answer.svg",
+    "svgFiles": [
+      "formulas/task20/171894.svg",
+      "formulas/task20/171894_answer.svg"
+    ]
+  },
+  {
+    "id": "171878",
+    "title": "Задача 1",
+    "prototype": "Тип 19",
+    "parts": [
+      {
+        "type": "text",
+        "value": "Решите неравенство",
+        "newParagraph": true
+      },
+      {
+        "type": "img",
+        "file": "formulas/task20/171878.svg"
+      }
+    ],
+    "answer": "formulas/task20/171878_answer.svg",
+    "svgFiles": [
+      "formulas/task20/171878.svg",
+      "formulas/task20/171878_answer.svg"
+    ]
+  },
+  {
+    "id": "171882",
+    "title": "Задача 2",
+    "prototype": "Тип 19",
+    "parts": [
+      {
+        "type": "text",
+        "value": "Решите неравенство",
+        "newParagraph": true
+      },
+      {
+        "type": "img",
+        "file": "formulas/task20/171882.svg"
+      }
+    ],
+    "answer": "formulas/task20/171882_answer.svg",
+    "svgFiles": [
+      "formulas/task20/171882.svg",
+      "formulas/task20/171882_answer.svg"
+    ]
+  },
+  {
+    "id": "171883",
+    "title": "Задача 3",
+    "prototype": "Тип 19",
+    "parts": [
+      {
+        "type": "text",
+        "value": "Решите неравенство",
+        "newParagraph": true
+      },
+      {
+        "type": "img",
+        "file": "formulas/task20/171883.svg"
+      }
+    ],
+    "answer": "formulas/task20/171883_answer.svg",
+    "svgFiles": [
+      "formulas/task20/171883.svg",
+      "formulas/task20/171883_answer.svg"
+    ]
+  },
+  {
+    "id": "174647",
+    "title": "Задача 4",
+    "prototype": "Тип 19",
+    "parts": [
+      {
+        "type": "text",
+        "value": "Решите неравенство",
+        "newParagraph": true
+      },
+      {
+        "type": "img",
+        "file": "formulas/task20/174647.svg"
+      }
+    ],
+    "answer": "formulas/task20/174647_answer.svg",
+    "svgFiles": [
+      "formulas/task20/174647.svg",
+      "formulas/task20/174647_answer.svg"
+    ]
+  },
+  {
+    "id": "174648",
+    "title": "Задача 5",
+    "prototype": "Тип 19",
+    "parts": [
+      {
+        "type": "text",
+        "value": "Решите неравенство",
+        "newParagraph": true
+      },
+      {
+        "type": "img",
+        "file": "formulas/task20/174648.svg"
+      }
+    ],
+    "answer": "formulas/task20/174648_answer.svg",
+    "svgFiles": [
+      "formulas/task20/174648.svg",
+      "formulas/task20/174648_answer.svg"
+    ]
+  },
+  {
+    "id": "174649",
+    "title": "Задача 6",
+    "prototype": "Тип 19",
+    "parts": [
+      {
+        "type": "text",
+        "value": "Решите неравенство",
+        "newParagraph": true
+      },
+      {
+        "type": "img",
+        "file": "formulas/task20/174649.svg"
+      }
+    ],
+    "answer": "formulas/task20/174649_answer.svg",
+    "svgFiles": [
+      "formulas/task20/174649.svg",
+      "formulas/task20/174649_answer.svg"
+    ]
+  },
+  {
+    "id": "171880",
+    "title": "Задача 1",
+    "prototype": "Тип 20",
+    "parts": [
+      {
+        "type": "text",
+        "value": "Решите неравенство",
+        "newParagraph": true
+      },
+      {
+        "type": "img",
+        "file": "formulas/task20/171880.svg"
+      }
+    ],
+    "answer": "formulas/task20/171880_answer.svg",
+    "svgFiles": [
+      "formulas/task20/171880.svg",
+      "formulas/task20/171880_answer.svg"
+    ]
+  },
+  {
+    "id": "174650",
+    "title": "Задача 2",
+    "prototype": "Тип 20",
+    "parts": [
+      {
+        "type": "text",
+        "value": "Решите неравенство",
+        "newParagraph": true
+      },
+      {
+        "type": "img",
+        "file": "formulas/task20/174650.svg"
+      }
+    ],
+    "answer": "formulas/task20/174650_answer.svg",
+    "svgFiles": [
+      "formulas/task20/174650.svg",
+      "formulas/task20/174650_answer.svg"
+    ]
+  },
+  {
+    "id": "174651",
+    "title": "Задача 3",
+    "prototype": "Тип 20",
+    "parts": [
+      {
+        "type": "text",
+        "value": "Решите неравенство",
+        "newParagraph": true
+      },
+      {
+        "type": "img",
+        "file": "formulas/task20/174651.svg"
+      }
+    ],
+    "answer": "formulas/task20/174651_answer.svg",
+    "svgFiles": [
+      "formulas/task20/174651.svg",
+      "formulas/task20/174651_answer.svg"
+    ]
+  },
+  {
+    "id": "174652",
+    "title": "Задача 4",
+    "prototype": "Тип 20",
+    "parts": [
+      {
+        "type": "text",
+        "value": "Решите неравенство",
+        "newParagraph": true
+      },
+      {
+        "type": "img",
+        "file": "formulas/task20/174652.svg"
+      }
+    ],
+    "answer": "formulas/task20/174652_answer.svg",
+    "svgFiles": [
+      "formulas/task20/174652.svg",
+      "formulas/task20/174652_answer.svg"
+    ]
+  },
+  {
+    "id": "174653",
+    "title": "Задача 5",
+    "prototype": "Тип 20",
+    "parts": [
+      {
+        "type": "text",
+        "value": "Решите неравенство",
+        "newParagraph": true
+      },
+      {
+        "type": "img",
+        "file": "formulas/task20/174653.svg"
+      }
+    ],
+    "answer": "formulas/task20/174653_answer.svg",
+    "svgFiles": [
+      "formulas/task20/174653.svg",
+      "formulas/task20/174653_answer.svg"
+    ]
+  },
+  {
+    "id": "174654",
+    "title": "Задача 6",
+    "prototype": "Тип 20",
+    "parts": [
+      {
+        "type": "text",
+        "value": "Решите неравенство",
+        "newParagraph": true
+      },
+      {
+        "type": "img",
+        "file": "formulas/task20/174654.svg"
+      }
+    ],
+    "answer": "formulas/task20/174654_answer.svg",
+    "svgFiles": [
+      "formulas/task20/174654.svg",
+      "formulas/task20/174654_answer.svg"
+    ]
+  },
+  {
+    "id": "171869",
+    "title": "Задача 1",
+    "prototype": "Тип 21",
+    "parts": [
+      {
+        "type": "text",
+        "value": "Решите неравенство",
+        "newParagraph": true
+      },
+      {
+        "type": "img",
+        "file": "formulas/task20/171869.svg"
+      }
+    ],
+    "answer": "formulas/task20/171869_answer.svg",
+    "svgFiles": [
+      "formulas/task20/171869.svg",
+      "formulas/task20/171869_answer.svg"
+    ]
+  },
+  {
+    "id": "171871",
+    "title": "Задача 2",
+    "prototype": "Тип 21",
+    "parts": [
+      {
+        "type": "text",
+        "value": "Решите неравенство",
+        "newParagraph": true
+      },
+      {
+        "type": "img",
+        "file": "formulas/task20/171871.svg"
+      }
+    ],
+    "answer": "formulas/task20/171871_answer.svg",
+    "svgFiles": [
+      "formulas/task20/171871.svg",
+      "formulas/task20/171871_answer.svg"
+    ]
+  },
+  {
+    "id": "171873",
+    "title": "Задача 3",
+    "prototype": "Тип 21",
+    "parts": [
+      {
+        "type": "text",
+        "value": "Решите неравенство",
+        "newParagraph": true
+      },
+      {
+        "type": "img",
+        "file": "formulas/task20/171873.svg"
+      }
+    ],
+    "answer": "formulas/task20/171873_answer.svg",
+    "svgFiles": [
+      "formulas/task20/171873.svg",
+      "formulas/task20/171873_answer.svg"
+    ]
+  },
+  {
+    "id": "171874",
+    "title": "Задача 4",
+    "prototype": "Тип 21",
+    "parts": [
+      {
+        "type": "text",
+        "value": "Решите неравенство",
+        "newParagraph": true
+      },
+      {
+        "type": "img",
+        "file": "formulas/task20/171874.svg"
+      }
+    ],
+    "answer": "formulas/task20/171874_answer.svg",
+    "svgFiles": [
+      "formulas/task20/171874.svg",
+      "formulas/task20/171874_answer.svg"
+    ]
+  },
+  {
+    "id": "174655",
+    "title": "Задача 5",
+    "prototype": "Тип 21",
+    "parts": [
+      {
+        "type": "text",
+        "value": "Решите неравенство",
+        "newParagraph": true
+      },
+      {
+        "type": "img",
+        "file": "formulas/task20/174655.svg"
+      }
+    ],
+    "answer": "formulas/task20/174655_answer.svg",
+    "svgFiles": [
+      "formulas/task20/174655.svg",
+      "formulas/task20/174655_answer.svg"
+    ]
+  },
+  {
+    "id": "174656",
+    "title": "Задача 6",
+    "prototype": "Тип 21",
+    "parts": [
+      {
+        "type": "text",
+        "value": "Решите неравенство",
+        "newParagraph": true
+      },
+      {
+        "type": "img",
+        "file": "formulas/task20/174656.svg"
+      }
+    ],
+    "answer": "formulas/task20/174656_answer.svg",
+    "svgFiles": [
+      "formulas/task20/174656.svg",
+      "formulas/task20/174656_answer.svg"
+    ]
+  },
+  {
+    "id": "171870",
+    "title": "Задача 1",
+    "prototype": "Тип 22",
+    "parts": [
+      {
+        "type": "text",
+        "value": "Решите неравенство",
+        "newParagraph": true
+      },
+      {
+        "type": "img",
+        "file": "formulas/task20/171870.svg"
+      }
+    ],
+    "answer": "formulas/task20/171870_answer.svg",
+    "svgFiles": [
+      "formulas/task20/171870.svg",
+      "formulas/task20/171870_answer.svg"
+    ]
+  },
+  {
+    "id": "171872",
+    "title": "Задача 2",
+    "prototype": "Тип 22",
+    "parts": [
+      {
+        "type": "text",
+        "value": "Решите неравенство",
+        "newParagraph": true
+      },
+      {
+        "type": "img",
+        "file": "formulas/task20/171872.svg"
+      }
+    ],
+    "answer": "formulas/task20/171872_answer.svg",
+    "svgFiles": [
+      "formulas/task20/171872.svg",
+      "formulas/task20/171872_answer.svg"
+    ]
+  },
+  {
+    "id": "171875",
+    "title": "Задача 3",
+    "prototype": "Тип 22",
+    "parts": [
+      {
+        "type": "text",
+        "value": "Решите неравенство",
+        "newParagraph": true
+      },
+      {
+        "type": "img",
+        "file": "formulas/task20/171875.svg"
+      }
+    ],
+    "answer": "formulas/task20/171875_answer.svg",
+    "svgFiles": [
+      "formulas/task20/171875.svg",
+      "formulas/task20/171875_answer.svg"
+    ]
+  },
+  {
+    "id": "171876",
+    "title": "Задача 4",
+    "prototype": "Тип 22",
+    "parts": [
+      {
+        "type": "text",
+        "value": "Решите неравенство",
+        "newParagraph": true
+      },
+      {
+        "type": "img",
+        "file": "formulas/task20/171876.svg"
+      }
+    ],
+    "answer": "formulas/task20/171876_answer.svg",
+    "svgFiles": [
+      "formulas/task20/171876.svg",
+      "formulas/task20/171876_answer.svg"
+    ]
+  },
+  {
+    "id": "174657",
+    "title": "Задача 5",
+    "prototype": "Тип 22",
+    "parts": [
+      {
+        "type": "text",
+        "value": "Решите неравенство",
+        "newParagraph": true
+      },
+      {
+        "type": "img",
+        "file": "formulas/task20/174657.svg"
+      }
+    ],
+    "answer": "formulas/task20/174657_answer.svg",
+    "svgFiles": [
+      "formulas/task20/174657.svg",
+      "formulas/task20/174657_answer.svg"
+    ]
+  },
+  {
+    "id": "174658",
+    "title": "Задача 6",
+    "prototype": "Тип 22",
+    "parts": [
+      {
+        "type": "text",
+        "value": "Решите неравенство",
+        "newParagraph": true
+      },
+      {
+        "type": "img",
+        "file": "formulas/task20/174658.svg"
+      }
+    ],
+    "answer": "formulas/task20/174658_answer.svg",
+    "svgFiles": [
+      "formulas/task20/174658.svg",
+      "formulas/task20/174658_answer.svg"
+    ]
+  },
+  {
+    "id": "171879",
+    "title": "Задача 1",
+    "prototype": "Тип 23",
+    "parts": [
+      {
+        "type": "text",
+        "value": "Решите неравенство",
+        "newParagraph": true
+      },
+      {
+        "type": "img",
+        "file": "formulas/task20/171879.svg"
+      }
+    ],
+    "answer": "formulas/task20/171879_answer.svg",
+    "svgFiles": [
+      "formulas/task20/171879.svg",
+      "formulas/task20/171879_answer.svg"
+    ]
+  },
+  {
+    "id": "174659",
+    "title": "Задача 2",
+    "prototype": "Тип 23",
+    "parts": [
+      {
+        "type": "text",
+        "value": "Решите неравенство",
+        "newParagraph": true
+      },
+      {
+        "type": "img",
+        "file": "formulas/task20/174659.svg"
+      }
+    ],
+    "answer": "formulas/task20/174659_answer.svg",
+    "svgFiles": [
+      "formulas/task20/174659.svg",
+      "formulas/task20/174659_answer.svg"
+    ]
+  },
+  {
+    "id": "174660",
+    "title": "Задача 3",
+    "prototype": "Тип 23",
+    "parts": [
+      {
+        "type": "text",
+        "value": "Решите неравенство",
+        "newParagraph": true
+      },
+      {
+        "type": "img",
+        "file": "formulas/task20/174660.svg"
+      }
+    ],
+    "answer": "formulas/task20/174660_answer.svg",
+    "svgFiles": [
+      "formulas/task20/174660.svg",
+      "formulas/task20/174660_answer.svg"
+    ]
+  },
+  {
+    "id": "174662",
+    "title": "Задача 4",
+    "prototype": "Тип 23",
+    "parts": [
+      {
+        "type": "text",
+        "value": "Решите неравенство",
+        "newParagraph": true
+      },
+      {
+        "type": "img",
+        "file": "formulas/task20/174662.svg"
+      }
+    ],
+    "answer": "formulas/task20/174662_answer.svg",
+    "svgFiles": [
+      "formulas/task20/174662.svg",
+      "formulas/task20/174662_answer.svg"
+    ]
+  },
+  {
+    "id": "174663",
+    "title": "Задача 5",
+    "prototype": "Тип 23",
+    "parts": [
+      {
+        "type": "text",
+        "value": "Решите неравенство",
+        "newParagraph": true
+      },
+      {
+        "type": "img",
+        "file": "formulas/task20/174663.svg"
+      }
+    ],
+    "answer": "formulas/task20/174663_answer.svg",
+    "svgFiles": [
+      "formulas/task20/174663.svg",
+      "formulas/task20/174663_answer.svg"
+    ]
+  },
+  {
+    "id": "174664",
+    "title": "Задача 6",
+    "prototype": "Тип 23",
+    "parts": [
+      {
+        "type": "text",
+        "value": "Решите неравенство",
+        "newParagraph": true
+      },
+      {
+        "type": "img",
+        "file": "formulas/task20/174664.svg"
+      }
+    ],
+    "answer": "formulas/task20/174664_answer.svg",
+    "svgFiles": [
+      "formulas/task20/174664.svg",
+      "formulas/task20/174664_answer.svg"
+    ]
+  },
+  {
+    "id": "171877",
+    "title": "Задача 1",
+    "prototype": "Тип 24",
+    "parts": [
+      {
+        "type": "text",
+        "value": "Решите неравенство",
+        "newParagraph": true
+      },
+      {
+        "type": "img",
+        "file": "formulas/task20/171877.svg"
+      }
+    ],
+    "answer": "formulas/task20/171877_answer.svg",
+    "svgFiles": [
+      "formulas/task20/171877.svg",
+      "formulas/task20/171877_answer.svg"
+    ]
+  },
+  {
+    "id": "171885",
+    "title": "Задача 2",
+    "prototype": "Тип 24",
+    "parts": [
+      {
+        "type": "text",
+        "value": "Решите неравенство",
+        "newParagraph": true
+      },
+      {
+        "type": "img",
+        "file": "formulas/task20/171885.svg"
+      }
+    ],
+    "answer": "formulas/task20/171885_answer.svg",
+    "svgFiles": [
+      "formulas/task20/171885.svg",
+      "formulas/task20/171885_answer.svg"
+    ]
+  },
+  {
+    "id": "174666",
+    "title": "Задача 3",
+    "prototype": "Тип 24",
+    "parts": [
+      {
+        "type": "text",
+        "value": "Решите неравенство",
+        "newParagraph": true
+      },
+      {
+        "type": "img",
+        "file": "formulas/task20/174666.svg"
+      }
+    ],
+    "answer": "formulas/task20/174666_answer.svg",
+    "svgFiles": [
+      "formulas/task20/174666.svg",
+      "formulas/task20/174666_answer.svg"
+    ]
+  },
+  {
+    "id": "174667",
+    "title": "Задача 4",
+    "prototype": "Тип 24",
+    "parts": [
+      {
+        "type": "text",
+        "value": "Решите неравенство",
+        "newParagraph": true
+      },
+      {
+        "type": "img",
+        "file": "formulas/task20/174667.svg"
+      }
+    ],
+    "answer": "formulas/task20/174667_answer.svg",
+    "svgFiles": [
+      "formulas/task20/174667.svg",
+      "formulas/task20/174667_answer.svg"
+    ]
+  },
+  {
+    "id": "174668",
+    "title": "Задача 5",
+    "prototype": "Тип 24",
+    "parts": [
+      {
+        "type": "text",
+        "value": "Решите неравенство",
+        "newParagraph": true
+      },
+      {
+        "type": "img",
+        "file": "formulas/task20/174668.svg"
+      }
+    ],
+    "answer": "formulas/task20/174668_answer.svg",
+    "svgFiles": [
+      "formulas/task20/174668.svg",
+      "formulas/task20/174668_answer.svg"
+    ]
+  },
+  {
+    "id": "174669",
+    "title": "Задача 6",
+    "prototype": "Тип 24",
+    "parts": [
+      {
+        "type": "text",
+        "value": "Решите неравенство",
+        "newParagraph": true
+      },
+      {
+        "type": "img",
+        "file": "formulas/task20/174669.svg"
+      }
+    ],
+    "answer": "formulas/task20/174669_answer.svg",
+    "svgFiles": [
+      "formulas/task20/174669.svg",
+      "formulas/task20/174669_answer.svg"
+    ]
+  },
+  {
+    "id": "171884",
+    "title": "Задача 1",
+    "prototype": "Тип 25",
+    "parts": [
+      {
+        "type": "text",
+        "value": "Решите неравенство",
+        "newParagraph": true
+      },
+      {
+        "type": "img",
+        "file": "formulas/task20/171884.svg"
+      }
+    ],
+    "answer": "formulas/task20/171884_answer.svg",
+    "svgFiles": [
+      "formulas/task20/171884.svg",
+      "formulas/task20/171884_answer.svg"
+    ]
+  },
+  {
+    "id": "174670",
+    "title": "Задача 2",
+    "prototype": "Тип 25",
+    "parts": [
+      {
+        "type": "text",
+        "value": "Решите неравенство",
+        "newParagraph": true
+      },
+      {
+        "type": "img",
+        "file": "formulas/task20/174670.svg"
+      }
+    ],
+    "answer": "formulas/task20/174670_answer.svg",
+    "svgFiles": [
+      "formulas/task20/174670.svg",
+      "formulas/task20/174670_answer.svg"
+    ]
+  },
+  {
+    "id": "174671",
+    "title": "Задача 3",
+    "prototype": "Тип 25",
+    "parts": [
+      {
+        "type": "text",
+        "value": "Решите неравенство",
+        "newParagraph": true
+      },
+      {
+        "type": "img",
+        "file": "formulas/task20/174671.svg"
+      }
+    ],
+    "answer": "formulas/task20/174671_answer.svg",
+    "svgFiles": [
+      "formulas/task20/174671.svg",
+      "formulas/task20/174671_answer.svg"
+    ]
+  },
+  {
+    "id": "174672",
+    "title": "Задача 4",
+    "prototype": "Тип 25",
+    "parts": [
+      {
+        "type": "text",
+        "value": "Решите неравенство",
+        "newParagraph": true
+      },
+      {
+        "type": "img",
+        "file": "formulas/task20/174672.svg"
+      }
+    ],
+    "answer": "formulas/task20/174672_answer.svg",
+    "svgFiles": [
+      "formulas/task20/174672.svg",
+      "formulas/task20/174672_answer.svg"
+    ]
+  },
+  {
+    "id": "174673",
+    "title": "Задача 5",
+    "prototype": "Тип 25",
+    "parts": [
+      {
+        "type": "text",
+        "value": "Решите неравенство",
+        "newParagraph": true
+      },
+      {
+        "type": "img",
+        "file": "formulas/task20/174673.svg"
+      }
+    ],
+    "answer": "formulas/task20/174673_answer.svg",
+    "svgFiles": [
+      "formulas/task20/174673.svg",
+      "formulas/task20/174673_answer.svg"
+    ]
+  },
+  {
+    "id": "174674",
+    "title": "Задача 6",
+    "prototype": "Тип 25",
+    "parts": [
+      {
+        "type": "text",
+        "value": "Решите неравенство",
+        "newParagraph": true
+      },
+      {
+        "type": "img",
+        "file": "formulas/task20/174674.svg"
+      }
+    ],
+    "answer": "formulas/task20/174674_answer.svg",
+    "svgFiles": [
+      "formulas/task20/174674.svg",
+      "formulas/task20/174674_answer.svg"
+    ]
+  }
+]

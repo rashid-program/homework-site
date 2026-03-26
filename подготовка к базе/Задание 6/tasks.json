@@ -1,0 +1,731 @@
+[
+  {
+    "id": "85093",
+    "title": "Задача 1",
+    "prototype": "Тип 1",
+    "text": "Найдите значение выражения",
+    "formulaSrc": "https://3.shkolkovo.online/api/latex-service/v1/GetSession/168400/index-23b08a04cdbe69567c861ce24e8bf9e1.svg",
+    "answer": "1,55",
+    "svgFile": "formulas/task6/85093.svg"
+  },
+  {
+    "id": "85095",
+    "title": "Задача 2",
+    "prototype": "Тип 1",
+    "text": "Найдите значение выражения",
+    "formulaSrc": "https://3.shkolkovo.online/api/latex-service/v1/GetSession/168404/index-fdc757400c04319207cfdd267bf8efdc.svg",
+    "answer": "1,6",
+    "svgFile": "formulas/task6/85095.svg"
+  },
+  {
+    "id": "85098",
+    "title": "Задача 3",
+    "prototype": "Тип 1",
+    "text": "Найдите значение выражения",
+    "formulaSrc": "https://3.shkolkovo.online/api/latex-service/v1/GetSession/168412/index-fb0a67280bf1cd076dba0f77d278f849.svg",
+    "answer": "1,16",
+    "svgFile": "formulas/task6/85098.svg"
+  },
+  {
+    "id": "106824",
+    "title": "Задача 4",
+    "prototype": "Тип 1",
+    "text": "Найдите значение выражения",
+    "formulaSrc": "https://3.shkolkovo.online/api/latex-service/v1/GetSession/221167/index-bbbdd9c67f5a65bffccf134a2ff88976.svg",
+    "answer": "1,26",
+    "svgFile": "formulas/task6/106824.svg"
+  },
+  {
+    "id": "106825",
+    "title": "Задача 5",
+    "prototype": "Тип 1",
+    "text": "Найдите значение выражения",
+    "formulaSrc": "https://3.shkolkovo.online/api/latex-service/v1/GetSession/221169/index-761bdb38ce96b2d0e9fa7e246c6f71e2.svg",
+    "answer": "2,1",
+    "svgFile": "formulas/task6/106825.svg"
+  },
+  {
+    "id": "106826",
+    "title": "Задача 6",
+    "prototype": "Тип 1",
+    "text": "Найдите значение выражения",
+    "formulaSrc": "https://3.shkolkovo.online/api/latex-service/v1/GetSession/221171/index-f1ebc740437820bb9198ee045c30e3ab.svg",
+    "answer": "2,05",
+    "svgFile": "formulas/task6/106826.svg"
+  },
+  {
+    "id": "106827",
+    "title": "Задача 7",
+    "prototype": "Тип 1",
+    "text": "Найдите значение выражения",
+    "formulaSrc": "https://3.shkolkovo.online/api/latex-service/v1/GetSession/221173/index-51731868fad8059a7ed7522ba4d20066.svg",
+    "answer": "1,9",
+    "svgFile": "formulas/task6/106827.svg"
+  },
+  {
+    "id": "106828",
+    "title": "Задача 8",
+    "prototype": "Тип 1",
+    "text": "Найдите значение выражения",
+    "formulaSrc": "https://3.shkolkovo.online/api/latex-service/v1/GetSession/221175/index-599477a10a8cfcd6df49e75441cc53fc.svg",
+    "answer": "0,9",
+    "svgFile": "formulas/task6/106828.svg"
+  },
+  {
+    "id": "106829",
+    "title": "Задача 9",
+    "prototype": "Тип 1",
+    "text": "Найдите значение выражения",
+    "formulaSrc": "https://3.shkolkovo.online/api/latex-service/v1/GetSession/221177/index-3542fc98d17e068c0570b1c23f4a130c.svg",
+    "answer": "0,52",
+    "svgFile": "formulas/task6/106829.svg"
+  },
+  {
+    "id": "106830",
+    "title": "Задача 10",
+    "prototype": "Тип 1",
+    "text": "Найдите значение выражения",
+    "formulaSrc": "https://3.shkolkovo.online/api/latex-service/v1/GetSession/221179/index-3f116516e81a67c52c721b2f7d8dadd3.svg",
+    "answer": "1,15",
+    "svgFile": "formulas/task6/106830.svg"
+  },
+  {
+    "id": "85088",
+    "title": "Задача 1",
+    "prototype": "Тип 2",
+    "text": "Найдите значение выражения",
+    "formulaSrc": "https://3.shkolkovo.online/api/latex-service/v1/GetSession/168390/index-bf7b3f82f91aa3715f0e4324543b8fdf.svg",
+    "answer": "-0,62",
+    "svgFile": "formulas/task6/85088.svg"
+  },
+  {
+    "id": "85091",
+    "title": "Задача 2",
+    "prototype": "Тип 2",
+    "text": "Найдите значение выражения",
+    "formulaSrc": "https://3.shkolkovo.online/api/latex-service/v1/GetSession/168395/index-b8700e358f95f4f3007e735f1a0e02c5.svg",
+    "answer": "-2,3",
+    "svgFile": "formulas/task6/85091.svg"
+  },
+  {
+    "id": "85097",
+    "title": "Задача 3",
+    "prototype": "Тип 2",
+    "text": "Найдите значение выражения",
+    "formulaSrc": "https://3.shkolkovo.online/api/latex-service/v1/GetSession/168409/index-7e138c115a67d1fa5ab642aa07d64ec6.svg",
+    "answer": "-1,95",
+    "svgFile": "formulas/task6/85097.svg"
+  },
+  {
+    "id": "106831",
+    "title": "Задача 4",
+    "prototype": "Тип 2",
+    "text": "Найдите значение выражения",
+    "formulaSrc": "https://3.shkolkovo.online/api/latex-service/v1/GetSession/221181/index-10e43957672e7b64b67d845ebd9f12c6.svg",
+    "answer": "-0,4",
+    "svgFile": "formulas/task6/106831.svg"
+  },
+  {
+    "id": "106832",
+    "title": "Задача 5",
+    "prototype": "Тип 2",
+    "text": "Найдите значение выражения",
+    "formulaSrc": "https://3.shkolkovo.online/api/latex-service/v1/GetSession/221183/index-b033405c1e5c8b9a7d785ee6540e9ed0.svg",
+    "answer": "-0,68",
+    "svgFile": "formulas/task6/106832.svg"
+  },
+  {
+    "id": "106833",
+    "title": "Задача 6",
+    "prototype": "Тип 2",
+    "text": "Найдите значение выражения",
+    "formulaSrc": "https://3.shkolkovo.online/api/latex-service/v1/GetSession/221185/index-d6158b5f71fb4e5e77ef3eeb2f65538b.svg",
+    "answer": "-1,05",
+    "svgFile": "formulas/task6/106833.svg"
+  },
+  {
+    "id": "106834",
+    "title": "Задача 7",
+    "prototype": "Тип 2",
+    "text": "Найдите значение выражения",
+    "formulaSrc": "https://3.shkolkovo.online/api/latex-service/v1/GetSession/221187/index-b034688bc54fd2f5c567bd418d3fd798.svg",
+    "answer": "-0,1",
+    "svgFile": "formulas/task6/106834.svg"
+  },
+  {
+    "id": "106835",
+    "title": "Задача 8",
+    "prototype": "Тип 2",
+    "text": "Найдите значение выражения",
+    "formulaSrc": "https://3.shkolkovo.online/api/latex-service/v1/GetSession/221189/index-7f824eeecee8da8b2bc83976c54e3d62.svg",
+    "answer": "0,24",
+    "svgFile": "formulas/task6/106835.svg"
+  },
+  {
+    "id": "106836",
+    "title": "Задача 9",
+    "prototype": "Тип 2",
+    "text": "Найдите значение выражения",
+    "formulaSrc": "https://3.shkolkovo.online/api/latex-service/v1/GetSession/221191/index-c20d3eb2815cb0c77ba1a273d93bb771.svg",
+    "answer": "-4,5",
+    "svgFile": "formulas/task6/106836.svg"
+  },
+  {
+    "id": "106837",
+    "title": "Задача 10",
+    "prototype": "Тип 2",
+    "text": "Найдите значение выражения",
+    "formulaSrc": "https://3.shkolkovo.online/api/latex-service/v1/GetSession/221193/index-e8a6dbe41c084db10d0d3e1638fdd70b.svg",
+    "answer": "-1,15",
+    "svgFile": "formulas/task6/106837.svg"
+  },
+  {
+    "id": "106918",
+    "title": "Задача 1",
+    "prototype": "Тип 3",
+    "text": "Представьте выражение  в виде дроби со знаменателем 70. В ответ\nзапишите числитель полученной дроби.",
+    "formulaSrc": "https://3.shkolkovo.online/api/latex-service/v1/GetSession/221351/index-b4834c76e8ebfd02d00f5cf57a4ab607.svg",
+    "answer": "22",
+    "svgFile": "formulas/task6/106918.svg"
+  },
+  {
+    "id": "85100",
+    "title": "Задача 1",
+    "prototype": "Тип 4",
+    "text": "Найдите значение выражения",
+    "formulaSrc": "https://3.shkolkovo.online/api/latex-service/v1/GetSession/168416/index-ac8937f848cf3027f784cf84f209898c.svg",
+    "answer": "10,5",
+    "svgFile": "formulas/task6/85100.svg"
+  },
+  {
+    "id": "85103",
+    "title": "Задача 2",
+    "prototype": "Тип 4",
+    "text": "Найдите значение выражения",
+    "formulaSrc": "https://3.shkolkovo.online/api/latex-service/v1/GetSession/168422/index-2bb3b000e70a34f776bd8384cf29ad14.svg",
+    "answer": "1,2",
+    "svgFile": "formulas/task6/85103.svg"
+  },
+  {
+    "id": "85104",
+    "title": "Задача 3",
+    "prototype": "Тип 4",
+    "text": "Найдите значение выражения",
+    "formulaSrc": "https://3.shkolkovo.online/api/latex-service/v1/GetSession/168424/index-9442b4b4a05d00acd78915b271e2be40.svg",
+    "answer": "4,5",
+    "svgFile": "formulas/task6/85104.svg"
+  },
+  {
+    "id": "115479",
+    "title": "Задача 4",
+    "prototype": "Тип 4",
+    "text": "Найдите значение выражения",
+    "formulaSrc": "https://3.shkolkovo.online/api/latex-service/v1/GetSession/237041/index-d900531923f23984e338da10dab9c028.svg",
+    "answer": "1,8",
+    "svgFile": "formulas/task6/115479.svg"
+  },
+  {
+    "id": "115480",
+    "title": "Задача 5",
+    "prototype": "Тип 4",
+    "text": "Найдите значение выражения",
+    "formulaSrc": "https://3.shkolkovo.online/api/latex-service/v1/GetSession/237043/index-360f7fccc029b6bd2eb1a28a4cea03ca.svg",
+    "answer": "2,1",
+    "svgFile": "formulas/task6/115480.svg"
+  },
+  {
+    "id": "115481",
+    "title": "Задача 6",
+    "prototype": "Тип 4",
+    "text": "Найдите значение выражения",
+    "formulaSrc": "https://3.shkolkovo.online/api/latex-service/v1/GetSession/237045/index-e122aa8f2c98462ad9759f8b05d9198d.svg",
+    "answer": "7,5",
+    "svgFile": "formulas/task6/115481.svg"
+  },
+  {
+    "id": "115487",
+    "title": "Задача 7",
+    "prototype": "Тип 4",
+    "text": "Найдите значение выражения",
+    "formulaSrc": "https://3.shkolkovo.online/api/latex-service/v1/GetSession/237058/index-56f341ff2b410e8aa23806c36d8f1f4d.svg",
+    "answer": "0,45",
+    "svgFile": "formulas/task6/115487.svg"
+  },
+  {
+    "id": "115491",
+    "title": "Задача 8",
+    "prototype": "Тип 4",
+    "text": "Найдите значение выражения",
+    "formulaSrc": "https://3.shkolkovo.online/api/latex-service/v1/GetSession/237069/index-828ee7302d732866960e22cdb257d972.svg",
+    "answer": "3,75",
+    "svgFile": "formulas/task6/115491.svg"
+  },
+  {
+    "id": "115497",
+    "title": "Задача 9",
+    "prototype": "Тип 4",
+    "text": "Найдите значение выражения",
+    "formulaSrc": "https://3.shkolkovo.online/api/latex-service/v1/GetSession/237078/index-a1a8c6adc50489047e645a9ba96f2754.svg",
+    "answer": "0,48",
+    "svgFile": "formulas/task6/115497.svg"
+  },
+  {
+    "id": "121009",
+    "title": "Задача 10",
+    "prototype": "Тип 4",
+    "text": "Найдите значение выражения",
+    "formulaSrc": "https://3.shkolkovo.online/api/latex-service/v1/GetSession/248649/index-66b700ae7f7962d861e6ed491327ead9.svg",
+    "answer": "0,9",
+    "svgFile": "formulas/task6/121009.svg"
+  },
+  {
+    "id": "85105",
+    "title": "Задача 1",
+    "prototype": "Тип 5",
+    "text": "Найдите значение выражения",
+    "formulaSrc": "https://3.shkolkovo.online/api/latex-service/v1/GetSession/168426/index-e4b2422c96ac93edc26ae90b7035a0a9.svg",
+    "answer": "5,25",
+    "svgFile": "formulas/task6/85105.svg"
+  },
+  {
+    "id": "85106",
+    "title": "Задача 2",
+    "prototype": "Тип 5",
+    "text": "Найдите значение выражения",
+    "formulaSrc": "https://3.shkolkovo.online/api/latex-service/v1/GetSession/168428/index-19dcc870e7ac94cba4632676b5aacc7d.svg",
+    "answer": "8,75",
+    "svgFile": "formulas/task6/85106.svg"
+  },
+  {
+    "id": "85107",
+    "title": "Задача 3",
+    "prototype": "Тип 5",
+    "text": "Найдите значение выражения",
+    "formulaSrc": "https://3.shkolkovo.online/api/latex-service/v1/GetSession/168430/index-219f606ca4f7eadb59696046fe336512.svg",
+    "answer": "2,8",
+    "svgFile": "formulas/task6/85107.svg"
+  },
+  {
+    "id": "85108",
+    "title": "Задача 4",
+    "prototype": "Тип 5",
+    "text": "Найдите значение выражения",
+    "formulaSrc": "https://3.shkolkovo.online/api/latex-service/v1/GetSession/168432/index-4dc9ca07bee0661e8bfb0ca1233f3669.svg",
+    "answer": "4,9",
+    "svgFile": "formulas/task6/85108.svg"
+  },
+  {
+    "id": "115500",
+    "title": "Задача 5",
+    "prototype": "Тип 5",
+    "text": "Найдите значение выражения",
+    "formulaSrc": "https://3.shkolkovo.online/api/latex-service/v1/GetSession/237086/index-fd153762c632a60200fb2bc653aa2bad.svg",
+    "answer": "0,8",
+    "svgFile": "formulas/task6/115500.svg"
+  },
+  {
+    "id": "115504",
+    "title": "Задача 6",
+    "prototype": "Тип 5",
+    "text": "Найдите значение выражения",
+    "formulaSrc": "https://3.shkolkovo.online/api/latex-service/v1/GetSession/237091/index-cb536d53f95af1a97662493ee6b9ede4.svg",
+    "answer": "0,32",
+    "svgFile": "formulas/task6/115504.svg"
+  },
+  {
+    "id": "115506",
+    "title": "Задача 7",
+    "prototype": "Тип 5",
+    "text": "Найдите значение выражения",
+    "formulaSrc": "https://3.shkolkovo.online/api/latex-service/v1/GetSession/237099/index-cf993bfb990a365211b2ade8ac2c7cf1.svg",
+    "answer": "17,5",
+    "svgFile": "formulas/task6/115506.svg"
+  },
+  {
+    "id": "115509",
+    "title": "Задача 8",
+    "prototype": "Тип 5",
+    "text": "Найдите значение выражения",
+    "formulaSrc": "https://3.shkolkovo.online/api/latex-service/v1/GetSession/237104/index-3b409d60bc0300dab669a488a6fdf580.svg",
+    "answer": "4,5",
+    "svgFile": "formulas/task6/115509.svg"
+  },
+  {
+    "id": "115512",
+    "title": "Задача 9",
+    "prototype": "Тип 5",
+    "text": "Найдите значение выражения",
+    "formulaSrc": "https://3.shkolkovo.online/api/latex-service/v1/GetSession/237110/index-5c66b89af033d65ba0280b9d9ffa99ba.svg",
+    "answer": "1,05",
+    "svgFile": "formulas/task6/115512.svg"
+  },
+  {
+    "id": "115515",
+    "title": "Задача 10",
+    "prototype": "Тип 5",
+    "text": "Найдите значение выражения",
+    "formulaSrc": "https://3.shkolkovo.online/api/latex-service/v1/GetSession/237117/index-7c8a6cc13934c3e8a59acc4af6af5509.svg",
+    "answer": "3,3",
+    "svgFile": "formulas/task6/115515.svg"
+  },
+  {
+    "id": "85111",
+    "title": "Задача 1",
+    "prototype": "Тип 6",
+    "text": "Найдите значение выражения  6,8+ 2,6.",
+    "formulaSrc": null,
+    "answer": "9,4",
+    "svgFile": null
+  },
+  {
+    "id": "85112",
+    "title": "Задача 2",
+    "prototype": "Тип 6",
+    "text": "Найдите значение выражения  8,7+ 4,6.",
+    "formulaSrc": null,
+    "answer": "13,3",
+    "svgFile": null
+  },
+  {
+    "id": "85113",
+    "title": "Задача 3",
+    "prototype": "Тип 6",
+    "text": "Найдите значение выражения  8,8+ 5,9.",
+    "formulaSrc": null,
+    "answer": "14,7",
+    "svgFile": null
+  },
+  {
+    "id": "85114",
+    "title": "Задача 4",
+    "prototype": "Тип 6",
+    "text": "Найдите значение выражения  7,9+ 2,2.",
+    "formulaSrc": null,
+    "answer": "10,1",
+    "svgFile": null
+  },
+  {
+    "id": "115520",
+    "title": "Задача 5",
+    "prototype": "Тип 6",
+    "text": "Найдите значение выражения  6,9+ 7,4.",
+    "formulaSrc": null,
+    "answer": "14,3",
+    "svgFile": null
+  },
+  {
+    "id": "115524",
+    "title": "Задача 6",
+    "prototype": "Тип 6",
+    "text": "Найдите значение выражения  8,4+ 3,7.",
+    "formulaSrc": null,
+    "answer": "12,1",
+    "svgFile": null
+  },
+  {
+    "id": "115525",
+    "title": "Задача 7",
+    "prototype": "Тип 6",
+    "text": "Найдите значение выражения  8,3+ 5,4.",
+    "formulaSrc": null,
+    "answer": "13,7",
+    "svgFile": null
+  },
+  {
+    "id": "115536",
+    "title": "Задача 8",
+    "prototype": "Тип 6",
+    "text": "Найдите значение выражения  5,6+ 9,7.",
+    "formulaSrc": null,
+    "answer": "15,3",
+    "svgFile": null
+  },
+  {
+    "id": "115537",
+    "title": "Задача 9",
+    "prototype": "Тип 6",
+    "text": "Найдите значение выражения  9,8+ 8,6.",
+    "formulaSrc": null,
+    "answer": "18,4",
+    "svgFile": null
+  },
+  {
+    "id": "115539",
+    "title": "Задача 10",
+    "prototype": "Тип 6",
+    "text": "Найдите значение выражения  9,3+ 7,8.",
+    "formulaSrc": null,
+    "answer": "17,1",
+    "svgFile": null
+  },
+  {
+    "id": "85117",
+    "title": "Задача 1",
+    "prototype": "Тип 7",
+    "text": "Найдите значение выражения  6,1− 2,5.",
+    "formulaSrc": null,
+    "answer": "3,6",
+    "svgFile": null
+  },
+  {
+    "id": "85118",
+    "title": "Задача 2",
+    "prototype": "Тип 7",
+    "text": "Найдите значение выражения  4,7− 8,2.",
+    "formulaSrc": null,
+    "answer": "-3,5",
+    "svgFile": null
+  },
+  {
+    "id": "85119",
+    "title": "Задача 3",
+    "prototype": "Тип 7",
+    "text": "Найдите значение выражения  5,7− 7,6.",
+    "formulaSrc": null,
+    "answer": "-1,9",
+    "svgFile": null
+  },
+  {
+    "id": "85120",
+    "title": "Задача 4",
+    "prototype": "Тип 7",
+    "text": "Найдите значение выражения  4,9− 9,4.",
+    "formulaSrc": null,
+    "answer": "-4,5",
+    "svgFile": null
+  },
+  {
+    "id": "115541",
+    "title": "Задача 5",
+    "prototype": "Тип 7",
+    "text": "Найдите значение выражения  9,2− 2,4.",
+    "formulaSrc": null,
+    "answer": "6,8",
+    "svgFile": null
+  },
+  {
+    "id": "115542",
+    "title": "Задача 6",
+    "prototype": "Тип 7",
+    "text": "Найдите значение выражения  3,3− 1,9.",
+    "formulaSrc": null,
+    "answer": "1,4",
+    "svgFile": null
+  },
+  {
+    "id": "115544",
+    "title": "Задача 7",
+    "prototype": "Тип 7",
+    "text": "Найдите значение выражения  4,4− 1,7.",
+    "formulaSrc": null,
+    "answer": "2,7",
+    "svgFile": null
+  },
+  {
+    "id": "115546",
+    "title": "Задача 8",
+    "prototype": "Тип 7",
+    "text": "Найдите значение выражения  3,9− 7,3.",
+    "formulaSrc": null,
+    "answer": "-3,4",
+    "svgFile": null
+  },
+  {
+    "id": "115554",
+    "title": "Задача 9",
+    "prototype": "Тип 7",
+    "text": "Найдите значение выражения  6,4− 4,8.",
+    "formulaSrc": null,
+    "answer": "1,6",
+    "svgFile": null
+  },
+  {
+    "id": "115556",
+    "title": "Задача 10",
+    "prototype": "Тип 7",
+    "text": "Найдите значение выражения  3,6− 4,1.",
+    "formulaSrc": null,
+    "answer": "-0,5",
+    "svgFile": null
+  },
+  {
+    "id": "85123",
+    "title": "Задача 1",
+    "prototype": "Тип 8",
+    "text": "Найдите значение выражения  5,2⋅3,1.",
+    "formulaSrc": null,
+    "answer": "16,12",
+    "svgFile": null
+  },
+  {
+    "id": "85124",
+    "title": "Задача 2",
+    "prototype": "Тип 8",
+    "text": "Найдите значение выражения  2,3⋅7,5.",
+    "formulaSrc": null,
+    "answer": "17,25",
+    "svgFile": null
+  },
+  {
+    "id": "85125",
+    "title": "Задача 3",
+    "prototype": "Тип 8",
+    "text": "Найдите значение выражения  6,7⋅5,5.",
+    "formulaSrc": null,
+    "answer": "36,85",
+    "svgFile": null
+  },
+  {
+    "id": "85126",
+    "title": "Задача 4",
+    "prototype": "Тип 8",
+    "text": "Найдите значение выражения  8,1⋅7,2.",
+    "formulaSrc": null,
+    "answer": "58,32",
+    "svgFile": null
+  },
+  {
+    "id": "85127",
+    "title": "Задача 5",
+    "prototype": "Тип 8",
+    "text": "Найдите значение выражения  9,9⋅7,1.",
+    "formulaSrc": null,
+    "answer": "70,29",
+    "svgFile": null
+  },
+  {
+    "id": "85128",
+    "title": "Задача 6",
+    "prototype": "Тип 8",
+    "text": "Найдите значение выражения  8,9⋅4,3.",
+    "formulaSrc": null,
+    "answer": "38,27",
+    "svgFile": null
+  },
+  {
+    "id": "115580",
+    "title": "Задача 7",
+    "prototype": "Тип 8",
+    "text": "Найдите значение выражения  2,1⋅9,6.",
+    "formulaSrc": null,
+    "answer": "20,16",
+    "svgFile": null
+  },
+  {
+    "id": "115581",
+    "title": "Задача 8",
+    "prototype": "Тип 8",
+    "text": "Найдите значение выражения  1,6⋅5,1.",
+    "formulaSrc": null,
+    "answer": "8,16",
+    "svgFile": null
+  },
+  {
+    "id": "115582",
+    "title": "Задача 9",
+    "prototype": "Тип 8",
+    "text": "Найдите значение выражения  7,7⋅5,3.",
+    "formulaSrc": null,
+    "answer": "40,81",
+    "svgFile": null
+  },
+  {
+    "id": "115583",
+    "title": "Задача 10",
+    "prototype": "Тип 8",
+    "text": "Найдите значение выражения  3,2⋅6,2.",
+    "formulaSrc": null,
+    "answer": "19,84",
+    "svgFile": null
+  },
+  {
+    "id": "85129",
+    "title": "Задача 1",
+    "prototype": "Тип 9",
+    "text": "Найдите значение выражения",
+    "formulaSrc": "https://3.shkolkovo.online/api/latex-service/v1/GetSession/168474/index-bf4f2c93d3491ca5856518041bd23ce4.svg",
+    "answer": "12",
+    "svgFile": "formulas/task6/85129.svg"
+  },
+  {
+    "id": "85130",
+    "title": "Задача 2",
+    "prototype": "Тип 9",
+    "text": "Найдите значение выражения",
+    "formulaSrc": "https://3.shkolkovo.online/api/latex-service/v1/GetSession/168476/index-17e8f2ccdba322bf2e24ff02c56fde92.svg",
+    "answer": "7",
+    "svgFile": "formulas/task6/85130.svg"
+  },
+  {
+    "id": "85131",
+    "title": "Задача 3",
+    "prototype": "Тип 9",
+    "text": "Найдите значение выражения",
+    "formulaSrc": "https://3.shkolkovo.online/api/latex-service/v1/GetSession/168478/index-4648779f222e81ba8e792b16919492ba.svg",
+    "answer": "4",
+    "svgFile": "formulas/task6/85131.svg"
+  },
+  {
+    "id": "85132",
+    "title": "Задача 4",
+    "prototype": "Тип 9",
+    "text": "Найдите значение выражения",
+    "formulaSrc": "https://3.shkolkovo.online/api/latex-service/v1/GetSession/168480/index-346035a7b85a87a674b99896816d49ef.svg",
+    "answer": "6",
+    "svgFile": "formulas/task6/85132.svg"
+  },
+  {
+    "id": "85133",
+    "title": "Задача 5",
+    "prototype": "Тип 9",
+    "text": "Найдите значение выражения",
+    "formulaSrc": "https://3.shkolkovo.online/api/latex-service/v1/GetSession/168482/index-e8c9f6aed09e92ba255260a666c1d4d3.svg",
+    "answer": "11",
+    "svgFile": "formulas/task6/85133.svg"
+  },
+  {
+    "id": "115584",
+    "title": "Задача 6",
+    "prototype": "Тип 9",
+    "text": "Найдите значение выражения",
+    "formulaSrc": "https://3.shkolkovo.online/api/latex-service/v1/GetSession/237321/index-7f108818fd977d33f132582032b0249f.svg",
+    "answer": "9",
+    "svgFile": "formulas/task6/115584.svg"
+  },
+  {
+    "id": "115585",
+    "title": "Задача 7",
+    "prototype": "Тип 9",
+    "text": "Найдите значение выражения",
+    "formulaSrc": "https://3.shkolkovo.online/api/latex-service/v1/GetSession/237323/index-c8655ef17357c92fb1b79e877d1b4cfe.svg",
+    "answer": "8",
+    "svgFile": "formulas/task6/115585.svg"
+  },
+  {
+    "id": "115586",
+    "title": "Задача 8",
+    "prototype": "Тип 9",
+    "text": "Найдите значение выражения",
+    "formulaSrc": "https://3.shkolkovo.online/api/latex-service/v1/GetSession/237325/index-ad7db1a7f103da286319e64ed2befa3c.svg",
+    "answer": "2",
+    "svgFile": "formulas/task6/115586.svg"
+  },
+  {
+    "id": "115587",
+    "title": "Задача 9",
+    "prototype": "Тип 9",
+    "text": "Найдите значение выражения",
+    "formulaSrc": "https://3.shkolkovo.online/api/latex-service/v1/GetSession/237327/index-f5a6cf7eb3ecb425a4b3a4cf4c41f3d8.svg",
+    "answer": "3",
+    "svgFile": "formulas/task6/115587.svg"
+  },
+  {
+    "id": "116300",
+    "title": "Задача 10",
+    "prototype": "Тип 9",
+    "text": "Найдите значение выражения",
+    "formulaSrc": "https://3.shkolkovo.online/api/latex-service/v1/GetSession/238867/index-a4a4eb7defe351fa95454ce82a03cd28.svg",
+    "answer": "5",
+    "svgFile": "formulas/task6/116300.svg"
+  }
+]

@@ -3,6 +3,4 @@ server/node_modules/
 temporary screenshots/
 server/server.log
 *.log
-server/prisma/dev.db
-server/prisma/dev.db-journal
-server/uploads/
+

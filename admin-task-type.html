@@ -1,0 +1,965 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Задание — База</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <!-- KaTeX -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/katex.min.css">
+  <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/katex.min.js"></script>
+  <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/contrib/auto-render.min.js"
+    onload="window._katexReady = true; document.querySelectorAll('.katex-pending').forEach(el => { renderMathInElement(el, _katexOpts); el.classList.remove('katex-pending'); });"></script>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            brand: { blue: '#0399E9', 'blue-hover': '#027BBF', 'blue-light': '#E5F4FC' },
+            ink: { dark: '#001B29', body: '#445371', muted: '#8D96AF', faint: '#A1A9B8' },
+            surface: { page: '#DFE2EA', card: '#FFFFFF', middle: '#F3F4F7', border: '#E7E9EF', 'border-strong': '#CFD2D9' },
+            header: { bg: '#181E2B' },
+            state: { green: '#019F3C', red: '#D91528', yellow: '#FBB82B' }
+          },
+          fontFamily: {
+            montserrat: ['Montserrat', 'sans-serif'],
+            mono: ['JetBrains Mono', 'monospace'],
+          },
+        }
+      }
+    }
+  </script>
+  <style>
+    * { box-sizing: border-box; }
+    body { font-family: 'Montserrat', sans-serif; -webkit-font-smoothing: antialiased; background: #DFE2EA; }
+
+    ::-webkit-scrollbar { width: 6px; }
+    ::-webkit-scrollbar-track { background: #EEEFF2; }
+    ::-webkit-scrollbar-thumb { background: #BFC1C4; border-radius: 3px; }
+    ::-webkit-scrollbar-thumb:hover { background: #8D96AF; }
+
+    .nav-link {
+      color: #8D96AF; font-size: 0.8125rem; font-weight: 500;
+      text-decoration: none; transition: color 0.15s ease;
+    }
+    .nav-link:hover { color: #0399E9; }
+
+    /* Accordion */
+    .accordion-item {
+      background: #fff;
+      border: 1.5px solid #E7E9EF;
+      border-radius: 14px;
+      overflow: hidden;
+      transition: border-color 0.18s ease, box-shadow 0.18s ease;
+    }
+    .accordion-item.open {
+      border-color: #0399E9;
+      box-shadow: 0 4px 12px rgba(3,153,233,0.10), 0 1px 3px rgba(0,27,41,0.04);
+    }
+
+    .accordion-header {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 14px 20px;
+      cursor: pointer;
+      user-select: none;
+      transition: background 0.15s ease;
+    }
+    .accordion-header:hover { background: #F8FAFD; }
+    .accordion-header:focus-visible { outline: 2px solid #0399E9; outline-offset: -2px; }
+
+    .accordion-chevron {
+      width: 20px; height: 20px;
+      color: #8D96AF;
+      transition: transform 0.25s ease, color 0.15s ease;
+      flex-shrink: 0;
+    }
+    .accordion-item.open .accordion-chevron { transform: rotate(180deg); color: #0399E9; }
+
+    .accordion-body {
+      max-height: 0;
+      overflow: hidden;
+      transition: max-height 0.35s cubic-bezier(0.4, 0, 0.2, 1);
+    }
+    .accordion-body.open { max-height: 99999px; }
+
+    /* Task row */
+    .task-row {
+      border-top: 1px solid #F3F4F7;
+      padding: 14px 20px 14px 20px;
+      transition: background 0.12s ease;
+    }
+    .task-row:hover { background: #FAFBFD; }
+
+    .task-row-header {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      margin-bottom: 10px;
+    }
+
+    .task-id {
+      font-family: 'JetBrains Mono', monospace;
+      font-size: 0.6875rem;
+      font-weight: 500;
+      color: #A1A9B8;
+    }
+    .task-id-num { color: #0399E9; font-weight: 600; }
+
+    .badge {
+      display: inline-flex;
+      align-items: center;
+      padding: 2px 7px;
+      border-radius: 5px;
+      font-size: 0.6875rem;
+      font-weight: 600;
+      font-family: 'JetBrains Mono', monospace;
+    }
+    .badge-answer  { background: #F0FFF4; color: #019F3C; }
+    .badge-no-answer { background: #FFF3F3; color: #D91528; }
+    .badge-diff-1  { background: #F3F4F7; color: #8D96AF; }
+    .badge-diff-2  { background: #FFFBEB; color: #B45309; }
+    .badge-diff-3  { background: #FFF3F3; color: #D91528; }
+    .badge-img     { background: #E5F4FC; color: #027BBF; }
+
+    /* Task content */
+    .task-content {
+      font-size: 0.8125rem;
+      color: #001B29;
+      line-height: 1.65;
+    }
+    .task-content img {
+      max-height: 160px;
+      object-fit: contain;
+    }
+
+    .row-actions {
+      display: flex;
+      align-items: center;
+      gap: 6px;
+      margin-left: auto;
+      flex-shrink: 0;
+    }
+
+    .action-btn {
+      display: inline-flex;
+      align-items: center;
+      gap: 4px;
+      font-size: 0.6875rem;
+      font-weight: 600;
+      text-decoration: none;
+      padding: 3px 8px;
+      border-radius: 6px;
+      border: 1px solid #E7E9EF;
+      cursor: pointer;
+      font-family: 'Montserrat', sans-serif;
+      background: transparent;
+      transition: color 0.12s ease, border-color 0.12s ease, background 0.12s ease;
+    }
+    .action-btn-edit { color: #8D96AF; }
+    .action-btn-edit:hover { color: #0399E9; border-color: #0399E9; background: #F0F9FF; }
+    .action-btn-delete { color: #8D96AF; }
+    .action-btn-delete:hover { color: #D91528; border-color: #D91528; background: #FFF3F3; }
+
+    /* Delete confirm bar (per-row) */
+    .delete-bar {
+      display: none;
+      align-items: center;
+      gap: 8px;
+      margin-top: 10px;
+      padding: 8px 12px;
+      background: #FFF3F3;
+      border: 1px solid #FECACA;
+      border-radius: 8px;
+      font-size: 0.75rem;
+      font-weight: 600;
+      color: #991B1B;
+    }
+    .delete-bar.visible { display: flex; }
+    .delete-bar-btn {
+      display: inline-flex;
+      align-items: center;
+      gap: 4px;
+      padding: 4px 10px;
+      border-radius: 6px;
+      border: none;
+      cursor: pointer;
+      font-size: 0.6875rem;
+      font-weight: 700;
+      font-family: 'Montserrat', sans-serif;
+      transition: opacity 0.15s ease, transform 0.15s ease;
+    }
+    .delete-bar-btn:hover { opacity: 0.85; transform: translateY(-1px); }
+    .delete-bar-btn:active { transform: translateY(0); }
+
+    /* Global floating diff save bar */
+    #globalDiffBar {
+      position: fixed;
+      bottom: 24px;
+      left: 50%;
+      transform: translateX(-50%) translateY(100px);
+      opacity: 0;
+      z-index: 100;
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      padding: 12px 20px;
+      background: #1A2235;
+      border-radius: 14px;
+      box-shadow: 0 8px 32px rgba(0,0,0,0.22), 0 2px 8px rgba(0,0,0,0.12);
+      font-size: 0.8125rem;
+      font-weight: 600;
+      color: #fff;
+      white-space: nowrap;
+      pointer-events: none;
+      transition: transform 0.35s cubic-bezier(0.34, 1.56, 0.64, 1), opacity 0.3s ease;
+    }
+    #globalDiffBar.visible {
+      transform: translateX(-50%) translateY(0);
+      opacity: 1;
+      pointer-events: all;
+    }
+    .gbar-btn {
+      display: inline-flex;
+      align-items: center;
+      gap: 5px;
+      padding: 6px 14px;
+      border-radius: 8px;
+      border: none;
+      cursor: pointer;
+      font-size: 0.75rem;
+      font-weight: 700;
+      font-family: 'Montserrat', sans-serif;
+      transition: opacity 0.15s ease, transform 0.15s ease;
+    }
+    .gbar-btn:hover { opacity: 0.88; transform: translateY(-1px); }
+    .gbar-btn:active { transform: translateY(0); }
+    .gbar-btn-save   { background: #019F3C; color: #fff; }
+    .gbar-btn-cancel { background: rgba(255,255,255,0.12); color: #fff; }
+
+    /* Difficulty badge — clickable */
+    .diff-badge-btn {
+      cursor: pointer;
+      user-select: none;
+      transition: transform 0.15s ease, opacity 0.15s ease;
+    }
+    .diff-badge-btn:hover { transform: scale(1.08); opacity: 0.85; }
+
+    .prototype-count {
+      font-family: 'JetBrains Mono', monospace;
+      font-size: 0.6875rem;
+      font-weight: 500;
+      color: #8D96AF;
+      background: #F3F4F7;
+      padding: 2px 8px;
+      border-radius: 5px;
+    }
+
+    .add-btn {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      padding: 10px 20px;
+      background: #0399E9;
+      color: #fff;
+      border: none;
+      border-radius: 10px;
+      font-family: 'Montserrat', sans-serif;
+      font-size: 0.875rem;
+      font-weight: 700;
+      cursor: pointer;
+      text-decoration: none;
+      box-shadow: 0 2px 8px rgba(3,153,233,0.30), 0 1px 2px rgba(3,153,233,0.15);
+      transition: background 0.15s ease, box-shadow 0.15s ease, transform 0.15s ease;
+      white-space: nowrap;
+    }
+    .add-btn:hover {
+      background: #027BBF;
+      box-shadow: 0 4px 16px rgba(3,153,233,0.40);
+      transform: translateY(-1px);
+    }
+    .add-btn:active { transform: translateY(0); }
+    .add-btn:focus-visible { outline: 2px solid #0399E9; outline-offset: 2px; }
+
+    @keyframes fadeInUp {
+      from { opacity: 0; transform: translateY(8px); }
+      to   { opacity: 1; transform: translateY(0); }
+    }
+    .fade-in { animation: fadeInUp 0.3s ease both; }
+
+    /* Skeleton */
+    @keyframes shimmer {
+      0%   { background-position: -200% 0; }
+      100% { background-position:  200% 0; }
+    }
+    .skeleton {
+      background: linear-gradient(90deg, #F3F4F7 25%, #E7E9EF 50%, #F3F4F7 75%);
+      background-size: 200% 100%;
+      animation: shimmer 1.2s infinite;
+      border-radius: 6px;
+    }
+
+    /* KaTeX overrides: чуть меньше для компактного вида */
+    .task-content .katex { font-size: 1em; }
+    .task-content .katex-display { margin: 6px 0; }
+
+    /* Answer reveal */
+    .answer-toggle {
+      display: inline-flex;
+      align-items: center;
+      gap: 5px;
+      margin-top: 10px;
+      padding: 4px 10px;
+      font-size: 0.75rem;
+      font-weight: 600;
+      color: #8D96AF;
+      background: #F3F4F7;
+      border: 1px solid #E7E9EF;
+      border-radius: 6px;
+      cursor: pointer;
+      transition: color 0.12s ease, background 0.12s ease, border-color 0.12s ease;
+      user-select: none;
+    }
+    .answer-toggle:hover { color: #0399E9; background: #F0F9FF; border-color: #0399E9; }
+    .answer-toggle .toggle-arrow {
+      transition: transform 0.2s ease;
+    }
+    .answer-toggle.open .toggle-arrow { transform: rotate(180deg); }
+
+    .answer-reveal {
+      max-height: 0;
+      overflow: hidden;
+      transition: max-height 0.25s ease;
+    }
+    .answer-reveal.open { max-height: 200px; }
+
+    .answer-reveal-inner {
+      margin-top: 8px;
+      padding: 8px 12px;
+      background: #F0FFF4;
+      border: 1px solid #B7EBD0;
+      border-radius: 8px;
+      font-size: 0.8125rem;
+      font-weight: 700;
+      color: #019F3C;
+    }
+  </style>
+</head>
+<body>
+
+<!-- HEADER -->
+<header style="background: #181E2B;" class="sticky top-0 z-30">
+  <div class="max-w-4xl mx-auto px-6 h-14 flex items-center justify-between">
+    <div class="flex items-center gap-3">
+      <a href="/admin-tasks.html" class="nav-link flex items-center gap-1.5">
+        <svg width="16" height="16" viewBox="0 0 16 16" fill="none"><path d="M10 12L6 8l4-4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        База заданий
+      </a>
+      <span style="color: #2D3748; font-size: 12px;">·</span>
+      <span id="headerTitle" style="color: #8D96AF; font-size: 0.8125rem; font-weight: 500;">...</span>
+    </div>
+    <a href="/index.html" class="nav-link">Главная</a>
+  </div>
+</header>
+
+<!-- MAIN -->
+<main class="max-w-4xl mx-auto px-6 py-8">
+
+  <!-- Page header -->
+  <div class="mb-6 flex items-start justify-between gap-4">
+    <div>
+      <h1 id="pageTitle" style="font-size: 1.75rem; font-weight: 800; color: #001B29; letter-spacing: -0.03em; line-height: 1.2;">
+        <div class="skeleton" style="width: 180px; height: 36px;"></div>
+      </h1>
+      <div id="pageSubtitle" style="color: #8D96AF; font-size: 0.875rem; font-weight: 500; margin-top: 6px; line-height: 1.7;">
+        <div class="skeleton" style="width: 240px; height: 18px; margin-top: 8px;"></div>
+      </div>
+    </div>
+    <a id="addBtn" href="#" class="add-btn" style="margin-top: 4px;">
+      <svg width="16" height="16" viewBox="0 0 16 16" fill="none"><path d="M8 3v10M3 8h10" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
+      Добавить задание
+    </a>
+  </div>
+
+  <!-- Вкладки группы 1-5 (показываются только для typeId 1–5) -->
+  <div id="group15Tabs" class="hidden mb-5">
+    <div style="display:flex;align-items:center;gap:6px;flex-wrap:wrap;">
+      <span style="font-size:0.75rem;font-weight:600;color:#8D96AF;margin-right:4px;">Тип:</span>
+    </div>
+  </div>
+
+  <!-- Accordion list -->
+  <div id="accordionList" class="flex flex-col gap-3">
+    <div id="skeletonList" class="flex flex-col gap-3">
+      <div style="background:#fff;border:1.5px solid #E7E9EF;border-radius:14px;padding:14px 20px;display:flex;align-items:center;justify-content:space-between;">
+        <div class="skeleton" style="width: 120px; height: 18px;"></div>
+        <div class="skeleton" style="width: 50px; height: 18px;"></div>
+      </div>
+      <div style="background:#fff;border:1.5px solid #E7E9EF;border-radius:14px;padding:14px 20px;display:flex;align-items:center;justify-content:space-between;">
+        <div class="skeleton" style="width: 100px; height: 18px;"></div>
+        <div class="skeleton" style="width: 50px; height: 18px;"></div>
+      </div>
+      <div style="background:#fff;border:1.5px solid #E7E9EF;border-radius:14px;padding:14px 20px;display:flex;align-items:center;justify-content:space-between;">
+        <div class="skeleton" style="width: 140px; height: 18px;"></div>
+        <div class="skeleton" style="width: 50px; height: 18px;"></div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Empty state -->
+  <div id="emptyState" class="hidden text-center py-16">
+    <div style="font-size: 3rem; margin-bottom: 12px; opacity: 0.4;">📭</div>
+    <p style="color: #445371; font-weight: 600; font-size: 0.9375rem;">Заданий пока нет</p>
+    <p style="color: #8D96AF; font-size: 0.8125rem; margin-top: 4px; line-height: 1.7;">Добавьте первое задание с помощью кнопки выше</p>
+  </div>
+
+  <!-- Error state -->
+  <div id="errorState" class="hidden text-center py-16">
+    <div style="font-size: 2.5rem; margin-bottom: 12px;">⚠️</div>
+    <p style="color: #D91528; font-weight: 600; font-size: 0.9375rem;">Не удалось загрузить данные</p>
+    <p style="color: #8D96AF; font-size: 0.8125rem; margin-top: 4px;">Проверьте, что сервер запущен</p>
+    <button onclick="loadData()" class="mt-5 px-4 py-2 rounded-lg text-sm font-semibold" style="background: #0399E9; color: #fff; border: none; cursor: pointer;">Повторить</button>
+  </div>
+</main>
+
+<!-- Global difficulty save bar -->
+<div id="globalDiffBar">
+  <svg width="16" height="16" viewBox="0 0 16 16" fill="none" style="flex-shrink:0;opacity:0.7">
+    <path d="M8 1l1.8 3.6L14 5.3l-3 2.9.7 4.1L8 10.4l-3.7 1.9.7-4.1-3-2.9 4.2-.7L8 1z" stroke="currentColor" stroke-width="1.3" stroke-linejoin="round"/>
+  </svg>
+  <span id="globalDiffCount">0 изменений сложности</span>
+  <button class="gbar-btn gbar-btn-save" id="globalDiffSave">Сохранить</button>
+  <button class="gbar-btn gbar-btn-cancel" id="globalDiffCancel">Отмена</button>
+</div>
+
+<script>
+  const params  = new URLSearchParams(window.location.search);
+  const typeId  = parseInt(params.get('type') || '1');
+
+  /** Маппинг прототипов 1-5 → названия */
+  const PROTO_1_5_NAMES = {
+    1: 'Дороги', 2: 'Квартиры', 3: 'Участки', 4: 'Печи',
+    5: 'Бумага', 6: 'Шины', 7: 'Мобильный интернет',
+  };
+  const GROUP_1_5 = new Set([1, 2, 3, 4, 5]);
+
+  const GROUP_1_5_TOPICS = {
+    1: 'Вычисления',
+    2: 'Числовые неравенства',
+    3: 'Числа и вычисления',
+    4: 'Алгебраические выражения',
+    5: 'Уравнения',
+  };
+
+  if (GROUP_1_5.has(typeId)) {
+    document.title = `Задания 1–5 · Тип ${typeId} — База`;
+    document.getElementById('headerTitle').textContent = `Задания 1–5`;
+  } else {
+    document.title = `Задание ${typeId} — База`;
+    document.getElementById('headerTitle').textContent = `Задание ${typeId}`;
+  }
+  document.getElementById('addBtn').href = `/admin.html?type=${typeId}`;
+
+  // Рендер вкладок для группы 1-5
+  if (GROUP_1_5.has(typeId)) {
+    const tabsWrap = document.getElementById('group15Tabs');
+    tabsWrap.classList.remove('hidden');
+    const row = tabsWrap.querySelector('div');
+    // Лейбл уже есть, добавляем кнопки
+    [1,2,3,4,5].forEach(t => {
+      const btn = document.createElement('a');
+      btn.href = `/admin-task-type.html?type=${t}`;
+      const isActive = t === typeId;
+      btn.style.cssText = `
+        display: inline-flex; align-items: center; gap: 5px;
+        padding: 5px 14px; border-radius: 8px; text-decoration: none;
+        font-size: 0.8125rem; font-weight: ${isActive ? '700' : '600'};
+        border: 1.5px solid ${isActive ? '#0399E9' : '#E7E9EF'};
+        background: ${isActive ? '#E5F4FC' : '#fff'};
+        color: ${isActive ? '#027BBF' : '#8D96AF'};
+        transition: border-color 0.15s ease, color 0.15s ease;
+      `;
+      btn.innerHTML = `
+        <span style="font-family:'JetBrains Mono',monospace;font-weight:700;font-size:0.75rem;color:${isActive ? '#0399E9' : '#A1A9B8'};">0${t}</span>
+        <span>${GROUP_1_5_TOPICS[t] || 'Тип ' + t}</span>
+      `;
+      if (!isActive) {
+        btn.addEventListener('mouseenter', () => { btn.style.borderColor='#0399E9'; btn.style.color='#0399E9'; });
+        btn.addEventListener('mouseleave', () => { btn.style.borderColor='#E7E9EF'; btn.style.color='#8D96AF'; });
+      }
+      row.appendChild(btn);
+    });
+  }
+
+  // --- Global pending difficulty changes ---
+  // Map: taskId → { badge, newDiff, origDiff, origClass, origText }
+  const pendingDiffChanges = new Map();
+
+  function pluralizeDiff(n) {
+    const abs = Math.abs(n) % 100, last = abs % 10;
+    if (abs > 10 && abs < 20) return 'изменений';
+    if (last === 1) return 'изменение';
+    if (last >= 2 && last <= 4) return 'изменения';
+    return 'изменений';
+  }
+
+  function updateGlobalDiffBar() {
+    const bar = document.getElementById('globalDiffBar');
+    const n   = pendingDiffChanges.size;
+    if (n === 0) {
+      bar.classList.remove('visible');
+    } else {
+      document.getElementById('globalDiffCount').textContent = `${n} ${pluralizeDiff(n)} сложности`;
+      bar.classList.add('visible');
+    }
+  }
+
+  document.getElementById('globalDiffSave').addEventListener('click', async () => {
+    const btn = document.getElementById('globalDiffSave');
+    btn.textContent = 'Сохраняю...';
+    btn.disabled = true;
+    const entries = [...pendingDiffChanges.entries()];
+    let failed = 0;
+    await Promise.all(entries.map(async ([id, info]) => {
+      try {
+        const resp = await fetch(`/api/tasks/${id}`, {
+          method: 'PUT',
+          headers: { 'Content-Type': 'application/json' },
+          body: JSON.stringify({ difficulty: info.newDiff }),
+        });
+        if (!resp.ok) throw new Error();
+        pendingDiffChanges.delete(id);
+      } catch {
+        failed++;
+      }
+    }));
+    btn.textContent = 'Сохранить';
+    btn.disabled = false;
+    if (failed > 0) {
+      alert(`Не удалось сохранить ${failed} изменений`);
+    }
+    updateGlobalDiffBar();
+  });
+
+  document.getElementById('globalDiffCancel').addEventListener('click', () => {
+    for (const [, info] of pendingDiffChanges) {
+      info.badge.className = `badge ${info.origClass} diff-badge-btn`;
+      info.badge.textContent = info.origText;
+      if (info.state) info.state.current = info.origDiff;
+    }
+    pendingDiffChanges.clear();
+    updateGlobalDiffBar();
+  });
+
+  // KaTeX options
+  const _katexOpts = {
+    delimiters: [
+      { left: '$$', right: '$$', display: true },
+      { left: '$',  right: '$',  display: false },
+    ],
+    throwOnError: false,
+  };
+
+  function renderKatex(el) {
+    if (window._katexReady && window.renderMathInElement) {
+      renderMathInElement(el, _katexOpts);
+    } else {
+      el.classList.add('katex-pending');
+    }
+  }
+
+  function fixLatex(text) {
+    return text.replace(/\$([^$]+)\$/g, (_, inner) => {
+      const fixed = inner.replace(/([a-zA-Z])(\d+)/g, '$1^{$2}');
+      return `$${fixed}$`;
+    });
+  }
+
+  function cleanText(raw) {
+    if (!raw) return '';
+    return fixLatex(raw.replace(/\s*Источники?:\s*.+$/s, '').trim());
+  }
+
+  function buildTaskRow(task) {
+    const row = document.createElement('div');
+    row.className = 'task-row';
+    row.dataset.taskId = task.id;
+
+    const shortId = task.id ? task.id.slice(0, 8) + '…' : '—';
+    let currentDiff = task.difficulty || 1;
+    const hasAnswer = task.answer && task.answer.trim();
+    const text      = cleanText(task.text);
+
+    // Источник
+    const sourceRaw = task.source || null;
+    const sourceLabel = sourceRaw ? sourceRaw.replace(/\s*\/\s*Школково.*/i, '').trim() : null;
+
+    function diffLabel(d) {
+      if (d === 1) return ['badge-diff-1', '★☆☆'];
+      if (d === 2) return ['badge-diff-2', '★★☆'];
+      return ['badge-diff-3', '★★★'];
+    }
+
+    // Header row
+    const header = document.createElement('div');
+    header.className = 'task-row-header';
+
+    // ID
+    const idSpan = document.createElement('span');
+    idSpan.className = 'task-id';
+    idSpan.innerHTML = `ID <span class="task-id-num">${shortId}</span>`;
+
+    // Answer badge
+    const answerBadge = document.createElement('span');
+    answerBadge.className = `badge ${hasAnswer ? 'badge-answer' : 'badge-no-answer'}`;
+    answerBadge.textContent = hasAnswer ? '✓ ' + task.answer : 'нет ответа';
+
+    // Difficulty badge — clickable
+    const [diffClass, diffText] = diffLabel(currentDiff);
+    const diffBadge = document.createElement('span');
+    diffBadge.className = `badge ${diffClass} diff-badge-btn`;
+    diffBadge.textContent = diffText;
+    diffBadge.title = 'Нажмите для смены сложности';
+
+    // Source
+    const sourceSpan = document.createElement('span');
+    if (sourceLabel) {
+      sourceSpan.style.cssText = 'font-size:0.6875rem;color:#A1A9B8;font-weight:500;margin-left:2px;';
+      sourceSpan.textContent = sourceLabel;
+    }
+
+    // Actions
+    const actions = document.createElement('div');
+    actions.className = 'row-actions';
+    actions.innerHTML = `
+      <a href="/admin-edit-task.html?id=${task.id}&type=${typeId}" class="action-btn action-btn-edit">
+        <svg width="11" height="11" viewBox="0 0 12 12" fill="none"><path d="M8.5 1.5l2 2L4 10H2V8L8.5 1.5z" stroke="currentColor" stroke-width="1.3" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        Изменить
+      </a>
+      <button class="action-btn action-btn-delete" data-delete-btn>
+        <svg width="11" height="11" viewBox="0 0 12 12" fill="none"><path d="M2 3h8M5 3V2h2v1M4.5 3v6.5M7.5 3v6.5M3 3l.5 7h5L9 3" stroke="currentColor" stroke-width="1.3" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        Удалить
+      </button>
+    `;
+
+    header.appendChild(idSpan);
+    header.appendChild(answerBadge);
+    header.appendChild(diffBadge);
+    header.appendChild(sourceSpan);
+    header.appendChild(actions);
+    row.appendChild(header);
+
+    // --- Delete confirm bar ---
+    const deleteBar = document.createElement('div');
+    deleteBar.className = 'delete-bar';
+    deleteBar.innerHTML = `
+      <svg width="14" height="14" viewBox="0 0 14 14" fill="none" style="flex-shrink:0"><path d="M7 1.5a5.5 5.5 0 100 11A5.5 5.5 0 007 1.5zM7 4.5v3M7 9h.01" stroke="#991B1B" stroke-width="1.4" stroke-linecap="round"/></svg>
+      <span>Удалить это задание?</span>
+      <button class="delete-bar-btn" style="background:#D91528;color:#fff;" data-delete-confirm>Удалить</button>
+      <button class="delete-bar-btn" style="background:#F3F4F7;color:#445371;" data-delete-cancel>Отмена</button>
+    `;
+
+    // --- Events: difficulty cycle (глобальный Map) ---
+    const origDiff = currentDiff;
+    const diffState = { current: currentDiff };
+    diffBadge.addEventListener('click', () => {
+      diffState.current = (diffState.current % 3) + 1;
+      const [cls, txt] = diffLabel(diffState.current);
+      diffBadge.className = `badge ${cls} diff-badge-btn`;
+      diffBadge.textContent = txt;
+      if (diffState.current !== origDiff) {
+        pendingDiffChanges.set(task.id, {
+          badge: diffBadge,
+          state: diffState,
+          newDiff: diffState.current,
+          origDiff,
+          origClass: diffLabel(origDiff)[0],
+          origText: diffLabel(origDiff)[1],
+        });
+      } else {
+        pendingDiffChanges.delete(task.id);
+      }
+      updateGlobalDiffBar();
+    });
+
+    // --- Events: delete ---
+    actions.querySelector('[data-delete-btn]').addEventListener('click', () => {
+      deleteBar.classList.add('visible');
+    });
+
+    deleteBar.querySelector('[data-delete-confirm]').addEventListener('click', async () => {
+      try {
+        const resp = await fetch(`/api/tasks/${task.id}`, { method: 'DELETE' });
+        if (!resp.ok) throw new Error();
+        // Убираем из pendingDiff если есть
+        pendingDiffChanges.delete(task.id);
+        updateGlobalDiffBar();
+        // Анимация удаления
+        row.style.transition = 'opacity 0.3s ease, transform 0.3s ease, max-height 0.4s ease';
+        row.style.overflow = 'hidden';
+        row.style.maxHeight = row.offsetHeight + 'px';
+        requestAnimationFrame(() => {
+          row.style.opacity = '0';
+          row.style.transform = 'translateX(-8px)';
+          row.style.maxHeight = '0';
+          row.style.padding = '0';
+          row.style.marginTop = '0';
+          row.style.borderTop = 'none';
+        });
+        setTimeout(() => row.remove(), 400);
+      } catch {
+        alert('Не удалось удалить задание');
+      }
+    });
+
+    deleteBar.querySelector('[data-delete-cancel]').addEventListener('click', () => {
+      deleteBar.classList.remove('visible');
+    });
+
+    row.appendChild(deleteBar);
+
+    // Content: parts (inline текст+SVG) или text + images
+    const rawText = task.text || '';
+    const isParts = rawText.startsWith('[');
+    const imgCount = Array.isArray(task.images) ? task.images.length : 0;
+    const hasContent = rawText || imgCount > 0;
+    if (hasContent) {
+      const content = document.createElement('div');
+      content.className = 'task-content';
+
+      if (isParts) {
+        // Каждый text — новая строка; img идут inline после текста; drawing — отдельный центрированный блок
+        try {
+          const parts = JSON.parse(rawText);
+          let currentLine = null;
+          let prevText = '';
+          function flushLine() {
+            if (currentLine) { content.appendChild(currentLine); currentLine = null; }
+          }
+          for (let i = 0; i < parts.length; i++) {
+            const p = parts[i];
+            const next = parts[i + 1];
+            if (p.type === 'drawing' && p.file) {
+              flushLine();
+              const drawingDiv = document.createElement('div');
+              drawingDiv.style.cssText = 'width:100%;text-align:center;margin:6px 0;';
+              const img = document.createElement('img');
+              img.src = p.file;
+              img.alt = '';
+              img.style.cssText = 'max-width:100%;height:auto;';
+              drawingDiv.appendChild(img);
+              content.appendChild(drawingDiv);
+            } else {
+              if (p.newParagraph) flushLine();
+              if (!currentLine) { currentLine = document.createElement('div'); currentLine.style.cssText = 'display:block;margin-bottom:3px;line-height:1.8;'; }
+              if (p.type === 'text') {
+                if (currentLine.childNodes.length > 0) currentLine.appendChild(document.createTextNode(' '));
+                const span = document.createElement('span');
+                span.textContent = p.value;
+                span.style.fontSize = '0.875rem';
+                currentLine.appendChild(span);
+                prevText = p.value || '';
+              } else if (p.type === 'img' && p.file) {
+                const isAnswerTable = /ответ/i.test(prevText);
+                const isBlock = !next || next.newParagraph;
+                if (isAnswerTable) {
+                  if (currentLine.childNodes.length > 0) currentLine.appendChild(document.createTextNode(' '));
+                  const img = document.createElement('img');
+                  img.src = p.file; img.alt = '';
+                  img.style.cssText = 'height:auto;max-height:56px;vertical-align:middle;display:inline-block;margin:0;';
+                  currentLine.appendChild(img);
+                } else if (isBlock) {
+                  flushLine();
+                  const blockDiv = document.createElement('div');
+                  blockDiv.style.cssText = 'width:100%;text-align:center;margin:6px 0;';
+                  const img = document.createElement('img');
+                  img.src = p.file; img.alt = '';
+                  img.style.cssText = 'max-width:100%;height:auto;max-height:80px;';
+                  blockDiv.appendChild(img);
+                  content.appendChild(blockDiv);
+                } else {
+                  if (currentLine.childNodes.length > 0) currentLine.appendChild(document.createTextNode(' '));
+                  const img = document.createElement('img');
+                  img.src = p.file; img.alt = '';
+                  img.style.cssText = 'height:1.4em;vertical-align:middle;display:inline-block;margin:0;';
+                  currentLine.appendChild(img);
+                }
+              }
+            }
+          }
+          flushLine();
+        } catch {
+          const textDiv = document.createElement('div');
+          textDiv.textContent = rawText;
+          content.appendChild(textDiv);
+        }
+      } else if (text) {
+        const textDiv = document.createElement('div');
+        textDiv.innerHTML = text
+          .replace(/&/g,'&amp;')
+          .replace(/</g,'&lt;')
+          .replace(/>/g,'&gt;')
+          .replace(/\n/g,'<br>');
+        content.appendChild(textDiv);
+        renderKatex(textDiv);
+      }
+
+      if (!isParts && imgCount > 0) {
+        const imgWrap = document.createElement('div');
+        imgWrap.style.cssText = 'display:flex;flex-wrap:wrap;gap:8px;margin-top:8px;';
+        task.images.forEach(src => {
+          const img = document.createElement('img');
+          img.src = src;
+          img.alt = 'Иллюстрация';
+          imgWrap.appendChild(img);
+        });
+        content.appendChild(imgWrap);
+      }
+
+      row.appendChild(content);
+    } else {
+      // Нет ни текста ни картинки
+      const placeholder = document.createElement('div');
+      placeholder.style.cssText = 'font-size:0.8125rem;color:#A1A9B8;font-style:italic;';
+      placeholder.textContent = 'Содержимое не добавлено';
+      row.appendChild(placeholder);
+    }
+
+    // Выпадающий ответ
+    const answerToggle = document.createElement('button');
+    answerToggle.className = 'answer-toggle';
+    answerToggle.innerHTML = `
+      <svg class="toggle-arrow" width="12" height="12" viewBox="0 0 12 12" fill="none">
+        <path d="M2 4l4 4 4-4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+      </svg>
+      Показать решение
+    `;
+
+    const answerReveal = document.createElement('div');
+    answerReveal.className = 'answer-reveal';
+    answerReveal.innerHTML = `<div class="answer-reveal-inner" style="color:#445371;background:#F3F4F7;border-color:#E7E9EF;">Решение будет добавлено позже</div>`;
+
+    answerToggle.addEventListener('click', () => {
+      const isOpen = answerReveal.classList.contains('open');
+      answerReveal.classList.toggle('open', !isOpen);
+      answerToggle.classList.toggle('open', !isOpen);
+      answerToggle.childNodes[1].textContent = isOpen ? ' Показать решение' : ' Скрыть решение';
+    });
+
+    row.appendChild(answerToggle);
+    row.appendChild(answerReveal);
+
+    return row;
+  }
+
+  function buildAccordion(protoData, idx) {
+    const item = document.createElement('div');
+    item.className = 'accordion-item fade-in';
+    item.style.animationDelay = `${idx * 0.05}s`;
+
+    const header = document.createElement('div');
+    header.className = 'accordion-header';
+    header.setAttribute('tabindex', '0');
+    header.setAttribute('role', 'button');
+    header.setAttribute('aria-expanded', 'false');
+    header.innerHTML = `
+      <div style="display:flex;align-items:center;gap:10px;">
+        <span style="font-weight:700;color:#001B29;font-size:0.9375rem;">${GROUP_1_5.has(typeId) && PROTO_1_5_NAMES[protoData.prototype] ? PROTO_1_5_NAMES[protoData.prototype] : `Тип ${protoData.prototype}`}</span>
+        <span class="prototype-count">${protoData.count} шт.</span>
+      </div>
+      <svg class="accordion-chevron" viewBox="0 0 20 20" fill="none">
+        <path d="M5 7.5l5 5 5-5" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+      </svg>
+    `;
+
+    const body = document.createElement('div');
+    body.className = 'accordion-body';
+
+    if (protoData.tasks.length === 0) {
+      const empty = document.createElement('div');
+      empty.style.cssText = 'padding:16px 20px;color:#A1A9B8;font-size:0.8125rem;text-align:center;border-top:1px solid #F3F4F7;';
+      empty.textContent = 'Нет заданий в этом прототипе';
+      body.appendChild(empty);
+    } else {
+      protoData.tasks.forEach(task => {
+        body.appendChild(buildTaskRow(task));
+      });
+    }
+
+    item.appendChild(header);
+    item.appendChild(body);
+
+    function toggle() {
+      const isOpen = item.classList.contains('open');
+      item.classList.toggle('open', !isOpen);
+      body.classList.toggle('open', !isOpen);
+      header.setAttribute('aria-expanded', String(!isOpen));
+    }
+
+    header.addEventListener('click', toggle);
+    header.addEventListener('keydown', e => {
+      if (e.key === 'Enter' || e.key === ' ') { e.preventDefault(); toggle(); }
+    });
+
+    return item;
+  }
+
+  function pluralize(n, one, few, many) {
+    const abs = Math.abs(n) % 100;
+    const last = abs % 10;
+    if (abs > 10 && abs < 20) return many;
+    if (last === 1) return one;
+    if (last >= 2 && last <= 4) return few;
+    return many;
+  }
+
+  async function loadData() {
+    document.getElementById('errorState').classList.add('hidden');
+    document.getElementById('emptyState').classList.add('hidden');
+
+    try {
+      const [typeResp, protosResp] = await Promise.all([
+        fetch(`/api/task-types/${typeId}`),
+        fetch(`/api/tasks/prototypes?typeId=${typeId}`)
+      ]);
+
+      if (!typeResp.ok || !protosResp.ok) throw new Error('HTTP error');
+
+      const [typeJson, protosJson] = await Promise.all([typeResp.json(), protosResp.json()]);
+      if (!typeJson.success || !protosJson.success) throw new Error('API error');
+
+      const typeData   = typeJson.data;
+      const prototypes = protosJson.data;
+      const total      = protosJson.total || 0;
+
+      document.getElementById('pageTitle').innerHTML = `Задание ${typeId}`;
+      document.getElementById('pageSubtitle').innerHTML =
+        `${typeData.name || ''} &nbsp;·&nbsp; <strong style="color:#001B29">${total}</strong> ${pluralize(total, 'задание', 'задания', 'заданий')} &nbsp;·&nbsp; ${prototypes.length} ${pluralize(prototypes.length, 'прототип', 'прототипа', 'прототипов')}`;
+
+      const list = document.getElementById('accordionList');
+      list.innerHTML = '';
+
+      if (prototypes.length === 0) {
+        document.getElementById('emptyState').classList.remove('hidden');
+        return;
+      }
+
+      prototypes.forEach((proto, idx) => {
+        list.appendChild(buildAccordion(proto, idx));
+      });
+
+    } catch (err) {
+      console.error(err);
+      document.getElementById('accordionList').innerHTML = '';
+      document.getElementById('errorState').classList.remove('hidden');
+    }
+  }
+
+  loadData();
+</script>
+</body>
+</html>

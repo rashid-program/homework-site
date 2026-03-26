@@ -1,0 +1,5962 @@
+[
+  {
+    "id": "39454",
+    "title": "Задача 1",
+    "prototype": "Тип 1",
+    "parts": [
+      {
+        "type": "text",
+        "value": "Постройте график функции",
+        "newParagraph": true
+      },
+      {
+        "type": "text",
+        "value": "Определите, при каких значениях",
+        "newParagraph": true
+      },
+      {
+        "type": "img",
+        "file": "formulas/task22/39454_1.svg"
+      },
+      {
+        "type": "text",
+        "value": "прямая"
+      },
+      {
+        "type": "img",
+        "file": "formulas/task22/39454_2.svg"
+      },
+      {
+        "type": "text",
+        "value": "имеет с графиком ровно\nдве общие точки."
+      }
+    ],
+    "answer": "formulas/task22/39454_answer.svg",
+    "svgFiles": [
+      "formulas/task22/39454_1.svg",
+      "formulas/task22/39454_2.svg",
+      "formulas/task22/39454_answer.svg"
+    ]
+  },
+  {
+    "id": "40213",
+    "title": "Задача 2",
+    "prototype": "Тип 1",
+    "parts": [
+      {
+        "type": "text",
+        "value": "Постройте график функции",
+        "newParagraph": true
+      },
+      {
+        "type": "text",
+        "value": "Определите, при каких значениях",
+        "newParagraph": true
+      },
+      {
+        "type": "img",
+        "file": "formulas/task22/40213_1.svg"
+      },
+      {
+        "type": "text",
+        "value": "прямая"
+      },
+      {
+        "type": "img",
+        "file": "formulas/task22/40213_2.svg"
+      },
+      {
+        "type": "text",
+        "value": "имеет с графиком ровно\nдве общие точки."
+      }
+    ],
+    "answer": "formulas/task22/40213_answer.svg",
+    "svgFiles": [
+      "formulas/task22/40213_1.svg",
+      "formulas/task22/40213_2.svg",
+      "formulas/task22/40213_answer.svg"
+    ]
+  },
+  {
+    "id": "105935",
+    "title": "Задача 3",
+    "prototype": "Тип 1",
+    "parts": [
+      {
+        "type": "text",
+        "value": "Постройте график функции",
+        "newParagraph": true
+      },
+      {
+        "type": "text",
+        "value": "Определите, при каких значениях",
+        "newParagraph": true
+      },
+      {
+        "type": "img",
+        "file": "formulas/task22/105935_1.svg"
+      },
+      {
+        "type": "text",
+        "value": "прямая"
+      },
+      {
+        "type": "img",
+        "file": "formulas/task22/105935_2.svg"
+      },
+      {
+        "type": "text",
+        "value": "имеет с графиком ровно\nдве общие точки."
+      }
+    ],
+    "answer": "formulas/task22/105935_answer.svg",
+    "svgFiles": [
+      "formulas/task22/105935_1.svg",
+      "formulas/task22/105935_2.svg",
+      "formulas/task22/105935_answer.svg"
+    ]
+  },
+  {
+    "id": "124436",
+    "title": "Задача 4",
+    "prototype": "Тип 1",
+    "parts": [
+      {
+        "type": "text",
+        "value": "Постройте график функции",
+        "newParagraph": true
+      },
+      {
+        "type": "text",
+        "value": "Определите, при каких значениях",
+        "newParagraph": true
+      },
+      {
+        "type": "img",
+        "file": "formulas/task22/124436_1.svg"
+      },
+      {
+        "type": "text",
+        "value": "прямая"
+      },
+      {
+        "type": "img",
+        "file": "formulas/task22/124436_2.svg"
+      },
+      {
+        "type": "text",
+        "value": "имеет с графиком ровно\nдве общие точки."
+      }
+    ],
+    "answer": "formulas/task22/124436_answer.svg",
+    "svgFiles": [
+      "formulas/task22/124436_1.svg",
+      "formulas/task22/124436_2.svg",
+      "formulas/task22/124436_answer.svg"
+    ]
+  },
+  {
+    "id": "124437",
+    "title": "Задача 5",
+    "prototype": "Тип 1",
+    "parts": [
+      {
+        "type": "text",
+        "value": "Постройте график функции",
+        "newParagraph": true
+      },
+      {
+        "type": "text",
+        "value": "Определите, при каких значениях",
+        "newParagraph": true
+      },
+      {
+        "type": "img",
+        "file": "formulas/task22/124437_1.svg"
+      },
+      {
+        "type": "text",
+        "value": "прямая"
+      },
+      {
+        "type": "img",
+        "file": "formulas/task22/124437_2.svg"
+      },
+      {
+        "type": "text",
+        "value": "имеет с графиком ровно\nдве общие точки."
+      }
+    ],
+    "answer": "formulas/task22/124437_answer.svg",
+    "svgFiles": [
+      "formulas/task22/124437_1.svg",
+      "formulas/task22/124437_2.svg",
+      "formulas/task22/124437_answer.svg"
+    ]
+  },
+  {
+    "id": "124438",
+    "title": "Задача 6",
+    "prototype": "Тип 1",
+    "parts": [
+      {
+        "type": "text",
+        "value": "Постройте график функции",
+        "newParagraph": true
+      },
+      {
+        "type": "text",
+        "value": "Определите, при каких значениях",
+        "newParagraph": true
+      },
+      {
+        "type": "img",
+        "file": "formulas/task22/124438_1.svg"
+      },
+      {
+        "type": "text",
+        "value": "прямая"
+      },
+      {
+        "type": "img",
+        "file": "formulas/task22/124438_2.svg"
+      },
+      {
+        "type": "text",
+        "value": "имеет с графиком ровно\nдве общие точки."
+      }
+    ],
+    "answer": "formulas/task22/124438_answer.svg",
+    "svgFiles": [
+      "formulas/task22/124438_1.svg",
+      "formulas/task22/124438_2.svg",
+      "formulas/task22/124438_answer.svg"
+    ]
+  },
+  {
+    "id": "124439",
+    "title": "Задача 7",
+    "prototype": "Тип 1",
+    "parts": [
+      {
+        "type": "text",
+        "value": "Постройте график функции",
+        "newParagraph": true
+      },
+      {
+        "type": "text",
+        "value": "Определите, при каких значениях",
+        "newParagraph": true
+      },
+      {
+        "type": "img",
+        "file": "formulas/task22/124439_1.svg"
+      },
+      {
+        "type": "text",
+        "value": "прямая"
+      },
+      {
+        "type": "img",
+        "file": "formulas/task22/124439_2.svg"
+      },
+      {
+        "type": "text",
+        "value": "имеет с графиком ровно\nдве общие точки."
+      }
+    ],
+    "answer": "formulas/task22/124439_answer.svg",
+    "svgFiles": [
+      "formulas/task22/124439_1.svg",
+      "formulas/task22/124439_2.svg",
+      "formulas/task22/124439_answer.svg"
+    ]
+  },
+  {
+    "id": "124441",
+    "title": "Задача 8",
+    "prototype": "Тип 1",
+    "parts": [
+      {
+        "type": "text",
+        "value": "Постройте график функции",
+        "newParagraph": true
+      },
+      {
+        "type": "text",
+        "value": "Определите, при каких значениях",
+        "newParagraph": true
+      },
+      {
+        "type": "img",
+        "file": "formulas/task22/124441_1.svg"
+      },
+      {
+        "type": "text",
+        "value": "прямая"
+      },
+      {
+        "type": "img",
+        "file": "formulas/task22/124441_2.svg"
+      },
+      {
+        "type": "text",
+        "value": "имеет с графиком ровно\nдве общие точки."
+      }
+    ],
+    "answer": "formulas/task22/124441_answer.svg",
+    "svgFiles": [
+      "formulas/task22/124441_1.svg",
+      "formulas/task22/124441_2.svg",
+      "formulas/task22/124441_answer.svg"
+    ]
+  },
+  {
+    "id": "124443",
+    "title": "Задача 9",
+    "prototype": "Тип 1",
+    "parts": [
+      {
+        "type": "text",
+        "value": "Постройте график функции",
+        "newParagraph": true
+      },
+      {
+        "type": "text",
+        "value": "Определите, при каких значениях",
+        "newParagraph": true
+      },
+      {
+        "type": "img",
+        "file": "formulas/task22/124443_1.svg"
+      },
+      {
+        "type": "text",
+        "value": "прямая"
+      },
+      {
+        "type": "img",
+        "file": "formulas/task22/124443_2.svg"
+      },
+      {
+        "type": "text",
+        "value": "имеет с графиком ровно\nдве общие точки."
+      }
+    ],
+    "answer": "formulas/task22/124443_answer.svg",
+    "svgFiles": [
+      "formulas/task22/124443_1.svg",
+      "formulas/task22/124443_2.svg",
+      "formulas/task22/124443_answer.svg"
+    ]
+  },
+  {
+    "id": "42342",
+    "title": "Задача 10",
+    "prototype": "Тип 1",
+    "parts": [
+      {
+        "type": "text",
+        "value": "Постройте график функции",
+        "newParagraph": true
+      },
+      {
+        "type": "text",
+        "value": "Определите, при каких значениях",
+        "newParagraph": true
+      },
+      {
+        "type": "img",
+        "file": "formulas/task22/42342_1.svg"
+      },
+      {
+        "type": "text",
+        "value": "прямая"
+      },
+      {
+        "type": "img",
+        "file": "formulas/task22/42342_2.svg"
+      },
+      {
+        "type": "text",
+        "value": "имеет с графиком ровно\nдве общие точки."
+      }
+    ],
+    "answer": "formulas/task22/42342_answer.svg",
+    "svgFiles": [
+      "formulas/task22/42342_1.svg",
+      "formulas/task22/42342_2.svg",
+      "formulas/task22/42342_answer.svg"
+    ]
+  },
+  {
+    "id": "105936",
+    "title": "Задача 1",
+    "prototype": "Тип 2",
+    "parts": [
+      {
+        "type": "text",
+        "value": "Постройте график функции",
+        "newParagraph": true
+      },
+      {
+        "type": "text",
+        "value": "Определите, при каких значениях",
+        "newParagraph": true
+      },
+      {
+        "type": "img",
+        "file": "formulas/task22/105936_1.svg"
+      },
+      {
+        "type": "text",
+        "value": "прямая"
+      },
+      {
+        "type": "img",
+        "file": "formulas/task22/105936_2.svg"
+      },
+      {
+        "type": "text",
+        "value": "имеет с графиком ровно\nдве общие точки."
+      }
+    ],
+    "answer": "formulas/task22/105936_answer.svg",
+    "svgFiles": [
+      "formulas/task22/105936_1.svg",
+      "formulas/task22/105936_2.svg",
+      "formulas/task22/105936_answer.svg"
+    ]
+  },
+  {
+    "id": "124450",
+    "title": "Задача 2",
+    "prototype": "Тип 2",
+    "parts": [
+      {
+        "type": "text",
+        "value": "Постройте график функции",
+        "newParagraph": true
+      },
+      {
+        "type": "text",
+        "value": "Определите, при каких значениях",
+        "newParagraph": true
+      },
+      {
+        "type": "img",
+        "file": "formulas/task22/124450_1.svg"
+      },
+      {
+        "type": "text",
+        "value": "прямая"
+      },
+      {
+        "type": "img",
+        "file": "formulas/task22/124450_2.svg"
+      },
+      {
+        "type": "text",
+        "value": "имеет с графиком ровно\nдве общие точки."
+      }
+    ],
+    "answer": "formulas/task22/124450_answer.svg",
+    "svgFiles": [
+      "formulas/task22/124450_1.svg",
+      "formulas/task22/124450_2.svg",
+      "formulas/task22/124450_answer.svg"
+    ]
+  },
+  {
+    "id": "124452",
+    "title": "Задача 3",
+    "prototype": "Тип 2",
+    "parts": [
+      {
+        "type": "text",
+        "value": "Постройте график функции",
+        "newParagraph": true
+      },
+      {
+        "type": "text",
+        "value": "Определите, при каких значениях",
+        "newParagraph": true
+      },
+      {
+        "type": "img",
+        "file": "formulas/task22/124452_1.svg"
+      },
+      {
+        "type": "text",
+        "value": "прямая"
+      },
+      {
+        "type": "img",
+        "file": "formulas/task22/124452_2.svg"
+      },
+      {
+        "type": "text",
+        "value": "имеет с графиком ровно\nдве общие точки."
+      }
+    ],
+    "answer": "formulas/task22/124452_answer.svg",
+    "svgFiles": [
+      "formulas/task22/124452_1.svg",
+      "formulas/task22/124452_2.svg",
+      "formulas/task22/124452_answer.svg"
+    ]
+  },
+  {
+    "id": "124454",
+    "title": "Задача 4",
+    "prototype": "Тип 2",
+    "parts": [
+      {
+        "type": "text",
+        "value": "Постройте график функции",
+        "newParagraph": true
+      },
+      {
+        "type": "text",
+        "value": "Определите, при каких значениях",
+        "newParagraph": true
+      },
+      {
+        "type": "img",
+        "file": "formulas/task22/124454_1.svg"
+      },
+      {
+        "type": "text",
+        "value": "прямая"
+      },
+      {
+        "type": "img",
+        "file": "formulas/task22/124454_2.svg"
+      },
+      {
+        "type": "text",
+        "value": "имеет с графиком ровно\nдве общие точки."
+      }
+    ],
+    "answer": "formulas/task22/124454_answer.svg",
+    "svgFiles": [
+      "formulas/task22/124454_1.svg",
+      "formulas/task22/124454_2.svg",
+      "formulas/task22/124454_answer.svg"
+    ]
+  },
+  {
+    "id": "124456",
+    "title": "Задача 5",
+    "prototype": "Тип 2",
+    "parts": [
+      {
+        "type": "text",
+        "value": "Постройте график функции",
+        "newParagraph": true
+      },
+      {
+        "type": "text",
+        "value": "Определите, при каких значениях",
+        "newParagraph": true
+      },
+      {
+        "type": "img",
+        "file": "formulas/task22/124456_1.svg"
+      },
+      {
+        "type": "text",
+        "value": "прямая"
+      },
+      {
+        "type": "img",
+        "file": "formulas/task22/124456_2.svg"
+      },
+      {
+        "type": "text",
+        "value": "имеет с графиком ровно\nдве общие точки."
+      }
+    ],
+    "answer": "formulas/task22/124456_answer.svg",
+    "svgFiles": [
+      "formulas/task22/124456_1.svg",
+      "formulas/task22/124456_2.svg",
+      "formulas/task22/124456_answer.svg"
+    ]
+  },
+  {
+    "id": "124458",
+    "title": "Задача 6",
+    "prototype": "Тип 2",
+    "parts": [
+      {
+        "type": "text",
+        "value": "Постройте график функции",
+        "newParagraph": true
+      },
+      {
+        "type": "text",
+        "value": "Определите, при каких значениях",
+        "newParagraph": true
+      },
+      {
+        "type": "img",
+        "file": "formulas/task22/124458_1.svg"
+      },
+      {
+        "type": "text",
+        "value": "прямая"
+      },
+      {
+        "type": "img",
+        "file": "formulas/task22/124458_2.svg"
+      },
+      {
+        "type": "text",
+        "value": "имеет с графиком ровно\nдве общие точки."
+      }
+    ],
+    "answer": "formulas/task22/124458_answer.svg",
+    "svgFiles": [
+      "formulas/task22/124458_1.svg",
+      "formulas/task22/124458_2.svg",
+      "formulas/task22/124458_answer.svg"
+    ]
+  },
+  {
+    "id": "124459",
+    "title": "Задача 7",
+    "prototype": "Тип 2",
+    "parts": [
+      {
+        "type": "text",
+        "value": "Постройте график функции",
+        "newParagraph": true
+      },
+      {
+        "type": "text",
+        "value": "Определите, при каких значениях",
+        "newParagraph": true
+      },
+      {
+        "type": "img",
+        "file": "formulas/task22/124459_1.svg"
+      },
+      {
+        "type": "text",
+        "value": "прямая"
+      },
+      {
+        "type": "img",
+        "file": "formulas/task22/124459_2.svg"
+      },
+      {
+        "type": "text",
+        "value": "имеет с графиком ровно\nдве общие точки."
+      }
+    ],
+    "answer": "formulas/task22/124459_answer.svg",
+    "svgFiles": [
+      "formulas/task22/124459_1.svg",
+      "formulas/task22/124459_2.svg",
+      "formulas/task22/124459_answer.svg"
+    ]
+  },
+  {
+    "id": "124460",
+    "title": "Задача 8",
+    "prototype": "Тип 2",
+    "parts": [
+      {
+        "type": "text",
+        "value": "Постройте график функции",
+        "newParagraph": true
+      },
+      {
+        "type": "text",
+        "value": "Определите, при каких значениях",
+        "newParagraph": true
+      },
+      {
+        "type": "img",
+        "file": "formulas/task22/124460_1.svg"
+      },
+      {
+        "type": "text",
+        "value": "прямая"
+      },
+      {
+        "type": "img",
+        "file": "formulas/task22/124460_2.svg"
+      },
+      {
+        "type": "text",
+        "value": "имеет с графиком ровно\nдве общие точки."
+      }
+    ],
+    "answer": "formulas/task22/124460_answer.svg",
+    "svgFiles": [
+      "formulas/task22/124460_1.svg",
+      "formulas/task22/124460_2.svg",
+      "formulas/task22/124460_answer.svg"
+    ]
+  },
+  {
+    "id": "42831",
+    "title": "Задача 9",
+    "prototype": "Тип 2",
+    "parts": [
+      {
+        "type": "text",
+        "value": "Постройте график функции",
+        "newParagraph": true
+      },
+      {
+        "type": "text",
+        "value": "Определите, при каких значениях",
+        "newParagraph": true
+      },
+      {
+        "type": "img",
+        "file": "formulas/task22/42831_1.svg"
+      },
+      {
+        "type": "text",
+        "value": "прямая"
+      },
+      {
+        "type": "img",
+        "file": "formulas/task22/42831_2.svg"
+      },
+      {
+        "type": "text",
+        "value": "имеет с графиком ровно\nдве общие точки."
+      }
+    ],
+    "answer": "formulas/task22/42831_answer.svg",
+    "svgFiles": [
+      "formulas/task22/42831_1.svg",
+      "formulas/task22/42831_2.svg",
+      "formulas/task22/42831_answer.svg"
+    ]
+  },
+  {
+    "id": "40765",
+    "title": "Задача 10",
+    "prototype": "Тип 2",
+    "parts": [
+      {
+        "type": "text",
+        "value": "Постройте график функции",
+        "newParagraph": true
+      },
+      {
+        "type": "text",
+        "value": "Определите, при каких значениях",
+        "newParagraph": true
+      },
+      {
+        "type": "img",
+        "file": "formulas/task22/40765_1.svg"
+      },
+      {
+        "type": "text",
+        "value": "прямая"
+      },
+      {
+        "type": "img",
+        "file": "formulas/task22/40765_2.svg"
+      },
+      {
+        "type": "text",
+        "value": "имеет с графиком ровно\nдве общие точки."
+      }
+    ],
+    "answer": "formulas/task22/40765_answer.svg",
+    "svgFiles": [
+      "formulas/task22/40765_1.svg",
+      "formulas/task22/40765_2.svg",
+      "formulas/task22/40765_answer.svg"
+    ]
+  },
+  {
+    "id": "105937",
+    "title": "Задача 1",
+    "prototype": "Тип 3",
+    "parts": [
+      {
+        "type": "text",
+        "value": "Постройте график функции",
+        "newParagraph": true
+      },
+      {
+        "type": "text",
+        "value": "Определите, при каких значениях",
+        "newParagraph": true
+      },
+      {
+        "type": "img",
+        "file": "formulas/task22/105937_1.svg"
+      },
+      {
+        "type": "text",
+        "value": "прямая"
+      },
+      {
+        "type": "img",
+        "file": "formulas/task22/105937_2.svg"
+      },
+      {
+        "type": "text",
+        "value": "имеет с графиком ровно\nдве общие точки."
+      }
+    ],
+    "answer": "formulas/task22/105937_answer.svg",
+    "svgFiles": [
+      "formulas/task22/105937_1.svg",
+      "formulas/task22/105937_2.svg",
+      "formulas/task22/105937_answer.svg"
+    ]
+  },
+  {
+    "id": "124462",
+    "title": "Задача 2",
+    "prototype": "Тип 3",
+    "parts": [
+      {
+        "type": "text",
+        "value": "Постройте график функции",
+        "newParagraph": true
+      },
+      {
+        "type": "text",
+        "value": "Определите, при каких значениях",
+        "newParagraph": true
+      },
+      {
+        "type": "img",
+        "file": "formulas/task22/124462_1.svg"
+      },
+      {
+        "type": "text",
+        "value": "прямая"
+      },
+      {
+        "type": "img",
+        "file": "formulas/task22/124462_2.svg"
+      },
+      {
+        "type": "text",
+        "value": "имеет с графиком ровно\nдве общие точки."
+      }
+    ],
+    "answer": "formulas/task22/124462_answer.svg",
+    "svgFiles": [
+      "formulas/task22/124462_1.svg",
+      "formulas/task22/124462_2.svg",
+      "formulas/task22/124462_answer.svg"
+    ]
+  },
+  {
+    "id": "124464",
+    "title": "Задача 3",
+    "prototype": "Тип 3",
+    "parts": [
+      {
+        "type": "text",
+        "value": "Постройте график функции",
+        "newParagraph": true
+      },
+      {
+        "type": "text",
+        "value": "Определите, при каких значениях",
+        "newParagraph": true
+      },
+      {
+        "type": "img",
+        "file": "formulas/task22/124464_1.svg"
+      },
+      {
+        "type": "text",
+        "value": "прямая"
+      },
+      {
+        "type": "img",
+        "file": "formulas/task22/124464_2.svg"
+      },
+      {
+        "type": "text",
+        "value": "имеет с графиком ровно\nдве общие точки."
+      }
+    ],
+    "answer": "formulas/task22/124464_answer.svg",
+    "svgFiles": [
+      "formulas/task22/124464_1.svg",
+      "formulas/task22/124464_2.svg",
+      "formulas/task22/124464_answer.svg"
+    ]
+  },
+  {
+    "id": "124465",
+    "title": "Задача 4",
+    "prototype": "Тип 3",
+    "parts": [
+      {
+        "type": "text",
+        "value": "Постройте график функции",
+        "newParagraph": true
+      },
+      {
+        "type": "text",
+        "value": "Определите, при каких значениях",
+        "newParagraph": true
+      },
+      {
+        "type": "img",
+        "file": "formulas/task22/124465_1.svg"
+      },
+      {
+        "type": "text",
+        "value": "прямая"
+      },
+      {
+        "type": "img",
+        "file": "formulas/task22/124465_2.svg"
+      },
+      {
+        "type": "text",
+        "value": "имеет с графиком ровно\nдве общие точки."
+      }
+    ],
+    "answer": "formulas/task22/124465_answer.svg",
+    "svgFiles": [
+      "formulas/task22/124465_1.svg",
+      "formulas/task22/124465_2.svg",
+      "formulas/task22/124465_answer.svg"
+    ]
+  },
+  {
+    "id": "124466",
+    "title": "Задача 5",
+    "prototype": "Тип 3",
+    "parts": [
+      {
+        "type": "text",
+        "value": "Постройте график функции",
+        "newParagraph": true
+      },
+      {
+        "type": "text",
+        "value": "Определите, при каких значениях",
+        "newParagraph": true
+      },
+      {
+        "type": "img",
+        "file": "formulas/task22/124466_1.svg"
+      },
+      {
+        "type": "text",
+        "value": "прямая"
+      },
+      {
+        "type": "img",
+        "file": "formulas/task22/124466_2.svg"
+      },
+      {
+        "type": "text",
+        "value": "имеет с графиком ровно\nдве общие точки."
+      }
+    ],
+    "answer": "formulas/task22/124466_answer.svg",
+    "svgFiles": [
+      "formulas/task22/124466_1.svg",
+      "formulas/task22/124466_2.svg",
+      "formulas/task22/124466_answer.svg"
+    ]
+  },
+  {
+    "id": "124467",
+    "title": "Задача 6",
+    "prototype": "Тип 3",
+    "parts": [
+      {
+        "type": "text",
+        "value": "Постройте график функции",
+        "newParagraph": true
+      },
+      {
+        "type": "text",
+        "value": "Определите, при каких значениях",
+        "newParagraph": true
+      },
+      {
+        "type": "img",
+        "file": "formulas/task22/124467_1.svg"
+      },
+      {
+        "type": "text",
+        "value": "прямая"
+      },
+      {
+        "type": "img",
+        "file": "formulas/task22/124467_2.svg"
+      },
+      {
+        "type": "text",
+        "value": "имеет с графиком ровно\nдве общие точки."
+      }
+    ],
+    "answer": "formulas/task22/124467_answer.svg",
+    "svgFiles": [
+      "formulas/task22/124467_1.svg",
+      "formulas/task22/124467_2.svg",
+      "formulas/task22/124467_answer.svg"
+    ]
+  },
+  {
+    "id": "124468",
+    "title": "Задача 7",
+    "prototype": "Тип 3",
+    "parts": [
+      {
+        "type": "text",
+        "value": "Постройте график функции",
+        "newParagraph": true
+      },
+      {
+        "type": "text",
+        "value": "Определите, при каких значениях",
+        "newParagraph": true
+      },
+      {
+        "type": "img",
+        "file": "formulas/task22/124468_1.svg"
+      },
+      {
+        "type": "text",
+        "value": "прямая"
+      },
+      {
+        "type": "img",
+        "file": "formulas/task22/124468_2.svg"
+      },
+      {
+        "type": "text",
+        "value": "имеет с графиком ровно\nдве общие точки."
+      }
+    ],
+    "answer": "formulas/task22/124468_answer.svg",
+    "svgFiles": [
+      "formulas/task22/124468_1.svg",
+      "formulas/task22/124468_2.svg",
+      "formulas/task22/124468_answer.svg"
+    ]
+  },
+  {
+    "id": "124470",
+    "title": "Задача 8",
+    "prototype": "Тип 3",
+    "parts": [
+      {
+        "type": "text",
+        "value": "Постройте график функции",
+        "newParagraph": true
+      },
+      {
+        "type": "text",
+        "value": "Определите, при каких значениях",
+        "newParagraph": true
+      },
+      {
+        "type": "img",
+        "file": "formulas/task22/124470_1.svg"
+      },
+      {
+        "type": "text",
+        "value": "прямая"
+      },
+      {
+        "type": "img",
+        "file": "formulas/task22/124470_2.svg"
+      },
+      {
+        "type": "text",
+        "value": "имеет с графиком ровно\nдве общие точки."
+      }
+    ],
+    "answer": "formulas/task22/124470_answer.svg",
+    "svgFiles": [
+      "formulas/task22/124470_1.svg",
+      "formulas/task22/124470_2.svg",
+      "formulas/task22/124470_answer.svg"
+    ]
+  },
+  {
+    "id": "124472",
+    "title": "Задача 9",
+    "prototype": "Тип 3",
+    "parts": [
+      {
+        "type": "text",
+        "value": "Постройте график функции",
+        "newParagraph": true
+      },
+      {
+        "type": "text",
+        "value": "Определите, при каких значениях",
+        "newParagraph": true
+      },
+      {
+        "type": "img",
+        "file": "formulas/task22/124472_1.svg"
+      },
+      {
+        "type": "text",
+        "value": "прямая"
+      },
+      {
+        "type": "img",
+        "file": "formulas/task22/124472_2.svg"
+      },
+      {
+        "type": "text",
+        "value": "имеет с графиком ровно\nдве общие точки."
+      }
+    ],
+    "answer": "formulas/task22/124472_answer.svg",
+    "svgFiles": [
+      "formulas/task22/124472_1.svg",
+      "formulas/task22/124472_2.svg",
+      "formulas/task22/124472_answer.svg"
+    ]
+  },
+  {
+    "id": "124473",
+    "title": "Задача 10",
+    "prototype": "Тип 3",
+    "parts": [
+      {
+        "type": "text",
+        "value": "Постройте график функции",
+        "newParagraph": true
+      },
+      {
+        "type": "text",
+        "value": "Определите, при каких значениях",
+        "newParagraph": true
+      },
+      {
+        "type": "img",
+        "file": "formulas/task22/124473_1.svg"
+      },
+      {
+        "type": "text",
+        "value": "прямая"
+      },
+      {
+        "type": "img",
+        "file": "formulas/task22/124473_2.svg"
+      },
+      {
+        "type": "text",
+        "value": "имеет с графиком ровно\nдве общие точки."
+      }
+    ],
+    "answer": "formulas/task22/124473_answer.svg",
+    "svgFiles": [
+      "formulas/task22/124473_1.svg",
+      "formulas/task22/124473_2.svg",
+      "formulas/task22/124473_answer.svg"
+    ]
+  },
+  {
+    "id": "48624",
+    "title": "Задача 1",
+    "prototype": "Тип 4",
+    "parts": [
+      {
+        "type": "text",
+        "value": "Постройте график функции",
+        "newParagraph": true
+      },
+      {
+        "type": "text",
+        "value": "Определите, при каких значениях",
+        "newParagraph": true
+      },
+      {
+        "type": "img",
+        "file": "formulas/task22/48624_1.svg"
+      },
+      {
+        "type": "text",
+        "value": "прямая"
+      },
+      {
+        "type": "img",
+        "file": "formulas/task22/48624_2.svg"
+      },
+      {
+        "type": "text",
+        "value": "имеет с графиком ровно\nодну общую точку."
+      }
+    ],
+    "answer": "formulas/task22/48624_answer.svg",
+    "svgFiles": [
+      "formulas/task22/48624_1.svg",
+      "formulas/task22/48624_2.svg",
+      "formulas/task22/48624_answer.svg"
+    ]
+  },
+  {
+    "id": "105938",
+    "title": "Задача 2",
+    "prototype": "Тип 4",
+    "parts": [
+      {
+        "type": "text",
+        "value": "Постройте график функции",
+        "newParagraph": true
+      },
+      {
+        "type": "text",
+        "value": "Определите, при каких значениях",
+        "newParagraph": true
+      },
+      {
+        "type": "img",
+        "file": "formulas/task22/105938_1.svg"
+      },
+      {
+        "type": "text",
+        "value": "прямая"
+      },
+      {
+        "type": "img",
+        "file": "formulas/task22/105938_2.svg"
+      },
+      {
+        "type": "text",
+        "value": "имеет с графиком ровно\nодну общую точку."
+      }
+    ],
+    "answer": "formulas/task22/105938_answer.svg",
+    "svgFiles": [
+      "formulas/task22/105938_1.svg",
+      "formulas/task22/105938_2.svg",
+      "formulas/task22/105938_answer.svg"
+    ]
+  },
+  {
+    "id": "105939",
+    "title": "Задача 1",
+    "prototype": "Тип 5",
+    "parts": [
+      {
+        "type": "text",
+        "value": "Постройте график функции",
+        "newParagraph": true
+      },
+      {
+        "type": "text",
+        "value": "Определите, при каких значениях",
+        "newParagraph": true
+      },
+      {
+        "type": "img",
+        "file": "formulas/task22/105939_1.svg"
+      },
+      {
+        "type": "text",
+        "value": "прямая"
+      },
+      {
+        "type": "img",
+        "file": "formulas/task22/105939_2.svg"
+      },
+      {
+        "type": "text",
+        "value": "имеет с графиком одну\nили две общие точки."
+      }
+    ],
+    "answer": "formulas/task22/105939_answer.svg",
+    "svgFiles": [
+      "formulas/task22/105939_1.svg",
+      "formulas/task22/105939_2.svg",
+      "formulas/task22/105939_answer.svg"
+    ]
+  },
+  {
+    "id": "124474",
+    "title": "Задача 2",
+    "prototype": "Тип 5",
+    "parts": [
+      {
+        "type": "text",
+        "value": "Постройте график функции",
+        "newParagraph": true
+      },
+      {
+        "type": "text",
+        "value": "Определите, при каких значениях",
+        "newParagraph": true
+      },
+      {
+        "type": "img",
+        "file": "formulas/task22/124474_1.svg"
+      },
+      {
+        "type": "text",
+        "value": "прямая"
+      },
+      {
+        "type": "img",
+        "file": "formulas/task22/124474_2.svg"
+      },
+      {
+        "type": "text",
+        "value": "имеет с графиком одну\nили две общие точки."
+      }
+    ],
+    "answer": "formulas/task22/124474_answer.svg",
+    "svgFiles": [
+      "formulas/task22/124474_1.svg",
+      "formulas/task22/124474_2.svg",
+      "formulas/task22/124474_answer.svg"
+    ]
+  },
+  {
+    "id": "124475",
+    "title": "Задача 3",
+    "prototype": "Тип 5",
+    "parts": [
+      {
+        "type": "text",
+        "value": "Постройте график функции",
+        "newParagraph": true
+      },
+      {
+        "type": "text",
+        "value": "Определите, при каких значениях",
+        "newParagraph": true
+      },
+      {
+        "type": "img",
+        "file": "formulas/task22/124475_1.svg"
+      },
+      {
+        "type": "text",
+        "value": "прямая"
+      },
+      {
+        "type": "img",
+        "file": "formulas/task22/124475_2.svg"
+      },
+      {
+        "type": "text",
+        "value": "имеет с графиком одну\nили две общие точки."
+      }
+    ],
+    "answer": "formulas/task22/124475_answer.svg",
+    "svgFiles": [
+      "formulas/task22/124475_1.svg",
+      "formulas/task22/124475_2.svg",
+      "formulas/task22/124475_answer.svg"
+    ]
+  },
+  {
+    "id": "124476",
+    "title": "Задача 4",
+    "prototype": "Тип 5",
+    "parts": [
+      {
+        "type": "text",
+        "value": "Постройте график функции",
+        "newParagraph": true
+      },
+      {
+        "type": "text",
+        "value": "Определите, при каких значениях",
+        "newParagraph": true
+      },
+      {
+        "type": "img",
+        "file": "formulas/task22/124476_1.svg"
+      },
+      {
+        "type": "text",
+        "value": "прямая"
+      },
+      {
+        "type": "img",
+        "file": "formulas/task22/124476_2.svg"
+      },
+      {
+        "type": "text",
+        "value": "имеет с графиком одну\nили две общие точки."
+      }
+    ],
+    "answer": "formulas/task22/124476_answer.svg",
+    "svgFiles": [
+      "formulas/task22/124476_1.svg",
+      "formulas/task22/124476_2.svg",
+      "formulas/task22/124476_answer.svg"
+    ]
+  },
+  {
+    "id": "124477",
+    "title": "Задача 5",
+    "prototype": "Тип 5",
+    "parts": [
+      {
+        "type": "text",
+        "value": "Постройте график функции",
+        "newParagraph": true
+      },
+      {
+        "type": "text",
+        "value": "Определите, при каких значениях",
+        "newParagraph": true
+      },
+      {
+        "type": "img",
+        "file": "formulas/task22/124477_1.svg"
+      },
+      {
+        "type": "text",
+        "value": "прямая"
+      },
+      {
+        "type": "img",
+        "file": "formulas/task22/124477_2.svg"
+      },
+      {
+        "type": "text",
+        "value": "имеет с графиком одну\nили две общие точки."
+      }
+    ],
+    "answer": "formulas/task22/124477_answer.svg",
+    "svgFiles": [
+      "formulas/task22/124477_1.svg",
+      "formulas/task22/124477_2.svg",
+      "formulas/task22/124477_answer.svg"
+    ]
+  },
+  {
+    "id": "124478",
+    "title": "Задача 6",
+    "prototype": "Тип 5",
+    "parts": [
+      {
+        "type": "text",
+        "value": "Постройте график функции",
+        "newParagraph": true
+      },
+      {
+        "type": "text",
+        "value": "Определите, при каких значениях",
+        "newParagraph": true
+      },
+      {
+        "type": "img",
+        "file": "formulas/task22/124478_1.svg"
+      },
+      {
+        "type": "text",
+        "value": "прямая"
+      },
+      {
+        "type": "img",
+        "file": "formulas/task22/124478_2.svg"
+      },
+      {
+        "type": "text",
+        "value": "имеет с графиком одну\nили две общие точки."
+      }
+    ],
+    "answer": "formulas/task22/124478_answer.svg",
+    "svgFiles": [
+      "formulas/task22/124478_1.svg",
+      "formulas/task22/124478_2.svg",
+      "formulas/task22/124478_answer.svg"
+    ]
+  },
+  {
+    "id": "124480",
+    "title": "Задача 7",
+    "prototype": "Тип 5",
+    "parts": [
+      {
+        "type": "text",
+        "value": "Постройте график функции",
+        "newParagraph": true
+      },
+      {
+        "type": "text",
+        "value": "Определите, при каких значениях",
+        "newParagraph": true
+      },
+      {
+        "type": "img",
+        "file": "formulas/task22/124480_1.svg"
+      },
+      {
+        "type": "text",
+        "value": "прямая"
+      },
+      {
+        "type": "img",
+        "file": "formulas/task22/124480_2.svg"
+      },
+      {
+        "type": "text",
+        "value": "имеет с графиком одну\nили две общие точки."
+      }
+    ],
+    "answer": "formulas/task22/124480_answer.svg",
+    "svgFiles": [
+      "formulas/task22/124480_1.svg",
+      "formulas/task22/124480_2.svg",
+      "formulas/task22/124480_answer.svg"
+    ]
+  },
+  {
+    "id": "124481",
+    "title": "Задача 8",
+    "prototype": "Тип 5",
+    "parts": [
+      {
+        "type": "text",
+        "value": "Постройте график функции",
+        "newParagraph": true
+      },
+      {
+        "type": "text",
+        "value": "Определите, при каких значениях",
+        "newParagraph": true
+      },
+      {
+        "type": "img",
+        "file": "formulas/task22/124481_1.svg"
+      },
+      {
+        "type": "text",
+        "value": "прямая"
+      },
+      {
+        "type": "img",
+        "file": "formulas/task22/124481_2.svg"
+      },
+      {
+        "type": "text",
+        "value": "имеет с графиком одну\nили две общие точки."
+      }
+    ],
+    "answer": "formulas/task22/124481_answer.svg",
+    "svgFiles": [
+      "formulas/task22/124481_1.svg",
+      "formulas/task22/124481_2.svg",
+      "formulas/task22/124481_answer.svg"
+    ]
+  },
+  {
+    "id": "27281",
+    "title": "Задача 1",
+    "prototype": "Тип 6",
+    "parts": [
+      {
+        "type": "text",
+        "value": "Постройте график функции",
+        "newParagraph": true
+      },
+      {
+        "type": "text",
+        "value": "Определите, при каких значениях",
+        "newParagraph": true
+      },
+      {
+        "type": "img",
+        "file": "formulas/task22/27281_1.svg"
+      },
+      {
+        "type": "text",
+        "value": "прямая"
+      },
+      {
+        "type": "img",
+        "file": "formulas/task22/27281_2.svg"
+      },
+      {
+        "type": "text",
+        "value": "имеет с графиком ровно\nодну общую точку."
+      }
+    ],
+    "answer": "formulas/task22/27281_answer.svg",
+    "svgFiles": [
+      "formulas/task22/27281_1.svg",
+      "formulas/task22/27281_2.svg",
+      "formulas/task22/27281_answer.svg"
+    ]
+  },
+  {
+    "id": "124488",
+    "title": "Задача 2",
+    "prototype": "Тип 6",
+    "parts": [
+      {
+        "type": "text",
+        "value": "Постройте график функции",
+        "newParagraph": true
+      },
+      {
+        "type": "text",
+        "value": "Определите, при каких значениях",
+        "newParagraph": true
+      },
+      {
+        "type": "img",
+        "file": "formulas/task22/124488_1.svg"
+      },
+      {
+        "type": "text",
+        "value": "прямая"
+      },
+      {
+        "type": "img",
+        "file": "formulas/task22/124488_2.svg"
+      },
+      {
+        "type": "text",
+        "value": "имеет с графиком ровно\nодну общую точку."
+      }
+    ],
+    "answer": "formulas/task22/124488_answer.svg",
+    "svgFiles": [
+      "formulas/task22/124488_1.svg",
+      "formulas/task22/124488_2.svg",
+      "formulas/task22/124488_answer.svg"
+    ]
+  },
+  {
+    "id": "124490",
+    "title": "Задача 3",
+    "prototype": "Тип 6",
+    "parts": [
+      {
+        "type": "text",
+        "value": "Постройте график функции",
+        "newParagraph": true
+      },
+      {
+        "type": "text",
+        "value": "Определите, при каких значениях",
+        "newParagraph": true
+      },
+      {
+        "type": "img",
+        "file": "formulas/task22/124490_1.svg"
+      },
+      {
+        "type": "text",
+        "value": "прямая"
+      },
+      {
+        "type": "img",
+        "file": "formulas/task22/124490_2.svg"
+      },
+      {
+        "type": "text",
+        "value": "имеет с графиком ровно\nодну общую точку."
+      }
+    ],
+    "answer": "formulas/task22/124490_answer.svg",
+    "svgFiles": [
+      "formulas/task22/124490_1.svg",
+      "formulas/task22/124490_2.svg",
+      "formulas/task22/124490_answer.svg"
+    ]
+  },
+  {
+    "id": "124492",
+    "title": "Задача 4",
+    "prototype": "Тип 6",
+    "parts": [
+      {
+        "type": "text",
+        "value": "Постройте график функции",
+        "newParagraph": true
+      },
+      {
+        "type": "text",
+        "value": "Определите, при каких значениях",
+        "newParagraph": true
+      },
+      {
+        "type": "img",
+        "file": "formulas/task22/124492_1.svg"
+      },
+      {
+        "type": "text",
+        "value": "прямая"
+      },
+      {
+        "type": "img",
+        "file": "formulas/task22/124492_2.svg"
+      },
+      {
+        "type": "text",
+        "value": "имеет с графиком ровно\nодну общую точку."
+      }
+    ],
+    "answer": "formulas/task22/124492_answer.svg",
+    "svgFiles": [
+      "formulas/task22/124492_1.svg",
+      "formulas/task22/124492_2.svg",
+      "formulas/task22/124492_answer.svg"
+    ]
+  },
+  {
+    "id": "124495",
+    "title": "Задача 5",
+    "prototype": "Тип 6",
+    "parts": [
+      {
+        "type": "text",
+        "value": "Постройте график функции",
+        "newParagraph": true
+      },
+      {
+        "type": "text",
+        "value": "Определите, при каких значениях",
+        "newParagraph": true
+      },
+      {
+        "type": "img",
+        "file": "formulas/task22/124495_1.svg"
+      },
+      {
+        "type": "text",
+        "value": "прямая"
+      },
+      {
+        "type": "img",
+        "file": "formulas/task22/124495_2.svg"
+      },
+      {
+        "type": "text",
+        "value": "имеет с графиком ровно\nодну общую точку."
+      }
+    ],
+    "answer": "formulas/task22/124495_answer.svg",
+    "svgFiles": [
+      "formulas/task22/124495_1.svg",
+      "formulas/task22/124495_2.svg",
+      "formulas/task22/124495_answer.svg"
+    ]
+  },
+  {
+    "id": "124496",
+    "title": "Задача 6",
+    "prototype": "Тип 6",
+    "parts": [
+      {
+        "type": "text",
+        "value": "Постройте график функции",
+        "newParagraph": true
+      },
+      {
+        "type": "text",
+        "value": "Определите, при каких значениях",
+        "newParagraph": true
+      },
+      {
+        "type": "img",
+        "file": "formulas/task22/124496_1.svg"
+      },
+      {
+        "type": "text",
+        "value": "прямая"
+      },
+      {
+        "type": "img",
+        "file": "formulas/task22/124496_2.svg"
+      },
+      {
+        "type": "text",
+        "value": "имеет с графиком ровно\nодну общую точку."
+      }
+    ],
+    "answer": "formulas/task22/124496_answer.svg",
+    "svgFiles": [
+      "formulas/task22/124496_1.svg",
+      "formulas/task22/124496_2.svg",
+      "formulas/task22/124496_answer.svg"
+    ]
+  },
+  {
+    "id": "124498",
+    "title": "Задача 7",
+    "prototype": "Тип 6",
+    "parts": [
+      {
+        "type": "text",
+        "value": "Постройте график функции",
+        "newParagraph": true
+      },
+      {
+        "type": "text",
+        "value": "Определите, при каких значениях",
+        "newParagraph": true
+      },
+      {
+        "type": "img",
+        "file": "formulas/task22/124498_1.svg"
+      },
+      {
+        "type": "text",
+        "value": "прямая"
+      },
+      {
+        "type": "img",
+        "file": "formulas/task22/124498_2.svg"
+      },
+      {
+        "type": "text",
+        "value": "имеет с графиком ровно\nодну общую точку."
+      }
+    ],
+    "answer": "formulas/task22/124498_answer.svg",
+    "svgFiles": [
+      "formulas/task22/124498_1.svg",
+      "formulas/task22/124498_2.svg",
+      "formulas/task22/124498_answer.svg"
+    ]
+  },
+  {
+    "id": "124500",
+    "title": "Задача 8",
+    "prototype": "Тип 6",
+    "parts": [
+      {
+        "type": "text",
+        "value": "Постройте график функции",
+        "newParagraph": true
+      },
+      {
+        "type": "text",
+        "value": "Определите, при каких значениях",
+        "newParagraph": true
+      },
+      {
+        "type": "img",
+        "file": "formulas/task22/124500_1.svg"
+      },
+      {
+        "type": "text",
+        "value": "прямая"
+      },
+      {
+        "type": "img",
+        "file": "formulas/task22/124500_2.svg"
+      },
+      {
+        "type": "text",
+        "value": "имеет с графиком ровно\nодну общую точку."
+      }
+    ],
+    "answer": "formulas/task22/124500_answer.svg",
+    "svgFiles": [
+      "formulas/task22/124500_1.svg",
+      "formulas/task22/124500_2.svg",
+      "formulas/task22/124500_answer.svg"
+    ]
+  },
+  {
+    "id": "124502",
+    "title": "Задача 9",
+    "prototype": "Тип 6",
+    "parts": [
+      {
+        "type": "text",
+        "value": "Постройте график функции",
+        "newParagraph": true
+      },
+      {
+        "type": "text",
+        "value": "Определите, при каких значениях",
+        "newParagraph": true
+      },
+      {
+        "type": "img",
+        "file": "formulas/task22/124502_1.svg"
+      },
+      {
+        "type": "text",
+        "value": "прямая"
+      },
+      {
+        "type": "img",
+        "file": "formulas/task22/124502_2.svg"
+      },
+      {
+        "type": "text",
+        "value": "имеет с графиком ровно\nодну общую точку."
+      }
+    ],
+    "answer": "formulas/task22/124502_answer.svg",
+    "svgFiles": [
+      "formulas/task22/124502_1.svg",
+      "formulas/task22/124502_2.svg",
+      "formulas/task22/124502_answer.svg"
+    ]
+  },
+  {
+    "id": "42863",
+    "title": "Задача 10",
+    "prototype": "Тип 6",
+    "parts": [
+      {
+        "type": "text",
+        "value": "Постройте график функции",
+        "newParagraph": true
+      },
+      {
+        "type": "text",
+        "value": "Определите, при каких значениях",
+        "newParagraph": true
+      },
+      {
+        "type": "img",
+        "file": "formulas/task22/42863_1.svg"
+      },
+      {
+        "type": "text",
+        "value": "прямая"
+      },
+      {
+        "type": "img",
+        "file": "formulas/task22/42863_2.svg"
+      },
+      {
+        "type": "text",
+        "value": "имеет с графиком ровно\nодну общую точку."
+      }
+    ],
+    "answer": "formulas/task22/42863_answer.svg",
+    "svgFiles": [
+      "formulas/task22/42863_1.svg",
+      "formulas/task22/42863_2.svg",
+      "formulas/task22/42863_answer.svg"
+    ]
+  },
+  {
+    "id": "58401",
+    "title": "Задача 1",
+    "prototype": "Тип 7",
+    "parts": [
+      {
+        "type": "text",
+        "value": "Постройте график функции",
+        "newParagraph": true
+      },
+      {
+        "type": "img",
+        "file": "formulas/task22/58401_1.svg"
+      },
+      {
+        "type": "text",
+        "value": "Определите, при каких значениях",
+        "newParagraph": true
+      },
+      {
+        "type": "img",
+        "file": "formulas/task22/58401_2.svg"
+      },
+      {
+        "type": "text",
+        "value": "прямая"
+      },
+      {
+        "type": "img",
+        "file": "formulas/task22/58401_3.svg"
+      },
+      {
+        "type": "text",
+        "value": "не имеет с графиком\nобщих точек."
+      }
+    ],
+    "answer": "formulas/task22/58401_answer.svg",
+    "svgFiles": [
+      "formulas/task22/58401_1.svg",
+      "formulas/task22/58401_2.svg",
+      "formulas/task22/58401_3.svg",
+      "formulas/task22/58401_answer.svg"
+    ]
+  },
+  {
+    "id": "106154",
+    "title": "Задача 2",
+    "prototype": "Тип 7",
+    "parts": [
+      {
+        "type": "text",
+        "value": "Постройте график функции",
+        "newParagraph": true
+      },
+      {
+        "type": "text",
+        "value": "Определите, при каких значениях",
+        "newParagraph": true
+      },
+      {
+        "type": "img",
+        "file": "formulas/task22/106154_1.svg"
+      },
+      {
+        "type": "text",
+        "value": "прямая"
+      },
+      {
+        "type": "img",
+        "file": "formulas/task22/106154_2.svg"
+      },
+      {
+        "type": "text",
+        "value": "не имеет с графиком\nобщих точек."
+      }
+    ],
+    "answer": "formulas/task22/106154_answer.svg",
+    "svgFiles": [
+      "formulas/task22/106154_1.svg",
+      "formulas/task22/106154_2.svg",
+      "formulas/task22/106154_answer.svg"
+    ]
+  },
+  {
+    "id": "124503",
+    "title": "Задача 3",
+    "prototype": "Тип 7",
+    "parts": [
+      {
+        "type": "text",
+        "value": "Постройте график функции",
+        "newParagraph": true
+      },
+      {
+        "type": "text",
+        "value": "Определите, при каких значениях",
+        "newParagraph": true
+      },
+      {
+        "type": "img",
+        "file": "formulas/task22/124503_1.svg"
+      },
+      {
+        "type": "text",
+        "value": "прямая"
+      },
+      {
+        "type": "img",
+        "file": "formulas/task22/124503_2.svg"
+      },
+      {
+        "type": "text",
+        "value": "не имеет с графиком\nобщих точек."
+      }
+    ],
+    "answer": "formulas/task22/124503_answer.svg",
+    "svgFiles": [
+      "formulas/task22/124503_1.svg",
+      "formulas/task22/124503_2.svg",
+      "formulas/task22/124503_answer.svg"
+    ]
+  },
+  {
+    "id": "124504",
+    "title": "Задача 4",
+    "prototype": "Тип 7",
+    "parts": [
+      {
+        "type": "text",
+        "value": "Постройте график функции",
+        "newParagraph": true
+      },
+      {
+        "type": "text",
+        "value": "Определите, при каких значениях",
+        "newParagraph": true
+      },
+      {
+        "type": "img",
+        "file": "formulas/task22/124504_1.svg"
+      },
+      {
+        "type": "text",
+        "value": "прямая"
+      },
+      {
+        "type": "img",
+        "file": "formulas/task22/124504_2.svg"
+      },
+      {
+        "type": "text",
+        "value": "не имеет с графиком\nобщих точек."
+      }
+    ],
+    "answer": "formulas/task22/124504_answer.svg",
+    "svgFiles": [
+      "formulas/task22/124504_1.svg",
+      "formulas/task22/124504_2.svg",
+      "formulas/task22/124504_answer.svg"
+    ]
+  },
+  {
+    "id": "124505",
+    "title": "Задача 5",
+    "prototype": "Тип 7",
+    "parts": [
+      {
+        "type": "text",
+        "value": "Постройте график функции",
+        "newParagraph": true
+      },
+      {
+        "type": "text",
+        "value": "Определите, при каких значениях",
+        "newParagraph": true
+      },
+      {
+        "type": "img",
+        "file": "formulas/task22/124505_1.svg"
+      },
+      {
+        "type": "text",
+        "value": "прямая"
+      },
+      {
+        "type": "img",
+        "file": "formulas/task22/124505_2.svg"
+      },
+      {
+        "type": "text",
+        "value": "не имеет с графиком\nобщих точек."
+      }
+    ],
+    "answer": "formulas/task22/124505_answer.svg",
+    "svgFiles": [
+      "formulas/task22/124505_1.svg",
+      "formulas/task22/124505_2.svg",
+      "formulas/task22/124505_answer.svg"
+    ]
+  },
+  {
+    "id": "124506",
+    "title": "Задача 6",
+    "prototype": "Тип 7",
+    "parts": [
+      {
+        "type": "text",
+        "value": "Постройте график функции",
+        "newParagraph": true
+      },
+      {
+        "type": "text",
+        "value": "Определите, при каких значениях",
+        "newParagraph": true
+      },
+      {
+        "type": "img",
+        "file": "formulas/task22/124506_1.svg"
+      },
+      {
+        "type": "text",
+        "value": "прямая"
+      },
+      {
+        "type": "img",
+        "file": "formulas/task22/124506_2.svg"
+      },
+      {
+        "type": "text",
+        "value": "не имеет с графиком\nобщих точек."
+      }
+    ],
+    "answer": "formulas/task22/124506_answer.svg",
+    "svgFiles": [
+      "formulas/task22/124506_1.svg",
+      "formulas/task22/124506_2.svg",
+      "formulas/task22/124506_answer.svg"
+    ]
+  },
+  {
+    "id": "124509",
+    "title": "Задача 7",
+    "prototype": "Тип 7",
+    "parts": [
+      {
+        "type": "text",
+        "value": "Постройте график функции",
+        "newParagraph": true
+      },
+      {
+        "type": "text",
+        "value": "Определите, при каких значениях",
+        "newParagraph": true
+      },
+      {
+        "type": "img",
+        "file": "formulas/task22/124509_1.svg"
+      },
+      {
+        "type": "text",
+        "value": "прямая"
+      },
+      {
+        "type": "img",
+        "file": "formulas/task22/124509_2.svg"
+      },
+      {
+        "type": "text",
+        "value": "не имеет с графиком\nобщих точек."
+      }
+    ],
+    "answer": "formulas/task22/124509_answer.svg",
+    "svgFiles": [
+      "formulas/task22/124509_1.svg",
+      "formulas/task22/124509_2.svg",
+      "formulas/task22/124509_answer.svg"
+    ]
+  },
+  {
+    "id": "124511",
+    "title": "Задача 8",
+    "prototype": "Тип 7",
+    "parts": [
+      {
+        "type": "text",
+        "value": "Постройте график функции",
+        "newParagraph": true
+      },
+      {
+        "type": "text",
+        "value": "Определите, при каких значениях",
+        "newParagraph": true
+      },
+      {
+        "type": "img",
+        "file": "formulas/task22/124511_1.svg"
+      },
+      {
+        "type": "text",
+        "value": "прямая"
+      },
+      {
+        "type": "img",
+        "file": "formulas/task22/124511_2.svg"
+      },
+      {
+        "type": "text",
+        "value": "не имеет с графиком\nобщих точек."
+      }
+    ],
+    "answer": "formulas/task22/124511_answer.svg",
+    "svgFiles": [
+      "formulas/task22/124511_1.svg",
+      "formulas/task22/124511_2.svg",
+      "formulas/task22/124511_answer.svg"
+    ]
+  },
+  {
+    "id": "42246",
+    "title": "Задача 9",
+    "prototype": "Тип 7",
+    "parts": [
+      {
+        "type": "text",
+        "value": "Постройте график функции",
+        "newParagraph": true
+      },
+      {
+        "type": "text",
+        "value": "Определите, при каких значениях",
+        "newParagraph": true
+      },
+      {
+        "type": "img",
+        "file": "formulas/task22/42246_1.svg"
+      },
+      {
+        "type": "text",
+        "value": "прямая"
+      },
+      {
+        "type": "img",
+        "file": "formulas/task22/42246_2.svg"
+      },
+      {
+        "type": "text",
+        "value": "не имеет с графиком\nобщих точек."
+      }
+    ],
+    "answer": "formulas/task22/42246_answer.svg",
+    "svgFiles": [
+      "formulas/task22/42246_1.svg",
+      "formulas/task22/42246_2.svg",
+      "formulas/task22/42246_answer.svg"
+    ]
+  },
+  {
+    "id": "54960",
+    "title": "Задача 1",
+    "prototype": "Тип 8",
+    "parts": [
+      {
+        "type": "text",
+        "value": "Постройте график функции",
+        "newParagraph": true
+      },
+      {
+        "type": "img",
+        "file": "formulas/task22/54960_1.svg"
+      },
+      {
+        "type": "text",
+        "value": "и определите, при\nкаких значениях"
+      },
+      {
+        "type": "img",
+        "file": "formulas/task22/54960_2.svg"
+      },
+      {
+        "type": "text",
+        "value": "прямая"
+      },
+      {
+        "type": "img",
+        "file": "formulas/task22/54960_3.svg"
+      },
+      {
+        "type": "text",
+        "value": "имеет с графиком ровно одну общую\nточку."
+      }
+    ],
+    "answer": "formulas/task22/54960_answer.svg",
+    "svgFiles": [
+      "formulas/task22/54960_1.svg",
+      "formulas/task22/54960_2.svg",
+      "formulas/task22/54960_3.svg",
+      "formulas/task22/54960_answer.svg"
+    ]
+  },
+  {
+    "id": "61042",
+    "title": "Задача 2",
+    "prototype": "Тип 8",
+    "parts": [
+      {
+        "type": "text",
+        "value": "Постройте график функции",
+        "newParagraph": true
+      },
+      {
+        "type": "img",
+        "file": "formulas/task22/61042_1.svg"
+      },
+      {
+        "type": "text",
+        "value": "и определите, при каких\nзначениях"
+      },
+      {
+        "type": "img",
+        "file": "formulas/task22/61042_2.svg"
+      },
+      {
+        "type": "text",
+        "value": "прямая"
+      },
+      {
+        "type": "img",
+        "file": "formulas/task22/61042_3.svg"
+      },
+      {
+        "type": "text",
+        "value": "имеет с графиком ровно одну общую точку."
+      }
+    ],
+    "answer": "formulas/task22/61042_answer.svg",
+    "svgFiles": [
+      "formulas/task22/61042_1.svg",
+      "formulas/task22/61042_2.svg",
+      "formulas/task22/61042_3.svg",
+      "formulas/task22/61042_answer.svg"
+    ]
+  },
+  {
+    "id": "99078",
+    "title": "Задача 3",
+    "prototype": "Тип 8",
+    "parts": [
+      {
+        "type": "text",
+        "value": "Постройте график функции",
+        "newParagraph": true
+      },
+      {
+        "type": "img",
+        "file": "formulas/task22/99078_1.svg"
+      },
+      {
+        "type": "text",
+        "value": "Определите, при каких значениях",
+        "newParagraph": true
+      },
+      {
+        "type": "img",
+        "file": "formulas/task22/99078_2.svg"
+      },
+      {
+        "type": "text",
+        "value": "прямая"
+      },
+      {
+        "type": "img",
+        "file": "formulas/task22/99078_3.svg"
+      },
+      {
+        "type": "text",
+        "value": "имеет с графиком ровно\nодну общую точку."
+      }
+    ],
+    "answer": "formulas/task22/99078_answer.svg",
+    "svgFiles": [
+      "formulas/task22/99078_1.svg",
+      "formulas/task22/99078_2.svg",
+      "formulas/task22/99078_3.svg",
+      "formulas/task22/99078_answer.svg"
+    ]
+  },
+  {
+    "id": "106160",
+    "title": "Задача 4",
+    "prototype": "Тип 8",
+    "parts": [
+      {
+        "type": "text",
+        "value": "Постройте график функции",
+        "newParagraph": true
+      },
+      {
+        "type": "text",
+        "value": "Определите, при каких значениях",
+        "newParagraph": true
+      },
+      {
+        "type": "img",
+        "file": "formulas/task22/106160_1.svg"
+      },
+      {
+        "type": "text",
+        "value": "прямая"
+      },
+      {
+        "type": "img",
+        "file": "formulas/task22/106160_2.svg"
+      },
+      {
+        "type": "text",
+        "value": "имеет с графиком ровно\nодну общую точку."
+      }
+    ],
+    "answer": "formulas/task22/106160_answer.svg",
+    "svgFiles": [
+      "formulas/task22/106160_1.svg",
+      "formulas/task22/106160_2.svg",
+      "formulas/task22/106160_answer.svg"
+    ]
+  },
+  {
+    "id": "124513",
+    "title": "Задача 5",
+    "prototype": "Тип 8",
+    "parts": [
+      {
+        "type": "text",
+        "value": "Постройте график функции",
+        "newParagraph": true
+      },
+      {
+        "type": "text",
+        "value": "Определите, при каких значениях",
+        "newParagraph": true
+      },
+      {
+        "type": "img",
+        "file": "formulas/task22/124513_1.svg"
+      },
+      {
+        "type": "text",
+        "value": "прямая"
+      },
+      {
+        "type": "img",
+        "file": "formulas/task22/124513_2.svg"
+      },
+      {
+        "type": "text",
+        "value": "имеет с графиком ровно\nодну общую точку."
+      }
+    ],
+    "answer": "formulas/task22/124513_answer.svg",
+    "svgFiles": [
+      "formulas/task22/124513_1.svg",
+      "formulas/task22/124513_2.svg",
+      "formulas/task22/124513_answer.svg"
+    ]
+  },
+  {
+    "id": "124515",
+    "title": "Задача 6",
+    "prototype": "Тип 8",
+    "parts": [
+      {
+        "type": "text",
+        "value": "Постройте график функции",
+        "newParagraph": true
+      },
+      {
+        "type": "text",
+        "value": "Определите, при каких значениях",
+        "newParagraph": true
+      },
+      {
+        "type": "img",
+        "file": "formulas/task22/124515_1.svg"
+      },
+      {
+        "type": "text",
+        "value": "прямая"
+      },
+      {
+        "type": "img",
+        "file": "formulas/task22/124515_2.svg"
+      },
+      {
+        "type": "text",
+        "value": "имеет с графиком ровно\nодну общую точку."
+      }
+    ],
+    "answer": "formulas/task22/124515_answer.svg",
+    "svgFiles": [
+      "formulas/task22/124515_1.svg",
+      "formulas/task22/124515_2.svg",
+      "formulas/task22/124515_answer.svg"
+    ]
+  },
+  {
+    "id": "124516",
+    "title": "Задача 7",
+    "prototype": "Тип 8",
+    "parts": [
+      {
+        "type": "text",
+        "value": "Постройте график функции",
+        "newParagraph": true
+      },
+      {
+        "type": "text",
+        "value": "Определите, при каких значениях",
+        "newParagraph": true
+      },
+      {
+        "type": "img",
+        "file": "formulas/task22/124516_1.svg"
+      },
+      {
+        "type": "text",
+        "value": "прямая"
+      },
+      {
+        "type": "img",
+        "file": "formulas/task22/124516_2.svg"
+      },
+      {
+        "type": "text",
+        "value": "имеет с графиком ровно\nодну общую точку."
+      }
+    ],
+    "answer": "formulas/task22/124516_answer.svg",
+    "svgFiles": [
+      "formulas/task22/124516_1.svg",
+      "formulas/task22/124516_2.svg",
+      "formulas/task22/124516_answer.svg"
+    ]
+  },
+  {
+    "id": "124518",
+    "title": "Задача 8",
+    "prototype": "Тип 8",
+    "parts": [
+      {
+        "type": "text",
+        "value": "Постройте график функции",
+        "newParagraph": true
+      },
+      {
+        "type": "text",
+        "value": "Определите, при каких значениях",
+        "newParagraph": true
+      },
+      {
+        "type": "img",
+        "file": "formulas/task22/124518_1.svg"
+      },
+      {
+        "type": "text",
+        "value": "прямая"
+      },
+      {
+        "type": "img",
+        "file": "formulas/task22/124518_2.svg"
+      },
+      {
+        "type": "text",
+        "value": "имеет с графиком ровно\nодну общую точку."
+      }
+    ],
+    "answer": "formulas/task22/124518_answer.svg",
+    "svgFiles": [
+      "formulas/task22/124518_1.svg",
+      "formulas/task22/124518_2.svg",
+      "formulas/task22/124518_answer.svg"
+    ]
+  },
+  {
+    "id": "124520",
+    "title": "Задача 9",
+    "prototype": "Тип 8",
+    "parts": [
+      {
+        "type": "text",
+        "value": "Постройте график функции",
+        "newParagraph": true
+      },
+      {
+        "type": "text",
+        "value": "Определите, при каких значениях",
+        "newParagraph": true
+      },
+      {
+        "type": "img",
+        "file": "formulas/task22/124520_1.svg"
+      },
+      {
+        "type": "text",
+        "value": "прямая"
+      },
+      {
+        "type": "img",
+        "file": "formulas/task22/124520_2.svg"
+      },
+      {
+        "type": "text",
+        "value": "имеет с графиком ровно\nодну общую точку."
+      }
+    ],
+    "answer": "formulas/task22/124520_answer.svg",
+    "svgFiles": [
+      "formulas/task22/124520_1.svg",
+      "formulas/task22/124520_2.svg",
+      "formulas/task22/124520_answer.svg"
+    ]
+  },
+  {
+    "id": "124522",
+    "title": "Задача 10",
+    "prototype": "Тип 8",
+    "parts": [
+      {
+        "type": "text",
+        "value": "Постройте график функции",
+        "newParagraph": true
+      },
+      {
+        "type": "text",
+        "value": "Определите, при каких значениях",
+        "newParagraph": true
+      },
+      {
+        "type": "img",
+        "file": "formulas/task22/124522_1.svg"
+      },
+      {
+        "type": "text",
+        "value": "прямая"
+      },
+      {
+        "type": "img",
+        "file": "formulas/task22/124522_2.svg"
+      },
+      {
+        "type": "text",
+        "value": "имеет с графиком ровно\nодну общую точку."
+      }
+    ],
+    "answer": "formulas/task22/124522_answer.svg",
+    "svgFiles": [
+      "formulas/task22/124522_1.svg",
+      "formulas/task22/124522_2.svg",
+      "formulas/task22/124522_answer.svg"
+    ]
+  },
+  {
+    "id": "106167",
+    "title": "Задача 1",
+    "prototype": "Тип 9",
+    "parts": [
+      {
+        "type": "text",
+        "value": "Постройте график функции",
+        "newParagraph": true
+      },
+      {
+        "type": "text",
+        "value": "Определите, при каких значениях",
+        "newParagraph": true
+      },
+      {
+        "type": "img",
+        "file": "formulas/task22/106167_1.svg"
+      },
+      {
+        "type": "text",
+        "value": "прямая"
+      },
+      {
+        "type": "img",
+        "file": "formulas/task22/106167_2.svg"
+      },
+      {
+        "type": "text",
+        "value": "имеет с графиком ровно\nодну общую точку."
+      }
+    ],
+    "answer": "formulas/task22/106167_answer.svg",
+    "svgFiles": [
+      "formulas/task22/106167_1.svg",
+      "formulas/task22/106167_2.svg",
+      "formulas/task22/106167_answer.svg"
+    ]
+  },
+  {
+    "id": "46329",
+    "title": "Задача 1",
+    "prototype": "Тип 10",
+    "parts": [
+      {
+        "type": "text",
+        "value": "Постройте график функции",
+        "newParagraph": true
+      },
+      {
+        "type": "img",
+        "file": "formulas/task22/46329_1.svg"
+      },
+      {
+        "type": "text",
+        "value": "и определите, при\nкаких значениях"
+      },
+      {
+        "type": "img",
+        "file": "formulas/task22/46329_2.svg"
+      },
+      {
+        "type": "text",
+        "value": "прямая"
+      },
+      {
+        "type": "img",
+        "file": "formulas/task22/46329_3.svg"
+      },
+      {
+        "type": "text",
+        "value": "имеет с графиком ровно три общие\nточки."
+      }
+    ],
+    "answer": "formulas/task22/46329_answer.svg",
+    "svgFiles": [
+      "formulas/task22/46329_1.svg",
+      "formulas/task22/46329_2.svg",
+      "formulas/task22/46329_3.svg",
+      "formulas/task22/46329_answer.svg"
+    ]
+  },
+  {
+    "id": "54129",
+    "title": "Задача 2",
+    "prototype": "Тип 10",
+    "parts": [
+      {
+        "type": "text",
+        "value": "Постройте график функции",
+        "newParagraph": true
+      },
+      {
+        "type": "text",
+        "value": "Определите, при каких значениях",
+        "newParagraph": true
+      },
+      {
+        "type": "img",
+        "file": "formulas/task22/54129_1.svg"
+      },
+      {
+        "type": "text",
+        "value": "прямая"
+      },
+      {
+        "type": "img",
+        "file": "formulas/task22/54129_2.svg"
+      },
+      {
+        "type": "text",
+        "value": "имеет с графиком ровно\nтри общие точки."
+      }
+    ],
+    "answer": "formulas/task22/54129_answer.svg",
+    "svgFiles": [
+      "formulas/task22/54129_1.svg",
+      "formulas/task22/54129_2.svg",
+      "formulas/task22/54129_answer.svg"
+    ]
+  },
+  {
+    "id": "106091",
+    "title": "Задача 3",
+    "prototype": "Тип 10",
+    "parts": [
+      {
+        "type": "text",
+        "value": "Постройте график функции",
+        "newParagraph": true
+      },
+      {
+        "type": "text",
+        "value": "Определите, при каких значениях",
+        "newParagraph": true
+      },
+      {
+        "type": "img",
+        "file": "formulas/task22/106091_1.svg"
+      },
+      {
+        "type": "text",
+        "value": "прямая"
+      },
+      {
+        "type": "img",
+        "file": "formulas/task22/106091_2.svg"
+      },
+      {
+        "type": "text",
+        "value": "имеет с графиком ровно\nтри общие точки."
+      }
+    ],
+    "answer": "formulas/task22/106091_answer.svg",
+    "svgFiles": [
+      "formulas/task22/106091_1.svg",
+      "formulas/task22/106091_2.svg",
+      "formulas/task22/106091_answer.svg"
+    ]
+  },
+  {
+    "id": "124440",
+    "title": "Задача 4",
+    "prototype": "Тип 10",
+    "parts": [
+      {
+        "type": "text",
+        "value": "Постройте график функции",
+        "newParagraph": true
+      },
+      {
+        "type": "text",
+        "value": "Определите, при каких значениях",
+        "newParagraph": true
+      },
+      {
+        "type": "img",
+        "file": "formulas/task22/124440_1.svg"
+      },
+      {
+        "type": "text",
+        "value": "прямая"
+      },
+      {
+        "type": "img",
+        "file": "formulas/task22/124440_2.svg"
+      },
+      {
+        "type": "text",
+        "value": "имеет с графиком ровно\nтри общие точки."
+      }
+    ],
+    "answer": "formulas/task22/124440_answer.svg",
+    "svgFiles": [
+      "formulas/task22/124440_1.svg",
+      "formulas/task22/124440_2.svg",
+      "formulas/task22/124440_answer.svg"
+    ]
+  },
+  {
+    "id": "124442",
+    "title": "Задача 5",
+    "prototype": "Тип 10",
+    "parts": [
+      {
+        "type": "text",
+        "value": "Постройте график функции",
+        "newParagraph": true
+      },
+      {
+        "type": "text",
+        "value": "Определите, при каких значениях",
+        "newParagraph": true
+      },
+      {
+        "type": "img",
+        "file": "formulas/task22/124442_1.svg"
+      },
+      {
+        "type": "text",
+        "value": "прямая"
+      },
+      {
+        "type": "img",
+        "file": "formulas/task22/124442_2.svg"
+      },
+      {
+        "type": "text",
+        "value": "имеет с графиком ровно\nтри общие точки."
+      }
+    ],
+    "answer": "formulas/task22/124442_answer.svg",
+    "svgFiles": [
+      "formulas/task22/124442_1.svg",
+      "formulas/task22/124442_2.svg",
+      "formulas/task22/124442_answer.svg"
+    ]
+  },
+  {
+    "id": "124446",
+    "title": "Задача 6",
+    "prototype": "Тип 10",
+    "parts": [
+      {
+        "type": "text",
+        "value": "Постройте график функции",
+        "newParagraph": true
+      },
+      {
+        "type": "text",
+        "value": "Определите, при каких значениях",
+        "newParagraph": true
+      },
+      {
+        "type": "img",
+        "file": "formulas/task22/124446_1.svg"
+      },
+      {
+        "type": "text",
+        "value": "прямая"
+      },
+      {
+        "type": "img",
+        "file": "formulas/task22/124446_2.svg"
+      },
+      {
+        "type": "text",
+        "value": "имеет с графиком ровно\nтри общие точки."
+      }
+    ],
+    "answer": "formulas/task22/124446_answer.svg",
+    "svgFiles": [
+      "formulas/task22/124446_1.svg",
+      "formulas/task22/124446_2.svg",
+      "formulas/task22/124446_answer.svg"
+    ]
+  },
+  {
+    "id": "124449",
+    "title": "Задача 7",
+    "prototype": "Тип 10",
+    "parts": [
+      {
+        "type": "text",
+        "value": "Постройте график функции",
+        "newParagraph": true
+      },
+      {
+        "type": "text",
+        "value": "Определите, при каких значениях",
+        "newParagraph": true
+      },
+      {
+        "type": "img",
+        "file": "formulas/task22/124449_1.svg"
+      },
+      {
+        "type": "text",
+        "value": "прямая"
+      },
+      {
+        "type": "img",
+        "file": "formulas/task22/124449_2.svg"
+      },
+      {
+        "type": "text",
+        "value": "имеет с графиком ровно\nтри общие точки."
+      }
+    ],
+    "answer": "formulas/task22/124449_answer.svg",
+    "svgFiles": [
+      "formulas/task22/124449_1.svg",
+      "formulas/task22/124449_2.svg",
+      "formulas/task22/124449_answer.svg"
+    ]
+  },
+  {
+    "id": "124451",
+    "title": "Задача 8",
+    "prototype": "Тип 10",
+    "parts": [
+      {
+        "type": "text",
+        "value": "Постройте график функции",
+        "newParagraph": true
+      },
+      {
+        "type": "text",
+        "value": "Определите, при каких значениях",
+        "newParagraph": true
+      },
+      {
+        "type": "img",
+        "file": "formulas/task22/124451_1.svg"
+      },
+      {
+        "type": "text",
+        "value": "прямая"
+      },
+      {
+        "type": "img",
+        "file": "formulas/task22/124451_2.svg"
+      },
+      {
+        "type": "text",
+        "value": "имеет с графиком ровно\nтри общие точки."
+      }
+    ],
+    "answer": "formulas/task22/124451_answer.svg",
+    "svgFiles": [
+      "formulas/task22/124451_1.svg",
+      "formulas/task22/124451_2.svg",
+      "formulas/task22/124451_answer.svg"
+    ]
+  },
+  {
+    "id": "124453",
+    "title": "Задача 9",
+    "prototype": "Тип 10",
+    "parts": [
+      {
+        "type": "text",
+        "value": "Постройте график функции",
+        "newParagraph": true
+      },
+      {
+        "type": "text",
+        "value": "Определите, при каких значениях",
+        "newParagraph": true
+      },
+      {
+        "type": "img",
+        "file": "formulas/task22/124453_1.svg"
+      },
+      {
+        "type": "text",
+        "value": "прямая"
+      },
+      {
+        "type": "img",
+        "file": "formulas/task22/124453_2.svg"
+      },
+      {
+        "type": "text",
+        "value": "имеет с графиком ровно\nтри общие точки."
+      }
+    ],
+    "answer": "formulas/task22/124453_answer.svg",
+    "svgFiles": [
+      "formulas/task22/124453_1.svg",
+      "formulas/task22/124453_2.svg",
+      "formulas/task22/124453_answer.svg"
+    ]
+  },
+  {
+    "id": "124455",
+    "title": "Задача 10",
+    "prototype": "Тип 10",
+    "parts": [
+      {
+        "type": "text",
+        "value": "Постройте график функции",
+        "newParagraph": true
+      },
+      {
+        "type": "text",
+        "value": "Определите, при каких значениях",
+        "newParagraph": true
+      },
+      {
+        "type": "img",
+        "file": "formulas/task22/124455_1.svg"
+      },
+      {
+        "type": "text",
+        "value": "прямая"
+      },
+      {
+        "type": "img",
+        "file": "formulas/task22/124455_2.svg"
+      },
+      {
+        "type": "text",
+        "value": "имеет с графиком ровно\nтри общие точки."
+      }
+    ],
+    "answer": "formulas/task22/124455_answer.svg",
+    "svgFiles": [
+      "formulas/task22/124455_1.svg",
+      "formulas/task22/124455_2.svg",
+      "formulas/task22/124455_answer.svg"
+    ]
+  },
+  {
+    "id": "38721",
+    "title": "Задача 1",
+    "prototype": "Тип 11",
+    "parts": [
+      {
+        "type": "text",
+        "value": "Постройте график функции",
+        "newParagraph": true
+      },
+      {
+        "type": "text",
+        "value": "Определите, при каких значениях",
+        "newParagraph": true
+      },
+      {
+        "type": "img",
+        "file": "formulas/task22/38721_1.svg"
+      },
+      {
+        "type": "text",
+        "value": "прямая"
+      },
+      {
+        "type": "img",
+        "file": "formulas/task22/38721_2.svg"
+      },
+      {
+        "type": "text",
+        "value": "имеет с графиком ровно\nтри общие точки."
+      }
+    ],
+    "answer": "formulas/task22/38721_answer.svg",
+    "svgFiles": [
+      "formulas/task22/38721_1.svg",
+      "formulas/task22/38721_2.svg",
+      "formulas/task22/38721_answer.svg"
+    ]
+  },
+  {
+    "id": "61564",
+    "title": "Задача 2",
+    "prototype": "Тип 11",
+    "parts": [
+      {
+        "type": "text",
+        "value": "Постройте график функции",
+        "newParagraph": true
+      },
+      {
+        "type": "text",
+        "value": "Определите, при каких значениях",
+        "newParagraph": true
+      },
+      {
+        "type": "img",
+        "file": "formulas/task22/61564_1.svg"
+      },
+      {
+        "type": "text",
+        "value": "прямая"
+      },
+      {
+        "type": "img",
+        "file": "formulas/task22/61564_2.svg"
+      },
+      {
+        "type": "text",
+        "value": "имеет с графиком ровно\nтри общие точки."
+      }
+    ],
+    "answer": "formulas/task22/61564_answer.svg",
+    "svgFiles": [
+      "formulas/task22/61564_1.svg",
+      "formulas/task22/61564_2.svg",
+      "formulas/task22/61564_answer.svg"
+    ]
+  },
+  {
+    "id": "106110",
+    "title": "Задача 3",
+    "prototype": "Тип 11",
+    "parts": [
+      {
+        "type": "text",
+        "value": "Постройте график функции",
+        "newParagraph": true
+      },
+      {
+        "type": "text",
+        "value": "Определите, при каких значениях",
+        "newParagraph": true
+      },
+      {
+        "type": "img",
+        "file": "formulas/task22/106110_1.svg"
+      },
+      {
+        "type": "text",
+        "value": "прямая"
+      },
+      {
+        "type": "img",
+        "file": "formulas/task22/106110_2.svg"
+      },
+      {
+        "type": "text",
+        "value": "имеет с графиком ровно\nтри общие точки."
+      }
+    ],
+    "answer": "formulas/task22/106110_answer.svg",
+    "svgFiles": [
+      "formulas/task22/106110_1.svg",
+      "formulas/task22/106110_2.svg",
+      "formulas/task22/106110_answer.svg"
+    ]
+  },
+  {
+    "id": "124457",
+    "title": "Задача 4",
+    "prototype": "Тип 11",
+    "parts": [
+      {
+        "type": "text",
+        "value": "Постройте график функции",
+        "newParagraph": true
+      },
+      {
+        "type": "text",
+        "value": "Определите, при каких значениях",
+        "newParagraph": true
+      },
+      {
+        "type": "img",
+        "file": "formulas/task22/124457_1.svg"
+      },
+      {
+        "type": "text",
+        "value": "прямая"
+      },
+      {
+        "type": "img",
+        "file": "formulas/task22/124457_2.svg"
+      },
+      {
+        "type": "text",
+        "value": "имеет с графиком ровно\nтри общие точки."
+      }
+    ],
+    "answer": "formulas/task22/124457_answer.svg",
+    "svgFiles": [
+      "formulas/task22/124457_1.svg",
+      "formulas/task22/124457_2.svg",
+      "formulas/task22/124457_answer.svg"
+    ]
+  },
+  {
+    "id": "124461",
+    "title": "Задача 5",
+    "prototype": "Тип 11",
+    "parts": [
+      {
+        "type": "text",
+        "value": "Постройте график функции",
+        "newParagraph": true
+      },
+      {
+        "type": "text",
+        "value": "Определите, при каких значениях",
+        "newParagraph": true
+      },
+      {
+        "type": "img",
+        "file": "formulas/task22/124461_1.svg"
+      },
+      {
+        "type": "text",
+        "value": "прямая"
+      },
+      {
+        "type": "img",
+        "file": "formulas/task22/124461_2.svg"
+      },
+      {
+        "type": "text",
+        "value": "имеет с графиком ровно\nтри общие точки."
+      }
+    ],
+    "answer": "formulas/task22/124461_answer.svg",
+    "svgFiles": [
+      "formulas/task22/124461_1.svg",
+      "formulas/task22/124461_2.svg",
+      "formulas/task22/124461_answer.svg"
+    ]
+  },
+  {
+    "id": "124463",
+    "title": "Задача 6",
+    "prototype": "Тип 11",
+    "parts": [
+      {
+        "type": "text",
+        "value": "Постройте график функции",
+        "newParagraph": true
+      },
+      {
+        "type": "text",
+        "value": "Определите, при каких значениях",
+        "newParagraph": true
+      },
+      {
+        "type": "img",
+        "file": "formulas/task22/124463_1.svg"
+      },
+      {
+        "type": "text",
+        "value": "прямая"
+      },
+      {
+        "type": "img",
+        "file": "formulas/task22/124463_2.svg"
+      },
+      {
+        "type": "text",
+        "value": "имеет с графиком ровно\nтри общие точки."
+      }
+    ],
+    "answer": "formulas/task22/124463_answer.svg",
+    "svgFiles": [
+      "formulas/task22/124463_1.svg",
+      "formulas/task22/124463_2.svg",
+      "formulas/task22/124463_answer.svg"
+    ]
+  },
+  {
+    "id": "124469",
+    "title": "Задача 7",
+    "prototype": "Тип 11",
+    "parts": [
+      {
+        "type": "text",
+        "value": "Постройте график функции",
+        "newParagraph": true
+      },
+      {
+        "type": "text",
+        "value": "Определите, при каких значениях",
+        "newParagraph": true
+      },
+      {
+        "type": "img",
+        "file": "formulas/task22/124469_1.svg"
+      },
+      {
+        "type": "text",
+        "value": "прямая"
+      },
+      {
+        "type": "img",
+        "file": "formulas/task22/124469_2.svg"
+      },
+      {
+        "type": "text",
+        "value": "имеет с графиком ровно\nтри общие точки."
+      }
+    ],
+    "answer": "formulas/task22/124469_answer.svg",
+    "svgFiles": [
+      "formulas/task22/124469_1.svg",
+      "formulas/task22/124469_2.svg",
+      "formulas/task22/124469_answer.svg"
+    ]
+  },
+  {
+    "id": "124471",
+    "title": "Задача 8",
+    "prototype": "Тип 11",
+    "parts": [
+      {
+        "type": "text",
+        "value": "Постройте график функции",
+        "newParagraph": true
+      },
+      {
+        "type": "text",
+        "value": "Определите, при каких значениях",
+        "newParagraph": true
+      },
+      {
+        "type": "img",
+        "file": "formulas/task22/124471_1.svg"
+      },
+      {
+        "type": "text",
+        "value": "прямая"
+      },
+      {
+        "type": "img",
+        "file": "formulas/task22/124471_2.svg"
+      },
+      {
+        "type": "text",
+        "value": "имеет с графиком ровно\nтри общие точки."
+      }
+    ],
+    "answer": "formulas/task22/124471_answer.svg",
+    "svgFiles": [
+      "formulas/task22/124471_1.svg",
+      "formulas/task22/124471_2.svg",
+      "formulas/task22/124471_answer.svg"
+    ]
+  },
+  {
+    "id": "42883",
+    "title": "Задача 9",
+    "prototype": "Тип 11",
+    "parts": [
+      {
+        "type": "text",
+        "value": "Постройте график функции",
+        "newParagraph": true
+      },
+      {
+        "type": "text",
+        "value": "Определите, при каких значениях",
+        "newParagraph": true
+      },
+      {
+        "type": "img",
+        "file": "formulas/task22/42883_1.svg"
+      },
+      {
+        "type": "text",
+        "value": "прямая"
+      },
+      {
+        "type": "img",
+        "file": "formulas/task22/42883_2.svg"
+      },
+      {
+        "type": "text",
+        "value": "имеет с графиком ровно\nтри общие точки."
+      }
+    ],
+    "answer": "formulas/task22/42883_answer.svg",
+    "svgFiles": [
+      "formulas/task22/42883_1.svg",
+      "formulas/task22/42883_2.svg",
+      "formulas/task22/42883_answer.svg"
+    ]
+  },
+  {
+    "id": "40766",
+    "title": "Задача 10",
+    "prototype": "Тип 11",
+    "parts": [
+      {
+        "type": "text",
+        "value": "Постройте график функции",
+        "newParagraph": true
+      },
+      {
+        "type": "text",
+        "value": "Определите, при каких значениях",
+        "newParagraph": true
+      },
+      {
+        "type": "img",
+        "file": "formulas/task22/40766_1.svg"
+      },
+      {
+        "type": "text",
+        "value": "прямая"
+      },
+      {
+        "type": "img",
+        "file": "formulas/task22/40766_2.svg"
+      },
+      {
+        "type": "text",
+        "value": "имеет с графиком ровно\nтри общие точки."
+      }
+    ],
+    "answer": "formulas/task22/40766_answer.svg",
+    "svgFiles": [
+      "formulas/task22/40766_1.svg",
+      "formulas/task22/40766_2.svg",
+      "formulas/task22/40766_answer.svg"
+    ]
+  },
+  {
+    "id": "50259",
+    "title": "Задача 1",
+    "prototype": "Тип 12",
+    "parts": [
+      {
+        "type": "text",
+        "value": "Постройте график функции",
+        "newParagraph": true
+      },
+      {
+        "type": "text",
+        "value": "Определите, при каких значениях",
+        "newParagraph": true
+      },
+      {
+        "type": "img",
+        "file": "formulas/task22/50259_1.svg"
+      },
+      {
+        "type": "text",
+        "value": "прямая"
+      },
+      {
+        "type": "img",
+        "file": "formulas/task22/50259_2.svg"
+      },
+      {
+        "type": "text",
+        "value": "имеет с графиком ровно\nдве общие точки."
+      }
+    ],
+    "answer": "formulas/task22/50259_answer.svg",
+    "svgFiles": [
+      "formulas/task22/50259_1.svg",
+      "formulas/task22/50259_2.svg",
+      "formulas/task22/50259_answer.svg"
+    ]
+  },
+  {
+    "id": "58605",
+    "title": "Задача 2",
+    "prototype": "Тип 12",
+    "parts": [
+      {
+        "type": "text",
+        "value": "Постройте график функции",
+        "newParagraph": true
+      },
+      {
+        "type": "text",
+        "value": "Определите, при каких значениях",
+        "newParagraph": true
+      },
+      {
+        "type": "img",
+        "file": "formulas/task22/58605_1.svg"
+      },
+      {
+        "type": "text",
+        "value": "прямая"
+      },
+      {
+        "type": "img",
+        "file": "formulas/task22/58605_2.svg"
+      },
+      {
+        "type": "text",
+        "value": "имеет с графиком ровно\nдве общие точки."
+      }
+    ],
+    "answer": "formulas/task22/58605_answer.svg",
+    "svgFiles": [
+      "formulas/task22/58605_1.svg",
+      "formulas/task22/58605_2.svg",
+      "formulas/task22/58605_answer.svg"
+    ]
+  },
+  {
+    "id": "61565",
+    "title": "Задача 3",
+    "prototype": "Тип 12",
+    "parts": [
+      {
+        "type": "text",
+        "value": "Постройте график функции",
+        "newParagraph": true
+      },
+      {
+        "type": "text",
+        "value": "Определите, при каких значениях",
+        "newParagraph": true
+      },
+      {
+        "type": "img",
+        "file": "formulas/task22/61565_1.svg"
+      },
+      {
+        "type": "text",
+        "value": "прямая"
+      },
+      {
+        "type": "img",
+        "file": "formulas/task22/61565_2.svg"
+      },
+      {
+        "type": "text",
+        "value": "имеет с графиком ровно\nдве общие точки."
+      }
+    ],
+    "answer": "formulas/task22/61565_answer.svg",
+    "svgFiles": [
+      "formulas/task22/61565_1.svg",
+      "formulas/task22/61565_2.svg",
+      "formulas/task22/61565_answer.svg"
+    ]
+  },
+  {
+    "id": "106114",
+    "title": "Задача 4",
+    "prototype": "Тип 12",
+    "parts": [
+      {
+        "type": "text",
+        "value": "Постройте график функции",
+        "newParagraph": true
+      },
+      {
+        "type": "text",
+        "value": "Определите, при каких значениях",
+        "newParagraph": true
+      },
+      {
+        "type": "img",
+        "file": "formulas/task22/106114_1.svg"
+      },
+      {
+        "type": "text",
+        "value": "прямая"
+      },
+      {
+        "type": "img",
+        "file": "formulas/task22/106114_2.svg"
+      },
+      {
+        "type": "text",
+        "value": "имеет с графиком ровно\nдве общие точки."
+      }
+    ],
+    "answer": "formulas/task22/106114_answer.svg",
+    "svgFiles": [
+      "formulas/task22/106114_1.svg",
+      "formulas/task22/106114_2.svg",
+      "formulas/task22/106114_answer.svg"
+    ]
+  },
+  {
+    "id": "124479",
+    "title": "Задача 5",
+    "prototype": "Тип 12",
+    "parts": [
+      {
+        "type": "text",
+        "value": "Постройте график функции",
+        "newParagraph": true
+      },
+      {
+        "type": "text",
+        "value": "Определите, при каких значениях",
+        "newParagraph": true
+      },
+      {
+        "type": "img",
+        "file": "formulas/task22/124479_1.svg"
+      },
+      {
+        "type": "text",
+        "value": "прямая"
+      },
+      {
+        "type": "img",
+        "file": "formulas/task22/124479_2.svg"
+      },
+      {
+        "type": "text",
+        "value": "имеет с графиком ровно\nдве общие точки."
+      }
+    ],
+    "answer": "formulas/task22/124479_answer.svg",
+    "svgFiles": [
+      "formulas/task22/124479_1.svg",
+      "formulas/task22/124479_2.svg",
+      "formulas/task22/124479_answer.svg"
+    ]
+  },
+  {
+    "id": "124482",
+    "title": "Задача 6",
+    "prototype": "Тип 12",
+    "parts": [
+      {
+        "type": "text",
+        "value": "Постройте график функции",
+        "newParagraph": true
+      },
+      {
+        "type": "text",
+        "value": "Определите, при каких значениях",
+        "newParagraph": true
+      },
+      {
+        "type": "img",
+        "file": "formulas/task22/124482_1.svg"
+      },
+      {
+        "type": "text",
+        "value": "прямая"
+      },
+      {
+        "type": "img",
+        "file": "formulas/task22/124482_2.svg"
+      },
+      {
+        "type": "text",
+        "value": "имеет с графиком ровно\nдве общие точки."
+      }
+    ],
+    "answer": "formulas/task22/124482_answer.svg",
+    "svgFiles": [
+      "formulas/task22/124482_1.svg",
+      "formulas/task22/124482_2.svg",
+      "formulas/task22/124482_answer.svg"
+    ]
+  },
+  {
+    "id": "124483",
+    "title": "Задача 7",
+    "prototype": "Тип 12",
+    "parts": [
+      {
+        "type": "text",
+        "value": "Постройте график функции",
+        "newParagraph": true
+      },
+      {
+        "type": "text",
+        "value": "Определите, при каких значениях",
+        "newParagraph": true
+      },
+      {
+        "type": "img",
+        "file": "formulas/task22/124483_1.svg"
+      },
+      {
+        "type": "text",
+        "value": "прямая"
+      },
+      {
+        "type": "img",
+        "file": "formulas/task22/124483_2.svg"
+      },
+      {
+        "type": "text",
+        "value": "имеет с графиком ровно\nдве общие точки."
+      }
+    ],
+    "answer": "formulas/task22/124483_answer.svg",
+    "svgFiles": [
+      "formulas/task22/124483_1.svg",
+      "formulas/task22/124483_2.svg",
+      "formulas/task22/124483_answer.svg"
+    ]
+  },
+  {
+    "id": "124484",
+    "title": "Задача 8",
+    "prototype": "Тип 12",
+    "parts": [
+      {
+        "type": "text",
+        "value": "Постройте график функции",
+        "newParagraph": true
+      },
+      {
+        "type": "text",
+        "value": "Определите, при каких значениях",
+        "newParagraph": true
+      },
+      {
+        "type": "img",
+        "file": "formulas/task22/124484_1.svg"
+      },
+      {
+        "type": "text",
+        "value": "прямая"
+      },
+      {
+        "type": "img",
+        "file": "formulas/task22/124484_2.svg"
+      },
+      {
+        "type": "text",
+        "value": "имеет с графиком ровно\nдве общие точки."
+      }
+    ],
+    "answer": "formulas/task22/124484_answer.svg",
+    "svgFiles": [
+      "formulas/task22/124484_1.svg",
+      "formulas/task22/124484_2.svg",
+      "formulas/task22/124484_answer.svg"
+    ]
+  },
+  {
+    "id": "124485",
+    "title": "Задача 9",
+    "prototype": "Тип 12",
+    "parts": [
+      {
+        "type": "text",
+        "value": "Постройте график функции",
+        "newParagraph": true
+      },
+      {
+        "type": "text",
+        "value": "Определите, при каких значениях",
+        "newParagraph": true
+      },
+      {
+        "type": "img",
+        "file": "formulas/task22/124485_1.svg"
+      },
+      {
+        "type": "text",
+        "value": "прямая"
+      },
+      {
+        "type": "img",
+        "file": "formulas/task22/124485_2.svg"
+      },
+      {
+        "type": "text",
+        "value": "имеет с графиком ровно\nдве общие точки."
+      }
+    ],
+    "answer": "formulas/task22/124485_answer.svg",
+    "svgFiles": [
+      "formulas/task22/124485_1.svg",
+      "formulas/task22/124485_2.svg",
+      "formulas/task22/124485_answer.svg"
+    ]
+  },
+  {
+    "id": "124486",
+    "title": "Задача 10",
+    "prototype": "Тип 12",
+    "parts": [
+      {
+        "type": "text",
+        "value": "Постройте график функции",
+        "newParagraph": true
+      },
+      {
+        "type": "text",
+        "value": "Определите, при каких значениях",
+        "newParagraph": true
+      },
+      {
+        "type": "img",
+        "file": "formulas/task22/124486_1.svg"
+      },
+      {
+        "type": "text",
+        "value": "прямая"
+      },
+      {
+        "type": "img",
+        "file": "formulas/task22/124486_2.svg"
+      },
+      {
+        "type": "text",
+        "value": "имеет с графиком ровно\nдве общие точки."
+      }
+    ],
+    "answer": "formulas/task22/124486_answer.svg",
+    "svgFiles": [
+      "formulas/task22/124486_1.svg",
+      "formulas/task22/124486_2.svg",
+      "formulas/task22/124486_answer.svg"
+    ]
+  },
+  {
+    "id": "37453",
+    "title": "Задача 1",
+    "prototype": "Тип 13",
+    "parts": [
+      {
+        "type": "text",
+        "value": "Постройте график функции",
+        "newParagraph": true
+      },
+      {
+        "type": "text",
+        "value": "Определите, при каких значениях",
+        "newParagraph": true
+      },
+      {
+        "type": "img",
+        "file": "formulas/task22/37453_1.svg"
+      },
+      {
+        "type": "text",
+        "value": "прямая"
+      },
+      {
+        "type": "img",
+        "file": "formulas/task22/37453_2.svg"
+      },
+      {
+        "type": "text",
+        "value": "имеет с графиком ровно\nдве общие точки."
+      }
+    ],
+    "answer": "formulas/task22/37453_answer.svg",
+    "svgFiles": [
+      "formulas/task22/37453_1.svg",
+      "formulas/task22/37453_2.svg",
+      "formulas/task22/37453_answer.svg"
+    ]
+  },
+  {
+    "id": "124487",
+    "title": "Задача 2",
+    "prototype": "Тип 13",
+    "parts": [
+      {
+        "type": "text",
+        "value": "Постройте график функции",
+        "newParagraph": true
+      },
+      {
+        "type": "text",
+        "value": "Определите, при каких значениях",
+        "newParagraph": true
+      },
+      {
+        "type": "img",
+        "file": "formulas/task22/124487_1.svg"
+      },
+      {
+        "type": "text",
+        "value": "прямая"
+      },
+      {
+        "type": "img",
+        "file": "formulas/task22/124487_2.svg"
+      },
+      {
+        "type": "text",
+        "value": "имеет с графиком ровно\nдве общие точки."
+      }
+    ],
+    "answer": "formulas/task22/124487_answer.svg",
+    "svgFiles": [
+      "formulas/task22/124487_1.svg",
+      "formulas/task22/124487_2.svg",
+      "formulas/task22/124487_answer.svg"
+    ]
+  },
+  {
+    "id": "124489",
+    "title": "Задача 3",
+    "prototype": "Тип 13",
+    "parts": [
+      {
+        "type": "text",
+        "value": "Постройте график функции",
+        "newParagraph": true
+      },
+      {
+        "type": "text",
+        "value": "Определите, при каких значениях",
+        "newParagraph": true
+      },
+      {
+        "type": "img",
+        "file": "formulas/task22/124489_1.svg"
+      },
+      {
+        "type": "text",
+        "value": "прямая"
+      },
+      {
+        "type": "img",
+        "file": "formulas/task22/124489_2.svg"
+      },
+      {
+        "type": "text",
+        "value": "имеет с графиком ровно\nдве общие точки."
+      }
+    ],
+    "answer": "formulas/task22/124489_answer.svg",
+    "svgFiles": [
+      "formulas/task22/124489_1.svg",
+      "formulas/task22/124489_2.svg",
+      "formulas/task22/124489_answer.svg"
+    ]
+  },
+  {
+    "id": "124491",
+    "title": "Задача 4",
+    "prototype": "Тип 13",
+    "parts": [
+      {
+        "type": "text",
+        "value": "Постройте график функции",
+        "newParagraph": true
+      },
+      {
+        "type": "text",
+        "value": "Определите, при каких значениях",
+        "newParagraph": true
+      },
+      {
+        "type": "img",
+        "file": "formulas/task22/124491_1.svg"
+      },
+      {
+        "type": "text",
+        "value": "прямая"
+      },
+      {
+        "type": "img",
+        "file": "formulas/task22/124491_2.svg"
+      },
+      {
+        "type": "text",
+        "value": "имеет с графиком ровно\nдве общие точки."
+      }
+    ],
+    "answer": "formulas/task22/124491_answer.svg",
+    "svgFiles": [
+      "formulas/task22/124491_1.svg",
+      "formulas/task22/124491_2.svg",
+      "formulas/task22/124491_answer.svg"
+    ]
+  },
+  {
+    "id": "124493",
+    "title": "Задача 5",
+    "prototype": "Тип 13",
+    "parts": [
+      {
+        "type": "text",
+        "value": "Постройте график функции",
+        "newParagraph": true
+      },
+      {
+        "type": "text",
+        "value": "Определите, при каких значениях",
+        "newParagraph": true
+      },
+      {
+        "type": "img",
+        "file": "formulas/task22/124493_1.svg"
+      },
+      {
+        "type": "text",
+        "value": "прямая"
+      },
+      {
+        "type": "img",
+        "file": "formulas/task22/124493_2.svg"
+      },
+      {
+        "type": "text",
+        "value": "имеет с графиком ровно\nдве общие точки."
+      }
+    ],
+    "answer": "formulas/task22/124493_answer.svg",
+    "svgFiles": [
+      "formulas/task22/124493_1.svg",
+      "formulas/task22/124493_2.svg",
+      "formulas/task22/124493_answer.svg"
+    ]
+  },
+  {
+    "id": "124494",
+    "title": "Задача 6",
+    "prototype": "Тип 13",
+    "parts": [
+      {
+        "type": "text",
+        "value": "Постройте график функции",
+        "newParagraph": true
+      },
+      {
+        "type": "text",
+        "value": "Определите, при каких значениях",
+        "newParagraph": true
+      },
+      {
+        "type": "img",
+        "file": "formulas/task22/124494_1.svg"
+      },
+      {
+        "type": "text",
+        "value": "прямая"
+      },
+      {
+        "type": "img",
+        "file": "formulas/task22/124494_2.svg"
+      },
+      {
+        "type": "text",
+        "value": "имеет с графиком ровно\nдве общие точки."
+      }
+    ],
+    "answer": "formulas/task22/124494_answer.svg",
+    "svgFiles": [
+      "formulas/task22/124494_1.svg",
+      "formulas/task22/124494_2.svg",
+      "formulas/task22/124494_answer.svg"
+    ]
+  },
+  {
+    "id": "124497",
+    "title": "Задача 7",
+    "prototype": "Тип 13",
+    "parts": [
+      {
+        "type": "text",
+        "value": "Постройте график функции",
+        "newParagraph": true
+      },
+      {
+        "type": "text",
+        "value": "Определите, при каких значениях",
+        "newParagraph": true
+      },
+      {
+        "type": "img",
+        "file": "formulas/task22/124497_1.svg"
+      },
+      {
+        "type": "text",
+        "value": "прямая"
+      },
+      {
+        "type": "img",
+        "file": "formulas/task22/124497_2.svg"
+      },
+      {
+        "type": "text",
+        "value": "имеет с графиком ровно\nдве общие точки."
+      }
+    ],
+    "answer": "formulas/task22/124497_answer.svg",
+    "svgFiles": [
+      "formulas/task22/124497_1.svg",
+      "formulas/task22/124497_2.svg",
+      "formulas/task22/124497_answer.svg"
+    ]
+  },
+  {
+    "id": "124499",
+    "title": "Задача 8",
+    "prototype": "Тип 13",
+    "parts": [
+      {
+        "type": "text",
+        "value": "Постройте график функции",
+        "newParagraph": true
+      },
+      {
+        "type": "text",
+        "value": "Определите, при каких значениях",
+        "newParagraph": true
+      },
+      {
+        "type": "img",
+        "file": "formulas/task22/124499_1.svg"
+      },
+      {
+        "type": "text",
+        "value": "прямая"
+      },
+      {
+        "type": "img",
+        "file": "formulas/task22/124499_2.svg"
+      },
+      {
+        "type": "text",
+        "value": "имеет с графиком ровно\nдве общие точки."
+      }
+    ],
+    "answer": "formulas/task22/124499_answer.svg",
+    "svgFiles": [
+      "formulas/task22/124499_1.svg",
+      "formulas/task22/124499_2.svg",
+      "formulas/task22/124499_answer.svg"
+    ]
+  },
+  {
+    "id": "42122",
+    "title": "Задача 9",
+    "prototype": "Тип 13",
+    "parts": [
+      {
+        "type": "text",
+        "value": "Постройте график функции",
+        "newParagraph": true
+      },
+      {
+        "type": "text",
+        "value": "Определите, при каких значениях",
+        "newParagraph": true
+      },
+      {
+        "type": "img",
+        "file": "formulas/task22/42122_1.svg"
+      },
+      {
+        "type": "text",
+        "value": "прямая"
+      },
+      {
+        "type": "img",
+        "file": "formulas/task22/42122_2.svg"
+      },
+      {
+        "type": "text",
+        "value": "имеет с графиком ровно\nдве общие точки."
+      }
+    ],
+    "answer": "formulas/task22/42122_answer.svg",
+    "svgFiles": [
+      "formulas/task22/42122_1.svg",
+      "formulas/task22/42122_2.svg",
+      "formulas/task22/42122_answer.svg"
+    ]
+  },
+  {
+    "id": "40763",
+    "title": "Задача 10",
+    "prototype": "Тип 13",
+    "parts": [
+      {
+        "type": "text",
+        "value": "Постройте график функции",
+        "newParagraph": true
+      },
+      {
+        "type": "text",
+        "value": "Определите, при каких значениях",
+        "newParagraph": true
+      },
+      {
+        "type": "img",
+        "file": "formulas/task22/40763_1.svg"
+      },
+      {
+        "type": "text",
+        "value": "прямая"
+      },
+      {
+        "type": "img",
+        "file": "formulas/task22/40763_2.svg"
+      },
+      {
+        "type": "text",
+        "value": "имеет с графиком ровно\nдве общие точки."
+      }
+    ],
+    "answer": "formulas/task22/40763_answer.svg",
+    "svgFiles": [
+      "formulas/task22/40763_1.svg",
+      "formulas/task22/40763_2.svg",
+      "formulas/task22/40763_answer.svg"
+    ]
+  },
+  {
+    "id": "43939",
+    "title": "Задача 1",
+    "prototype": "Тип 14",
+    "parts": [
+      {
+        "type": "text",
+        "value": "Постройте график функции",
+        "newParagraph": true
+      },
+      {
+        "type": "text",
+        "value": "Определите, при каких значениях",
+        "newParagraph": true
+      },
+      {
+        "type": "img",
+        "file": "formulas/task22/43939_1.svg"
+      },
+      {
+        "type": "text",
+        "value": "прямая"
+      },
+      {
+        "type": "img",
+        "file": "formulas/task22/43939_2.svg"
+      },
+      {
+        "type": "text",
+        "value": "не имеет с графиком ни\nодной общей точки."
+      }
+    ],
+    "answer": "formulas/task22/43939_answer.svg",
+    "svgFiles": [
+      "formulas/task22/43939_1.svg",
+      "formulas/task22/43939_2.svg",
+      "formulas/task22/43939_answer.svg"
+    ]
+  },
+  {
+    "id": "124501",
+    "title": "Задача 2",
+    "prototype": "Тип 14",
+    "parts": [
+      {
+        "type": "text",
+        "value": "Постройте график функции",
+        "newParagraph": true
+      },
+      {
+        "type": "text",
+        "value": "Определите, при каких значениях",
+        "newParagraph": true
+      },
+      {
+        "type": "img",
+        "file": "formulas/task22/124501_1.svg"
+      },
+      {
+        "type": "text",
+        "value": "прямая"
+      },
+      {
+        "type": "img",
+        "file": "formulas/task22/124501_2.svg"
+      },
+      {
+        "type": "text",
+        "value": "не имеет с графиком ни\nодной общей точки."
+      }
+    ],
+    "answer": "formulas/task22/124501_answer.svg",
+    "svgFiles": [
+      "formulas/task22/124501_1.svg",
+      "formulas/task22/124501_2.svg",
+      "formulas/task22/124501_answer.svg"
+    ]
+  },
+  {
+    "id": "124508",
+    "title": "Задача 3",
+    "prototype": "Тип 14",
+    "parts": [
+      {
+        "type": "text",
+        "value": "Постройте график функции",
+        "newParagraph": true
+      },
+      {
+        "type": "text",
+        "value": "Определите, при каких значениях",
+        "newParagraph": true
+      },
+      {
+        "type": "img",
+        "file": "formulas/task22/124508_1.svg"
+      },
+      {
+        "type": "text",
+        "value": "прямая"
+      },
+      {
+        "type": "img",
+        "file": "formulas/task22/124508_2.svg"
+      },
+      {
+        "type": "text",
+        "value": "не имеет с графиком ни\nодной общей точки."
+      }
+    ],
+    "answer": "formulas/task22/124508_answer.svg",
+    "svgFiles": [
+      "formulas/task22/124508_1.svg",
+      "formulas/task22/124508_2.svg",
+      "formulas/task22/124508_answer.svg"
+    ]
+  },
+  {
+    "id": "124510",
+    "title": "Задача 4",
+    "prototype": "Тип 14",
+    "parts": [
+      {
+        "type": "text",
+        "value": "Постройте график функции",
+        "newParagraph": true
+      },
+      {
+        "type": "text",
+        "value": "Определите, при каких значениях",
+        "newParagraph": true
+      },
+      {
+        "type": "img",
+        "file": "formulas/task22/124510_1.svg"
+      },
+      {
+        "type": "text",
+        "value": "прямая"
+      },
+      {
+        "type": "img",
+        "file": "formulas/task22/124510_2.svg"
+      },
+      {
+        "type": "text",
+        "value": "не имеет с графиком ни\nодной общей точки."
+      }
+    ],
+    "answer": "formulas/task22/124510_answer.svg",
+    "svgFiles": [
+      "formulas/task22/124510_1.svg",
+      "formulas/task22/124510_2.svg",
+      "formulas/task22/124510_answer.svg"
+    ]
+  },
+  {
+    "id": "124512",
+    "title": "Задача 5",
+    "prototype": "Тип 14",
+    "parts": [
+      {
+        "type": "text",
+        "value": "Постройте график функции",
+        "newParagraph": true
+      },
+      {
+        "type": "text",
+        "value": "Определите, при каких значениях",
+        "newParagraph": true
+      },
+      {
+        "type": "img",
+        "file": "formulas/task22/124512_1.svg"
+      },
+      {
+        "type": "text",
+        "value": "прямая"
+      },
+      {
+        "type": "img",
+        "file": "formulas/task22/124512_2.svg"
+      },
+      {
+        "type": "text",
+        "value": "не имеет с графиком ни\nодной общей точки."
+      }
+    ],
+    "answer": "formulas/task22/124512_answer.svg",
+    "svgFiles": [
+      "formulas/task22/124512_1.svg",
+      "formulas/task22/124512_2.svg",
+      "formulas/task22/124512_answer.svg"
+    ]
+  },
+  {
+    "id": "124514",
+    "title": "Задача 6",
+    "prototype": "Тип 14",
+    "parts": [
+      {
+        "type": "text",
+        "value": "Постройте график функции",
+        "newParagraph": true
+      },
+      {
+        "type": "text",
+        "value": "Определите, при каких значениях",
+        "newParagraph": true
+      },
+      {
+        "type": "img",
+        "file": "formulas/task22/124514_1.svg"
+      },
+      {
+        "type": "text",
+        "value": "прямая"
+      },
+      {
+        "type": "img",
+        "file": "formulas/task22/124514_2.svg"
+      },
+      {
+        "type": "text",
+        "value": "не имеет с графиком ни\nодной общей точки."
+      }
+    ],
+    "answer": "formulas/task22/124514_answer.svg",
+    "svgFiles": [
+      "formulas/task22/124514_1.svg",
+      "formulas/task22/124514_2.svg",
+      "formulas/task22/124514_answer.svg"
+    ]
+  },
+  {
+    "id": "124517",
+    "title": "Задача 7",
+    "prototype": "Тип 14",
+    "parts": [
+      {
+        "type": "text",
+        "value": "Постройте график функции",
+        "newParagraph": true
+      },
+      {
+        "type": "text",
+        "value": "Определите, при каких значениях",
+        "newParagraph": true
+      },
+      {
+        "type": "img",
+        "file": "formulas/task22/124517_1.svg"
+      },
+      {
+        "type": "text",
+        "value": "прямая"
+      },
+      {
+        "type": "img",
+        "file": "formulas/task22/124517_2.svg"
+      },
+      {
+        "type": "text",
+        "value": "не имеет с графиком ни\nодной общей точки."
+      }
+    ],
+    "answer": "formulas/task22/124517_answer.svg",
+    "svgFiles": [
+      "formulas/task22/124517_1.svg",
+      "formulas/task22/124517_2.svg",
+      "formulas/task22/124517_answer.svg"
+    ]
+  },
+  {
+    "id": "124519",
+    "title": "Задача 8",
+    "prototype": "Тип 14",
+    "parts": [
+      {
+        "type": "text",
+        "value": "Постройте график функции",
+        "newParagraph": true
+      },
+      {
+        "type": "text",
+        "value": "Определите, при каких значениях",
+        "newParagraph": true
+      },
+      {
+        "type": "img",
+        "file": "formulas/task22/124519_1.svg"
+      },
+      {
+        "type": "text",
+        "value": "прямая"
+      },
+      {
+        "type": "img",
+        "file": "formulas/task22/124519_2.svg"
+      },
+      {
+        "type": "text",
+        "value": "не имеет с графиком ни\nодной общей точки."
+      }
+    ],
+    "answer": "formulas/task22/124519_answer.svg",
+    "svgFiles": [
+      "formulas/task22/124519_1.svg",
+      "formulas/task22/124519_2.svg",
+      "formulas/task22/124519_answer.svg"
+    ]
+  },
+  {
+    "id": "124521",
+    "title": "Задача 9",
+    "prototype": "Тип 14",
+    "parts": [
+      {
+        "type": "text",
+        "value": "Постройте график функции",
+        "newParagraph": true
+      },
+      {
+        "type": "text",
+        "value": "Определите, при каких значениях",
+        "newParagraph": true
+      },
+      {
+        "type": "img",
+        "file": "formulas/task22/124521_1.svg"
+      },
+      {
+        "type": "text",
+        "value": "прямая"
+      },
+      {
+        "type": "img",
+        "file": "formulas/task22/124521_2.svg"
+      },
+      {
+        "type": "text",
+        "value": "не имеет с графиком ни\nодной общей точки."
+      }
+    ],
+    "answer": "formulas/task22/124521_answer.svg",
+    "svgFiles": [
+      "formulas/task22/124521_1.svg",
+      "formulas/task22/124521_2.svg",
+      "formulas/task22/124521_answer.svg"
+    ]
+  },
+  {
+    "id": "40762",
+    "title": "Задача 10",
+    "prototype": "Тип 14",
+    "parts": [
+      {
+        "type": "text",
+        "value": "Постройте график функции",
+        "newParagraph": true
+      },
+      {
+        "type": "img",
+        "file": "formulas/task22/40762_1.svg"
+      },
+      {
+        "type": "text",
+        "value": "Определите, при каких значениях",
+        "newParagraph": true
+      },
+      {
+        "type": "img",
+        "file": "formulas/task22/40762_2.svg"
+      },
+      {
+        "type": "text",
+        "value": "прямая"
+      },
+      {
+        "type": "img",
+        "file": "formulas/task22/40762_3.svg"
+      },
+      {
+        "type": "text",
+        "value": "не имеет с графиком ни\nодной общей точки."
+      }
+    ],
+    "answer": "formulas/task22/40762_answer.svg",
+    "svgFiles": [
+      "formulas/task22/40762_1.svg",
+      "formulas/task22/40762_2.svg",
+      "formulas/task22/40762_3.svg",
+      "formulas/task22/40762_answer.svg"
+    ]
+  },
+  {
+    "id": "57254",
+    "title": "Задача 1",
+    "prototype": "Тип 15",
+    "parts": [
+      {
+        "type": "text",
+        "value": "Постройте график функции",
+        "newParagraph": true
+      },
+      {
+        "type": "text",
+        "value": "Определите, при каких значениях",
+        "newParagraph": true
+      },
+      {
+        "type": "img",
+        "file": "formulas/task22/57254_1.svg"
+      },
+      {
+        "type": "text",
+        "value": "прямая"
+      },
+      {
+        "type": "img",
+        "file": "formulas/task22/57254_2.svg"
+      },
+      {
+        "type": "text",
+        "value": "не имеет с графиком ни\nодной общей точки."
+      }
+    ],
+    "answer": "formulas/task22/57254_answer.svg",
+    "svgFiles": [
+      "formulas/task22/57254_1.svg",
+      "formulas/task22/57254_2.svg",
+      "formulas/task22/57254_answer.svg"
+    ]
+  },
+  {
+    "id": "60990",
+    "title": "Задача 2",
+    "prototype": "Тип 15",
+    "parts": [
+      {
+        "type": "text",
+        "value": "Постройте график функции",
+        "newParagraph": true
+      },
+      {
+        "type": "text",
+        "value": "Определите, при каких значениях",
+        "newParagraph": true
+      },
+      {
+        "type": "img",
+        "file": "formulas/task22/60990_1.svg"
+      },
+      {
+        "type": "text",
+        "value": "прямая"
+      },
+      {
+        "type": "img",
+        "file": "formulas/task22/60990_2.svg"
+      },
+      {
+        "type": "text",
+        "value": "не имеет с графиком ни\nодной общей точки."
+      }
+    ],
+    "answer": "formulas/task22/60990_answer.svg",
+    "svgFiles": [
+      "formulas/task22/60990_1.svg",
+      "formulas/task22/60990_2.svg",
+      "formulas/task22/60990_answer.svg"
+    ]
+  },
+  {
+    "id": "97939",
+    "title": "Задача 3",
+    "prototype": "Тип 15",
+    "parts": [
+      {
+        "type": "text",
+        "value": "Постройте график функции",
+        "newParagraph": true
+      },
+      {
+        "type": "text",
+        "value": "Определите, при каких значениях",
+        "newParagraph": true
+      },
+      {
+        "type": "img",
+        "file": "formulas/task22/97939_1.svg"
+      },
+      {
+        "type": "text",
+        "value": "прямая"
+      },
+      {
+        "type": "img",
+        "file": "formulas/task22/97939_2.svg"
+      },
+      {
+        "type": "text",
+        "value": "не имеет с графиком ни\nодной общей точки."
+      }
+    ],
+    "answer": "formulas/task22/97939_answer.svg",
+    "svgFiles": [
+      "formulas/task22/97939_1.svg",
+      "formulas/task22/97939_2.svg",
+      "formulas/task22/97939_answer.svg"
+    ]
+  },
+  {
+    "id": "106123",
+    "title": "Задача 4",
+    "prototype": "Тип 15",
+    "parts": [
+      {
+        "type": "text",
+        "value": "Постройте график функции",
+        "newParagraph": true
+      },
+      {
+        "type": "text",
+        "value": "Определите, при каких значениях",
+        "newParagraph": true
+      },
+      {
+        "type": "img",
+        "file": "formulas/task22/106123_1.svg"
+      },
+      {
+        "type": "text",
+        "value": "прямая"
+      },
+      {
+        "type": "img",
+        "file": "formulas/task22/106123_2.svg"
+      },
+      {
+        "type": "text",
+        "value": "не имеет с графиком ни\nодной общей точки."
+      }
+    ],
+    "answer": "formulas/task22/106123_answer.svg",
+    "svgFiles": [
+      "formulas/task22/106123_1.svg",
+      "formulas/task22/106123_2.svg",
+      "formulas/task22/106123_answer.svg"
+    ]
+  },
+  {
+    "id": "124523",
+    "title": "Задача 5",
+    "prototype": "Тип 15",
+    "parts": [
+      {
+        "type": "text",
+        "value": "Постройте график функции",
+        "newParagraph": true
+      },
+      {
+        "type": "text",
+        "value": "Определите, при каких значениях",
+        "newParagraph": true
+      },
+      {
+        "type": "img",
+        "file": "formulas/task22/124523_1.svg"
+      },
+      {
+        "type": "text",
+        "value": "прямая"
+      },
+      {
+        "type": "img",
+        "file": "formulas/task22/124523_2.svg"
+      },
+      {
+        "type": "text",
+        "value": "не имеет с графиком ни\nодной общей точки."
+      }
+    ],
+    "answer": "formulas/task22/124523_answer.svg",
+    "svgFiles": [
+      "formulas/task22/124523_1.svg",
+      "formulas/task22/124523_2.svg",
+      "formulas/task22/124523_answer.svg"
+    ]
+  },
+  {
+    "id": "124524",
+    "title": "Задача 6",
+    "prototype": "Тип 15",
+    "parts": [
+      {
+        "type": "text",
+        "value": "Постройте график функции",
+        "newParagraph": true
+      },
+      {
+        "type": "text",
+        "value": "Определите, при каких значениях",
+        "newParagraph": true
+      },
+      {
+        "type": "img",
+        "file": "formulas/task22/124524_1.svg"
+      },
+      {
+        "type": "text",
+        "value": "прямая"
+      },
+      {
+        "type": "img",
+        "file": "formulas/task22/124524_2.svg"
+      },
+      {
+        "type": "text",
+        "value": "не имеет с графиком ни\nодной общей точки."
+      }
+    ],
+    "answer": "formulas/task22/124524_answer.svg",
+    "svgFiles": [
+      "formulas/task22/124524_1.svg",
+      "formulas/task22/124524_2.svg",
+      "formulas/task22/124524_answer.svg"
+    ]
+  },
+  {
+    "id": "124527",
+    "title": "Задача 7",
+    "prototype": "Тип 15",
+    "parts": [
+      {
+        "type": "text",
+        "value": "Постройте график функции",
+        "newParagraph": true
+      },
+      {
+        "type": "text",
+        "value": "Определите, при каких значениях",
+        "newParagraph": true
+      },
+      {
+        "type": "img",
+        "file": "formulas/task22/124527_1.svg"
+      },
+      {
+        "type": "text",
+        "value": "прямая"
+      },
+      {
+        "type": "img",
+        "file": "formulas/task22/124527_2.svg"
+      },
+      {
+        "type": "text",
+        "value": "не имеет с графиком ни\nодной общей точки."
+      }
+    ],
+    "answer": "formulas/task22/124527_answer.svg",
+    "svgFiles": [
+      "formulas/task22/124527_1.svg",
+      "formulas/task22/124527_2.svg",
+      "formulas/task22/124527_answer.svg"
+    ]
+  },
+  {
+    "id": "124529",
+    "title": "Задача 8",
+    "prototype": "Тип 15",
+    "parts": [
+      {
+        "type": "text",
+        "value": "Постройте график функции",
+        "newParagraph": true
+      },
+      {
+        "type": "text",
+        "value": "Определите, при каких значениях",
+        "newParagraph": true
+      },
+      {
+        "type": "img",
+        "file": "formulas/task22/124529_1.svg"
+      },
+      {
+        "type": "text",
+        "value": "прямая"
+      },
+      {
+        "type": "img",
+        "file": "formulas/task22/124529_2.svg"
+      },
+      {
+        "type": "text",
+        "value": "не имеет с графиком ни\nодной общей точки."
+      }
+    ],
+    "answer": "formulas/task22/124529_answer.svg",
+    "svgFiles": [
+      "formulas/task22/124529_1.svg",
+      "formulas/task22/124529_2.svg",
+      "formulas/task22/124529_answer.svg"
+    ]
+  },
+  {
+    "id": "124533",
+    "title": "Задача 9",
+    "prototype": "Тип 15",
+    "parts": [
+      {
+        "type": "text",
+        "value": "Постройте график функции",
+        "newParagraph": true
+      },
+      {
+        "type": "text",
+        "value": "Определите, при каких значениях",
+        "newParagraph": true
+      },
+      {
+        "type": "img",
+        "file": "formulas/task22/124533_1.svg"
+      },
+      {
+        "type": "text",
+        "value": "прямая"
+      },
+      {
+        "type": "img",
+        "file": "formulas/task22/124533_2.svg"
+      },
+      {
+        "type": "text",
+        "value": "не имеет с графиком ни\nодной общей точки."
+      }
+    ],
+    "answer": "formulas/task22/124533_answer.svg",
+    "svgFiles": [
+      "formulas/task22/124533_1.svg",
+      "formulas/task22/124533_2.svg",
+      "formulas/task22/124533_answer.svg"
+    ]
+  },
+  {
+    "id": "124536",
+    "title": "Задача 10",
+    "prototype": "Тип 15",
+    "parts": [
+      {
+        "type": "text",
+        "value": "Постройте график функции",
+        "newParagraph": true
+      },
+      {
+        "type": "text",
+        "value": "Определите, при каких значениях",
+        "newParagraph": true
+      },
+      {
+        "type": "img",
+        "file": "formulas/task22/124536_1.svg"
+      },
+      {
+        "type": "text",
+        "value": "прямая"
+      },
+      {
+        "type": "img",
+        "file": "formulas/task22/124536_2.svg"
+      },
+      {
+        "type": "text",
+        "value": "не имеет с графиком ни\nодной общей точки."
+      }
+    ],
+    "answer": "formulas/task22/124536_answer.svg",
+    "svgFiles": [
+      "formulas/task22/124536_1.svg",
+      "formulas/task22/124536_2.svg",
+      "formulas/task22/124536_answer.svg"
+    ]
+  },
+  {
+    "id": "45343",
+    "title": "Задача 1",
+    "prototype": "Тип 16",
+    "parts": [
+      {
+        "type": "text",
+        "value": "Постройте график функции",
+        "newParagraph": true
+      },
+      {
+        "type": "text",
+        "value": "Какое наибольшее число общих точек может иметь график данной функции с\nпрямой, параллельной оси абсцисс?",
+        "newParagraph": true
+      }
+    ],
+    "answer": "4",
+    "svgFiles": []
+  },
+  {
+    "id": "61567",
+    "title": "Задача 2",
+    "prototype": "Тип 16",
+    "parts": [
+      {
+        "type": "text",
+        "value": "Постройте график функции",
+        "newParagraph": true
+      },
+      {
+        "type": "text",
+        "value": "Какое наибольшее число общих точек может иметь график данной функции с\nпрямой, параллельной оси абсцисс?",
+        "newParagraph": true
+      }
+    ],
+    "answer": "4",
+    "svgFiles": []
+  },
+  {
+    "id": "124540",
+    "title": "Задача 3",
+    "prototype": "Тип 16",
+    "parts": [
+      {
+        "type": "text",
+        "value": "Постройте график функции",
+        "newParagraph": true
+      },
+      {
+        "type": "text",
+        "value": "Какое наибольшее число общих точек может иметь график данной функции с\nпрямой, параллельной оси абсцисс?",
+        "newParagraph": true
+      }
+    ],
+    "answer": "4",
+    "svgFiles": []
+  },
+  {
+    "id": "124541",
+    "title": "Задача 4",
+    "prototype": "Тип 16",
+    "parts": [
+      {
+        "type": "text",
+        "value": "Постройте график функции",
+        "newParagraph": true
+      },
+      {
+        "type": "text",
+        "value": "Какое наибольшее число общих точек может иметь график данной функции с\nпрямой, параллельной оси абсцисс?",
+        "newParagraph": true
+      }
+    ],
+    "answer": "4",
+    "svgFiles": []
+  },
+  {
+    "id": "124542",
+    "title": "Задача 5",
+    "prototype": "Тип 16",
+    "parts": [
+      {
+        "type": "text",
+        "value": "Постройте график функции",
+        "newParagraph": true
+      },
+      {
+        "type": "text",
+        "value": "Какое наибольшее число общих точек может иметь график данной функции с\nпрямой, параллельной оси абсцисс?",
+        "newParagraph": true
+      }
+    ],
+    "answer": "4",
+    "svgFiles": []
+  },
+  {
+    "id": "124543",
+    "title": "Задача 6",
+    "prototype": "Тип 16",
+    "parts": [
+      {
+        "type": "text",
+        "value": "Постройте график функции",
+        "newParagraph": true
+      },
+      {
+        "type": "text",
+        "value": "Какое наибольшее число общих точек может иметь график данной функции с\nпрямой, параллельной оси абсцисс?",
+        "newParagraph": true
+      }
+    ],
+    "answer": "4",
+    "svgFiles": []
+  },
+  {
+    "id": "124544",
+    "title": "Задача 7",
+    "prototype": "Тип 16",
+    "parts": [
+      {
+        "type": "text",
+        "value": "Постройте график функции",
+        "newParagraph": true
+      },
+      {
+        "type": "text",
+        "value": "Какое наибольшее число общих точек может иметь график данной функции с\nпрямой, параллельной оси абсцисс?",
+        "newParagraph": true
+      }
+    ],
+    "answer": "4",
+    "svgFiles": []
+  },
+  {
+    "id": "124545",
+    "title": "Задача 8",
+    "prototype": "Тип 16",
+    "parts": [
+      {
+        "type": "text",
+        "value": "Постройте график функции",
+        "newParagraph": true
+      },
+      {
+        "type": "text",
+        "value": "Какое наибольшее число общих точек может иметь график данной функции с\nпрямой, параллельной оси абсцисс?",
+        "newParagraph": true
+      }
+    ],
+    "answer": "4",
+    "svgFiles": []
+  },
+  {
+    "id": "124546",
+    "title": "Задача 9",
+    "prototype": "Тип 16",
+    "parts": [
+      {
+        "type": "text",
+        "value": "Постройте график функции",
+        "newParagraph": true
+      },
+      {
+        "type": "text",
+        "value": "Какое наибольшее число общих точек может иметь график данной функции с\nпрямой, параллельной оси абсцисс?",
+        "newParagraph": true
+      }
+    ],
+    "answer": "4",
+    "svgFiles": []
+  },
+  {
+    "id": "124547",
+    "title": "Задача 10",
+    "prototype": "Тип 16",
+    "parts": [
+      {
+        "type": "text",
+        "value": "Постройте график функции",
+        "newParagraph": true
+      },
+      {
+        "type": "text",
+        "value": "Какое наибольшее число общих точек может иметь график данной функции с\nпрямой, параллельной оси абсцисс?",
+        "newParagraph": true
+      }
+    ],
+    "answer": "4",
+    "svgFiles": []
+  },
+  {
+    "id": "27287",
+    "title": "Задача 1",
+    "prototype": "Тип 17",
+    "parts": [
+      {
+        "type": "text",
+        "value": "Постройте график функции",
+        "newParagraph": true
+      },
+      {
+        "type": "img",
+        "file": "formulas/task22/27287_1.svg"
+      },
+      {
+        "type": "text",
+        "value": "Определите, при каких значениях",
+        "newParagraph": true
+      },
+      {
+        "type": "img",
+        "file": "formulas/task22/27287_2.svg"
+      },
+      {
+        "type": "text",
+        "value": "прямая"
+      },
+      {
+        "type": "img",
+        "file": "formulas/task22/27287_3.svg"
+      },
+      {
+        "type": "text",
+        "value": "не имеет с графиком общих точек."
+      }
+    ],
+    "answer": "formulas/task22/27287_answer.svg",
+    "svgFiles": [
+      "formulas/task22/27287_1.svg",
+      "formulas/task22/27287_2.svg",
+      "formulas/task22/27287_3.svg",
+      "formulas/task22/27287_answer.svg"
+    ]
+  },
+  {
+    "id": "60989",
+    "title": "Задача 2",
+    "prototype": "Тип 17",
+    "parts": [
+      {
+        "type": "text",
+        "value": "Постройте график функции",
+        "newParagraph": true
+      },
+      {
+        "type": "text",
+        "value": "Определите, при каких значениях",
+        "newParagraph": true
+      },
+      {
+        "type": "img",
+        "file": "formulas/task22/60989_1.svg"
+      },
+      {
+        "type": "text",
+        "value": "прямая"
+      },
+      {
+        "type": "img",
+        "file": "formulas/task22/60989_2.svg"
+      },
+      {
+        "type": "text",
+        "value": "не имеет с графиком\nобщих точек."
+      }
+    ],
+    "answer": "formulas/task22/60989_answer.svg",
+    "svgFiles": [
+      "formulas/task22/60989_1.svg",
+      "formulas/task22/60989_2.svg",
+      "formulas/task22/60989_answer.svg"
+    ]
+  },
+  {
+    "id": "124534",
+    "title": "Задача 3",
+    "prototype": "Тип 17",
+    "parts": [
+      {
+        "type": "text",
+        "value": "Постройте график функции",
+        "newParagraph": true
+      },
+      {
+        "type": "text",
+        "value": "Определите, при каких значениях",
+        "newParagraph": true
+      },
+      {
+        "type": "img",
+        "file": "formulas/task22/124534_1.svg"
+      },
+      {
+        "type": "text",
+        "value": "прямая"
+      },
+      {
+        "type": "img",
+        "file": "formulas/task22/124534_2.svg"
+      },
+      {
+        "type": "text",
+        "value": "не имеет с графиком\nобщих точек."
+      }
+    ],
+    "answer": "formulas/task22/124534_answer.svg",
+    "svgFiles": [
+      "formulas/task22/124534_1.svg",
+      "formulas/task22/124534_2.svg",
+      "formulas/task22/124534_answer.svg"
+    ]
+  },
+  {
+    "id": "124535",
+    "title": "Задача 4",
+    "prototype": "Тип 17",
+    "parts": [
+      {
+        "type": "text",
+        "value": "Постройте график функции",
+        "newParagraph": true
+      },
+      {
+        "type": "text",
+        "value": "Определите, при каких значениях",
+        "newParagraph": true
+      },
+      {
+        "type": "img",
+        "file": "formulas/task22/124535_1.svg"
+      },
+      {
+        "type": "text",
+        "value": "прямая"
+      },
+      {
+        "type": "img",
+        "file": "formulas/task22/124535_2.svg"
+      },
+      {
+        "type": "text",
+        "value": "не имеет с графиком\nобщих точек."
+      }
+    ],
+    "answer": "formulas/task22/124535_answer.svg",
+    "svgFiles": [
+      "formulas/task22/124535_1.svg",
+      "formulas/task22/124535_2.svg",
+      "formulas/task22/124535_answer.svg"
+    ]
+  },
+  {
+    "id": "124537",
+    "title": "Задача 5",
+    "prototype": "Тип 17",
+    "parts": [
+      {
+        "type": "text",
+        "value": "Постройте график функции",
+        "newParagraph": true
+      },
+      {
+        "type": "text",
+        "value": "Определите, при каких значениях",
+        "newParagraph": true
+      },
+      {
+        "type": "img",
+        "file": "formulas/task22/124537_1.svg"
+      },
+      {
+        "type": "text",
+        "value": "прямая"
+      },
+      {
+        "type": "img",
+        "file": "formulas/task22/124537_2.svg"
+      },
+      {
+        "type": "text",
+        "value": "не имеет с графиком\nобщих точек."
+      }
+    ],
+    "answer": "formulas/task22/124537_answer.svg",
+    "svgFiles": [
+      "formulas/task22/124537_1.svg",
+      "formulas/task22/124537_2.svg",
+      "formulas/task22/124537_answer.svg"
+    ]
+  },
+  {
+    "id": "124538",
+    "title": "Задача 6",
+    "prototype": "Тип 17",
+    "parts": [
+      {
+        "type": "text",
+        "value": "Постройте график функции",
+        "newParagraph": true
+      },
+      {
+        "type": "text",
+        "value": "Определите, при каких значениях",
+        "newParagraph": true
+      },
+      {
+        "type": "img",
+        "file": "formulas/task22/124538_1.svg"
+      },
+      {
+        "type": "text",
+        "value": "прямая"
+      },
+      {
+        "type": "img",
+        "file": "formulas/task22/124538_2.svg"
+      },
+      {
+        "type": "text",
+        "value": "не имеет с графиком\nобщих точек."
+      }
+    ],
+    "answer": "formulas/task22/124538_answer.svg",
+    "svgFiles": [
+      "formulas/task22/124538_1.svg",
+      "formulas/task22/124538_2.svg",
+      "formulas/task22/124538_answer.svg"
+    ]
+  },
+  {
+    "id": "124539",
+    "title": "Задача 7",
+    "prototype": "Тип 17",
+    "parts": [
+      {
+        "type": "text",
+        "value": "Постройте график функции",
+        "newParagraph": true
+      },
+      {
+        "type": "text",
+        "value": "Определите, при каких значениях",
+        "newParagraph": true
+      },
+      {
+        "type": "img",
+        "file": "formulas/task22/124539_1.svg"
+      },
+      {
+        "type": "text",
+        "value": "прямая"
+      },
+      {
+        "type": "img",
+        "file": "formulas/task22/124539_2.svg"
+      },
+      {
+        "type": "text",
+        "value": "не имеет с графиком\nобщих точек."
+      }
+    ],
+    "answer": "formulas/task22/124539_answer.svg",
+    "svgFiles": [
+      "formulas/task22/124539_1.svg",
+      "formulas/task22/124539_2.svg",
+      "formulas/task22/124539_answer.svg"
+    ]
+  },
+  {
+    "id": "45467",
+    "title": "Задача 8",
+    "prototype": "Тип 17",
+    "parts": [
+      {
+        "type": "text",
+        "value": "Постройте график функции",
+        "newParagraph": true
+      },
+      {
+        "type": "img",
+        "file": "formulas/task22/45467_1.svg"
+      },
+      {
+        "type": "text",
+        "value": "Определите, при каких значениях",
+        "newParagraph": true
+      },
+      {
+        "type": "img",
+        "file": "formulas/task22/45467_2.svg"
+      },
+      {
+        "type": "text",
+        "value": "прямая"
+      },
+      {
+        "type": "img",
+        "file": "formulas/task22/45467_3.svg"
+      },
+      {
+        "type": "text",
+        "value": "не имеет с графиком\nобщих точек."
+      }
+    ],
+    "answer": "formulas/task22/45467_answer.svg",
+    "svgFiles": [
+      "formulas/task22/45467_1.svg",
+      "formulas/task22/45467_2.svg",
+      "formulas/task22/45467_3.svg",
+      "formulas/task22/45467_answer.svg"
+    ]
+  },
+  {
+    "id": "28213",
+    "title": "Задача 1",
+    "prototype": "Тип 18",
+    "parts": [
+      {
+        "type": "text",
+        "value": "Постройте график функции",
+        "newParagraph": true
+      },
+      {
+        "type": "text",
+        "value": "Определите, при каких значениях",
+        "newParagraph": true
+      },
+      {
+        "type": "img",
+        "file": "formulas/task22/28213_1.svg"
+      },
+      {
+        "type": "text",
+        "value": "прямая"
+      },
+      {
+        "type": "img",
+        "file": "formulas/task22/28213_2.svg"
+      },
+      {
+        "type": "text",
+        "value": "имеет с графиком ровно одну общую точку."
+      }
+    ],
+    "answer": "formulas/task22/28213_answer.svg",
+    "svgFiles": [
+      "formulas/task22/28213_1.svg",
+      "formulas/task22/28213_2.svg",
+      "formulas/task22/28213_answer.svg"
+    ]
+  },
+  {
+    "id": "61569",
+    "title": "Задача 2",
+    "prototype": "Тип 18",
+    "parts": [
+      {
+        "type": "text",
+        "value": "Постройте график функции",
+        "newParagraph": true
+      },
+      {
+        "type": "text",
+        "value": "Определите, при каких значениях",
+        "newParagraph": true
+      },
+      {
+        "type": "img",
+        "file": "formulas/task22/61569_1.svg"
+      },
+      {
+        "type": "text",
+        "value": "прямая"
+      },
+      {
+        "type": "img",
+        "file": "formulas/task22/61569_2.svg"
+      },
+      {
+        "type": "text",
+        "value": "имеет с графиком ровно\nодну общую точку."
+      }
+    ],
+    "answer": "formulas/task22/61569_answer.svg",
+    "svgFiles": [
+      "formulas/task22/61569_1.svg",
+      "formulas/task22/61569_2.svg",
+      "formulas/task22/61569_answer.svg"
+    ]
+  },
+  {
+    "id": "106251",
+    "title": "Задача 3",
+    "prototype": "Тип 18",
+    "parts": [
+      {
+        "type": "text",
+        "value": "Постройте график функции",
+        "newParagraph": true
+      },
+      {
+        "type": "text",
+        "value": "Определите, при каких значениях",
+        "newParagraph": true
+      },
+      {
+        "type": "img",
+        "file": "formulas/task22/106251_1.svg"
+      },
+      {
+        "type": "text",
+        "value": "прямая"
+      },
+      {
+        "type": "img",
+        "file": "formulas/task22/106251_2.svg"
+      },
+      {
+        "type": "text",
+        "value": "имеет с графиком ровно\nодну общую точку."
+      }
+    ],
+    "answer": "formulas/task22/106251_answer.svg",
+    "svgFiles": [
+      "formulas/task22/106251_1.svg",
+      "formulas/task22/106251_2.svg",
+      "formulas/task22/106251_answer.svg"
+    ]
+  },
+  {
+    "id": "124525",
+    "title": "Задача 4",
+    "prototype": "Тип 18",
+    "parts": [
+      {
+        "type": "text",
+        "value": "Постройте график функции",
+        "newParagraph": true
+      },
+      {
+        "type": "text",
+        "value": "Определите, при каких значениях",
+        "newParagraph": true
+      },
+      {
+        "type": "img",
+        "file": "formulas/task22/124525_1.svg"
+      },
+      {
+        "type": "text",
+        "value": "прямая"
+      },
+      {
+        "type": "img",
+        "file": "formulas/task22/124525_2.svg"
+      },
+      {
+        "type": "text",
+        "value": "имеет с графиком ровно\nодну общую точку."
+      }
+    ],
+    "answer": "formulas/task22/124525_answer.svg",
+    "svgFiles": [
+      "formulas/task22/124525_1.svg",
+      "formulas/task22/124525_2.svg",
+      "formulas/task22/124525_answer.svg"
+    ]
+  },
+  {
+    "id": "124526",
+    "title": "Задача 5",
+    "prototype": "Тип 18",
+    "parts": [
+      {
+        "type": "text",
+        "value": "Постройте график функции",
+        "newParagraph": true
+      },
+      {
+        "type": "text",
+        "value": "Определите, при каких значениях",
+        "newParagraph": true
+      },
+      {
+        "type": "img",
+        "file": "formulas/task22/124526_1.svg"
+      },
+      {
+        "type": "text",
+        "value": "прямая"
+      },
+      {
+        "type": "img",
+        "file": "formulas/task22/124526_2.svg"
+      },
+      {
+        "type": "text",
+        "value": "имеет с графиком ровно\nодну общую точку."
+      }
+    ],
+    "answer": "formulas/task22/124526_answer.svg",
+    "svgFiles": [
+      "formulas/task22/124526_1.svg",
+      "formulas/task22/124526_2.svg",
+      "formulas/task22/124526_answer.svg"
+    ]
+  },
+  {
+    "id": "124528",
+    "title": "Задача 6",
+    "prototype": "Тип 18",
+    "parts": [
+      {
+        "type": "text",
+        "value": "Постройте график функции",
+        "newParagraph": true
+      },
+      {
+        "type": "text",
+        "value": "Определите, при каких значениях",
+        "newParagraph": true
+      },
+      {
+        "type": "img",
+        "file": "formulas/task22/124528_1.svg"
+      },
+      {
+        "type": "text",
+        "value": "прямая"
+      },
+      {
+        "type": "img",
+        "file": "formulas/task22/124528_2.svg"
+      },
+      {
+        "type": "text",
+        "value": "имеет с графиком ровно\nодну общую точку."
+      }
+    ],
+    "answer": "formulas/task22/124528_answer.svg",
+    "svgFiles": [
+      "formulas/task22/124528_1.svg",
+      "formulas/task22/124528_2.svg",
+      "formulas/task22/124528_answer.svg"
+    ]
+  },
+  {
+    "id": "124530",
+    "title": "Задача 7",
+    "prototype": "Тип 18",
+    "parts": [
+      {
+        "type": "text",
+        "value": "Постройте график функции",
+        "newParagraph": true
+      },
+      {
+        "type": "text",
+        "value": "Определите, при каких значениях",
+        "newParagraph": true
+      },
+      {
+        "type": "img",
+        "file": "formulas/task22/124530_1.svg"
+      },
+      {
+        "type": "text",
+        "value": "прямая"
+      },
+      {
+        "type": "img",
+        "file": "formulas/task22/124530_2.svg"
+      },
+      {
+        "type": "text",
+        "value": "имеет с графиком ровно\nодну общую точку."
+      }
+    ],
+    "answer": "formulas/task22/124530_answer.svg",
+    "svgFiles": [
+      "formulas/task22/124530_1.svg",
+      "formulas/task22/124530_2.svg",
+      "formulas/task22/124530_answer.svg"
+    ]
+  },
+  {
+    "id": "124531",
+    "title": "Задача 8",
+    "prototype": "Тип 18",
+    "parts": [
+      {
+        "type": "text",
+        "value": "Постройте график функции",
+        "newParagraph": true
+      },
+      {
+        "type": "text",
+        "value": "Определите, при каких значениях",
+        "newParagraph": true
+      },
+      {
+        "type": "img",
+        "file": "formulas/task22/124531_1.svg"
+      },
+      {
+        "type": "text",
+        "value": "прямая"
+      },
+      {
+        "type": "img",
+        "file": "formulas/task22/124531_2.svg"
+      },
+      {
+        "type": "text",
+        "value": "имеет с графиком ровно\nодну общую точку."
+      }
+    ],
+    "answer": "formulas/task22/124531_answer.svg",
+    "svgFiles": [
+      "formulas/task22/124531_1.svg",
+      "formulas/task22/124531_2.svg",
+      "formulas/task22/124531_answer.svg"
+    ]
+  },
+  {
+    "id": "124532",
+    "title": "Задача 9",
+    "prototype": "Тип 18",
+    "parts": [
+      {
+        "type": "text",
+        "value": "Постройте график функции",
+        "newParagraph": true
+      },
+      {
+        "type": "text",
+        "value": "Определите, при каких значениях",
+        "newParagraph": true
+      },
+      {
+        "type": "img",
+        "file": "formulas/task22/124532_1.svg"
+      },
+      {
+        "type": "text",
+        "value": "прямая"
+      },
+      {
+        "type": "img",
+        "file": "formulas/task22/124532_2.svg"
+      },
+      {
+        "type": "text",
+        "value": "имеет с графиком ровно\nодну общую точку."
+      }
+    ],
+    "answer": "formulas/task22/124532_answer.svg",
+    "svgFiles": [
+      "formulas/task22/124532_1.svg",
+      "formulas/task22/124532_2.svg",
+      "formulas/task22/124532_answer.svg"
+    ]
+  }
+]

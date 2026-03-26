@@ -1,0 +1,4872 @@
+[
+  {
+    "id": "35049",
+    "title": "Задача 1",
+    "prototype": "Тип 1",
+    "parts": [
+      {
+        "type": "text",
+        "value": "На рисунках изображены графики функций вида",
+        "newParagraph": true
+      },
+      {
+        "type": "img",
+        "file": "formulas/task11/35049_1.svg"
+      },
+      {
+        "type": "text",
+        "value": "Установите\nсоответствие между знаками коэффициентов"
+      },
+      {
+        "type": "img",
+        "file": "formulas/task11/35049_2.svg"
+      },
+      {
+        "type": "text",
+        "value": "и"
+      },
+      {
+        "type": "img",
+        "file": "formulas/task11/35049_3.svg"
+      },
+      {
+        "type": "text",
+        "value": "и графиками функций."
+      },
+      {
+        "type": "drawing",
+        "file": "formulas/task11/35049_drawing.svg"
+      },
+      {
+        "type": "text",
+        "value": "В таблице под каждой буквой укажите соответствующий номер.",
+        "newParagraph": true
+      },
+      {
+        "type": "text",
+        "value": "Ответ:",
+        "newParagraph": true
+      },
+      {
+        "type": "img",
+        "file": "formulas/task11/35049_4.svg"
+      }
+    ],
+    "answer": "312",
+    "svgFiles": [
+      "formulas/task11/35049_1.svg",
+      "formulas/task11/35049_2.svg",
+      "formulas/task11/35049_3.svg",
+      "formulas/task11/35049_drawing.svg",
+      "formulas/task11/35049_4.svg"
+    ]
+  },
+  {
+    "id": "57244",
+    "title": "Задача 2",
+    "prototype": "Тип 1",
+    "parts": [
+      {
+        "type": "text",
+        "value": "На рисунках изображены графики функций вида",
+        "newParagraph": true
+      },
+      {
+        "type": "img",
+        "file": "formulas/task11/57244_1.svg"
+      },
+      {
+        "type": "text",
+        "value": "Установите\nсоответствие между знаками коэффициентов"
+      },
+      {
+        "type": "img",
+        "file": "formulas/task11/57244_2.svg"
+      },
+      {
+        "type": "text",
+        "value": "и"
+      },
+      {
+        "type": "img",
+        "file": "formulas/task11/57244_3.svg"
+      },
+      {
+        "type": "text",
+        "value": "и графиками функций."
+      },
+      {
+        "type": "drawing",
+        "file": "formulas/task11/57244_drawing.svg"
+      },
+      {
+        "type": "text",
+        "value": "В таблице под каждой буквой укажите соответствующий номер.",
+        "newParagraph": true
+      },
+      {
+        "type": "text",
+        "value": "Ответ:",
+        "newParagraph": true
+      },
+      {
+        "type": "img",
+        "file": "formulas/task11/57244_4.svg"
+      }
+    ],
+    "answer": "231",
+    "svgFiles": [
+      "formulas/task11/57244_1.svg",
+      "formulas/task11/57244_2.svg",
+      "formulas/task11/57244_3.svg",
+      "formulas/task11/57244_drawing.svg",
+      "formulas/task11/57244_4.svg"
+    ]
+  },
+  {
+    "id": "160548",
+    "title": "Задача 3",
+    "prototype": "Тип 1",
+    "parts": [
+      {
+        "type": "text",
+        "value": "На рисунках изображены графики функций вида",
+        "newParagraph": true
+      },
+      {
+        "type": "img",
+        "file": "formulas/task11/160548_1.svg"
+      },
+      {
+        "type": "text",
+        "value": "Установите\nсоответствие между знаками коэффициентов"
+      },
+      {
+        "type": "img",
+        "file": "formulas/task11/160548_2.svg"
+      },
+      {
+        "type": "text",
+        "value": "и"
+      },
+      {
+        "type": "img",
+        "file": "formulas/task11/160548_3.svg"
+      },
+      {
+        "type": "text",
+        "value": "и графиками функций."
+      },
+      {
+        "type": "drawing",
+        "file": "formulas/task11/160548_drawing.svg"
+      },
+      {
+        "type": "text",
+        "value": "В таблице под каждой буквой укажите соответствующий номер.",
+        "newParagraph": true
+      },
+      {
+        "type": "text",
+        "value": "Ответ:",
+        "newParagraph": true
+      },
+      {
+        "type": "img",
+        "file": "formulas/task11/160548_4.svg"
+      }
+    ],
+    "answer": "213",
+    "svgFiles": [
+      "formulas/task11/160548_1.svg",
+      "formulas/task11/160548_2.svg",
+      "formulas/task11/160548_3.svg",
+      "formulas/task11/160548_drawing.svg",
+      "formulas/task11/160548_4.svg"
+    ]
+  },
+  {
+    "id": "160549",
+    "title": "Задача 4",
+    "prototype": "Тип 1",
+    "parts": [
+      {
+        "type": "text",
+        "value": "На рисунках изображены графики функций вида",
+        "newParagraph": true
+      },
+      {
+        "type": "img",
+        "file": "formulas/task11/160549_1.svg"
+      },
+      {
+        "type": "text",
+        "value": "Установите\nсоответствие между знаками коэффициентов"
+      },
+      {
+        "type": "img",
+        "file": "formulas/task11/160549_2.svg"
+      },
+      {
+        "type": "text",
+        "value": "и"
+      },
+      {
+        "type": "img",
+        "file": "formulas/task11/160549_3.svg"
+      },
+      {
+        "type": "text",
+        "value": "и графиками функций."
+      },
+      {
+        "type": "drawing",
+        "file": "formulas/task11/160549_drawing.svg"
+      },
+      {
+        "type": "text",
+        "value": "В таблице под каждой буквой укажите соответствующий номер.",
+        "newParagraph": true
+      },
+      {
+        "type": "text",
+        "value": "Ответ:",
+        "newParagraph": true
+      },
+      {
+        "type": "img",
+        "file": "formulas/task11/160549_4.svg"
+      }
+    ],
+    "answer": "231",
+    "svgFiles": [
+      "formulas/task11/160549_1.svg",
+      "formulas/task11/160549_2.svg",
+      "formulas/task11/160549_3.svg",
+      "formulas/task11/160549_drawing.svg",
+      "formulas/task11/160549_4.svg"
+    ]
+  },
+  {
+    "id": "160550",
+    "title": "Задача 5",
+    "prototype": "Тип 1",
+    "parts": [
+      {
+        "type": "text",
+        "value": "На рисунках изображены графики функций вида",
+        "newParagraph": true
+      },
+      {
+        "type": "img",
+        "file": "formulas/task11/160550_1.svg"
+      },
+      {
+        "type": "text",
+        "value": "Установите\nсоответствие между знаками коэффициентов"
+      },
+      {
+        "type": "img",
+        "file": "formulas/task11/160550_2.svg"
+      },
+      {
+        "type": "text",
+        "value": "и"
+      },
+      {
+        "type": "img",
+        "file": "formulas/task11/160550_3.svg"
+      },
+      {
+        "type": "text",
+        "value": "и графиками функций."
+      },
+      {
+        "type": "drawing",
+        "file": "formulas/task11/160550_drawing.svg"
+      },
+      {
+        "type": "text",
+        "value": "В таблице под каждой буквой укажите соответствующий номер.",
+        "newParagraph": true
+      },
+      {
+        "type": "text",
+        "value": "Ответ:",
+        "newParagraph": true
+      },
+      {
+        "type": "img",
+        "file": "formulas/task11/160550_4.svg"
+      }
+    ],
+    "answer": "312",
+    "svgFiles": [
+      "formulas/task11/160550_1.svg",
+      "formulas/task11/160550_2.svg",
+      "formulas/task11/160550_3.svg",
+      "formulas/task11/160550_drawing.svg",
+      "formulas/task11/160550_4.svg"
+    ]
+  },
+  {
+    "id": "160551",
+    "title": "Задача 6",
+    "prototype": "Тип 1",
+    "parts": [
+      {
+        "type": "text",
+        "value": "На рисунках изображены графики функций вида",
+        "newParagraph": true
+      },
+      {
+        "type": "img",
+        "file": "formulas/task11/160551_1.svg"
+      },
+      {
+        "type": "text",
+        "value": "Установите\nсоответствие между знаками коэффициентов"
+      },
+      {
+        "type": "img",
+        "file": "formulas/task11/160551_2.svg"
+      },
+      {
+        "type": "text",
+        "value": "и"
+      },
+      {
+        "type": "img",
+        "file": "formulas/task11/160551_3.svg"
+      },
+      {
+        "type": "text",
+        "value": "и графиками функций."
+      },
+      {
+        "type": "drawing",
+        "file": "formulas/task11/160551_drawing.svg"
+      },
+      {
+        "type": "text",
+        "value": "В таблице под каждой буквой укажите соответствующий номер.",
+        "newParagraph": true
+      },
+      {
+        "type": "text",
+        "value": "Ответ:",
+        "newParagraph": true
+      },
+      {
+        "type": "img",
+        "file": "formulas/task11/160551_4.svg"
+      }
+    ],
+    "answer": "231",
+    "svgFiles": [
+      "formulas/task11/160551_1.svg",
+      "formulas/task11/160551_2.svg",
+      "formulas/task11/160551_3.svg",
+      "formulas/task11/160551_drawing.svg",
+      "formulas/task11/160551_4.svg"
+    ]
+  },
+  {
+    "id": "160581",
+    "title": "Задача 7",
+    "prototype": "Тип 1",
+    "parts": [
+      {
+        "type": "text",
+        "value": "На рисунках изображены графики функций вида",
+        "newParagraph": true
+      },
+      {
+        "type": "img",
+        "file": "formulas/task11/160581_1.svg"
+      },
+      {
+        "type": "text",
+        "value": "Установите\nсоответствие между знаками коэффициентов"
+      },
+      {
+        "type": "img",
+        "file": "formulas/task11/160581_2.svg"
+      },
+      {
+        "type": "text",
+        "value": "и"
+      },
+      {
+        "type": "img",
+        "file": "formulas/task11/160581_3.svg"
+      },
+      {
+        "type": "text",
+        "value": "и графиками функций."
+      },
+      {
+        "type": "drawing",
+        "file": "formulas/task11/160581_drawing.svg"
+      },
+      {
+        "type": "text",
+        "value": "В таблице под каждой буквой укажите соответствующий номер.",
+        "newParagraph": true
+      },
+      {
+        "type": "text",
+        "value": "Ответ:",
+        "newParagraph": true
+      },
+      {
+        "type": "img",
+        "file": "formulas/task11/160581_4.svg"
+      }
+    ],
+    "answer": "321",
+    "svgFiles": [
+      "formulas/task11/160581_1.svg",
+      "formulas/task11/160581_2.svg",
+      "formulas/task11/160581_3.svg",
+      "formulas/task11/160581_drawing.svg",
+      "formulas/task11/160581_4.svg"
+    ]
+  },
+  {
+    "id": "160582",
+    "title": "Задача 8",
+    "prototype": "Тип 1",
+    "parts": [
+      {
+        "type": "text",
+        "value": "На рисунках изображены графики функций вида",
+        "newParagraph": true
+      },
+      {
+        "type": "img",
+        "file": "formulas/task11/160582_1.svg"
+      },
+      {
+        "type": "text",
+        "value": "Установите\nсоответствие между знаками коэффициентов"
+      },
+      {
+        "type": "img",
+        "file": "formulas/task11/160582_2.svg"
+      },
+      {
+        "type": "text",
+        "value": "и"
+      },
+      {
+        "type": "img",
+        "file": "formulas/task11/160582_3.svg"
+      },
+      {
+        "type": "text",
+        "value": "и графиками функций."
+      },
+      {
+        "type": "drawing",
+        "file": "formulas/task11/160582_drawing.svg"
+      },
+      {
+        "type": "text",
+        "value": "В таблице под каждой буквой укажите соответствующий номер.",
+        "newParagraph": true
+      },
+      {
+        "type": "text",
+        "value": "Ответ:",
+        "newParagraph": true
+      },
+      {
+        "type": "img",
+        "file": "formulas/task11/160582_4.svg"
+      }
+    ],
+    "answer": "123",
+    "svgFiles": [
+      "formulas/task11/160582_1.svg",
+      "formulas/task11/160582_2.svg",
+      "formulas/task11/160582_3.svg",
+      "formulas/task11/160582_drawing.svg",
+      "formulas/task11/160582_4.svg"
+    ]
+  },
+  {
+    "id": "160583",
+    "title": "Задача 9",
+    "prototype": "Тип 1",
+    "parts": [
+      {
+        "type": "text",
+        "value": "На рисунках изображены графики функций вида",
+        "newParagraph": true
+      },
+      {
+        "type": "img",
+        "file": "formulas/task11/160583_1.svg"
+      },
+      {
+        "type": "text",
+        "value": "Установите\nсоответствие между знаками коэффициентов"
+      },
+      {
+        "type": "img",
+        "file": "formulas/task11/160583_2.svg"
+      },
+      {
+        "type": "text",
+        "value": "и"
+      },
+      {
+        "type": "img",
+        "file": "formulas/task11/160583_3.svg"
+      },
+      {
+        "type": "text",
+        "value": "и графиками функций."
+      },
+      {
+        "type": "drawing",
+        "file": "formulas/task11/160583_drawing.svg"
+      },
+      {
+        "type": "text",
+        "value": "В таблице под каждой буквой укажите соответствующий номер.",
+        "newParagraph": true
+      },
+      {
+        "type": "text",
+        "value": "Ответ:",
+        "newParagraph": true
+      },
+      {
+        "type": "img",
+        "file": "formulas/task11/160583_4.svg"
+      }
+    ],
+    "answer": "231",
+    "svgFiles": [
+      "formulas/task11/160583_1.svg",
+      "formulas/task11/160583_2.svg",
+      "formulas/task11/160583_3.svg",
+      "formulas/task11/160583_drawing.svg",
+      "formulas/task11/160583_4.svg"
+    ]
+  },
+  {
+    "id": "160584",
+    "title": "Задача 10",
+    "prototype": "Тип 1",
+    "parts": [
+      {
+        "type": "text",
+        "value": "На рисунках изображены графики функций вида",
+        "newParagraph": true
+      },
+      {
+        "type": "img",
+        "file": "formulas/task11/160584_1.svg"
+      },
+      {
+        "type": "text",
+        "value": "Установите\nсоответствие между знаками коэффициентов"
+      },
+      {
+        "type": "img",
+        "file": "formulas/task11/160584_2.svg"
+      },
+      {
+        "type": "text",
+        "value": "и"
+      },
+      {
+        "type": "img",
+        "file": "formulas/task11/160584_3.svg"
+      },
+      {
+        "type": "text",
+        "value": "и графиками функций."
+      },
+      {
+        "type": "drawing",
+        "file": "formulas/task11/160584_drawing.svg"
+      },
+      {
+        "type": "text",
+        "value": "В таблице под каждой буквой укажите соответствующий номер.",
+        "newParagraph": true
+      },
+      {
+        "type": "text",
+        "value": "Ответ:",
+        "newParagraph": true
+      },
+      {
+        "type": "img",
+        "file": "formulas/task11/160584_4.svg"
+      }
+    ],
+    "answer": "231",
+    "svgFiles": [
+      "formulas/task11/160584_1.svg",
+      "formulas/task11/160584_2.svg",
+      "formulas/task11/160584_3.svg",
+      "formulas/task11/160584_drawing.svg",
+      "formulas/task11/160584_4.svg"
+    ]
+  },
+  {
+    "id": "160585",
+    "title": "Задача 11",
+    "prototype": "Тип 1",
+    "parts": [
+      {
+        "type": "text",
+        "value": "На рисунках изображены графики функций вида",
+        "newParagraph": true
+      },
+      {
+        "type": "img",
+        "file": "formulas/task11/160585_1.svg"
+      },
+      {
+        "type": "text",
+        "value": "Установите\nсоответствие между знаками коэффициентов"
+      },
+      {
+        "type": "img",
+        "file": "formulas/task11/160585_2.svg"
+      },
+      {
+        "type": "text",
+        "value": "и"
+      },
+      {
+        "type": "img",
+        "file": "formulas/task11/160585_3.svg"
+      },
+      {
+        "type": "text",
+        "value": "и графиками функций."
+      },
+      {
+        "type": "drawing",
+        "file": "formulas/task11/160585_drawing.svg"
+      },
+      {
+        "type": "text",
+        "value": "В таблице под каждой буквой укажите соответствующий номер.",
+        "newParagraph": true
+      },
+      {
+        "type": "text",
+        "value": "Ответ:",
+        "newParagraph": true
+      },
+      {
+        "type": "img",
+        "file": "formulas/task11/160585_4.svg"
+      }
+    ],
+    "answer": "213",
+    "svgFiles": [
+      "formulas/task11/160585_1.svg",
+      "formulas/task11/160585_2.svg",
+      "formulas/task11/160585_3.svg",
+      "formulas/task11/160585_drawing.svg",
+      "formulas/task11/160585_4.svg"
+    ]
+  },
+  {
+    "id": "160586",
+    "title": "Задача 12",
+    "prototype": "Тип 1",
+    "parts": [
+      {
+        "type": "text",
+        "value": "На рисунках изображены графики функций вида",
+        "newParagraph": true
+      },
+      {
+        "type": "img",
+        "file": "formulas/task11/160586_1.svg"
+      },
+      {
+        "type": "text",
+        "value": "Установите\nсоответствие между знаками коэффициентов"
+      },
+      {
+        "type": "img",
+        "file": "formulas/task11/160586_2.svg"
+      },
+      {
+        "type": "text",
+        "value": "и"
+      },
+      {
+        "type": "img",
+        "file": "formulas/task11/160586_3.svg"
+      },
+      {
+        "type": "text",
+        "value": "и графиками функций."
+      },
+      {
+        "type": "drawing",
+        "file": "formulas/task11/160586_drawing.svg"
+      },
+      {
+        "type": "text",
+        "value": "В таблице под каждой буквой укажите соответствующий номер.",
+        "newParagraph": true
+      },
+      {
+        "type": "text",
+        "value": "Ответ:",
+        "newParagraph": true
+      },
+      {
+        "type": "img",
+        "file": "formulas/task11/160586_4.svg"
+      }
+    ],
+    "answer": "123",
+    "svgFiles": [
+      "formulas/task11/160586_1.svg",
+      "formulas/task11/160586_2.svg",
+      "formulas/task11/160586_3.svg",
+      "formulas/task11/160586_drawing.svg",
+      "formulas/task11/160586_4.svg"
+    ]
+  },
+  {
+    "id": "160587",
+    "title": "Задача 13",
+    "prototype": "Тип 1",
+    "parts": [
+      {
+        "type": "text",
+        "value": "На рисунках изображены графики функций вида",
+        "newParagraph": true
+      },
+      {
+        "type": "img",
+        "file": "formulas/task11/160587_1.svg"
+      },
+      {
+        "type": "text",
+        "value": "Установите\nсоответствие между знаками коэффициентов"
+      },
+      {
+        "type": "img",
+        "file": "formulas/task11/160587_2.svg"
+      },
+      {
+        "type": "text",
+        "value": "и"
+      },
+      {
+        "type": "img",
+        "file": "formulas/task11/160587_3.svg"
+      },
+      {
+        "type": "text",
+        "value": "и графиками функций."
+      },
+      {
+        "type": "drawing",
+        "file": "formulas/task11/160587_drawing.svg"
+      },
+      {
+        "type": "text",
+        "value": "В таблице под каждой буквой укажите соответствующий номер.",
+        "newParagraph": true
+      },
+      {
+        "type": "text",
+        "value": "Ответ:",
+        "newParagraph": true
+      },
+      {
+        "type": "img",
+        "file": "formulas/task11/160587_4.svg"
+      }
+    ],
+    "answer": "123",
+    "svgFiles": [
+      "formulas/task11/160587_1.svg",
+      "formulas/task11/160587_2.svg",
+      "formulas/task11/160587_3.svg",
+      "formulas/task11/160587_drawing.svg",
+      "formulas/task11/160587_4.svg"
+    ]
+  },
+  {
+    "id": "35058",
+    "title": "Задача 1",
+    "prototype": "Тип 2",
+    "parts": [
+      {
+        "type": "text",
+        "value": "На рисунках изображены графики функций вида",
+        "newParagraph": true
+      },
+      {
+        "type": "img",
+        "file": "formulas/task11/35058_1.svg"
+      },
+      {
+        "type": "text",
+        "value": "Установите\nсоответствие между графиками функций и знаками коэффициентов"
+      },
+      {
+        "type": "img",
+        "file": "formulas/task11/35058_2.svg"
+      },
+      {
+        "type": "text",
+        "value": "и"
+      },
+      {
+        "type": "img",
+        "file": "formulas/task11/35058_3.svg"
+      },
+      {
+        "type": "drawing",
+        "file": "formulas/task11/35058_drawing.svg"
+      },
+      {
+        "type": "text",
+        "value": "В таблице под каждой буквой укажите соответствующий номер.",
+        "newParagraph": true
+      },
+      {
+        "type": "text",
+        "value": "Ответ:",
+        "newParagraph": true
+      },
+      {
+        "type": "img",
+        "file": "formulas/task11/35058_4.svg"
+      }
+    ],
+    "answer": "312",
+    "svgFiles": [
+      "formulas/task11/35058_1.svg",
+      "formulas/task11/35058_2.svg",
+      "formulas/task11/35058_3.svg",
+      "formulas/task11/35058_drawing.svg",
+      "formulas/task11/35058_4.svg"
+    ]
+  },
+  {
+    "id": "42492",
+    "title": "Задача 2",
+    "prototype": "Тип 2",
+    "parts": [
+      {
+        "type": "text",
+        "value": "На рисунках изображены графики функций вида",
+        "newParagraph": true
+      },
+      {
+        "type": "img",
+        "file": "formulas/task11/42492_1.svg"
+      },
+      {
+        "type": "text",
+        "value": "Установите\nсоответствие между графиками функций и знаками коэффициентов"
+      },
+      {
+        "type": "img",
+        "file": "formulas/task11/42492_2.svg"
+      },
+      {
+        "type": "text",
+        "value": "и"
+      },
+      {
+        "type": "img",
+        "file": "formulas/task11/42492_3.svg"
+      },
+      {
+        "type": "drawing",
+        "file": "formulas/task11/42492_drawing.svg"
+      },
+      {
+        "type": "text",
+        "value": "В таблице под каждой буквой укажите соответствующий номер.",
+        "newParagraph": true
+      },
+      {
+        "type": "text",
+        "value": "Ответ:",
+        "newParagraph": true
+      },
+      {
+        "type": "img",
+        "file": "formulas/task11/42492_4.svg"
+      }
+    ],
+    "answer": "132",
+    "svgFiles": [
+      "formulas/task11/42492_1.svg",
+      "formulas/task11/42492_2.svg",
+      "formulas/task11/42492_3.svg",
+      "formulas/task11/42492_drawing.svg",
+      "formulas/task11/42492_4.svg"
+    ]
+  },
+  {
+    "id": "160651",
+    "title": "Задача 3",
+    "prototype": "Тип 2",
+    "parts": [
+      {
+        "type": "text",
+        "value": "На рисунках изображены графики функций вида",
+        "newParagraph": true
+      },
+      {
+        "type": "img",
+        "file": "formulas/task11/160651_1.svg"
+      },
+      {
+        "type": "text",
+        "value": "Установите\nсоответствие между графиками функций и знаками коэффициентов"
+      },
+      {
+        "type": "img",
+        "file": "formulas/task11/160651_2.svg"
+      },
+      {
+        "type": "text",
+        "value": "и"
+      },
+      {
+        "type": "img",
+        "file": "formulas/task11/160651_3.svg"
+      },
+      {
+        "type": "drawing",
+        "file": "formulas/task11/160651_drawing.svg"
+      },
+      {
+        "type": "text",
+        "value": "В таблице под каждой буквой укажите соответствующий номер.",
+        "newParagraph": true
+      },
+      {
+        "type": "text",
+        "value": "Ответ:",
+        "newParagraph": true
+      },
+      {
+        "type": "img",
+        "file": "formulas/task11/160651_4.svg"
+      }
+    ],
+    "answer": "231",
+    "svgFiles": [
+      "formulas/task11/160651_1.svg",
+      "formulas/task11/160651_2.svg",
+      "formulas/task11/160651_3.svg",
+      "formulas/task11/160651_drawing.svg",
+      "formulas/task11/160651_4.svg"
+    ]
+  },
+  {
+    "id": "160652",
+    "title": "Задача 4",
+    "prototype": "Тип 2",
+    "parts": [
+      {
+        "type": "text",
+        "value": "На рисунках изображены графики функций вида",
+        "newParagraph": true
+      },
+      {
+        "type": "img",
+        "file": "formulas/task11/160652_1.svg"
+      },
+      {
+        "type": "text",
+        "value": "Установите\nсоответствие между графиками функций и знаками коэффициентов"
+      },
+      {
+        "type": "img",
+        "file": "formulas/task11/160652_2.svg"
+      },
+      {
+        "type": "text",
+        "value": "и"
+      },
+      {
+        "type": "img",
+        "file": "formulas/task11/160652_3.svg"
+      },
+      {
+        "type": "drawing",
+        "file": "formulas/task11/160652_drawing.svg"
+      },
+      {
+        "type": "text",
+        "value": "В таблице под каждой буквой укажите соответствующий номер.",
+        "newParagraph": true
+      },
+      {
+        "type": "text",
+        "value": "Ответ:",
+        "newParagraph": true
+      },
+      {
+        "type": "img",
+        "file": "formulas/task11/160652_4.svg"
+      }
+    ],
+    "answer": "213",
+    "svgFiles": [
+      "formulas/task11/160652_1.svg",
+      "formulas/task11/160652_2.svg",
+      "formulas/task11/160652_3.svg",
+      "formulas/task11/160652_drawing.svg",
+      "formulas/task11/160652_4.svg"
+    ]
+  },
+  {
+    "id": "160653",
+    "title": "Задача 5",
+    "prototype": "Тип 2",
+    "parts": [
+      {
+        "type": "text",
+        "value": "На рисунках изображены графики функций вида",
+        "newParagraph": true
+      },
+      {
+        "type": "img",
+        "file": "formulas/task11/160653_1.svg"
+      },
+      {
+        "type": "text",
+        "value": "Установите\nсоответствие между графиками функций и знаками коэффициентов"
+      },
+      {
+        "type": "img",
+        "file": "formulas/task11/160653_2.svg"
+      },
+      {
+        "type": "text",
+        "value": "и"
+      },
+      {
+        "type": "img",
+        "file": "formulas/task11/160653_3.svg"
+      },
+      {
+        "type": "drawing",
+        "file": "formulas/task11/160653_drawing.svg"
+      },
+      {
+        "type": "text",
+        "value": "В таблице под каждой буквой укажите соответствующий номер.",
+        "newParagraph": true
+      },
+      {
+        "type": "text",
+        "value": "Ответ:",
+        "newParagraph": true
+      },
+      {
+        "type": "img",
+        "file": "formulas/task11/160653_4.svg"
+      }
+    ],
+    "answer": "213",
+    "svgFiles": [
+      "formulas/task11/160653_1.svg",
+      "formulas/task11/160653_2.svg",
+      "formulas/task11/160653_3.svg",
+      "formulas/task11/160653_drawing.svg",
+      "formulas/task11/160653_4.svg"
+    ]
+  },
+  {
+    "id": "160655",
+    "title": "Задача 6",
+    "prototype": "Тип 2",
+    "parts": [
+      {
+        "type": "text",
+        "value": "На рисунках изображены графики функций вида",
+        "newParagraph": true
+      },
+      {
+        "type": "img",
+        "file": "formulas/task11/160655_1.svg"
+      },
+      {
+        "type": "text",
+        "value": "Установите\nсоответствие между графиками функций и знаками коэффициентов"
+      },
+      {
+        "type": "img",
+        "file": "formulas/task11/160655_2.svg"
+      },
+      {
+        "type": "text",
+        "value": "и"
+      },
+      {
+        "type": "img",
+        "file": "formulas/task11/160655_3.svg"
+      },
+      {
+        "type": "drawing",
+        "file": "formulas/task11/160655_drawing.svg"
+      },
+      {
+        "type": "text",
+        "value": "В таблице под каждой буквой укажите соответствующий номер.",
+        "newParagraph": true
+      },
+      {
+        "type": "text",
+        "value": "Ответ:",
+        "newParagraph": true
+      },
+      {
+        "type": "img",
+        "file": "formulas/task11/160655_4.svg"
+      }
+    ],
+    "answer": "321",
+    "svgFiles": [
+      "formulas/task11/160655_1.svg",
+      "formulas/task11/160655_2.svg",
+      "formulas/task11/160655_3.svg",
+      "formulas/task11/160655_drawing.svg",
+      "formulas/task11/160655_4.svg"
+    ]
+  },
+  {
+    "id": "160656",
+    "title": "Задача 7",
+    "prototype": "Тип 2",
+    "parts": [
+      {
+        "type": "text",
+        "value": "На рисунках изображены графики функций вида",
+        "newParagraph": true
+      },
+      {
+        "type": "img",
+        "file": "formulas/task11/160656_1.svg"
+      },
+      {
+        "type": "text",
+        "value": "Установите\nсоответствие между графиками функций и знаками коэффициентов"
+      },
+      {
+        "type": "img",
+        "file": "formulas/task11/160656_2.svg"
+      },
+      {
+        "type": "text",
+        "value": "и"
+      },
+      {
+        "type": "img",
+        "file": "formulas/task11/160656_3.svg"
+      },
+      {
+        "type": "drawing",
+        "file": "formulas/task11/160656_drawing.svg"
+      },
+      {
+        "type": "text",
+        "value": "В таблице под каждой буквой укажите соответствующий номер.",
+        "newParagraph": true
+      },
+      {
+        "type": "text",
+        "value": "Ответ:",
+        "newParagraph": true
+      },
+      {
+        "type": "img",
+        "file": "formulas/task11/160656_4.svg"
+      }
+    ],
+    "answer": "231",
+    "svgFiles": [
+      "formulas/task11/160656_1.svg",
+      "formulas/task11/160656_2.svg",
+      "formulas/task11/160656_3.svg",
+      "formulas/task11/160656_drawing.svg",
+      "formulas/task11/160656_4.svg"
+    ]
+  },
+  {
+    "id": "160657",
+    "title": "Задача 8",
+    "prototype": "Тип 2",
+    "parts": [
+      {
+        "type": "text",
+        "value": "На рисунках изображены графики функций вида",
+        "newParagraph": true
+      },
+      {
+        "type": "img",
+        "file": "formulas/task11/160657_1.svg"
+      },
+      {
+        "type": "text",
+        "value": "Установите\nсоответствие между графиками функций и знаками коэффициентов"
+      },
+      {
+        "type": "img",
+        "file": "formulas/task11/160657_2.svg"
+      },
+      {
+        "type": "text",
+        "value": "и"
+      },
+      {
+        "type": "img",
+        "file": "formulas/task11/160657_3.svg"
+      },
+      {
+        "type": "drawing",
+        "file": "formulas/task11/160657_drawing.svg"
+      },
+      {
+        "type": "text",
+        "value": "В таблице под каждой буквой укажите соответствующий номер.",
+        "newParagraph": true
+      },
+      {
+        "type": "text",
+        "value": "Ответ:",
+        "newParagraph": true
+      },
+      {
+        "type": "img",
+        "file": "formulas/task11/160657_4.svg"
+      }
+    ],
+    "answer": "231",
+    "svgFiles": [
+      "formulas/task11/160657_1.svg",
+      "formulas/task11/160657_2.svg",
+      "formulas/task11/160657_3.svg",
+      "formulas/task11/160657_drawing.svg",
+      "formulas/task11/160657_4.svg"
+    ]
+  },
+  {
+    "id": "160658",
+    "title": "Задача 9",
+    "prototype": "Тип 2",
+    "parts": [
+      {
+        "type": "text",
+        "value": "На рисунках изображены графики функций вида",
+        "newParagraph": true
+      },
+      {
+        "type": "img",
+        "file": "formulas/task11/160658_1.svg"
+      },
+      {
+        "type": "text",
+        "value": "Установите\nсоответствие между графиками функций и знаками коэффициентов"
+      },
+      {
+        "type": "img",
+        "file": "formulas/task11/160658_2.svg"
+      },
+      {
+        "type": "text",
+        "value": "и"
+      },
+      {
+        "type": "img",
+        "file": "formulas/task11/160658_3.svg"
+      },
+      {
+        "type": "drawing",
+        "file": "formulas/task11/160658_drawing.svg"
+      },
+      {
+        "type": "text",
+        "value": "В таблице под каждой буквой укажите соответствующий номер.",
+        "newParagraph": true
+      },
+      {
+        "type": "text",
+        "value": "Ответ:",
+        "newParagraph": true
+      },
+      {
+        "type": "img",
+        "file": "formulas/task11/160658_4.svg"
+      }
+    ],
+    "answer": "312",
+    "svgFiles": [
+      "formulas/task11/160658_1.svg",
+      "formulas/task11/160658_2.svg",
+      "formulas/task11/160658_3.svg",
+      "formulas/task11/160658_drawing.svg",
+      "formulas/task11/160658_4.svg"
+    ]
+  },
+  {
+    "id": "160659",
+    "title": "Задача 10",
+    "prototype": "Тип 2",
+    "parts": [
+      {
+        "type": "text",
+        "value": "На рисунках изображены графики функций вида",
+        "newParagraph": true
+      },
+      {
+        "type": "img",
+        "file": "formulas/task11/160659_1.svg"
+      },
+      {
+        "type": "text",
+        "value": "Установите\nсоответствие между графиками функций и знаками коэффициентов"
+      },
+      {
+        "type": "img",
+        "file": "formulas/task11/160659_2.svg"
+      },
+      {
+        "type": "text",
+        "value": "и"
+      },
+      {
+        "type": "img",
+        "file": "formulas/task11/160659_3.svg"
+      },
+      {
+        "type": "drawing",
+        "file": "formulas/task11/160659_drawing.svg"
+      },
+      {
+        "type": "text",
+        "value": "В таблице под каждой буквой укажите соответствующий номер.",
+        "newParagraph": true
+      },
+      {
+        "type": "text",
+        "value": "Ответ:",
+        "newParagraph": true
+      },
+      {
+        "type": "img",
+        "file": "formulas/task11/160659_4.svg"
+      }
+    ],
+    "answer": "123",
+    "svgFiles": [
+      "formulas/task11/160659_1.svg",
+      "formulas/task11/160659_2.svg",
+      "formulas/task11/160659_3.svg",
+      "formulas/task11/160659_drawing.svg",
+      "formulas/task11/160659_4.svg"
+    ]
+  },
+  {
+    "id": "160660",
+    "title": "Задача 11",
+    "prototype": "Тип 2",
+    "parts": [
+      {
+        "type": "text",
+        "value": "На рисунках изображены графики функций вида",
+        "newParagraph": true
+      },
+      {
+        "type": "img",
+        "file": "formulas/task11/160660_1.svg"
+      },
+      {
+        "type": "text",
+        "value": "Установите\nсоответствие между графиками функций и знаками коэффициентов"
+      },
+      {
+        "type": "img",
+        "file": "formulas/task11/160660_2.svg"
+      },
+      {
+        "type": "text",
+        "value": "и"
+      },
+      {
+        "type": "img",
+        "file": "formulas/task11/160660_3.svg"
+      },
+      {
+        "type": "drawing",
+        "file": "formulas/task11/160660_drawing.svg"
+      },
+      {
+        "type": "text",
+        "value": "В таблице под каждой буквой укажите соответствующий номер.",
+        "newParagraph": true
+      },
+      {
+        "type": "text",
+        "value": "Ответ:",
+        "newParagraph": true
+      },
+      {
+        "type": "img",
+        "file": "formulas/task11/160660_4.svg"
+      }
+    ],
+    "answer": "213",
+    "svgFiles": [
+      "formulas/task11/160660_1.svg",
+      "formulas/task11/160660_2.svg",
+      "formulas/task11/160660_3.svg",
+      "formulas/task11/160660_drawing.svg",
+      "formulas/task11/160660_4.svg"
+    ]
+  },
+  {
+    "id": "160662",
+    "title": "Задача 12",
+    "prototype": "Тип 2",
+    "parts": [
+      {
+        "type": "text",
+        "value": "На рисунках изображены графики функций вида",
+        "newParagraph": true
+      },
+      {
+        "type": "img",
+        "file": "formulas/task11/160662_1.svg"
+      },
+      {
+        "type": "text",
+        "value": "Установите\nсоответствие между графиками функций и знаками коэффициентов"
+      },
+      {
+        "type": "img",
+        "file": "formulas/task11/160662_2.svg"
+      },
+      {
+        "type": "text",
+        "value": "и"
+      },
+      {
+        "type": "img",
+        "file": "formulas/task11/160662_3.svg"
+      },
+      {
+        "type": "drawing",
+        "file": "formulas/task11/160662_drawing.svg"
+      },
+      {
+        "type": "text",
+        "value": "В таблице под каждой буквой укажите соответствующий номер.",
+        "newParagraph": true
+      },
+      {
+        "type": "text",
+        "value": "Ответ:",
+        "newParagraph": true
+      },
+      {
+        "type": "img",
+        "file": "formulas/task11/160662_4.svg"
+      }
+    ],
+    "answer": "312",
+    "svgFiles": [
+      "formulas/task11/160662_1.svg",
+      "formulas/task11/160662_2.svg",
+      "formulas/task11/160662_3.svg",
+      "formulas/task11/160662_drawing.svg",
+      "formulas/task11/160662_4.svg"
+    ]
+  },
+  {
+    "id": "160663",
+    "title": "Задача 13",
+    "prototype": "Тип 2",
+    "parts": [
+      {
+        "type": "text",
+        "value": "На рисунках изображены графики функций вида",
+        "newParagraph": true
+      },
+      {
+        "type": "img",
+        "file": "formulas/task11/160663_1.svg"
+      },
+      {
+        "type": "text",
+        "value": "Установите\nсоответствие между графиками функций и знаками коэффициентов"
+      },
+      {
+        "type": "img",
+        "file": "formulas/task11/160663_2.svg"
+      },
+      {
+        "type": "text",
+        "value": "и"
+      },
+      {
+        "type": "img",
+        "file": "formulas/task11/160663_3.svg"
+      },
+      {
+        "type": "drawing",
+        "file": "formulas/task11/160663_drawing.svg"
+      },
+      {
+        "type": "text",
+        "value": "В таблице под каждой буквой укажите соответствующий номер.",
+        "newParagraph": true
+      },
+      {
+        "type": "text",
+        "value": "Ответ:",
+        "newParagraph": true
+      },
+      {
+        "type": "img",
+        "file": "formulas/task11/160663_4.svg"
+      }
+    ],
+    "answer": "231",
+    "svgFiles": [
+      "formulas/task11/160663_1.svg",
+      "formulas/task11/160663_2.svg",
+      "formulas/task11/160663_3.svg",
+      "formulas/task11/160663_drawing.svg",
+      "formulas/task11/160663_4.svg"
+    ]
+  },
+  {
+    "id": "28199",
+    "title": "Задача 1",
+    "prototype": "Тип 3",
+    "parts": [
+      {
+        "type": "text",
+        "value": "Установите соответствие между графиками функций и формулами, которые их\nзадают.",
+        "newParagraph": true
+      },
+      {
+        "type": "drawing",
+        "file": "formulas/task11/28199_drawing.svg"
+      },
+      {
+        "type": "text",
+        "value": "В таблице под каждой буквой укажите соответствующий номер.",
+        "newParagraph": true
+      },
+      {
+        "type": "text",
+        "value": "Ответ:",
+        "newParagraph": true
+      },
+      {
+        "type": "img",
+        "file": "formulas/task11/28199.svg"
+      }
+    ],
+    "answer": "132",
+    "svgFiles": [
+      "formulas/task11/28199_drawing.svg",
+      "formulas/task11/28199.svg"
+    ]
+  },
+  {
+    "id": "35054",
+    "title": "Задача 2",
+    "prototype": "Тип 3",
+    "parts": [
+      {
+        "type": "text",
+        "value": "Установите соответствие между графиками функций и формулами, которые их\nзадают.",
+        "newParagraph": true
+      },
+      {
+        "type": "drawing",
+        "file": "formulas/task11/35054_drawing.svg"
+      },
+      {
+        "type": "text",
+        "value": "В таблице под каждой буквой укажите соответствующий номер.",
+        "newParagraph": true
+      },
+      {
+        "type": "text",
+        "value": "Ответ:",
+        "newParagraph": true
+      },
+      {
+        "type": "img",
+        "file": "formulas/task11/35054.svg"
+      }
+    ],
+    "answer": "213",
+    "svgFiles": [
+      "formulas/task11/35054_drawing.svg",
+      "formulas/task11/35054.svg"
+    ]
+  },
+  {
+    "id": "45456",
+    "title": "Задача 3",
+    "prototype": "Тип 3",
+    "parts": [
+      {
+        "type": "text",
+        "value": "Установите соответствие между графиками функций и формулами, которые их\nзадают.",
+        "newParagraph": true
+      },
+      {
+        "type": "drawing",
+        "file": "formulas/task11/45456_drawing.svg"
+      },
+      {
+        "type": "text",
+        "value": "В таблице под каждой буквой укажите соответствующий номер.",
+        "newParagraph": true
+      },
+      {
+        "type": "text",
+        "value": "Ответ:",
+        "newParagraph": true
+      },
+      {
+        "type": "img",
+        "file": "formulas/task11/45456.svg"
+      }
+    ],
+    "answer": "231",
+    "svgFiles": [
+      "formulas/task11/45456_drawing.svg",
+      "formulas/task11/45456.svg"
+    ]
+  },
+  {
+    "id": "46981",
+    "title": "Задача 4",
+    "prototype": "Тип 3",
+    "parts": [
+      {
+        "type": "text",
+        "value": "Установите соответствие между графиками функций и формулами, которые их\nзадают.",
+        "newParagraph": true
+      },
+      {
+        "type": "drawing",
+        "file": "formulas/task11/46981_drawing.svg"
+      },
+      {
+        "type": "text",
+        "value": "В таблице под каждой буквой укажите соответствующий номер.",
+        "newParagraph": true
+      },
+      {
+        "type": "text",
+        "value": "Ответ:",
+        "newParagraph": true
+      },
+      {
+        "type": "img",
+        "file": "formulas/task11/46981.svg"
+      }
+    ],
+    "answer": "123",
+    "svgFiles": [
+      "formulas/task11/46981_drawing.svg",
+      "formulas/task11/46981.svg"
+    ]
+  },
+  {
+    "id": "160664",
+    "title": "Задача 5",
+    "prototype": "Тип 3",
+    "parts": [
+      {
+        "type": "text",
+        "value": "Установите соответствие между графиками функций и формулами, которые их\nзадают.",
+        "newParagraph": true
+      },
+      {
+        "type": "drawing",
+        "file": "formulas/task11/160664_drawing.svg"
+      },
+      {
+        "type": "text",
+        "value": "В таблице под каждой буквой укажите соответствующий номер.",
+        "newParagraph": true
+      },
+      {
+        "type": "text",
+        "value": "Ответ:",
+        "newParagraph": true
+      },
+      {
+        "type": "img",
+        "file": "formulas/task11/160664.svg"
+      }
+    ],
+    "answer": "231",
+    "svgFiles": [
+      "formulas/task11/160664_drawing.svg",
+      "formulas/task11/160664.svg"
+    ]
+  },
+  {
+    "id": "160666",
+    "title": "Задача 1",
+    "prototype": "Тип 4",
+    "parts": [
+      {
+        "type": "text",
+        "value": "Установите соответствие между графиками функций и формулами, которые их\nзадают.",
+        "newParagraph": true
+      },
+      {
+        "type": "drawing",
+        "file": "formulas/task11/160666_drawing.svg"
+      },
+      {
+        "type": "text",
+        "value": "В таблице под каждой буквой укажите соответствующий номер.",
+        "newParagraph": true
+      },
+      {
+        "type": "text",
+        "value": "Ответ:",
+        "newParagraph": true
+      },
+      {
+        "type": "img",
+        "file": "formulas/task11/160666.svg"
+      }
+    ],
+    "answer": "321",
+    "svgFiles": [
+      "formulas/task11/160666_drawing.svg",
+      "formulas/task11/160666.svg"
+    ]
+  },
+  {
+    "id": "160667",
+    "title": "Задача 2",
+    "prototype": "Тип 4",
+    "parts": [
+      {
+        "type": "text",
+        "value": "Установите соответствие между графиками функций и формулами, которые их\nзадают.",
+        "newParagraph": true
+      },
+      {
+        "type": "drawing",
+        "file": "formulas/task11/160667_drawing.svg"
+      },
+      {
+        "type": "text",
+        "value": "В таблице под каждой буквой укажите соответствующий номер.",
+        "newParagraph": true
+      },
+      {
+        "type": "text",
+        "value": "Ответ:",
+        "newParagraph": true
+      },
+      {
+        "type": "img",
+        "file": "formulas/task11/160667.svg"
+      }
+    ],
+    "answer": "123",
+    "svgFiles": [
+      "formulas/task11/160667_drawing.svg",
+      "formulas/task11/160667.svg"
+    ]
+  },
+  {
+    "id": "160668",
+    "title": "Задача 3",
+    "prototype": "Тип 4",
+    "parts": [
+      {
+        "type": "text",
+        "value": "Установите соответствие между графиками функций и формулами, которые их\nзадают.",
+        "newParagraph": true
+      },
+      {
+        "type": "drawing",
+        "file": "formulas/task11/160668_drawing.svg"
+      },
+      {
+        "type": "text",
+        "value": "В таблице под каждой буквой укажите соответствующий номер.",
+        "newParagraph": true
+      },
+      {
+        "type": "text",
+        "value": "Ответ:",
+        "newParagraph": true
+      },
+      {
+        "type": "img",
+        "file": "formulas/task11/160668.svg"
+      }
+    ],
+    "answer": "123",
+    "svgFiles": [
+      "formulas/task11/160668_drawing.svg",
+      "formulas/task11/160668.svg"
+    ]
+  },
+  {
+    "id": "160669",
+    "title": "Задача 4",
+    "prototype": "Тип 4",
+    "parts": [
+      {
+        "type": "text",
+        "value": "Установите соответствие между графиками функций и формулами, которые их\nзадают.",
+        "newParagraph": true
+      },
+      {
+        "type": "drawing",
+        "file": "formulas/task11/160669_drawing.svg"
+      },
+      {
+        "type": "text",
+        "value": "В таблице под каждой буквой укажите соответствующий номер.",
+        "newParagraph": true
+      },
+      {
+        "type": "text",
+        "value": "Ответ:",
+        "newParagraph": true
+      },
+      {
+        "type": "img",
+        "file": "formulas/task11/160669.svg"
+      }
+    ],
+    "answer": "132",
+    "svgFiles": [
+      "formulas/task11/160669_drawing.svg",
+      "formulas/task11/160669.svg"
+    ]
+  },
+  {
+    "id": "160670",
+    "title": "Задача 5",
+    "prototype": "Тип 4",
+    "parts": [
+      {
+        "type": "text",
+        "value": "Установите соответствие между графиками функций и формулами, которые их\nзадают.",
+        "newParagraph": true
+      },
+      {
+        "type": "drawing",
+        "file": "formulas/task11/160670_drawing.svg"
+      },
+      {
+        "type": "text",
+        "value": "В таблице под каждой буквой укажите соответствующий номер.",
+        "newParagraph": true
+      },
+      {
+        "type": "text",
+        "value": "Ответ:",
+        "newParagraph": true
+      },
+      {
+        "type": "img",
+        "file": "formulas/task11/160670.svg"
+      }
+    ],
+    "answer": "312",
+    "svgFiles": [
+      "formulas/task11/160670_drawing.svg",
+      "formulas/task11/160670.svg"
+    ]
+  },
+  {
+    "id": "99069",
+    "title": "Задача 1",
+    "prototype": "Тип 5",
+    "parts": [
+      {
+        "type": "text",
+        "value": "Установите соответствие между функциями и их графиками.",
+        "newParagraph": true
+      },
+      {
+        "type": "drawing",
+        "file": "formulas/task11/99069_drawing.svg"
+      },
+      {
+        "type": "text",
+        "value": "В таблице под каждой буквой укажите соответствующий номер.",
+        "newParagraph": true
+      },
+      {
+        "type": "text",
+        "value": "Ответ:",
+        "newParagraph": true
+      },
+      {
+        "type": "img",
+        "file": "formulas/task11/99069.svg"
+      }
+    ],
+    "answer": "132",
+    "svgFiles": [
+      "formulas/task11/99069_drawing.svg",
+      "formulas/task11/99069.svg"
+    ]
+  },
+  {
+    "id": "160588",
+    "title": "Задача 2",
+    "prototype": "Тип 5",
+    "parts": [
+      {
+        "type": "text",
+        "value": "Установите соответствие между функциями и их графиками.",
+        "newParagraph": true
+      },
+      {
+        "type": "drawing",
+        "file": "formulas/task11/160588_drawing.svg"
+      },
+      {
+        "type": "text",
+        "value": "В таблице под каждой буквой укажите соответствующий номер.",
+        "newParagraph": true
+      },
+      {
+        "type": "text",
+        "value": "Ответ:",
+        "newParagraph": true
+      },
+      {
+        "type": "img",
+        "file": "formulas/task11/160588.svg"
+      }
+    ],
+    "answer": "321",
+    "svgFiles": [
+      "formulas/task11/160588_drawing.svg",
+      "formulas/task11/160588.svg"
+    ]
+  },
+  {
+    "id": "160589",
+    "title": "Задача 3",
+    "prototype": "Тип 5",
+    "parts": [
+      {
+        "type": "text",
+        "value": "Установите соответствие между функциями и их графиками.",
+        "newParagraph": true
+      },
+      {
+        "type": "drawing",
+        "file": "formulas/task11/160589_drawing.svg"
+      },
+      {
+        "type": "text",
+        "value": "В таблице под каждой буквой укажите соответствующий номер.",
+        "newParagraph": true
+      },
+      {
+        "type": "text",
+        "value": "Ответ:",
+        "newParagraph": true
+      },
+      {
+        "type": "img",
+        "file": "formulas/task11/160589.svg"
+      }
+    ],
+    "answer": "231",
+    "svgFiles": [
+      "formulas/task11/160589_drawing.svg",
+      "formulas/task11/160589.svg"
+    ]
+  },
+  {
+    "id": "160590",
+    "title": "Задача 4",
+    "prototype": "Тип 5",
+    "parts": [
+      {
+        "type": "text",
+        "value": "Установите соответствие между функциями и их графиками.",
+        "newParagraph": true
+      },
+      {
+        "type": "drawing",
+        "file": "formulas/task11/160590_drawing.svg"
+      },
+      {
+        "type": "text",
+        "value": "В таблице под каждой буквой укажите соответствующий номер.",
+        "newParagraph": true
+      },
+      {
+        "type": "text",
+        "value": "Ответ:",
+        "newParagraph": true
+      },
+      {
+        "type": "img",
+        "file": "formulas/task11/160590.svg"
+      }
+    ],
+    "answer": "123",
+    "svgFiles": [
+      "formulas/task11/160590_drawing.svg",
+      "formulas/task11/160590.svg"
+    ]
+  },
+  {
+    "id": "160591",
+    "title": "Задача 5",
+    "prototype": "Тип 5",
+    "parts": [
+      {
+        "type": "text",
+        "value": "Установите соответствие между функциями и их графиками.",
+        "newParagraph": true
+      },
+      {
+        "type": "drawing",
+        "file": "formulas/task11/160591_drawing.svg"
+      },
+      {
+        "type": "text",
+        "value": "В таблице под каждой буквой укажите соответствующий номер.",
+        "newParagraph": true
+      },
+      {
+        "type": "text",
+        "value": "Ответ:",
+        "newParagraph": true
+      },
+      {
+        "type": "img",
+        "file": "formulas/task11/160591.svg"
+      }
+    ],
+    "answer": "312",
+    "svgFiles": [
+      "formulas/task11/160591_drawing.svg",
+      "formulas/task11/160591.svg"
+    ]
+  },
+  {
+    "id": "160592",
+    "title": "Задача 6",
+    "prototype": "Тип 5",
+    "parts": [
+      {
+        "type": "text",
+        "value": "Установите соответствие между функциями и их графиками.",
+        "newParagraph": true
+      },
+      {
+        "type": "drawing",
+        "file": "formulas/task11/160592_drawing.svg"
+      },
+      {
+        "type": "text",
+        "value": "В таблице под каждой буквой укажите соответствующий номер.",
+        "newParagraph": true
+      },
+      {
+        "type": "text",
+        "value": "Ответ:",
+        "newParagraph": true
+      },
+      {
+        "type": "img",
+        "file": "formulas/task11/160592.svg"
+      }
+    ],
+    "answer": "132",
+    "svgFiles": [
+      "formulas/task11/160592_drawing.svg",
+      "formulas/task11/160592.svg"
+    ]
+  },
+  {
+    "id": "160593",
+    "title": "Задача 7",
+    "prototype": "Тип 5",
+    "parts": [
+      {
+        "type": "text",
+        "value": "Установите соответствие между функциями и их графиками.",
+        "newParagraph": true
+      },
+      {
+        "type": "drawing",
+        "file": "formulas/task11/160593_drawing.svg"
+      },
+      {
+        "type": "text",
+        "value": "В таблице под каждой буквой укажите соответствующий номер.",
+        "newParagraph": true
+      },
+      {
+        "type": "text",
+        "value": "Ответ:",
+        "newParagraph": true
+      },
+      {
+        "type": "img",
+        "file": "formulas/task11/160593.svg"
+      }
+    ],
+    "answer": "213",
+    "svgFiles": [
+      "formulas/task11/160593_drawing.svg",
+      "formulas/task11/160593.svg"
+    ]
+  },
+  {
+    "id": "160594",
+    "title": "Задача 8",
+    "prototype": "Тип 5",
+    "parts": [
+      {
+        "type": "text",
+        "value": "Установите соответствие между функциями и их графиками.",
+        "newParagraph": true
+      },
+      {
+        "type": "drawing",
+        "file": "formulas/task11/160594_drawing.svg"
+      },
+      {
+        "type": "text",
+        "value": "В таблице под каждой буквой укажите соответствующий номер.",
+        "newParagraph": true
+      },
+      {
+        "type": "text",
+        "value": "Ответ:",
+        "newParagraph": true
+      },
+      {
+        "type": "img",
+        "file": "formulas/task11/160594.svg"
+      }
+    ],
+    "answer": "132",
+    "svgFiles": [
+      "formulas/task11/160594_drawing.svg",
+      "formulas/task11/160594.svg"
+    ]
+  },
+  {
+    "id": "160595",
+    "title": "Задача 9",
+    "prototype": "Тип 5",
+    "parts": [
+      {
+        "type": "text",
+        "value": "Установите соответствие между функциями и их графиками.",
+        "newParagraph": true
+      },
+      {
+        "type": "drawing",
+        "file": "formulas/task11/160595_drawing.svg"
+      },
+      {
+        "type": "text",
+        "value": "В таблице под каждой буквой укажите соответствующий номер.",
+        "newParagraph": true
+      },
+      {
+        "type": "text",
+        "value": "Ответ:",
+        "newParagraph": true
+      },
+      {
+        "type": "img",
+        "file": "formulas/task11/160595.svg"
+      }
+    ],
+    "answer": "231",
+    "svgFiles": [
+      "formulas/task11/160595_drawing.svg",
+      "formulas/task11/160595.svg"
+    ]
+  },
+  {
+    "id": "160596",
+    "title": "Задача 10",
+    "prototype": "Тип 5",
+    "parts": [
+      {
+        "type": "text",
+        "value": "Установите соответствие между функциями и их графиками.",
+        "newParagraph": true
+      },
+      {
+        "type": "drawing",
+        "file": "formulas/task11/160596_drawing.svg"
+      },
+      {
+        "type": "text",
+        "value": "В таблице под каждой буквой укажите соответствующий номер.",
+        "newParagraph": true
+      },
+      {
+        "type": "text",
+        "value": "Ответ:",
+        "newParagraph": true
+      },
+      {
+        "type": "img",
+        "file": "formulas/task11/160596.svg"
+      }
+    ],
+    "answer": "312",
+    "svgFiles": [
+      "formulas/task11/160596_drawing.svg",
+      "formulas/task11/160596.svg"
+    ]
+  },
+  {
+    "id": "160597",
+    "title": "Задача 11",
+    "prototype": "Тип 5",
+    "parts": [
+      {
+        "type": "text",
+        "value": "Установите соответствие между функциями и их графиками.",
+        "newParagraph": true
+      },
+      {
+        "type": "drawing",
+        "file": "formulas/task11/160597_drawing.svg"
+      },
+      {
+        "type": "text",
+        "value": "В таблице под каждой буквой укажите соответствующий номер.",
+        "newParagraph": true
+      },
+      {
+        "type": "text",
+        "value": "Ответ:",
+        "newParagraph": true
+      },
+      {
+        "type": "img",
+        "file": "formulas/task11/160597.svg"
+      }
+    ],
+    "answer": "132",
+    "svgFiles": [
+      "formulas/task11/160597_drawing.svg",
+      "formulas/task11/160597.svg"
+    ]
+  },
+  {
+    "id": "160607",
+    "title": "Задача 12",
+    "prototype": "Тип 5",
+    "parts": [
+      {
+        "type": "text",
+        "value": "Установите соответствие между функциями и их графиками.",
+        "newParagraph": true
+      },
+      {
+        "type": "drawing",
+        "file": "formulas/task11/160607_drawing.svg"
+      },
+      {
+        "type": "text",
+        "value": "В таблице под каждой буквой укажите соответствующий номер.",
+        "newParagraph": true
+      },
+      {
+        "type": "text",
+        "value": "Ответ:",
+        "newParagraph": true
+      },
+      {
+        "type": "img",
+        "file": "formulas/task11/160607.svg"
+      }
+    ],
+    "answer": "213",
+    "svgFiles": [
+      "formulas/task11/160607_drawing.svg",
+      "formulas/task11/160607.svg"
+    ]
+  },
+  {
+    "id": "160608",
+    "title": "Задача 13",
+    "prototype": "Тип 5",
+    "parts": [
+      {
+        "type": "text",
+        "value": "Установите соответствие между функциями и их графиками.",
+        "newParagraph": true
+      },
+      {
+        "type": "drawing",
+        "file": "formulas/task11/160608_drawing.svg"
+      },
+      {
+        "type": "text",
+        "value": "В таблице под каждой буквой укажите соответствующий номер.",
+        "newParagraph": true
+      },
+      {
+        "type": "text",
+        "value": "Ответ:",
+        "newParagraph": true
+      },
+      {
+        "type": "img",
+        "file": "formulas/task11/160608.svg"
+      }
+    ],
+    "answer": "231",
+    "svgFiles": [
+      "formulas/task11/160608_drawing.svg",
+      "formulas/task11/160608.svg"
+    ]
+  },
+  {
+    "id": "160621",
+    "title": "Задача 1",
+    "prototype": "Тип 6",
+    "parts": [
+      {
+        "type": "text",
+        "value": "На рисунках изображены графики функций вида",
+        "newParagraph": true
+      },
+      {
+        "type": "img",
+        "file": "formulas/task11/160621_1.svg"
+      },
+      {
+        "type": "text",
+        "value": "Установите\nсоответствие между знаками коэффициентов"
+      },
+      {
+        "type": "img",
+        "file": "formulas/task11/160621_2.svg"
+      },
+      {
+        "type": "text",
+        "value": "и"
+      },
+      {
+        "type": "img",
+        "file": "formulas/task11/160621_3.svg"
+      },
+      {
+        "type": "text",
+        "value": "и графиками функций."
+      },
+      {
+        "type": "drawing",
+        "file": "formulas/task11/160621_drawing.svg"
+      },
+      {
+        "type": "text",
+        "value": "В таблице под каждой буквой укажите соответствующий номер.",
+        "newParagraph": true
+      },
+      {
+        "type": "text",
+        "value": "Ответ:",
+        "newParagraph": true
+      },
+      {
+        "type": "img",
+        "file": "formulas/task11/160621_4.svg"
+      }
+    ],
+    "answer": "321",
+    "svgFiles": [
+      "formulas/task11/160621_1.svg",
+      "formulas/task11/160621_2.svg",
+      "formulas/task11/160621_3.svg",
+      "formulas/task11/160621_drawing.svg",
+      "formulas/task11/160621_4.svg"
+    ]
+  },
+  {
+    "id": "160622",
+    "title": "Задача 2",
+    "prototype": "Тип 6",
+    "parts": [
+      {
+        "type": "text",
+        "value": "На рисунках изображены графики функций вида",
+        "newParagraph": true
+      },
+      {
+        "type": "img",
+        "file": "formulas/task11/160622_1.svg"
+      },
+      {
+        "type": "text",
+        "value": "Установите\nсоответствие между знаками коэффициентов"
+      },
+      {
+        "type": "img",
+        "file": "formulas/task11/160622_2.svg"
+      },
+      {
+        "type": "text",
+        "value": "и"
+      },
+      {
+        "type": "img",
+        "file": "formulas/task11/160622_3.svg"
+      },
+      {
+        "type": "text",
+        "value": "и графиками функций."
+      },
+      {
+        "type": "drawing",
+        "file": "formulas/task11/160622_drawing.svg"
+      },
+      {
+        "type": "text",
+        "value": "В таблице под каждой буквой укажите соответствующий номер.",
+        "newParagraph": true
+      },
+      {
+        "type": "text",
+        "value": "Ответ:",
+        "newParagraph": true
+      },
+      {
+        "type": "img",
+        "file": "formulas/task11/160622_4.svg"
+      }
+    ],
+    "answer": "321",
+    "svgFiles": [
+      "formulas/task11/160622_1.svg",
+      "formulas/task11/160622_2.svg",
+      "formulas/task11/160622_3.svg",
+      "formulas/task11/160622_drawing.svg",
+      "formulas/task11/160622_4.svg"
+    ]
+  },
+  {
+    "id": "160623",
+    "title": "Задача 3",
+    "prototype": "Тип 6",
+    "parts": [
+      {
+        "type": "text",
+        "value": "На рисунках изображены графики функций вида",
+        "newParagraph": true
+      },
+      {
+        "type": "img",
+        "file": "formulas/task11/160623_1.svg"
+      },
+      {
+        "type": "text",
+        "value": "Установите\nсоответствие между знаками коэффициентов"
+      },
+      {
+        "type": "img",
+        "file": "formulas/task11/160623_2.svg"
+      },
+      {
+        "type": "text",
+        "value": "и"
+      },
+      {
+        "type": "img",
+        "file": "formulas/task11/160623_3.svg"
+      },
+      {
+        "type": "text",
+        "value": "и графиками функций."
+      },
+      {
+        "type": "drawing",
+        "file": "formulas/task11/160623_drawing.svg"
+      },
+      {
+        "type": "text",
+        "value": "В таблице под каждой буквой укажите соответствующий номер.",
+        "newParagraph": true
+      },
+      {
+        "type": "text",
+        "value": "Ответ:",
+        "newParagraph": true
+      },
+      {
+        "type": "img",
+        "file": "formulas/task11/160623_4.svg"
+      }
+    ],
+    "answer": "231",
+    "svgFiles": [
+      "formulas/task11/160623_1.svg",
+      "formulas/task11/160623_2.svg",
+      "formulas/task11/160623_3.svg",
+      "formulas/task11/160623_drawing.svg",
+      "formulas/task11/160623_4.svg"
+    ]
+  },
+  {
+    "id": "160624",
+    "title": "Задача 4",
+    "prototype": "Тип 6",
+    "parts": [
+      {
+        "type": "text",
+        "value": "На рисунках изображены графики функций вида",
+        "newParagraph": true
+      },
+      {
+        "type": "img",
+        "file": "formulas/task11/160624_1.svg"
+      },
+      {
+        "type": "text",
+        "value": "Установите\nсоответствие между знаками коэффициентов"
+      },
+      {
+        "type": "img",
+        "file": "formulas/task11/160624_2.svg"
+      },
+      {
+        "type": "text",
+        "value": "и"
+      },
+      {
+        "type": "img",
+        "file": "formulas/task11/160624_3.svg"
+      },
+      {
+        "type": "text",
+        "value": "и графиками функций."
+      },
+      {
+        "type": "drawing",
+        "file": "formulas/task11/160624_drawing.svg"
+      },
+      {
+        "type": "text",
+        "value": "В таблице под каждой буквой укажите соответствующий номер.",
+        "newParagraph": true
+      },
+      {
+        "type": "text",
+        "value": "Ответ:",
+        "newParagraph": true
+      },
+      {
+        "type": "img",
+        "file": "formulas/task11/160624_4.svg"
+      }
+    ],
+    "answer": "132",
+    "svgFiles": [
+      "formulas/task11/160624_1.svg",
+      "formulas/task11/160624_2.svg",
+      "formulas/task11/160624_3.svg",
+      "formulas/task11/160624_drawing.svg",
+      "formulas/task11/160624_4.svg"
+    ]
+  },
+  {
+    "id": "160625",
+    "title": "Задача 5",
+    "prototype": "Тип 6",
+    "parts": [
+      {
+        "type": "text",
+        "value": "На рисунках изображены графики функций вида",
+        "newParagraph": true
+      },
+      {
+        "type": "img",
+        "file": "formulas/task11/160625_1.svg"
+      },
+      {
+        "type": "text",
+        "value": "Установите\nсоответствие между знаками коэффициентов"
+      },
+      {
+        "type": "img",
+        "file": "formulas/task11/160625_2.svg"
+      },
+      {
+        "type": "text",
+        "value": "и"
+      },
+      {
+        "type": "img",
+        "file": "formulas/task11/160625_3.svg"
+      },
+      {
+        "type": "text",
+        "value": "и графиками функций."
+      },
+      {
+        "type": "drawing",
+        "file": "formulas/task11/160625_drawing.svg"
+      },
+      {
+        "type": "text",
+        "value": "В таблице под каждой буквой укажите соответствующий номер.",
+        "newParagraph": true
+      },
+      {
+        "type": "text",
+        "value": "Ответ:",
+        "newParagraph": true
+      },
+      {
+        "type": "img",
+        "file": "formulas/task11/160625_4.svg"
+      }
+    ],
+    "answer": "132",
+    "svgFiles": [
+      "formulas/task11/160625_1.svg",
+      "formulas/task11/160625_2.svg",
+      "formulas/task11/160625_3.svg",
+      "formulas/task11/160625_drawing.svg",
+      "formulas/task11/160625_4.svg"
+    ]
+  },
+  {
+    "id": "160626",
+    "title": "Задача 6",
+    "prototype": "Тип 6",
+    "parts": [
+      {
+        "type": "text",
+        "value": "На рисунках изображены графики функций вида",
+        "newParagraph": true
+      },
+      {
+        "type": "img",
+        "file": "formulas/task11/160626_1.svg"
+      },
+      {
+        "type": "text",
+        "value": "Установите\nсоответствие между знаками коэффициентов"
+      },
+      {
+        "type": "img",
+        "file": "formulas/task11/160626_2.svg"
+      },
+      {
+        "type": "text",
+        "value": "и"
+      },
+      {
+        "type": "img",
+        "file": "formulas/task11/160626_3.svg"
+      },
+      {
+        "type": "text",
+        "value": "и графиками функций."
+      },
+      {
+        "type": "drawing",
+        "file": "formulas/task11/160626_drawing.svg"
+      },
+      {
+        "type": "text",
+        "value": "В таблице под каждой буквой укажите соответствующий номер.",
+        "newParagraph": true
+      },
+      {
+        "type": "text",
+        "value": "Ответ:",
+        "newParagraph": true
+      },
+      {
+        "type": "img",
+        "file": "formulas/task11/160626_4.svg"
+      }
+    ],
+    "answer": "132",
+    "svgFiles": [
+      "formulas/task11/160626_1.svg",
+      "formulas/task11/160626_2.svg",
+      "formulas/task11/160626_3.svg",
+      "formulas/task11/160626_drawing.svg",
+      "formulas/task11/160626_4.svg"
+    ]
+  },
+  {
+    "id": "160627",
+    "title": "Задача 7",
+    "prototype": "Тип 6",
+    "parts": [
+      {
+        "type": "text",
+        "value": "На рисунках изображены графики функций вида",
+        "newParagraph": true
+      },
+      {
+        "type": "img",
+        "file": "formulas/task11/160627_1.svg"
+      },
+      {
+        "type": "text",
+        "value": "Установите\nсоответствие между знаками коэффициентов"
+      },
+      {
+        "type": "img",
+        "file": "formulas/task11/160627_2.svg"
+      },
+      {
+        "type": "text",
+        "value": "и"
+      },
+      {
+        "type": "img",
+        "file": "formulas/task11/160627_3.svg"
+      },
+      {
+        "type": "text",
+        "value": "и графиками функций."
+      },
+      {
+        "type": "drawing",
+        "file": "formulas/task11/160627_drawing.svg"
+      },
+      {
+        "type": "text",
+        "value": "В таблице под каждой буквой укажите соответствующий номер.",
+        "newParagraph": true
+      },
+      {
+        "type": "text",
+        "value": "Ответ:",
+        "newParagraph": true
+      },
+      {
+        "type": "img",
+        "file": "formulas/task11/160627_4.svg"
+      }
+    ],
+    "answer": "123",
+    "svgFiles": [
+      "formulas/task11/160627_1.svg",
+      "formulas/task11/160627_2.svg",
+      "formulas/task11/160627_3.svg",
+      "formulas/task11/160627_drawing.svg",
+      "formulas/task11/160627_4.svg"
+    ]
+  },
+  {
+    "id": "160628",
+    "title": "Задача 8",
+    "prototype": "Тип 6",
+    "parts": [
+      {
+        "type": "text",
+        "value": "На рисунках изображены графики функций вида",
+        "newParagraph": true
+      },
+      {
+        "type": "img",
+        "file": "formulas/task11/160628_1.svg"
+      },
+      {
+        "type": "text",
+        "value": "Установите\nсоответствие между знаками коэффициентов"
+      },
+      {
+        "type": "img",
+        "file": "formulas/task11/160628_2.svg"
+      },
+      {
+        "type": "text",
+        "value": "и"
+      },
+      {
+        "type": "img",
+        "file": "formulas/task11/160628_3.svg"
+      },
+      {
+        "type": "text",
+        "value": "и графиками функций."
+      },
+      {
+        "type": "drawing",
+        "file": "formulas/task11/160628_drawing.svg"
+      },
+      {
+        "type": "text",
+        "value": "В таблице под каждой буквой укажите соответствующий номер.",
+        "newParagraph": true
+      },
+      {
+        "type": "text",
+        "value": "Ответ:",
+        "newParagraph": true
+      },
+      {
+        "type": "img",
+        "file": "formulas/task11/160628_4.svg"
+      }
+    ],
+    "answer": "231",
+    "svgFiles": [
+      "formulas/task11/160628_1.svg",
+      "formulas/task11/160628_2.svg",
+      "formulas/task11/160628_3.svg",
+      "formulas/task11/160628_drawing.svg",
+      "formulas/task11/160628_4.svg"
+    ]
+  },
+  {
+    "id": "160629",
+    "title": "Задача 9",
+    "prototype": "Тип 6",
+    "parts": [
+      {
+        "type": "text",
+        "value": "На рисунках изображены графики функций вида",
+        "newParagraph": true
+      },
+      {
+        "type": "img",
+        "file": "formulas/task11/160629_1.svg"
+      },
+      {
+        "type": "text",
+        "value": "Установите\nсоответствие между знаками коэффициентов"
+      },
+      {
+        "type": "img",
+        "file": "formulas/task11/160629_2.svg"
+      },
+      {
+        "type": "text",
+        "value": "и"
+      },
+      {
+        "type": "img",
+        "file": "formulas/task11/160629_3.svg"
+      },
+      {
+        "type": "text",
+        "value": "и графиками функций."
+      },
+      {
+        "type": "drawing",
+        "file": "formulas/task11/160629_drawing.svg"
+      },
+      {
+        "type": "text",
+        "value": "В таблице под каждой буквой укажите соответствующий номер.",
+        "newParagraph": true
+      },
+      {
+        "type": "text",
+        "value": "Ответ:",
+        "newParagraph": true
+      },
+      {
+        "type": "img",
+        "file": "formulas/task11/160629_4.svg"
+      }
+    ],
+    "answer": "132",
+    "svgFiles": [
+      "formulas/task11/160629_1.svg",
+      "formulas/task11/160629_2.svg",
+      "formulas/task11/160629_3.svg",
+      "formulas/task11/160629_drawing.svg",
+      "formulas/task11/160629_4.svg"
+    ]
+  },
+  {
+    "id": "160630",
+    "title": "Задача 10",
+    "prototype": "Тип 6",
+    "parts": [
+      {
+        "type": "text",
+        "value": "На рисунках изображены графики функций вида",
+        "newParagraph": true
+      },
+      {
+        "type": "img",
+        "file": "formulas/task11/160630_1.svg"
+      },
+      {
+        "type": "text",
+        "value": "Установите\nсоответствие между знаками коэффициентов"
+      },
+      {
+        "type": "img",
+        "file": "formulas/task11/160630_2.svg"
+      },
+      {
+        "type": "text",
+        "value": "и"
+      },
+      {
+        "type": "img",
+        "file": "formulas/task11/160630_3.svg"
+      },
+      {
+        "type": "text",
+        "value": "и графиками функций."
+      },
+      {
+        "type": "drawing",
+        "file": "formulas/task11/160630_drawing.svg"
+      },
+      {
+        "type": "text",
+        "value": "В таблице под каждой буквой укажите соответствующий номер.",
+        "newParagraph": true
+      },
+      {
+        "type": "text",
+        "value": "Ответ:",
+        "newParagraph": true
+      },
+      {
+        "type": "img",
+        "file": "formulas/task11/160630_4.svg"
+      }
+    ],
+    "answer": "213",
+    "svgFiles": [
+      "formulas/task11/160630_1.svg",
+      "formulas/task11/160630_2.svg",
+      "formulas/task11/160630_3.svg",
+      "formulas/task11/160630_drawing.svg",
+      "formulas/task11/160630_4.svg"
+    ]
+  },
+  {
+    "id": "160632",
+    "title": "Задача 11",
+    "prototype": "Тип 6",
+    "parts": [
+      {
+        "type": "text",
+        "value": "На рисунках изображены графики функций вида",
+        "newParagraph": true
+      },
+      {
+        "type": "img",
+        "file": "formulas/task11/160632_1.svg"
+      },
+      {
+        "type": "text",
+        "value": "Установите\nсоответствие между знаками коэффициентов"
+      },
+      {
+        "type": "img",
+        "file": "formulas/task11/160632_2.svg"
+      },
+      {
+        "type": "text",
+        "value": "и"
+      },
+      {
+        "type": "img",
+        "file": "formulas/task11/160632_3.svg"
+      },
+      {
+        "type": "text",
+        "value": "и графиками функций."
+      },
+      {
+        "type": "drawing",
+        "file": "formulas/task11/160632_drawing.svg"
+      },
+      {
+        "type": "text",
+        "value": "В таблице под каждой буквой укажите соответствующий номер.",
+        "newParagraph": true
+      },
+      {
+        "type": "text",
+        "value": "Ответ:",
+        "newParagraph": true
+      },
+      {
+        "type": "img",
+        "file": "formulas/task11/160632_4.svg"
+      }
+    ],
+    "answer": "321",
+    "svgFiles": [
+      "formulas/task11/160632_1.svg",
+      "formulas/task11/160632_2.svg",
+      "formulas/task11/160632_3.svg",
+      "formulas/task11/160632_drawing.svg",
+      "formulas/task11/160632_4.svg"
+    ]
+  },
+  {
+    "id": "160633",
+    "title": "Задача 12",
+    "prototype": "Тип 6",
+    "parts": [
+      {
+        "type": "text",
+        "value": "На рисунках изображены графики функций вида",
+        "newParagraph": true
+      },
+      {
+        "type": "img",
+        "file": "formulas/task11/160633_1.svg"
+      },
+      {
+        "type": "text",
+        "value": "Установите\nсоответствие между знаками коэффициентов"
+      },
+      {
+        "type": "img",
+        "file": "formulas/task11/160633_2.svg"
+      },
+      {
+        "type": "text",
+        "value": "и"
+      },
+      {
+        "type": "img",
+        "file": "formulas/task11/160633_3.svg"
+      },
+      {
+        "type": "text",
+        "value": "и графиками функций."
+      },
+      {
+        "type": "drawing",
+        "file": "formulas/task11/160633_drawing.svg"
+      },
+      {
+        "type": "text",
+        "value": "В таблице под каждой буквой укажите соответствующий номер.",
+        "newParagraph": true
+      },
+      {
+        "type": "text",
+        "value": "Ответ:",
+        "newParagraph": true
+      },
+      {
+        "type": "img",
+        "file": "formulas/task11/160633_4.svg"
+      }
+    ],
+    "answer": "312",
+    "svgFiles": [
+      "formulas/task11/160633_1.svg",
+      "formulas/task11/160633_2.svg",
+      "formulas/task11/160633_3.svg",
+      "formulas/task11/160633_drawing.svg",
+      "formulas/task11/160633_4.svg"
+    ]
+  },
+  {
+    "id": "42322",
+    "title": "Задача 13",
+    "prototype": "Тип 6",
+    "parts": [
+      {
+        "type": "text",
+        "value": "На рисунках изображены графики функций вида",
+        "newParagraph": true
+      },
+      {
+        "type": "img",
+        "file": "formulas/task11/42322_1.svg"
+      },
+      {
+        "type": "text",
+        "value": "Установите\nсоответствие между знаками коэффициентов"
+      },
+      {
+        "type": "img",
+        "file": "formulas/task11/42322_2.svg"
+      },
+      {
+        "type": "text",
+        "value": "и"
+      },
+      {
+        "type": "img",
+        "file": "formulas/task11/42322_3.svg"
+      },
+      {
+        "type": "text",
+        "value": "и графиками функций."
+      },
+      {
+        "type": "drawing",
+        "file": "formulas/task11/42322_drawing.svg"
+      },
+      {
+        "type": "text",
+        "value": "В таблице под каждой буквой укажите соответствующий номер.",
+        "newParagraph": true
+      },
+      {
+        "type": "text",
+        "value": "Ответ:",
+        "newParagraph": true
+      },
+      {
+        "type": "img",
+        "file": "formulas/task11/42322_4.svg"
+      }
+    ],
+    "answer": "213",
+    "svgFiles": [
+      "formulas/task11/42322_1.svg",
+      "formulas/task11/42322_2.svg",
+      "formulas/task11/42322_3.svg",
+      "formulas/task11/42322_drawing.svg",
+      "formulas/task11/42322_4.svg"
+    ]
+  },
+  {
+    "id": "43928",
+    "title": "Задача 1",
+    "prototype": "Тип 7",
+    "parts": [
+      {
+        "type": "text",
+        "value": "На рисунках изображены графики функций вида",
+        "newParagraph": true
+      },
+      {
+        "type": "img",
+        "file": "formulas/task11/43928_1.svg"
+      },
+      {
+        "type": "text",
+        "value": "Установите\nсоответствие между графиками функций и знаками коэффициентов"
+      },
+      {
+        "type": "img",
+        "file": "formulas/task11/43928_2.svg"
+      },
+      {
+        "type": "text",
+        "value": "и"
+      },
+      {
+        "type": "img",
+        "file": "formulas/task11/43928_3.svg"
+      },
+      {
+        "type": "drawing",
+        "file": "formulas/task11/43928_drawing.svg"
+      },
+      {
+        "type": "text",
+        "value": "В таблице под каждой буквой укажите соответствующий номер.",
+        "newParagraph": true
+      },
+      {
+        "type": "text",
+        "value": "Ответ:",
+        "newParagraph": true
+      },
+      {
+        "type": "img",
+        "file": "formulas/task11/43928_4.svg"
+      }
+    ],
+    "answer": "123",
+    "svgFiles": [
+      "formulas/task11/43928_1.svg",
+      "formulas/task11/43928_2.svg",
+      "formulas/task11/43928_3.svg",
+      "formulas/task11/43928_drawing.svg",
+      "formulas/task11/43928_4.svg"
+    ]
+  },
+  {
+    "id": "160609",
+    "title": "Задача 2",
+    "prototype": "Тип 7",
+    "parts": [
+      {
+        "type": "text",
+        "value": "На рисунках изображены графики функций вида",
+        "newParagraph": true
+      },
+      {
+        "type": "img",
+        "file": "formulas/task11/160609_1.svg"
+      },
+      {
+        "type": "text",
+        "value": "Установите\nсоответствие между графиками функций и знаками коэффициентов"
+      },
+      {
+        "type": "img",
+        "file": "formulas/task11/160609_2.svg"
+      },
+      {
+        "type": "text",
+        "value": "и"
+      },
+      {
+        "type": "img",
+        "file": "formulas/task11/160609_3.svg"
+      },
+      {
+        "type": "drawing",
+        "file": "formulas/task11/160609_drawing.svg"
+      },
+      {
+        "type": "text",
+        "value": "В таблице под каждой буквой укажите соответствующий номер.",
+        "newParagraph": true
+      },
+      {
+        "type": "text",
+        "value": "Ответ:",
+        "newParagraph": true
+      },
+      {
+        "type": "img",
+        "file": "formulas/task11/160609_4.svg"
+      }
+    ],
+    "answer": "321",
+    "svgFiles": [
+      "formulas/task11/160609_1.svg",
+      "formulas/task11/160609_2.svg",
+      "formulas/task11/160609_3.svg",
+      "formulas/task11/160609_drawing.svg",
+      "formulas/task11/160609_4.svg"
+    ]
+  },
+  {
+    "id": "160610",
+    "title": "Задача 3",
+    "prototype": "Тип 7",
+    "parts": [
+      {
+        "type": "text",
+        "value": "На рисунках изображены графики функций вида",
+        "newParagraph": true
+      },
+      {
+        "type": "img",
+        "file": "formulas/task11/160610_1.svg"
+      },
+      {
+        "type": "text",
+        "value": "Установите\nсоответствие между графиками функций и знаками коэффициентов"
+      },
+      {
+        "type": "img",
+        "file": "formulas/task11/160610_2.svg"
+      },
+      {
+        "type": "text",
+        "value": "и"
+      },
+      {
+        "type": "img",
+        "file": "formulas/task11/160610_3.svg"
+      },
+      {
+        "type": "drawing",
+        "file": "formulas/task11/160610_drawing.svg"
+      },
+      {
+        "type": "text",
+        "value": "В таблице под каждой буквой укажите соответствующий номер.",
+        "newParagraph": true
+      },
+      {
+        "type": "text",
+        "value": "Ответ:",
+        "newParagraph": true
+      },
+      {
+        "type": "img",
+        "file": "formulas/task11/160610_4.svg"
+      }
+    ],
+    "answer": "132",
+    "svgFiles": [
+      "formulas/task11/160610_1.svg",
+      "formulas/task11/160610_2.svg",
+      "formulas/task11/160610_3.svg",
+      "formulas/task11/160610_drawing.svg",
+      "formulas/task11/160610_4.svg"
+    ]
+  },
+  {
+    "id": "160611",
+    "title": "Задача 4",
+    "prototype": "Тип 7",
+    "parts": [
+      {
+        "type": "text",
+        "value": "На рисунках изображены графики функций вида",
+        "newParagraph": true
+      },
+      {
+        "type": "img",
+        "file": "formulas/task11/160611_1.svg"
+      },
+      {
+        "type": "text",
+        "value": "Установите\nсоответствие между графиками функций и знаками коэффициентов"
+      },
+      {
+        "type": "img",
+        "file": "formulas/task11/160611_2.svg"
+      },
+      {
+        "type": "text",
+        "value": "и"
+      },
+      {
+        "type": "img",
+        "file": "formulas/task11/160611_3.svg"
+      },
+      {
+        "type": "drawing",
+        "file": "formulas/task11/160611_drawing.svg"
+      },
+      {
+        "type": "text",
+        "value": "В таблице под каждой буквой укажите соответствующий номер.",
+        "newParagraph": true
+      },
+      {
+        "type": "text",
+        "value": "Ответ:",
+        "newParagraph": true
+      },
+      {
+        "type": "img",
+        "file": "formulas/task11/160611_4.svg"
+      }
+    ],
+    "answer": "312",
+    "svgFiles": [
+      "formulas/task11/160611_1.svg",
+      "formulas/task11/160611_2.svg",
+      "formulas/task11/160611_3.svg",
+      "formulas/task11/160611_drawing.svg",
+      "formulas/task11/160611_4.svg"
+    ]
+  },
+  {
+    "id": "160612",
+    "title": "Задача 5",
+    "prototype": "Тип 7",
+    "parts": [
+      {
+        "type": "text",
+        "value": "На рисунках изображены графики функций вида",
+        "newParagraph": true
+      },
+      {
+        "type": "img",
+        "file": "formulas/task11/160612_1.svg"
+      },
+      {
+        "type": "text",
+        "value": "Установите\nсоответствие между графиками функций и знаками коэффициентов"
+      },
+      {
+        "type": "img",
+        "file": "formulas/task11/160612_2.svg"
+      },
+      {
+        "type": "text",
+        "value": "и"
+      },
+      {
+        "type": "img",
+        "file": "formulas/task11/160612_3.svg"
+      },
+      {
+        "type": "drawing",
+        "file": "formulas/task11/160612_drawing.svg"
+      },
+      {
+        "type": "text",
+        "value": "В таблице под каждой буквой укажите соответствующий номер.",
+        "newParagraph": true
+      },
+      {
+        "type": "text",
+        "value": "Ответ:",
+        "newParagraph": true
+      },
+      {
+        "type": "img",
+        "file": "formulas/task11/160612_4.svg"
+      }
+    ],
+    "answer": "312",
+    "svgFiles": [
+      "formulas/task11/160612_1.svg",
+      "formulas/task11/160612_2.svg",
+      "formulas/task11/160612_3.svg",
+      "formulas/task11/160612_drawing.svg",
+      "formulas/task11/160612_4.svg"
+    ]
+  },
+  {
+    "id": "160613",
+    "title": "Задача 6",
+    "prototype": "Тип 7",
+    "parts": [
+      {
+        "type": "text",
+        "value": "На рисунках изображены графики функций вида",
+        "newParagraph": true
+      },
+      {
+        "type": "img",
+        "file": "formulas/task11/160613_1.svg"
+      },
+      {
+        "type": "text",
+        "value": "Установите\nсоответствие между графиками функций и знаками коэффициентов"
+      },
+      {
+        "type": "img",
+        "file": "formulas/task11/160613_2.svg"
+      },
+      {
+        "type": "text",
+        "value": "и"
+      },
+      {
+        "type": "img",
+        "file": "formulas/task11/160613_3.svg"
+      },
+      {
+        "type": "drawing",
+        "file": "formulas/task11/160613_drawing.svg"
+      },
+      {
+        "type": "text",
+        "value": "В таблице под каждой буквой укажите соответствующий номер.",
+        "newParagraph": true
+      },
+      {
+        "type": "text",
+        "value": "Ответ:",
+        "newParagraph": true
+      },
+      {
+        "type": "img",
+        "file": "formulas/task11/160613_4.svg"
+      }
+    ],
+    "answer": "321",
+    "svgFiles": [
+      "formulas/task11/160613_1.svg",
+      "formulas/task11/160613_2.svg",
+      "formulas/task11/160613_3.svg",
+      "formulas/task11/160613_drawing.svg",
+      "formulas/task11/160613_4.svg"
+    ]
+  },
+  {
+    "id": "160614",
+    "title": "Задача 7",
+    "prototype": "Тип 7",
+    "parts": [
+      {
+        "type": "text",
+        "value": "На рисунках изображены графики функций вида",
+        "newParagraph": true
+      },
+      {
+        "type": "img",
+        "file": "formulas/task11/160614_1.svg"
+      },
+      {
+        "type": "text",
+        "value": "Установите\nсоответствие между графиками функций и знаками коэффициентов"
+      },
+      {
+        "type": "img",
+        "file": "formulas/task11/160614_2.svg"
+      },
+      {
+        "type": "text",
+        "value": "и"
+      },
+      {
+        "type": "img",
+        "file": "formulas/task11/160614_3.svg"
+      },
+      {
+        "type": "drawing",
+        "file": "formulas/task11/160614_drawing.svg"
+      },
+      {
+        "type": "text",
+        "value": "В таблице под каждой буквой укажите соответствующий номер.",
+        "newParagraph": true
+      },
+      {
+        "type": "text",
+        "value": "Ответ:",
+        "newParagraph": true
+      },
+      {
+        "type": "img",
+        "file": "formulas/task11/160614_4.svg"
+      }
+    ],
+    "answer": "312",
+    "svgFiles": [
+      "formulas/task11/160614_1.svg",
+      "formulas/task11/160614_2.svg",
+      "formulas/task11/160614_3.svg",
+      "formulas/task11/160614_drawing.svg",
+      "formulas/task11/160614_4.svg"
+    ]
+  },
+  {
+    "id": "160615",
+    "title": "Задача 8",
+    "prototype": "Тип 7",
+    "parts": [
+      {
+        "type": "text",
+        "value": "На рисунках изображены графики функций вида",
+        "newParagraph": true
+      },
+      {
+        "type": "img",
+        "file": "formulas/task11/160615_1.svg"
+      },
+      {
+        "type": "text",
+        "value": "Установите\nсоответствие между графиками функций и знаками коэффициентов"
+      },
+      {
+        "type": "img",
+        "file": "formulas/task11/160615_2.svg"
+      },
+      {
+        "type": "text",
+        "value": "и"
+      },
+      {
+        "type": "img",
+        "file": "formulas/task11/160615_3.svg"
+      },
+      {
+        "type": "drawing",
+        "file": "formulas/task11/160615_drawing.svg"
+      },
+      {
+        "type": "text",
+        "value": "В таблице под каждой буквой укажите соответствующий номер.",
+        "newParagraph": true
+      },
+      {
+        "type": "text",
+        "value": "Ответ:",
+        "newParagraph": true
+      },
+      {
+        "type": "img",
+        "file": "formulas/task11/160615_4.svg"
+      }
+    ],
+    "answer": "321",
+    "svgFiles": [
+      "formulas/task11/160615_1.svg",
+      "formulas/task11/160615_2.svg",
+      "formulas/task11/160615_3.svg",
+      "formulas/task11/160615_drawing.svg",
+      "formulas/task11/160615_4.svg"
+    ]
+  },
+  {
+    "id": "160616",
+    "title": "Задача 9",
+    "prototype": "Тип 7",
+    "parts": [
+      {
+        "type": "text",
+        "value": "На рисунках изображены графики функций вида",
+        "newParagraph": true
+      },
+      {
+        "type": "img",
+        "file": "formulas/task11/160616_1.svg"
+      },
+      {
+        "type": "text",
+        "value": "Установите\nсоответствие между графиками функций и знаками коэффициентов"
+      },
+      {
+        "type": "img",
+        "file": "formulas/task11/160616_2.svg"
+      },
+      {
+        "type": "text",
+        "value": "и"
+      },
+      {
+        "type": "img",
+        "file": "formulas/task11/160616_3.svg"
+      },
+      {
+        "type": "drawing",
+        "file": "formulas/task11/160616_drawing.svg"
+      },
+      {
+        "type": "text",
+        "value": "В таблице под каждой буквой укажите соответствующий номер.",
+        "newParagraph": true
+      },
+      {
+        "type": "text",
+        "value": "Ответ:",
+        "newParagraph": true
+      },
+      {
+        "type": "img",
+        "file": "formulas/task11/160616_4.svg"
+      }
+    ],
+    "answer": "321",
+    "svgFiles": [
+      "formulas/task11/160616_1.svg",
+      "formulas/task11/160616_2.svg",
+      "formulas/task11/160616_3.svg",
+      "formulas/task11/160616_drawing.svg",
+      "formulas/task11/160616_4.svg"
+    ]
+  },
+  {
+    "id": "160617",
+    "title": "Задача 10",
+    "prototype": "Тип 7",
+    "parts": [
+      {
+        "type": "text",
+        "value": "На рисунках изображены графики функций вида",
+        "newParagraph": true
+      },
+      {
+        "type": "img",
+        "file": "formulas/task11/160617_1.svg"
+      },
+      {
+        "type": "text",
+        "value": "Установите\nсоответствие между графиками функций и знаками коэффициентов"
+      },
+      {
+        "type": "img",
+        "file": "formulas/task11/160617_2.svg"
+      },
+      {
+        "type": "text",
+        "value": "и"
+      },
+      {
+        "type": "img",
+        "file": "formulas/task11/160617_3.svg"
+      },
+      {
+        "type": "drawing",
+        "file": "formulas/task11/160617_drawing.svg"
+      },
+      {
+        "type": "text",
+        "value": "В таблице под каждой буквой укажите соответствующий номер.",
+        "newParagraph": true
+      },
+      {
+        "type": "text",
+        "value": "Ответ:",
+        "newParagraph": true
+      },
+      {
+        "type": "img",
+        "file": "formulas/task11/160617_4.svg"
+      }
+    ],
+    "answer": "231",
+    "svgFiles": [
+      "formulas/task11/160617_1.svg",
+      "formulas/task11/160617_2.svg",
+      "formulas/task11/160617_3.svg",
+      "formulas/task11/160617_drawing.svg",
+      "formulas/task11/160617_4.svg"
+    ]
+  },
+  {
+    "id": "160618",
+    "title": "Задача 11",
+    "prototype": "Тип 7",
+    "parts": [
+      {
+        "type": "text",
+        "value": "На рисунках изображены графики функций вида",
+        "newParagraph": true
+      },
+      {
+        "type": "img",
+        "file": "formulas/task11/160618_1.svg"
+      },
+      {
+        "type": "text",
+        "value": "Установите\nсоответствие между графиками функций и знаками коэффициентов"
+      },
+      {
+        "type": "img",
+        "file": "formulas/task11/160618_2.svg"
+      },
+      {
+        "type": "text",
+        "value": "и"
+      },
+      {
+        "type": "img",
+        "file": "formulas/task11/160618_3.svg"
+      },
+      {
+        "type": "drawing",
+        "file": "formulas/task11/160618_drawing.svg"
+      },
+      {
+        "type": "text",
+        "value": "В таблице под каждой буквой укажите соответствующий номер.",
+        "newParagraph": true
+      },
+      {
+        "type": "text",
+        "value": "Ответ:",
+        "newParagraph": true
+      },
+      {
+        "type": "img",
+        "file": "formulas/task11/160618_4.svg"
+      }
+    ],
+    "answer": "123",
+    "svgFiles": [
+      "formulas/task11/160618_1.svg",
+      "formulas/task11/160618_2.svg",
+      "formulas/task11/160618_3.svg",
+      "formulas/task11/160618_drawing.svg",
+      "formulas/task11/160618_4.svg"
+    ]
+  },
+  {
+    "id": "160619",
+    "title": "Задача 12",
+    "prototype": "Тип 7",
+    "parts": [
+      {
+        "type": "text",
+        "value": "На рисунках изображены графики функций вида",
+        "newParagraph": true
+      },
+      {
+        "type": "img",
+        "file": "formulas/task11/160619_1.svg"
+      },
+      {
+        "type": "text",
+        "value": "Установите\nсоответствие между графиками функций и знаками коэффициентов"
+      },
+      {
+        "type": "img",
+        "file": "formulas/task11/160619_2.svg"
+      },
+      {
+        "type": "text",
+        "value": "и"
+      },
+      {
+        "type": "img",
+        "file": "formulas/task11/160619_3.svg"
+      },
+      {
+        "type": "drawing",
+        "file": "formulas/task11/160619_drawing.svg"
+      },
+      {
+        "type": "text",
+        "value": "В таблице под каждой буквой укажите соответствующий номер.",
+        "newParagraph": true
+      },
+      {
+        "type": "text",
+        "value": "Ответ:",
+        "newParagraph": true
+      },
+      {
+        "type": "img",
+        "file": "formulas/task11/160619_4.svg"
+      }
+    ],
+    "answer": "312",
+    "svgFiles": [
+      "formulas/task11/160619_1.svg",
+      "formulas/task11/160619_2.svg",
+      "formulas/task11/160619_3.svg",
+      "formulas/task11/160619_drawing.svg",
+      "formulas/task11/160619_4.svg"
+    ]
+  },
+  {
+    "id": "160620",
+    "title": "Задача 13",
+    "prototype": "Тип 7",
+    "parts": [
+      {
+        "type": "text",
+        "value": "На рисунках изображены графики функций вида",
+        "newParagraph": true
+      },
+      {
+        "type": "img",
+        "file": "formulas/task11/160620_1.svg"
+      },
+      {
+        "type": "text",
+        "value": "Установите\nсоответствие между графиками функций и знаками коэффициентов"
+      },
+      {
+        "type": "img",
+        "file": "formulas/task11/160620_2.svg"
+      },
+      {
+        "type": "text",
+        "value": "и"
+      },
+      {
+        "type": "img",
+        "file": "formulas/task11/160620_3.svg"
+      },
+      {
+        "type": "drawing",
+        "file": "formulas/task11/160620_drawing.svg"
+      },
+      {
+        "type": "text",
+        "value": "В таблице под каждой буквой укажите соответствующий номер.",
+        "newParagraph": true
+      },
+      {
+        "type": "text",
+        "value": "Ответ:",
+        "newParagraph": true
+      },
+      {
+        "type": "img",
+        "file": "formulas/task11/160620_4.svg"
+      }
+    ],
+    "answer": "231",
+    "svgFiles": [
+      "formulas/task11/160620_1.svg",
+      "formulas/task11/160620_2.svg",
+      "formulas/task11/160620_3.svg",
+      "formulas/task11/160620_drawing.svg",
+      "formulas/task11/160620_4.svg"
+    ]
+  },
+  {
+    "id": "24835",
+    "title": "Задача 1",
+    "prototype": "Тип 8",
+    "parts": [
+      {
+        "type": "text",
+        "value": "Установите соответствие между функциями и их графиками.",
+        "newParagraph": true
+      },
+      {
+        "type": "drawing",
+        "file": "formulas/task11/24835_drawing.svg"
+      },
+      {
+        "type": "text",
+        "value": "В таблице под каждой буквой укажите соответствующий номер.",
+        "newParagraph": true
+      },
+      {
+        "type": "text",
+        "value": "Ответ:",
+        "newParagraph": true
+      },
+      {
+        "type": "img",
+        "file": "formulas/task11/24835.svg"
+      }
+    ],
+    "answer": "321",
+    "svgFiles": [
+      "formulas/task11/24835_drawing.svg",
+      "formulas/task11/24835.svg"
+    ]
+  },
+  {
+    "id": "35007",
+    "title": "Задача 2",
+    "prototype": "Тип 8",
+    "parts": [
+      {
+        "type": "text",
+        "value": "Установите соответствие между графиками функций и формулами, которые их\nзадают.",
+        "newParagraph": true
+      },
+      {
+        "type": "drawing",
+        "file": "formulas/task11/35007_drawing.svg"
+      },
+      {
+        "type": "text",
+        "value": "В таблице под каждой буквой укажите соответствующий номер.",
+        "newParagraph": true
+      },
+      {
+        "type": "text",
+        "value": "Ответ:",
+        "newParagraph": true
+      },
+      {
+        "type": "img",
+        "file": "formulas/task11/35007.svg"
+      }
+    ],
+    "answer": "213",
+    "svgFiles": [
+      "formulas/task11/35007_drawing.svg",
+      "formulas/task11/35007.svg"
+    ]
+  },
+  {
+    "id": "160634",
+    "title": "Задача 3",
+    "prototype": "Тип 8",
+    "parts": [
+      {
+        "type": "text",
+        "value": "Установите соответствие между функциями и их графиками.",
+        "newParagraph": true
+      },
+      {
+        "type": "drawing",
+        "file": "formulas/task11/160634_drawing.svg"
+      },
+      {
+        "type": "text",
+        "value": "В таблице под каждой буквой укажите соответствующий номер.",
+        "newParagraph": true
+      },
+      {
+        "type": "text",
+        "value": "Ответ:",
+        "newParagraph": true
+      },
+      {
+        "type": "img",
+        "file": "formulas/task11/160634.svg"
+      }
+    ],
+    "answer": "213",
+    "svgFiles": [
+      "formulas/task11/160634_drawing.svg",
+      "formulas/task11/160634.svg"
+    ]
+  },
+  {
+    "id": "160635",
+    "title": "Задача 4",
+    "prototype": "Тип 8",
+    "parts": [
+      {
+        "type": "text",
+        "value": "Установите соответствие между функциями и их графиками.",
+        "newParagraph": true
+      },
+      {
+        "type": "drawing",
+        "file": "formulas/task11/160635_drawing.svg"
+      },
+      {
+        "type": "text",
+        "value": "В таблице под каждой буквой укажите соответствующий номер.",
+        "newParagraph": true
+      },
+      {
+        "type": "text",
+        "value": "Ответ:",
+        "newParagraph": true
+      },
+      {
+        "type": "img",
+        "file": "formulas/task11/160635.svg"
+      }
+    ],
+    "answer": "312",
+    "svgFiles": [
+      "formulas/task11/160635_drawing.svg",
+      "formulas/task11/160635.svg"
+    ]
+  },
+  {
+    "id": "160636",
+    "title": "Задача 5",
+    "prototype": "Тип 8",
+    "parts": [
+      {
+        "type": "text",
+        "value": "Установите соответствие между функциями и их графиками.",
+        "newParagraph": true
+      },
+      {
+        "type": "drawing",
+        "file": "formulas/task11/160636_drawing.svg"
+      },
+      {
+        "type": "text",
+        "value": "В таблице под каждой буквой укажите соответствующий номер.",
+        "newParagraph": true
+      },
+      {
+        "type": "text",
+        "value": "Ответ:",
+        "newParagraph": true
+      },
+      {
+        "type": "img",
+        "file": "formulas/task11/160636.svg"
+      }
+    ],
+    "answer": "123",
+    "svgFiles": [
+      "formulas/task11/160636_drawing.svg",
+      "formulas/task11/160636.svg"
+    ]
+  },
+  {
+    "id": "160637",
+    "title": "Задача 6",
+    "prototype": "Тип 8",
+    "parts": [
+      {
+        "type": "text",
+        "value": "Установите соответствие между графиками функций и формулами, которые их\nзадают.",
+        "newParagraph": true
+      },
+      {
+        "type": "drawing",
+        "file": "formulas/task11/160637_drawing.svg"
+      },
+      {
+        "type": "text",
+        "value": "В таблице под каждой буквой укажите соответствующий номер.",
+        "newParagraph": true
+      },
+      {
+        "type": "text",
+        "value": "Ответ:",
+        "newParagraph": true
+      },
+      {
+        "type": "img",
+        "file": "formulas/task11/160637.svg"
+      }
+    ],
+    "answer": "321",
+    "svgFiles": [
+      "formulas/task11/160637_drawing.svg",
+      "formulas/task11/160637.svg"
+    ]
+  },
+  {
+    "id": "160638",
+    "title": "Задача 7",
+    "prototype": "Тип 8",
+    "parts": [
+      {
+        "type": "text",
+        "value": "Установите соответствие между функциями и их графиками.",
+        "newParagraph": true
+      },
+      {
+        "type": "drawing",
+        "file": "formulas/task11/160638_drawing.svg"
+      },
+      {
+        "type": "text",
+        "value": "В таблице под каждой буквой укажите соответствующий номер.",
+        "newParagraph": true
+      },
+      {
+        "type": "text",
+        "value": "Ответ:",
+        "newParagraph": true
+      },
+      {
+        "type": "img",
+        "file": "formulas/task11/160638.svg"
+      }
+    ],
+    "answer": "132",
+    "svgFiles": [
+      "formulas/task11/160638_drawing.svg",
+      "formulas/task11/160638.svg"
+    ]
+  },
+  {
+    "id": "160639",
+    "title": "Задача 8",
+    "prototype": "Тип 8",
+    "parts": [
+      {
+        "type": "text",
+        "value": "Установите соответствие между функциями и их графиками.",
+        "newParagraph": true
+      },
+      {
+        "type": "drawing",
+        "file": "formulas/task11/160639_drawing.svg"
+      },
+      {
+        "type": "text",
+        "value": "В таблице под каждой буквой укажите соответствующий номер.",
+        "newParagraph": true
+      },
+      {
+        "type": "text",
+        "value": "Ответ:",
+        "newParagraph": true
+      },
+      {
+        "type": "img",
+        "file": "formulas/task11/160639.svg"
+      }
+    ],
+    "answer": "321",
+    "svgFiles": [
+      "formulas/task11/160639_drawing.svg",
+      "formulas/task11/160639.svg"
+    ]
+  },
+  {
+    "id": "160640",
+    "title": "Задача 9",
+    "prototype": "Тип 8",
+    "parts": [
+      {
+        "type": "text",
+        "value": "Установите соответствие между функциями и их графиками.",
+        "newParagraph": true
+      },
+      {
+        "type": "drawing",
+        "file": "formulas/task11/160640_drawing.svg"
+      },
+      {
+        "type": "text",
+        "value": "В таблице под каждой буквой укажите соответствующий номер.",
+        "newParagraph": true
+      },
+      {
+        "type": "text",
+        "value": "Ответ:",
+        "newParagraph": true
+      },
+      {
+        "type": "img",
+        "file": "formulas/task11/160640.svg"
+      }
+    ],
+    "answer": "132",
+    "svgFiles": [
+      "formulas/task11/160640_drawing.svg",
+      "formulas/task11/160640.svg"
+    ]
+  },
+  {
+    "id": "160641",
+    "title": "Задача 10",
+    "prototype": "Тип 8",
+    "parts": [
+      {
+        "type": "text",
+        "value": "Установите соответствие между функциями и их графиками.",
+        "newParagraph": true
+      },
+      {
+        "type": "drawing",
+        "file": "formulas/task11/160641_drawing.svg"
+      },
+      {
+        "type": "text",
+        "value": "В таблице под каждой буквой укажите соответствующий номер.",
+        "newParagraph": true
+      },
+      {
+        "type": "text",
+        "value": "Ответ:",
+        "newParagraph": true
+      },
+      {
+        "type": "img",
+        "file": "formulas/task11/160641.svg"
+      }
+    ],
+    "answer": "312",
+    "svgFiles": [
+      "formulas/task11/160641_drawing.svg",
+      "formulas/task11/160641.svg"
+    ]
+  },
+  {
+    "id": "160642",
+    "title": "Задача 11",
+    "prototype": "Тип 8",
+    "parts": [
+      {
+        "type": "text",
+        "value": "Установите соответствие между функциями и их графиками.",
+        "newParagraph": true
+      },
+      {
+        "type": "drawing",
+        "file": "formulas/task11/160642_drawing.svg"
+      },
+      {
+        "type": "text",
+        "value": "В таблице под каждой буквой укажите соответствующий номер.",
+        "newParagraph": true
+      },
+      {
+        "type": "text",
+        "value": "Ответ:",
+        "newParagraph": true
+      },
+      {
+        "type": "img",
+        "file": "formulas/task11/160642.svg"
+      }
+    ],
+    "answer": "312",
+    "svgFiles": [
+      "formulas/task11/160642_drawing.svg",
+      "formulas/task11/160642.svg"
+    ]
+  },
+  {
+    "id": "160643",
+    "title": "Задача 12",
+    "prototype": "Тип 8",
+    "parts": [
+      {
+        "type": "text",
+        "value": "Установите соответствие между функциями и их графиками.",
+        "newParagraph": true
+      },
+      {
+        "type": "drawing",
+        "file": "formulas/task11/160643_drawing.svg"
+      },
+      {
+        "type": "text",
+        "value": "В таблице под каждой буквой укажите соответствующий номер.",
+        "newParagraph": true
+      },
+      {
+        "type": "text",
+        "value": "Ответ:",
+        "newParagraph": true
+      },
+      {
+        "type": "img",
+        "file": "formulas/task11/160643.svg"
+      }
+    ],
+    "answer": "312",
+    "svgFiles": [
+      "formulas/task11/160643_drawing.svg",
+      "formulas/task11/160643.svg"
+    ]
+  },
+  {
+    "id": "160644",
+    "title": "Задача 13",
+    "prototype": "Тип 8",
+    "parts": [
+      {
+        "type": "text",
+        "value": "Установите соответствие между графиками функций и формулами, которые их\nзадают.",
+        "newParagraph": true
+      },
+      {
+        "type": "drawing",
+        "file": "formulas/task11/160644_drawing.svg"
+      },
+      {
+        "type": "text",
+        "value": "В таблице под каждой буквой укажите соответствующий номер.",
+        "newParagraph": true
+      },
+      {
+        "type": "text",
+        "value": "Ответ:",
+        "newParagraph": true
+      },
+      {
+        "type": "img",
+        "file": "formulas/task11/160644.svg"
+      }
+    ],
+    "answer": "321",
+    "svgFiles": [
+      "formulas/task11/160644_drawing.svg",
+      "formulas/task11/160644.svg"
+    ]
+  },
+  {
+    "id": "160645",
+    "title": "Задача 14",
+    "prototype": "Тип 8",
+    "parts": [
+      {
+        "type": "text",
+        "value": "Установите соответствие между функциями и их графиками.",
+        "newParagraph": true
+      },
+      {
+        "type": "drawing",
+        "file": "formulas/task11/160645_drawing.svg"
+      },
+      {
+        "type": "text",
+        "value": "В таблице под каждой буквой укажите соответствующий номер.",
+        "newParagraph": true
+      },
+      {
+        "type": "text",
+        "value": "Ответ:",
+        "newParagraph": true
+      },
+      {
+        "type": "img",
+        "file": "formulas/task11/160645.svg"
+      }
+    ],
+    "answer": "312",
+    "svgFiles": [
+      "formulas/task11/160645_drawing.svg",
+      "formulas/task11/160645.svg"
+    ]
+  },
+  {
+    "id": "160646",
+    "title": "Задача 15",
+    "prototype": "Тип 8",
+    "parts": [
+      {
+        "type": "text",
+        "value": "Установите соответствие между функциями и их графиками.",
+        "newParagraph": true
+      },
+      {
+        "type": "drawing",
+        "file": "formulas/task11/160646_drawing.svg"
+      },
+      {
+        "type": "text",
+        "value": "В таблице под каждой буквой укажите соответствующий номер.",
+        "newParagraph": true
+      },
+      {
+        "type": "text",
+        "value": "Ответ:",
+        "newParagraph": true
+      },
+      {
+        "type": "img",
+        "file": "formulas/task11/160646.svg"
+      }
+    ],
+    "answer": "132",
+    "svgFiles": [
+      "formulas/task11/160646_drawing.svg",
+      "formulas/task11/160646.svg"
+    ]
+  },
+  {
+    "id": "160647",
+    "title": "Задача 16",
+    "prototype": "Тип 8",
+    "parts": [
+      {
+        "type": "text",
+        "value": "Установите соответствие между функциями и их графиками.",
+        "newParagraph": true
+      },
+      {
+        "type": "drawing",
+        "file": "formulas/task11/160647_drawing.svg"
+      },
+      {
+        "type": "text",
+        "value": "В таблице под каждой буквой укажите соответствующий номер.",
+        "newParagraph": true
+      },
+      {
+        "type": "text",
+        "value": "Ответ:",
+        "newParagraph": true
+      },
+      {
+        "type": "img",
+        "file": "formulas/task11/160647.svg"
+      }
+    ],
+    "answer": "123",
+    "svgFiles": [
+      "formulas/task11/160647_drawing.svg",
+      "formulas/task11/160647.svg"
+    ]
+  },
+  {
+    "id": "160648",
+    "title": "Задача 17",
+    "prototype": "Тип 8",
+    "parts": [
+      {
+        "type": "text",
+        "value": "Установите соответствие между функциями и их графиками.",
+        "newParagraph": true
+      },
+      {
+        "type": "drawing",
+        "file": "formulas/task11/160648_drawing.svg"
+      },
+      {
+        "type": "text",
+        "value": "В таблице под каждой буквой укажите соответствующий номер.",
+        "newParagraph": true
+      },
+      {
+        "type": "text",
+        "value": "Ответ:",
+        "newParagraph": true
+      },
+      {
+        "type": "img",
+        "file": "formulas/task11/160648.svg"
+      }
+    ],
+    "answer": "123",
+    "svgFiles": [
+      "formulas/task11/160648_drawing.svg",
+      "formulas/task11/160648.svg"
+    ]
+  },
+  {
+    "id": "35008",
+    "title": "Задача 1",
+    "prototype": "Тип 9",
+    "parts": [
+      {
+        "type": "text",
+        "value": "Установите соответствие между графиками функций и формулами, которые их\nзадают.",
+        "newParagraph": true
+      },
+      {
+        "type": "drawing",
+        "file": "formulas/task11/35008_drawing.svg"
+      },
+      {
+        "type": "text",
+        "value": "В таблице под каждой буквой укажите соответствующий номер.",
+        "newParagraph": true
+      },
+      {
+        "type": "text",
+        "value": "Ответ:",
+        "newParagraph": true
+      },
+      {
+        "type": "img",
+        "file": "formulas/task11/35008.svg"
+      }
+    ],
+    "answer": "312",
+    "svgFiles": [
+      "formulas/task11/35008_drawing.svg",
+      "formulas/task11/35008.svg"
+    ]
+  },
+  {
+    "id": "98347",
+    "title": "Задача 2",
+    "prototype": "Тип 9",
+    "parts": [
+      {
+        "type": "text",
+        "value": "Установите соответствие между графиками функций и формулами, которые их\nзадают.",
+        "newParagraph": true
+      },
+      {
+        "type": "drawing",
+        "file": "formulas/task11/98347_drawing.svg"
+      },
+      {
+        "type": "text",
+        "value": "В таблице под каждой буквой укажите соответствующий номер.",
+        "newParagraph": true
+      },
+      {
+        "type": "text",
+        "value": "Ответ:",
+        "newParagraph": true
+      },
+      {
+        "type": "img",
+        "file": "formulas/task11/98347.svg"
+      }
+    ],
+    "answer": "132",
+    "svgFiles": [
+      "formulas/task11/98347_drawing.svg",
+      "formulas/task11/98347.svg"
+    ]
+  },
+  {
+    "id": "155785",
+    "title": "Задача 3",
+    "prototype": "Тип 9",
+    "parts": [
+      {
+        "type": "text",
+        "value": "Установите соответствие между графиками функций и формулами, которые их\nзадают.",
+        "newParagraph": true
+      },
+      {
+        "type": "drawing",
+        "file": "formulas/task11/155785_drawing.svg"
+      },
+      {
+        "type": "text",
+        "value": "В таблице под каждой буквой укажите соответствующий номер.",
+        "newParagraph": true
+      },
+      {
+        "type": "text",
+        "value": "Ответ:",
+        "newParagraph": true
+      },
+      {
+        "type": "img",
+        "file": "formulas/task11/155785.svg"
+      }
+    ],
+    "answer": "132",
+    "svgFiles": [
+      "formulas/task11/155785_drawing.svg",
+      "formulas/task11/155785.svg"
+    ]
+  },
+  {
+    "id": "160671",
+    "title": "Задача 4",
+    "prototype": "Тип 9",
+    "parts": [
+      {
+        "type": "text",
+        "value": "Установите соответствие между графиками функций и формулами, которые их\nзадают.",
+        "newParagraph": true
+      },
+      {
+        "type": "drawing",
+        "file": "formulas/task11/160671_drawing.svg"
+      },
+      {
+        "type": "text",
+        "value": "В таблице под каждой буквой укажите соответствующий номер.",
+        "newParagraph": true
+      },
+      {
+        "type": "text",
+        "value": "Ответ:",
+        "newParagraph": true
+      },
+      {
+        "type": "img",
+        "file": "formulas/task11/160671.svg"
+      }
+    ],
+    "answer": "132",
+    "svgFiles": [
+      "formulas/task11/160671_drawing.svg",
+      "formulas/task11/160671.svg"
+    ]
+  },
+  {
+    "id": "160672",
+    "title": "Задача 5",
+    "prototype": "Тип 9",
+    "parts": [
+      {
+        "type": "text",
+        "value": "Установите соответствие между графиками функций и формулами, которые их\nзадают.",
+        "newParagraph": true
+      },
+      {
+        "type": "drawing",
+        "file": "formulas/task11/160672_drawing.svg"
+      },
+      {
+        "type": "text",
+        "value": "В таблице под каждой буквой укажите соответствующий номер.",
+        "newParagraph": true
+      },
+      {
+        "type": "text",
+        "value": "Ответ:",
+        "newParagraph": true
+      },
+      {
+        "type": "img",
+        "file": "formulas/task11/160672.svg"
+      }
+    ],
+    "answer": "132",
+    "svgFiles": [
+      "formulas/task11/160672_drawing.svg",
+      "formulas/task11/160672.svg"
+    ]
+  },
+  {
+    "id": "160673",
+    "title": "Задача 6",
+    "prototype": "Тип 9",
+    "parts": [
+      {
+        "type": "text",
+        "value": "Установите соответствие между графиками функций и формулами, которые их\nзадают.",
+        "newParagraph": true
+      },
+      {
+        "type": "drawing",
+        "file": "formulas/task11/160673_drawing.svg"
+      },
+      {
+        "type": "text",
+        "value": "В таблице под каждой буквой укажите соответствующий номер.",
+        "newParagraph": true
+      },
+      {
+        "type": "text",
+        "value": "Ответ:",
+        "newParagraph": true
+      },
+      {
+        "type": "img",
+        "file": "formulas/task11/160673.svg"
+      }
+    ],
+    "answer": "132",
+    "svgFiles": [
+      "formulas/task11/160673_drawing.svg",
+      "formulas/task11/160673.svg"
+    ]
+  },
+  {
+    "id": "160674",
+    "title": "Задача 7",
+    "prototype": "Тип 9",
+    "parts": [
+      {
+        "type": "text",
+        "value": "Установите соответствие между графиками функций и формулами, которые их\nзадают.",
+        "newParagraph": true
+      },
+      {
+        "type": "drawing",
+        "file": "formulas/task11/160674_drawing.svg"
+      },
+      {
+        "type": "text",
+        "value": "В таблице под каждой буквой укажите соответствующий номер.",
+        "newParagraph": true
+      },
+      {
+        "type": "text",
+        "value": "Ответ:",
+        "newParagraph": true
+      },
+      {
+        "type": "img",
+        "file": "formulas/task11/160674.svg"
+      }
+    ],
+    "answer": "312",
+    "svgFiles": [
+      "formulas/task11/160674_drawing.svg",
+      "formulas/task11/160674.svg"
+    ]
+  },
+  {
+    "id": "160675",
+    "title": "Задача 8",
+    "prototype": "Тип 9",
+    "parts": [
+      {
+        "type": "text",
+        "value": "Установите соответствие между графиками функций и формулами, которые их\nзадают.",
+        "newParagraph": true
+      },
+      {
+        "type": "drawing",
+        "file": "formulas/task11/160675_drawing.svg"
+      },
+      {
+        "type": "text",
+        "value": "В таблице под каждой буквой укажите соответствующий номер.",
+        "newParagraph": true
+      },
+      {
+        "type": "text",
+        "value": "Ответ:",
+        "newParagraph": true
+      },
+      {
+        "type": "img",
+        "file": "formulas/task11/160675.svg"
+      }
+    ],
+    "answer": "321",
+    "svgFiles": [
+      "formulas/task11/160675_drawing.svg",
+      "formulas/task11/160675.svg"
+    ]
+  },
+  {
+    "id": "160676",
+    "title": "Задача 9",
+    "prototype": "Тип 9",
+    "parts": [
+      {
+        "type": "text",
+        "value": "Установите соответствие между графиками функций и формулами, которые их\nзадают.",
+        "newParagraph": true
+      },
+      {
+        "type": "drawing",
+        "file": "formulas/task11/160676_drawing.svg"
+      },
+      {
+        "type": "text",
+        "value": "В таблице под каждой буквой укажите соответствующий номер.",
+        "newParagraph": true
+      },
+      {
+        "type": "text",
+        "value": "Ответ:",
+        "newParagraph": true
+      },
+      {
+        "type": "img",
+        "file": "formulas/task11/160676.svg"
+      }
+    ],
+    "answer": "132",
+    "svgFiles": [
+      "formulas/task11/160676_drawing.svg",
+      "formulas/task11/160676.svg"
+    ]
+  },
+  {
+    "id": "160677",
+    "title": "Задача 10",
+    "prototype": "Тип 9",
+    "parts": [
+      {
+        "type": "text",
+        "value": "Установите соответствие между графиками функций и формулами, которые их\nзадают.",
+        "newParagraph": true
+      },
+      {
+        "type": "drawing",
+        "file": "formulas/task11/160677_drawing.svg"
+      },
+      {
+        "type": "text",
+        "value": "В таблице под каждой буквой укажите соответствующий номер.",
+        "newParagraph": true
+      },
+      {
+        "type": "text",
+        "value": "Ответ:",
+        "newParagraph": true
+      },
+      {
+        "type": "img",
+        "file": "formulas/task11/160677.svg"
+      }
+    ],
+    "answer": "321",
+    "svgFiles": [
+      "formulas/task11/160677_drawing.svg",
+      "formulas/task11/160677.svg"
+    ]
+  }
+]

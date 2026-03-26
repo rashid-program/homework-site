@@ -1,0 +1,4820 @@
+[
+  {
+    "id": "22316",
+    "title": "Задача 1",
+    "prototype": "Тип 1",
+    "parts": [
+      {
+        "type": "text",
+        "value": "На клетчатой бумаге с размером клетки",
+        "newParagraph": true
+      },
+      {
+        "type": "img",
+        "file": "formulas/task18/22316.svg"
+      },
+      {
+        "type": "text",
+        "value": "изображён треугольник. Найдите\nего площадь."
+      },
+      {
+        "type": "drawing",
+        "file": "formulas/task18/22316_drawing.svg"
+      }
+    ],
+    "answer": "10",
+    "svgFiles": [
+      "formulas/task18/22316.svg",
+      "formulas/task18/22316_drawing.svg"
+    ]
+  },
+  {
+    "id": "22318",
+    "title": "Задача 2",
+    "prototype": "Тип 1",
+    "parts": [
+      {
+        "type": "text",
+        "value": "На клетчатой бумаге с размером клетки",
+        "newParagraph": true
+      },
+      {
+        "type": "img",
+        "file": "formulas/task18/22318.svg"
+      },
+      {
+        "type": "text",
+        "value": "изображён треугольник. Найдите\nего площадь."
+      },
+      {
+        "type": "drawing",
+        "file": "formulas/task18/22318_drawing.svg"
+      }
+    ],
+    "answer": "25",
+    "svgFiles": [
+      "formulas/task18/22318.svg",
+      "formulas/task18/22318_drawing.svg"
+    ]
+  },
+  {
+    "id": "42857",
+    "title": "Задача 3",
+    "prototype": "Тип 1",
+    "parts": [
+      {
+        "type": "text",
+        "value": "На клетчатой бумаге с размером клетки",
+        "newParagraph": true
+      },
+      {
+        "type": "img",
+        "file": "formulas/task18/42857.svg"
+      },
+      {
+        "type": "text",
+        "value": "изображён треугольник. Найдите\nего площадь."
+      },
+      {
+        "type": "drawing",
+        "file": "formulas/task18/42857_drawing.svg"
+      }
+    ],
+    "answer": "14",
+    "svgFiles": [
+      "formulas/task18/42857.svg",
+      "formulas/task18/42857_drawing.svg"
+    ]
+  },
+  {
+    "id": "123313",
+    "title": "Задача 4",
+    "prototype": "Тип 1",
+    "parts": [
+      {
+        "type": "text",
+        "value": "На клетчатой бумаге с размером клетки",
+        "newParagraph": true
+      },
+      {
+        "type": "img",
+        "file": "formulas/task18/123313.svg"
+      },
+      {
+        "type": "text",
+        "value": "изображён треугольник. Найдите\nего площадь."
+      },
+      {
+        "type": "drawing",
+        "file": "formulas/task18/123313_drawing.svg"
+      }
+    ],
+    "answer": "28",
+    "svgFiles": [
+      "formulas/task18/123313.svg",
+      "formulas/task18/123313_drawing.svg"
+    ]
+  },
+  {
+    "id": "139574",
+    "title": "Задача 5",
+    "prototype": "Тип 1",
+    "parts": [
+      {
+        "type": "text",
+        "value": "На клетчатой бумаге с размером клетки",
+        "newParagraph": true
+      },
+      {
+        "type": "img",
+        "file": "formulas/task18/139574.svg"
+      },
+      {
+        "type": "text",
+        "value": "изображён треугольник. Найдите\nего площадь."
+      },
+      {
+        "type": "drawing",
+        "file": "formulas/task18/139574_drawing.svg"
+      }
+    ],
+    "answer": "35",
+    "svgFiles": [
+      "formulas/task18/139574.svg",
+      "formulas/task18/139574_drawing.svg"
+    ]
+  },
+  {
+    "id": "139681",
+    "title": "Задача 6",
+    "prototype": "Тип 1",
+    "parts": [
+      {
+        "type": "text",
+        "value": "На клетчатой бумаге с размером клетки",
+        "newParagraph": true
+      },
+      {
+        "type": "img",
+        "file": "formulas/task18/139681.svg"
+      },
+      {
+        "type": "text",
+        "value": "изображён треугольник. Найдите\nего площадь."
+      },
+      {
+        "type": "drawing",
+        "file": "formulas/task18/139681_drawing.svg"
+      }
+    ],
+    "answer": "36",
+    "svgFiles": [
+      "formulas/task18/139681.svg",
+      "formulas/task18/139681_drawing.svg"
+    ]
+  },
+  {
+    "id": "139685",
+    "title": "Задача 7",
+    "prototype": "Тип 1",
+    "parts": [
+      {
+        "type": "text",
+        "value": "На клетчатой бумаге с размером клетки",
+        "newParagraph": true
+      },
+      {
+        "type": "img",
+        "file": "formulas/task18/139685.svg"
+      },
+      {
+        "type": "text",
+        "value": "изображён треугольник. Найдите\nего площадь."
+      },
+      {
+        "type": "drawing",
+        "file": "formulas/task18/139685_drawing.svg"
+      }
+    ],
+    "answer": "12",
+    "svgFiles": [
+      "formulas/task18/139685.svg",
+      "formulas/task18/139685_drawing.svg"
+    ]
+  },
+  {
+    "id": "139686",
+    "title": "Задача 8",
+    "prototype": "Тип 1",
+    "parts": [
+      {
+        "type": "text",
+        "value": "На клетчатой бумаге с размером клетки",
+        "newParagraph": true
+      },
+      {
+        "type": "img",
+        "file": "formulas/task18/139686.svg"
+      },
+      {
+        "type": "text",
+        "value": "изображён треугольник. Найдите\nего площадь."
+      },
+      {
+        "type": "drawing",
+        "file": "formulas/task18/139686_drawing.svg"
+      }
+    ],
+    "answer": "15",
+    "svgFiles": [
+      "formulas/task18/139686.svg",
+      "formulas/task18/139686_drawing.svg"
+    ]
+  },
+  {
+    "id": "139687",
+    "title": "Задача 9",
+    "prototype": "Тип 1",
+    "parts": [
+      {
+        "type": "text",
+        "value": "На клетчатой бумаге с размером клетки",
+        "newParagraph": true
+      },
+      {
+        "type": "img",
+        "file": "formulas/task18/139687.svg"
+      },
+      {
+        "type": "text",
+        "value": "изображён треугольник. Найдите\nего площадь."
+      },
+      {
+        "type": "drawing",
+        "file": "formulas/task18/139687_drawing.svg"
+      }
+    ],
+    "answer": "9",
+    "svgFiles": [
+      "formulas/task18/139687.svg",
+      "formulas/task18/139687_drawing.svg"
+    ]
+  },
+  {
+    "id": "139688",
+    "title": "Задача 10",
+    "prototype": "Тип 1",
+    "parts": [
+      {
+        "type": "text",
+        "value": "На клетчатой бумаге с размером клетки",
+        "newParagraph": true
+      },
+      {
+        "type": "img",
+        "file": "formulas/task18/139688.svg"
+      },
+      {
+        "type": "text",
+        "value": "изображён треугольник. Найдите\nего площадь."
+      },
+      {
+        "type": "drawing",
+        "file": "formulas/task18/139688_drawing.svg"
+      }
+    ],
+    "answer": "20",
+    "svgFiles": [
+      "formulas/task18/139688.svg",
+      "formulas/task18/139688_drawing.svg"
+    ]
+  },
+  {
+    "id": "139689",
+    "title": "Задача 11",
+    "prototype": "Тип 1",
+    "parts": [
+      {
+        "type": "text",
+        "value": "На клетчатой бумаге с размером клетки",
+        "newParagraph": true
+      },
+      {
+        "type": "img",
+        "file": "formulas/task18/139689.svg"
+      },
+      {
+        "type": "text",
+        "value": "изображён треугольник. Найдите\nего площадь."
+      },
+      {
+        "type": "drawing",
+        "file": "formulas/task18/139689_drawing.svg"
+      }
+    ],
+    "answer": "6",
+    "svgFiles": [
+      "formulas/task18/139689.svg",
+      "formulas/task18/139689_drawing.svg"
+    ]
+  },
+  {
+    "id": "139690",
+    "title": "Задача 12",
+    "prototype": "Тип 1",
+    "parts": [
+      {
+        "type": "text",
+        "value": "На клетчатой бумаге с размером клетки",
+        "newParagraph": true
+      },
+      {
+        "type": "img",
+        "file": "formulas/task18/139690.svg"
+      },
+      {
+        "type": "text",
+        "value": "изображён треугольник. Найдите\nего площадь."
+      },
+      {
+        "type": "drawing",
+        "file": "formulas/task18/139690_drawing.svg"
+      }
+    ],
+    "answer": "21",
+    "svgFiles": [
+      "formulas/task18/139690.svg",
+      "formulas/task18/139690_drawing.svg"
+    ]
+  },
+  {
+    "id": "42806",
+    "title": "Задача 1",
+    "prototype": "Тип 2",
+    "parts": [
+      {
+        "type": "text",
+        "value": "На клетчатой бумаге с размером клетки",
+        "newParagraph": true
+      },
+      {
+        "type": "img",
+        "file": "formulas/task18/42806.svg"
+      },
+      {
+        "type": "text",
+        "value": "изображён прямоугольный\nтреугольник. Найдите длину его большего катета."
+      },
+      {
+        "type": "drawing",
+        "file": "formulas/task18/42806_drawing.svg"
+      }
+    ],
+    "answer": "8",
+    "svgFiles": [
+      "formulas/task18/42806.svg",
+      "formulas/task18/42806_drawing.svg"
+    ]
+  },
+  {
+    "id": "106182",
+    "title": "Задача 2",
+    "prototype": "Тип 2",
+    "parts": [
+      {
+        "type": "text",
+        "value": "На клетчатой бумаге с размером клетки",
+        "newParagraph": true
+      },
+      {
+        "type": "img",
+        "file": "formulas/task18/106182.svg"
+      },
+      {
+        "type": "text",
+        "value": "изображён прямоугольный\nтреугольник. Найдите длину его большего катета."
+      },
+      {
+        "type": "drawing",
+        "file": "formulas/task18/106182_drawing.svg"
+      }
+    ],
+    "answer": "10",
+    "svgFiles": [
+      "formulas/task18/106182.svg",
+      "formulas/task18/106182_drawing.svg"
+    ]
+  },
+  {
+    "id": "123315",
+    "title": "Задача 3",
+    "prototype": "Тип 2",
+    "parts": [
+      {
+        "type": "text",
+        "value": "На клетчатой бумаге с размером клетки",
+        "newParagraph": true
+      },
+      {
+        "type": "img",
+        "file": "formulas/task18/123315.svg"
+      },
+      {
+        "type": "text",
+        "value": "изображён прямоугольный\nтреугольник. Найдите длину его большего катета."
+      },
+      {
+        "type": "drawing",
+        "file": "formulas/task18/123315_drawing.svg"
+      }
+    ],
+    "answer": "9",
+    "svgFiles": [
+      "formulas/task18/123315.svg",
+      "formulas/task18/123315_drawing.svg"
+    ]
+  },
+  {
+    "id": "139691",
+    "title": "Задача 4",
+    "prototype": "Тип 2",
+    "parts": [
+      {
+        "type": "text",
+        "value": "На клетчатой бумаге с размером клетки",
+        "newParagraph": true
+      },
+      {
+        "type": "img",
+        "file": "formulas/task18/139691.svg"
+      },
+      {
+        "type": "text",
+        "value": "изображён прямоугольный\nтреугольник. Найдите длину его большего катета."
+      },
+      {
+        "type": "drawing",
+        "file": "formulas/task18/139691_drawing.svg"
+      }
+    ],
+    "answer": "7",
+    "svgFiles": [
+      "formulas/task18/139691.svg",
+      "formulas/task18/139691_drawing.svg"
+    ]
+  },
+  {
+    "id": "139692",
+    "title": "Задача 5",
+    "prototype": "Тип 2",
+    "parts": [
+      {
+        "type": "text",
+        "value": "На клетчатой бумаге с размером клетки",
+        "newParagraph": true
+      },
+      {
+        "type": "img",
+        "file": "formulas/task18/139692.svg"
+      },
+      {
+        "type": "text",
+        "value": "изображён прямоугольный\nтреугольник. Найдите длину его большего катета."
+      },
+      {
+        "type": "drawing",
+        "file": "formulas/task18/139692_drawing.svg"
+      }
+    ],
+    "answer": "7",
+    "svgFiles": [
+      "formulas/task18/139692.svg",
+      "formulas/task18/139692_drawing.svg"
+    ]
+  },
+  {
+    "id": "139693",
+    "title": "Задача 6",
+    "prototype": "Тип 2",
+    "parts": [
+      {
+        "type": "text",
+        "value": "На клетчатой бумаге с размером клетки",
+        "newParagraph": true
+      },
+      {
+        "type": "img",
+        "file": "formulas/task18/139693.svg"
+      },
+      {
+        "type": "text",
+        "value": "изображён прямоугольный\nтреугольник. Найдите длину его большего катета."
+      },
+      {
+        "type": "drawing",
+        "file": "formulas/task18/139693_drawing.svg"
+      }
+    ],
+    "answer": "8",
+    "svgFiles": [
+      "formulas/task18/139693.svg",
+      "formulas/task18/139693_drawing.svg"
+    ]
+  },
+  {
+    "id": "139694",
+    "title": "Задача 7",
+    "prototype": "Тип 2",
+    "parts": [
+      {
+        "type": "text",
+        "value": "На клетчатой бумаге с размером клетки",
+        "newParagraph": true
+      },
+      {
+        "type": "img",
+        "file": "formulas/task18/139694.svg"
+      },
+      {
+        "type": "text",
+        "value": "изображён прямоугольный\nтреугольник. Найдите длину его большего катета."
+      },
+      {
+        "type": "drawing",
+        "file": "formulas/task18/139694_drawing.svg"
+      }
+    ],
+    "answer": "4",
+    "svgFiles": [
+      "formulas/task18/139694.svg",
+      "formulas/task18/139694_drawing.svg"
+    ]
+  },
+  {
+    "id": "139695",
+    "title": "Задача 8",
+    "prototype": "Тип 2",
+    "parts": [
+      {
+        "type": "text",
+        "value": "На клетчатой бумаге с размером клетки",
+        "newParagraph": true
+      },
+      {
+        "type": "img",
+        "file": "formulas/task18/139695.svg"
+      },
+      {
+        "type": "text",
+        "value": "изображён прямоугольный\nтреугольник. Найдите длину его большего катета."
+      },
+      {
+        "type": "drawing",
+        "file": "formulas/task18/139695_drawing.svg"
+      }
+    ],
+    "answer": "10",
+    "svgFiles": [
+      "formulas/task18/139695.svg",
+      "formulas/task18/139695_drawing.svg"
+    ]
+  },
+  {
+    "id": "139696",
+    "title": "Задача 9",
+    "prototype": "Тип 2",
+    "parts": [
+      {
+        "type": "text",
+        "value": "На клетчатой бумаге с размером клетки",
+        "newParagraph": true
+      },
+      {
+        "type": "img",
+        "file": "formulas/task18/139696.svg"
+      },
+      {
+        "type": "text",
+        "value": "изображён прямоугольный\nтреугольник. Найдите длину его большего катета."
+      },
+      {
+        "type": "drawing",
+        "file": "formulas/task18/139696_drawing.svg"
+      }
+    ],
+    "answer": "5",
+    "svgFiles": [
+      "formulas/task18/139696.svg",
+      "formulas/task18/139696_drawing.svg"
+    ]
+  },
+  {
+    "id": "139737",
+    "title": "Задача 10",
+    "prototype": "Тип 2",
+    "parts": [
+      {
+        "type": "text",
+        "value": "На клетчатой бумаге с размером клетки",
+        "newParagraph": true
+      },
+      {
+        "type": "img",
+        "file": "formulas/task18/139737.svg"
+      },
+      {
+        "type": "text",
+        "value": "изображён прямоугольный\nтреугольник. Найдите длину его большего катета."
+      },
+      {
+        "type": "drawing",
+        "file": "formulas/task18/139737_drawing.svg"
+      }
+    ],
+    "answer": "6",
+    "svgFiles": [
+      "formulas/task18/139737.svg",
+      "formulas/task18/139737_drawing.svg"
+    ]
+  },
+  {
+    "id": "139740",
+    "title": "Задача 11",
+    "prototype": "Тип 2",
+    "parts": [
+      {
+        "type": "text",
+        "value": "На клетчатой бумаге с размером клетки",
+        "newParagraph": true
+      },
+      {
+        "type": "img",
+        "file": "formulas/task18/139740.svg"
+      },
+      {
+        "type": "text",
+        "value": "изображён прямоугольный\nтреугольник. Найдите длину его большего катета."
+      },
+      {
+        "type": "drawing",
+        "file": "formulas/task18/139740_drawing.svg"
+      }
+    ],
+    "answer": "6",
+    "svgFiles": [
+      "formulas/task18/139740.svg",
+      "formulas/task18/139740_drawing.svg"
+    ]
+  },
+  {
+    "id": "139743",
+    "title": "Задача 12",
+    "prototype": "Тип 2",
+    "parts": [
+      {
+        "type": "text",
+        "value": "На клетчатой бумаге с размером клетки",
+        "newParagraph": true
+      },
+      {
+        "type": "img",
+        "file": "formulas/task18/139743.svg"
+      },
+      {
+        "type": "text",
+        "value": "изображён прямоугольный\nтреугольник. Найдите длину его большего катета."
+      },
+      {
+        "type": "drawing",
+        "file": "formulas/task18/139743_drawing.svg"
+      }
+    ],
+    "answer": "9",
+    "svgFiles": [
+      "formulas/task18/139743.svg",
+      "formulas/task18/139743_drawing.svg"
+    ]
+  },
+  {
+    "id": "123324",
+    "title": "Задача 1",
+    "prototype": "Тип 3",
+    "parts": [
+      {
+        "type": "text",
+        "value": "На клетчатой бумаге с размером клетки",
+        "newParagraph": true
+      },
+      {
+        "type": "img",
+        "file": "formulas/task18/123324_1.svg"
+      },
+      {
+        "type": "text",
+        "value": "изображён треугольник"
+      },
+      {
+        "type": "img",
+        "file": "formulas/task18/123324_2.svg"
+      },
+      {
+        "type": "text",
+        "value": "Найдите длину его средней линии, параллельной стороне"
+      },
+      {
+        "type": "img",
+        "file": "formulas/task18/123324_3.svg"
+      },
+      {
+        "type": "drawing",
+        "file": "formulas/task18/123324_drawing.svg"
+      }
+    ],
+    "answer": "2",
+    "svgFiles": [
+      "formulas/task18/123324_1.svg",
+      "formulas/task18/123324_2.svg",
+      "formulas/task18/123324_3.svg",
+      "formulas/task18/123324_drawing.svg"
+    ]
+  },
+  {
+    "id": "123684",
+    "title": "Задача 2",
+    "prototype": "Тип 3",
+    "parts": [
+      {
+        "type": "text",
+        "value": "На клетчатой бумаге с размером клетки",
+        "newParagraph": true
+      },
+      {
+        "type": "img",
+        "file": "formulas/task18/123684_1.svg"
+      },
+      {
+        "type": "text",
+        "value": "изображён треугольник"
+      },
+      {
+        "type": "img",
+        "file": "formulas/task18/123684_2.svg"
+      },
+      {
+        "type": "text",
+        "value": "Найдите длину его средней линии, параллельной стороне"
+      },
+      {
+        "type": "img",
+        "file": "formulas/task18/123684_3.svg"
+      },
+      {
+        "type": "drawing",
+        "file": "formulas/task18/123684_drawing.svg"
+      }
+    ],
+    "answer": "5",
+    "svgFiles": [
+      "formulas/task18/123684_1.svg",
+      "formulas/task18/123684_2.svg",
+      "formulas/task18/123684_3.svg",
+      "formulas/task18/123684_drawing.svg"
+    ]
+  },
+  {
+    "id": "123688",
+    "title": "Задача 3",
+    "prototype": "Тип 3",
+    "parts": [
+      {
+        "type": "text",
+        "value": "На клетчатой бумаге с размером клетки",
+        "newParagraph": true
+      },
+      {
+        "type": "img",
+        "file": "formulas/task18/123688_1.svg"
+      },
+      {
+        "type": "text",
+        "value": "изображён треугольник"
+      },
+      {
+        "type": "img",
+        "file": "formulas/task18/123688_2.svg"
+      },
+      {
+        "type": "text",
+        "value": "Найдите длину его средней линии, параллельной стороне"
+      },
+      {
+        "type": "img",
+        "file": "formulas/task18/123688_3.svg"
+      },
+      {
+        "type": "drawing",
+        "file": "formulas/task18/123688_drawing.svg"
+      }
+    ],
+    "answer": "2",
+    "svgFiles": [
+      "formulas/task18/123688_1.svg",
+      "formulas/task18/123688_2.svg",
+      "formulas/task18/123688_3.svg",
+      "formulas/task18/123688_drawing.svg"
+    ]
+  },
+  {
+    "id": "139745",
+    "title": "Задача 4",
+    "prototype": "Тип 3",
+    "parts": [
+      {
+        "type": "text",
+        "value": "На клетчатой бумаге с размером клетки",
+        "newParagraph": true
+      },
+      {
+        "type": "img",
+        "file": "formulas/task18/139745_1.svg"
+      },
+      {
+        "type": "text",
+        "value": "изображён треугольник"
+      },
+      {
+        "type": "img",
+        "file": "formulas/task18/139745_2.svg"
+      },
+      {
+        "type": "text",
+        "value": "Найдите длину его средней линии, параллельной стороне"
+      },
+      {
+        "type": "img",
+        "file": "formulas/task18/139745_3.svg"
+      },
+      {
+        "type": "drawing",
+        "file": "formulas/task18/139745_drawing.svg"
+      }
+    ],
+    "answer": "4",
+    "svgFiles": [
+      "formulas/task18/139745_1.svg",
+      "formulas/task18/139745_2.svg",
+      "formulas/task18/139745_3.svg",
+      "formulas/task18/139745_drawing.svg"
+    ]
+  },
+  {
+    "id": "139746",
+    "title": "Задача 5",
+    "prototype": "Тип 3",
+    "parts": [
+      {
+        "type": "text",
+        "value": "На клетчатой бумаге с размером клетки",
+        "newParagraph": true
+      },
+      {
+        "type": "img",
+        "file": "formulas/task18/139746_1.svg"
+      },
+      {
+        "type": "text",
+        "value": "изображён треугольник"
+      },
+      {
+        "type": "img",
+        "file": "formulas/task18/139746_2.svg"
+      },
+      {
+        "type": "text",
+        "value": "Найдите длину его средней линии, параллельной стороне"
+      },
+      {
+        "type": "img",
+        "file": "formulas/task18/139746_3.svg"
+      },
+      {
+        "type": "drawing",
+        "file": "formulas/task18/139746_drawing.svg"
+      }
+    ],
+    "answer": "3",
+    "svgFiles": [
+      "formulas/task18/139746_1.svg",
+      "formulas/task18/139746_2.svg",
+      "formulas/task18/139746_3.svg",
+      "formulas/task18/139746_drawing.svg"
+    ]
+  },
+  {
+    "id": "139747",
+    "title": "Задача 6",
+    "prototype": "Тип 3",
+    "parts": [
+      {
+        "type": "text",
+        "value": "На клетчатой бумаге с размером клетки",
+        "newParagraph": true
+      },
+      {
+        "type": "img",
+        "file": "formulas/task18/139747_1.svg"
+      },
+      {
+        "type": "text",
+        "value": "изображён треугольник"
+      },
+      {
+        "type": "img",
+        "file": "formulas/task18/139747_2.svg"
+      },
+      {
+        "type": "text",
+        "value": "Найдите длину его средней линии, параллельной стороне"
+      },
+      {
+        "type": "img",
+        "file": "formulas/task18/139747_3.svg"
+      },
+      {
+        "type": "drawing",
+        "file": "formulas/task18/139747_drawing.svg"
+      }
+    ],
+    "answer": "4",
+    "svgFiles": [
+      "formulas/task18/139747_1.svg",
+      "formulas/task18/139747_2.svg",
+      "formulas/task18/139747_3.svg",
+      "formulas/task18/139747_drawing.svg"
+    ]
+  },
+  {
+    "id": "139748",
+    "title": "Задача 7",
+    "prototype": "Тип 3",
+    "parts": [
+      {
+        "type": "text",
+        "value": "На клетчатой бумаге с размером клетки",
+        "newParagraph": true
+      },
+      {
+        "type": "img",
+        "file": "formulas/task18/139748_1.svg"
+      },
+      {
+        "type": "text",
+        "value": "изображён треугольник"
+      },
+      {
+        "type": "img",
+        "file": "formulas/task18/139748_2.svg"
+      },
+      {
+        "type": "text",
+        "value": "Найдите длину его средней линии, параллельной стороне"
+      },
+      {
+        "type": "img",
+        "file": "formulas/task18/139748_3.svg"
+      },
+      {
+        "type": "drawing",
+        "file": "formulas/task18/139748_drawing.svg"
+      }
+    ],
+    "answer": "2",
+    "svgFiles": [
+      "formulas/task18/139748_1.svg",
+      "formulas/task18/139748_2.svg",
+      "formulas/task18/139748_3.svg",
+      "formulas/task18/139748_drawing.svg"
+    ]
+  },
+  {
+    "id": "139749",
+    "title": "Задача 8",
+    "prototype": "Тип 3",
+    "parts": [
+      {
+        "type": "text",
+        "value": "На клетчатой бумаге с размером клетки",
+        "newParagraph": true
+      },
+      {
+        "type": "img",
+        "file": "formulas/task18/139749_1.svg"
+      },
+      {
+        "type": "text",
+        "value": "изображён треугольник"
+      },
+      {
+        "type": "img",
+        "file": "formulas/task18/139749_2.svg"
+      },
+      {
+        "type": "text",
+        "value": "Найдите длину его средней линии, параллельной стороне"
+      },
+      {
+        "type": "img",
+        "file": "formulas/task18/139749_3.svg"
+      },
+      {
+        "type": "drawing",
+        "file": "formulas/task18/139749_drawing.svg"
+      }
+    ],
+    "answer": "5",
+    "svgFiles": [
+      "formulas/task18/139749_1.svg",
+      "formulas/task18/139749_2.svg",
+      "formulas/task18/139749_3.svg",
+      "formulas/task18/139749_drawing.svg"
+    ]
+  },
+  {
+    "id": "139750",
+    "title": "Задача 9",
+    "prototype": "Тип 3",
+    "parts": [
+      {
+        "type": "text",
+        "value": "На клетчатой бумаге с размером клетки",
+        "newParagraph": true
+      },
+      {
+        "type": "img",
+        "file": "formulas/task18/139750_1.svg"
+      },
+      {
+        "type": "text",
+        "value": "изображён треугольник"
+      },
+      {
+        "type": "img",
+        "file": "formulas/task18/139750_2.svg"
+      },
+      {
+        "type": "text",
+        "value": "Найдите длину его средней линии, параллельной стороне"
+      },
+      {
+        "type": "img",
+        "file": "formulas/task18/139750_3.svg"
+      },
+      {
+        "type": "drawing",
+        "file": "formulas/task18/139750_drawing.svg"
+      }
+    ],
+    "answer": "3",
+    "svgFiles": [
+      "formulas/task18/139750_1.svg",
+      "formulas/task18/139750_2.svg",
+      "formulas/task18/139750_3.svg",
+      "formulas/task18/139750_drawing.svg"
+    ]
+  },
+  {
+    "id": "139751",
+    "title": "Задача 10",
+    "prototype": "Тип 3",
+    "parts": [
+      {
+        "type": "text",
+        "value": "На клетчатой бумаге с размером клетки",
+        "newParagraph": true
+      },
+      {
+        "type": "img",
+        "file": "formulas/task18/139751_1.svg"
+      },
+      {
+        "type": "text",
+        "value": "изображён треугольник"
+      },
+      {
+        "type": "img",
+        "file": "formulas/task18/139751_2.svg"
+      },
+      {
+        "type": "text",
+        "value": "Найдите длину его средней линии, параллельной стороне"
+      },
+      {
+        "type": "img",
+        "file": "formulas/task18/139751_3.svg"
+      },
+      {
+        "type": "drawing",
+        "file": "formulas/task18/139751_drawing.svg"
+      }
+    ],
+    "answer": "5",
+    "svgFiles": [
+      "formulas/task18/139751_1.svg",
+      "formulas/task18/139751_2.svg",
+      "formulas/task18/139751_3.svg",
+      "formulas/task18/139751_drawing.svg"
+    ]
+  },
+  {
+    "id": "139804",
+    "title": "Задача 11",
+    "prototype": "Тип 3",
+    "parts": [
+      {
+        "type": "text",
+        "value": "На клетчатой бумаге с размером клетки",
+        "newParagraph": true
+      },
+      {
+        "type": "img",
+        "file": "formulas/task18/139804_1.svg"
+      },
+      {
+        "type": "text",
+        "value": "изображён треугольник"
+      },
+      {
+        "type": "img",
+        "file": "formulas/task18/139804_2.svg"
+      },
+      {
+        "type": "text",
+        "value": "Найдите длину его средней линии, параллельной стороне"
+      },
+      {
+        "type": "img",
+        "file": "formulas/task18/139804_3.svg"
+      },
+      {
+        "type": "drawing",
+        "file": "formulas/task18/139804_drawing.svg"
+      }
+    ],
+    "answer": "3",
+    "svgFiles": [
+      "formulas/task18/139804_1.svg",
+      "formulas/task18/139804_2.svg",
+      "formulas/task18/139804_3.svg",
+      "formulas/task18/139804_drawing.svg"
+    ]
+  },
+  {
+    "id": "139805",
+    "title": "Задача 12",
+    "prototype": "Тип 3",
+    "parts": [
+      {
+        "type": "text",
+        "value": "На клетчатой бумаге с размером клетки",
+        "newParagraph": true
+      },
+      {
+        "type": "img",
+        "file": "formulas/task18/139805_1.svg"
+      },
+      {
+        "type": "text",
+        "value": "изображён треугольник"
+      },
+      {
+        "type": "img",
+        "file": "formulas/task18/139805_2.svg"
+      },
+      {
+        "type": "text",
+        "value": "Найдите длину его средней линии, параллельной стороне"
+      },
+      {
+        "type": "img",
+        "file": "formulas/task18/139805_3.svg"
+      },
+      {
+        "type": "drawing",
+        "file": "formulas/task18/139805_drawing.svg"
+      }
+    ],
+    "answer": "4",
+    "svgFiles": [
+      "formulas/task18/139805_1.svg",
+      "formulas/task18/139805_2.svg",
+      "formulas/task18/139805_3.svg",
+      "formulas/task18/139805_drawing.svg"
+    ]
+  },
+  {
+    "id": "22476",
+    "title": "Задача 1",
+    "prototype": "Тип 4",
+    "parts": [
+      {
+        "type": "text",
+        "value": "На клетчатой бумаге с размером клетки",
+        "newParagraph": true
+      },
+      {
+        "type": "img",
+        "file": "formulas/task18/22476.svg"
+      },
+      {
+        "type": "text",
+        "value": "изображен параллелограмм.\nНайдите его площадь."
+      },
+      {
+        "type": "drawing",
+        "file": "formulas/task18/22476_drawing.svg"
+      }
+    ],
+    "answer": "14",
+    "svgFiles": [
+      "formulas/task18/22476.svg",
+      "formulas/task18/22476_drawing.svg"
+    ]
+  },
+  {
+    "id": "22477",
+    "title": "Задача 2",
+    "prototype": "Тип 4",
+    "parts": [
+      {
+        "type": "text",
+        "value": "На клетчатой бумаге с размером клетки",
+        "newParagraph": true
+      },
+      {
+        "type": "img",
+        "file": "formulas/task18/22477.svg"
+      },
+      {
+        "type": "text",
+        "value": "изображен параллелограмм.\nНайдите его площадь."
+      },
+      {
+        "type": "drawing",
+        "file": "formulas/task18/22477_drawing.svg"
+      }
+    ],
+    "answer": "21",
+    "svgFiles": [
+      "formulas/task18/22477.svg",
+      "formulas/task18/22477_drawing.svg"
+    ]
+  },
+  {
+    "id": "123312",
+    "title": "Задача 3",
+    "prototype": "Тип 4",
+    "parts": [
+      {
+        "type": "text",
+        "value": "На клетчатой бумаге с размером клетки",
+        "newParagraph": true
+      },
+      {
+        "type": "img",
+        "file": "formulas/task18/123312.svg"
+      },
+      {
+        "type": "text",
+        "value": "изображён параллелограмм.\nНайдите его площадь."
+      },
+      {
+        "type": "drawing",
+        "file": "formulas/task18/123312_drawing.svg"
+      }
+    ],
+    "answer": "28",
+    "svgFiles": [
+      "formulas/task18/123312.svg",
+      "formulas/task18/123312_drawing.svg"
+    ]
+  },
+  {
+    "id": "139806",
+    "title": "Задача 4",
+    "prototype": "Тип 4",
+    "parts": [
+      {
+        "type": "text",
+        "value": "На клетчатой бумаге с размером клетки",
+        "newParagraph": true
+      },
+      {
+        "type": "img",
+        "file": "formulas/task18/139806.svg"
+      },
+      {
+        "type": "text",
+        "value": "изображён параллелограмм.\nНайдите его площадь."
+      },
+      {
+        "type": "drawing",
+        "file": "formulas/task18/139806_drawing.svg"
+      }
+    ],
+    "answer": "20",
+    "svgFiles": [
+      "formulas/task18/139806.svg",
+      "formulas/task18/139806_drawing.svg"
+    ]
+  },
+  {
+    "id": "139807",
+    "title": "Задача 5",
+    "prototype": "Тип 4",
+    "parts": [
+      {
+        "type": "text",
+        "value": "На клетчатой бумаге с размером клетки",
+        "newParagraph": true
+      },
+      {
+        "type": "img",
+        "file": "formulas/task18/139807.svg"
+      },
+      {
+        "type": "text",
+        "value": "изображён параллелограмм.\nНайдите его площадь."
+      },
+      {
+        "type": "drawing",
+        "file": "formulas/task18/139807_drawing.svg"
+      }
+    ],
+    "answer": "18",
+    "svgFiles": [
+      "formulas/task18/139807.svg",
+      "formulas/task18/139807_drawing.svg"
+    ]
+  },
+  {
+    "id": "139808",
+    "title": "Задача 6",
+    "prototype": "Тип 4",
+    "parts": [
+      {
+        "type": "text",
+        "value": "На клетчатой бумаге с размером клетки",
+        "newParagraph": true
+      },
+      {
+        "type": "img",
+        "file": "formulas/task18/139808.svg"
+      },
+      {
+        "type": "text",
+        "value": "изображён параллелограмм.\nНайдите его площадь."
+      },
+      {
+        "type": "drawing",
+        "file": "formulas/task18/139808_drawing.svg"
+      }
+    ],
+    "answer": "10",
+    "svgFiles": [
+      "formulas/task18/139808.svg",
+      "formulas/task18/139808_drawing.svg"
+    ]
+  },
+  {
+    "id": "139809",
+    "title": "Задача 7",
+    "prototype": "Тип 4",
+    "parts": [
+      {
+        "type": "text",
+        "value": "На клетчатой бумаге с размером клетки",
+        "newParagraph": true
+      },
+      {
+        "type": "img",
+        "file": "formulas/task18/139809.svg"
+      },
+      {
+        "type": "text",
+        "value": "изображён параллелограмм.\nНайдите его площадь."
+      },
+      {
+        "type": "drawing",
+        "file": "formulas/task18/139809_drawing.svg"
+      }
+    ],
+    "answer": "35",
+    "svgFiles": [
+      "formulas/task18/139809.svg",
+      "formulas/task18/139809_drawing.svg"
+    ]
+  },
+  {
+    "id": "139810",
+    "title": "Задача 8",
+    "prototype": "Тип 4",
+    "parts": [
+      {
+        "type": "text",
+        "value": "На клетчатой бумаге с размером клетки",
+        "newParagraph": true
+      },
+      {
+        "type": "img",
+        "file": "formulas/task18/139810.svg"
+      },
+      {
+        "type": "text",
+        "value": "изображён параллелограмм.\nНайдите его площадь."
+      },
+      {
+        "type": "drawing",
+        "file": "formulas/task18/139810_drawing.svg"
+      }
+    ],
+    "answer": "42",
+    "svgFiles": [
+      "formulas/task18/139810.svg",
+      "formulas/task18/139810_drawing.svg"
+    ]
+  },
+  {
+    "id": "139812",
+    "title": "Задача 9",
+    "prototype": "Тип 4",
+    "parts": [
+      {
+        "type": "text",
+        "value": "На клетчатой бумаге с размером клетки",
+        "newParagraph": true
+      },
+      {
+        "type": "img",
+        "file": "formulas/task18/139812.svg"
+      },
+      {
+        "type": "text",
+        "value": "изображён параллелограмм.\nНайдите его площадь."
+      },
+      {
+        "type": "drawing",
+        "file": "formulas/task18/139812_drawing.svg"
+      }
+    ],
+    "answer": "12",
+    "svgFiles": [
+      "formulas/task18/139812.svg",
+      "formulas/task18/139812_drawing.svg"
+    ]
+  },
+  {
+    "id": "139813",
+    "title": "Задача 10",
+    "prototype": "Тип 4",
+    "parts": [
+      {
+        "type": "text",
+        "value": "На клетчатой бумаге с размером клетки",
+        "newParagraph": true
+      },
+      {
+        "type": "img",
+        "file": "formulas/task18/139813.svg"
+      },
+      {
+        "type": "text",
+        "value": "изображён параллелограмм.\nНайдите его площадь."
+      },
+      {
+        "type": "drawing",
+        "file": "formulas/task18/139813_drawing.svg"
+      }
+    ],
+    "answer": "36",
+    "svgFiles": [
+      "formulas/task18/139813.svg",
+      "formulas/task18/139813_drawing.svg"
+    ]
+  },
+  {
+    "id": "139814",
+    "title": "Задача 11",
+    "prototype": "Тип 4",
+    "parts": [
+      {
+        "type": "text",
+        "value": "На клетчатой бумаге с размером клетки",
+        "newParagraph": true
+      },
+      {
+        "type": "img",
+        "file": "formulas/task18/139814.svg"
+      },
+      {
+        "type": "text",
+        "value": "изображён параллелограмм.\nНайдите его площадь."
+      },
+      {
+        "type": "drawing",
+        "file": "formulas/task18/139814_drawing.svg"
+      }
+    ],
+    "answer": "25",
+    "svgFiles": [
+      "formulas/task18/139814.svg",
+      "formulas/task18/139814_drawing.svg"
+    ]
+  },
+  {
+    "id": "139815",
+    "title": "Задача 12",
+    "prototype": "Тип 4",
+    "parts": [
+      {
+        "type": "text",
+        "value": "На клетчатой бумаге с размером клетки",
+        "newParagraph": true
+      },
+      {
+        "type": "img",
+        "file": "formulas/task18/139815.svg"
+      },
+      {
+        "type": "text",
+        "value": "изображён параллелограмм.\nНайдите его площадь."
+      },
+      {
+        "type": "drawing",
+        "file": "formulas/task18/139815_drawing.svg"
+      }
+    ],
+    "answer": "30",
+    "svgFiles": [
+      "formulas/task18/139815.svg",
+      "formulas/task18/139815_drawing.svg"
+    ]
+  },
+  {
+    "id": "50560",
+    "title": "Задача 1",
+    "prototype": "Тип 5",
+    "parts": [
+      {
+        "type": "text",
+        "value": "На клетчатой бумаге с размером клетки",
+        "newParagraph": true
+      },
+      {
+        "type": "img",
+        "file": "formulas/task18/50560.svg"
+      },
+      {
+        "type": "text",
+        "value": "изображён ромб. Найдите длину\nего большей диагонали."
+      },
+      {
+        "type": "drawing",
+        "file": "formulas/task18/50560_drawing.svg"
+      }
+    ],
+    "answer": "8",
+    "svgFiles": [
+      "formulas/task18/50560.svg",
+      "formulas/task18/50560_drawing.svg"
+    ]
+  },
+  {
+    "id": "106183",
+    "title": "Задача 2",
+    "prototype": "Тип 5",
+    "parts": [
+      {
+        "type": "text",
+        "value": "На клетчатой бумаге с размером клетки",
+        "newParagraph": true
+      },
+      {
+        "type": "img",
+        "file": "formulas/task18/106183.svg"
+      },
+      {
+        "type": "text",
+        "value": "изображён ромб. Найдите длину\nего большей диагонали."
+      },
+      {
+        "type": "drawing",
+        "file": "formulas/task18/106183_drawing.svg"
+      }
+    ],
+    "answer": "10",
+    "svgFiles": [
+      "formulas/task18/106183.svg",
+      "formulas/task18/106183_drawing.svg"
+    ]
+  },
+  {
+    "id": "124089",
+    "title": "Задача 3",
+    "prototype": "Тип 5",
+    "parts": [
+      {
+        "type": "text",
+        "value": "На клетчатой бумаге с размером клетки",
+        "newParagraph": true
+      },
+      {
+        "type": "img",
+        "file": "formulas/task18/124089.svg"
+      },
+      {
+        "type": "text",
+        "value": "изображён ромб. Найдите длину\nего большей диагонали."
+      },
+      {
+        "type": "drawing",
+        "file": "formulas/task18/124089_drawing.svg"
+      }
+    ],
+    "answer": "12",
+    "svgFiles": [
+      "formulas/task18/124089.svg",
+      "formulas/task18/124089_drawing.svg"
+    ]
+  },
+  {
+    "id": "139816",
+    "title": "Задача 4",
+    "prototype": "Тип 5",
+    "parts": [
+      {
+        "type": "text",
+        "value": "На клетчатой бумаге с размером клетки",
+        "newParagraph": true
+      },
+      {
+        "type": "img",
+        "file": "formulas/task18/139816.svg"
+      },
+      {
+        "type": "text",
+        "value": "изображён ромб. Найдите длину\nего большей диагонали."
+      },
+      {
+        "type": "drawing",
+        "file": "formulas/task18/139816_drawing.svg"
+      }
+    ],
+    "answer": "10",
+    "svgFiles": [
+      "formulas/task18/139816.svg",
+      "formulas/task18/139816_drawing.svg"
+    ]
+  },
+  {
+    "id": "139818",
+    "title": "Задача 5",
+    "prototype": "Тип 5",
+    "parts": [
+      {
+        "type": "text",
+        "value": "На клетчатой бумаге с размером клетки",
+        "newParagraph": true
+      },
+      {
+        "type": "img",
+        "file": "formulas/task18/139818.svg"
+      },
+      {
+        "type": "text",
+        "value": "изображён ромб. Найдите длину\nего большей диагонали."
+      },
+      {
+        "type": "drawing",
+        "file": "formulas/task18/139818_drawing.svg"
+      }
+    ],
+    "answer": "6",
+    "svgFiles": [
+      "formulas/task18/139818.svg",
+      "formulas/task18/139818_drawing.svg"
+    ]
+  },
+  {
+    "id": "139825",
+    "title": "Задача 6",
+    "prototype": "Тип 5",
+    "parts": [
+      {
+        "type": "text",
+        "value": "На клетчатой бумаге с размером клетки",
+        "newParagraph": true
+      },
+      {
+        "type": "img",
+        "file": "formulas/task18/139825.svg"
+      },
+      {
+        "type": "text",
+        "value": "изображён ромб. Найдите длину\nего большей диагонали."
+      },
+      {
+        "type": "drawing",
+        "file": "formulas/task18/139825_drawing.svg"
+      }
+    ],
+    "answer": "12",
+    "svgFiles": [
+      "formulas/task18/139825.svg",
+      "formulas/task18/139825_drawing.svg"
+    ]
+  },
+  {
+    "id": "139827",
+    "title": "Задача 7",
+    "prototype": "Тип 5",
+    "parts": [
+      {
+        "type": "text",
+        "value": "На клетчатой бумаге с размером клетки",
+        "newParagraph": true
+      },
+      {
+        "type": "img",
+        "file": "formulas/task18/139827.svg"
+      },
+      {
+        "type": "text",
+        "value": "изображён ромб. Найдите длину\nего большей диагонали."
+      },
+      {
+        "type": "drawing",
+        "file": "formulas/task18/139827_drawing.svg"
+      }
+    ],
+    "answer": "8",
+    "svgFiles": [
+      "formulas/task18/139827.svg",
+      "formulas/task18/139827_drawing.svg"
+    ]
+  },
+  {
+    "id": "139828",
+    "title": "Задача 8",
+    "prototype": "Тип 5",
+    "parts": [
+      {
+        "type": "text",
+        "value": "На клетчатой бумаге с размером клетки",
+        "newParagraph": true
+      },
+      {
+        "type": "img",
+        "file": "formulas/task18/139828.svg"
+      },
+      {
+        "type": "text",
+        "value": "изображён ромб. Найдите длину\nего большей диагонали."
+      },
+      {
+        "type": "drawing",
+        "file": "formulas/task18/139828_drawing.svg"
+      }
+    ],
+    "answer": "12",
+    "svgFiles": [
+      "formulas/task18/139828.svg",
+      "formulas/task18/139828_drawing.svg"
+    ]
+  },
+  {
+    "id": "139837",
+    "title": "Задача 9",
+    "prototype": "Тип 5",
+    "parts": [
+      {
+        "type": "text",
+        "value": "На клетчатой бумаге с размером клетки",
+        "newParagraph": true
+      },
+      {
+        "type": "img",
+        "file": "formulas/task18/139837.svg"
+      },
+      {
+        "type": "text",
+        "value": "изображён ромб. Найдите длину\nего большей диагонали."
+      },
+      {
+        "type": "drawing",
+        "file": "formulas/task18/139837_drawing.svg"
+      }
+    ],
+    "answer": "10",
+    "svgFiles": [
+      "formulas/task18/139837.svg",
+      "formulas/task18/139837_drawing.svg"
+    ]
+  },
+  {
+    "id": "139844",
+    "title": "Задача 10",
+    "prototype": "Тип 5",
+    "parts": [
+      {
+        "type": "text",
+        "value": "На клетчатой бумаге с размером клетки",
+        "newParagraph": true
+      },
+      {
+        "type": "img",
+        "file": "formulas/task18/139844.svg"
+      },
+      {
+        "type": "text",
+        "value": "изображён ромб. Найдите длину\nего большей диагонали."
+      },
+      {
+        "type": "drawing",
+        "file": "formulas/task18/139844_drawing.svg"
+      }
+    ],
+    "answer": "10",
+    "svgFiles": [
+      "formulas/task18/139844.svg",
+      "formulas/task18/139844_drawing.svg"
+    ]
+  },
+  {
+    "id": "139853",
+    "title": "Задача 11",
+    "prototype": "Тип 5",
+    "parts": [
+      {
+        "type": "text",
+        "value": "На клетчатой бумаге с размером клетки",
+        "newParagraph": true
+      },
+      {
+        "type": "img",
+        "file": "formulas/task18/139853.svg"
+      },
+      {
+        "type": "text",
+        "value": "изображён ромб. Найдите длину\nего большей диагонали."
+      },
+      {
+        "type": "drawing",
+        "file": "formulas/task18/139853_drawing.svg"
+      }
+    ],
+    "answer": "6",
+    "svgFiles": [
+      "formulas/task18/139853.svg",
+      "formulas/task18/139853_drawing.svg"
+    ]
+  },
+  {
+    "id": "139858",
+    "title": "Задача 12",
+    "prototype": "Тип 5",
+    "parts": [
+      {
+        "type": "text",
+        "value": "На клетчатой бумаге с размером клетки",
+        "newParagraph": true
+      },
+      {
+        "type": "img",
+        "file": "formulas/task18/139858.svg"
+      },
+      {
+        "type": "text",
+        "value": "изображён ромб. Найдите длину\nего большей диагонали."
+      },
+      {
+        "type": "drawing",
+        "file": "formulas/task18/139858_drawing.svg"
+      }
+    ],
+    "answer": "8",
+    "svgFiles": [
+      "formulas/task18/139858.svg",
+      "formulas/task18/139858_drawing.svg"
+    ]
+  },
+  {
+    "id": "106184",
+    "title": "Задача 1",
+    "prototype": "Тип 6",
+    "parts": [
+      {
+        "type": "text",
+        "value": "На клетчатой бумаге с размером клетки",
+        "newParagraph": true
+      },
+      {
+        "type": "img",
+        "file": "formulas/task18/106184.svg"
+      },
+      {
+        "type": "text",
+        "value": "изображён ромб. Найдите площадь\nэтого ромба."
+      },
+      {
+        "type": "drawing",
+        "file": "formulas/task18/106184_drawing.svg"
+      }
+    ],
+    "answer": "16",
+    "svgFiles": [
+      "formulas/task18/106184.svg",
+      "formulas/task18/106184_drawing.svg"
+    ]
+  },
+  {
+    "id": "123314",
+    "title": "Задача 2",
+    "prototype": "Тип 6",
+    "parts": [
+      {
+        "type": "text",
+        "value": "На клетчатой бумаге с размером клетки",
+        "newParagraph": true
+      },
+      {
+        "type": "img",
+        "file": "formulas/task18/123314.svg"
+      },
+      {
+        "type": "text",
+        "value": "изображён ромб. Найдите площадь\nэтого ромба."
+      },
+      {
+        "type": "drawing",
+        "file": "formulas/task18/123314_drawing.svg"
+      }
+    ],
+    "answer": "12",
+    "svgFiles": [
+      "formulas/task18/123314.svg",
+      "formulas/task18/123314_drawing.svg"
+    ]
+  },
+  {
+    "id": "123340",
+    "title": "Задача 3",
+    "prototype": "Тип 6",
+    "parts": [
+      {
+        "type": "text",
+        "value": "На клетчатой бумаге с размером клетки",
+        "newParagraph": true
+      },
+      {
+        "type": "img",
+        "file": "formulas/task18/123340.svg"
+      },
+      {
+        "type": "text",
+        "value": "изображён ромб. Найдите площадь\nэтого ромба."
+      },
+      {
+        "type": "drawing",
+        "file": "formulas/task18/123340_drawing.svg"
+      }
+    ],
+    "answer": "12",
+    "svgFiles": [
+      "formulas/task18/123340.svg",
+      "formulas/task18/123340_drawing.svg"
+    ]
+  },
+  {
+    "id": "123690",
+    "title": "Задача 4",
+    "prototype": "Тип 6",
+    "parts": [
+      {
+        "type": "text",
+        "value": "На клетчатой бумаге с размером клетки",
+        "newParagraph": true
+      },
+      {
+        "type": "img",
+        "file": "formulas/task18/123690.svg"
+      },
+      {
+        "type": "text",
+        "value": "изображён ромб. Найдите площадь\nэтого ромба."
+      },
+      {
+        "type": "drawing",
+        "file": "formulas/task18/123690_drawing.svg"
+      }
+    ],
+    "answer": "24",
+    "svgFiles": [
+      "formulas/task18/123690.svg",
+      "formulas/task18/123690_drawing.svg"
+    ]
+  },
+  {
+    "id": "139953",
+    "title": "Задача 5",
+    "prototype": "Тип 6",
+    "parts": [
+      {
+        "type": "text",
+        "value": "На клетчатой бумаге с размером клетки",
+        "newParagraph": true
+      },
+      {
+        "type": "img",
+        "file": "formulas/task18/139953.svg"
+      },
+      {
+        "type": "text",
+        "value": "изображён ромб. Найдите площадь\nэтого ромба."
+      },
+      {
+        "type": "drawing",
+        "file": "formulas/task18/139953_drawing.svg"
+      }
+    ],
+    "answer": "10",
+    "svgFiles": [
+      "formulas/task18/139953.svg",
+      "formulas/task18/139953_drawing.svg"
+    ]
+  },
+  {
+    "id": "139954",
+    "title": "Задача 6",
+    "prototype": "Тип 6",
+    "parts": [
+      {
+        "type": "text",
+        "value": "На клетчатой бумаге с размером клетки",
+        "newParagraph": true
+      },
+      {
+        "type": "img",
+        "file": "formulas/task18/139954.svg"
+      },
+      {
+        "type": "text",
+        "value": "изображён ромб. Найдите площадь\nэтого ромба."
+      },
+      {
+        "type": "drawing",
+        "file": "formulas/task18/139954_drawing.svg"
+      }
+    ],
+    "answer": "36",
+    "svgFiles": [
+      "formulas/task18/139954.svg",
+      "formulas/task18/139954_drawing.svg"
+    ]
+  },
+  {
+    "id": "139955",
+    "title": "Задача 7",
+    "prototype": "Тип 6",
+    "parts": [
+      {
+        "type": "text",
+        "value": "На клетчатой бумаге с размером клетки",
+        "newParagraph": true
+      },
+      {
+        "type": "img",
+        "file": "formulas/task18/139955.svg"
+      },
+      {
+        "type": "text",
+        "value": "изображён ромб. Найдите площадь\nэтого ромба."
+      },
+      {
+        "type": "drawing",
+        "file": "formulas/task18/139955_drawing.svg"
+      }
+    ],
+    "answer": "24",
+    "svgFiles": [
+      "formulas/task18/139955.svg",
+      "formulas/task18/139955_drawing.svg"
+    ]
+  },
+  {
+    "id": "140052",
+    "title": "Задача 8",
+    "prototype": "Тип 6",
+    "parts": [
+      {
+        "type": "text",
+        "value": "На клетчатой бумаге с размером клетки",
+        "newParagraph": true
+      },
+      {
+        "type": "img",
+        "file": "formulas/task18/140052.svg"
+      },
+      {
+        "type": "text",
+        "value": "изображён ромб. Найдите площадь\nэтого ромба."
+      },
+      {
+        "type": "drawing",
+        "file": "formulas/task18/140052_drawing.svg"
+      }
+    ],
+    "answer": "6",
+    "svgFiles": [
+      "formulas/task18/140052.svg",
+      "formulas/task18/140052_drawing.svg"
+    ]
+  },
+  {
+    "id": "140053",
+    "title": "Задача 9",
+    "prototype": "Тип 6",
+    "parts": [
+      {
+        "type": "text",
+        "value": "На клетчатой бумаге с размером клетки",
+        "newParagraph": true
+      },
+      {
+        "type": "img",
+        "file": "formulas/task18/140053.svg"
+      },
+      {
+        "type": "text",
+        "value": "изображён ромб. Найдите площадь\nэтого ромба."
+      },
+      {
+        "type": "drawing",
+        "file": "formulas/task18/140053_drawing.svg"
+      }
+    ],
+    "answer": "30",
+    "svgFiles": [
+      "formulas/task18/140053.svg",
+      "formulas/task18/140053_drawing.svg"
+    ]
+  },
+  {
+    "id": "140054",
+    "title": "Задача 10",
+    "prototype": "Тип 6",
+    "parts": [
+      {
+        "type": "text",
+        "value": "На клетчатой бумаге с размером клетки",
+        "newParagraph": true
+      },
+      {
+        "type": "img",
+        "file": "formulas/task18/140054.svg"
+      },
+      {
+        "type": "text",
+        "value": "изображён ромб. Найдите площадь\nэтого ромба."
+      },
+      {
+        "type": "drawing",
+        "file": "formulas/task18/140054_drawing.svg"
+      }
+    ],
+    "answer": "20",
+    "svgFiles": [
+      "formulas/task18/140054.svg",
+      "formulas/task18/140054_drawing.svg"
+    ]
+  },
+  {
+    "id": "140055",
+    "title": "Задача 11",
+    "prototype": "Тип 6",
+    "parts": [
+      {
+        "type": "text",
+        "value": "На клетчатой бумаге с размером клетки",
+        "newParagraph": true
+      },
+      {
+        "type": "img",
+        "file": "formulas/task18/140055.svg"
+      },
+      {
+        "type": "text",
+        "value": "изображён ромб. Найдите площадь\nэтого ромба."
+      },
+      {
+        "type": "drawing",
+        "file": "formulas/task18/140055_drawing.svg"
+      }
+    ],
+    "answer": "8",
+    "svgFiles": [
+      "formulas/task18/140055.svg",
+      "formulas/task18/140055_drawing.svg"
+    ]
+  },
+  {
+    "id": "140056",
+    "title": "Задача 12",
+    "prototype": "Тип 6",
+    "parts": [
+      {
+        "type": "text",
+        "value": "На клетчатой бумаге с размером клетки",
+        "newParagraph": true
+      },
+      {
+        "type": "img",
+        "file": "formulas/task18/140056.svg"
+      },
+      {
+        "type": "text",
+        "value": "изображён ромб. Найдите площадь\nэтого ромба."
+      },
+      {
+        "type": "drawing",
+        "file": "formulas/task18/140056_drawing.svg"
+      }
+    ],
+    "answer": "40",
+    "svgFiles": [
+      "formulas/task18/140056.svg",
+      "formulas/task18/140056_drawing.svg"
+    ]
+  },
+  {
+    "id": "106186",
+    "title": "Задача 1",
+    "prototype": "Тип 7",
+    "parts": [
+      {
+        "type": "text",
+        "value": "На клетчатой бумаге с размером клетки",
+        "newParagraph": true
+      },
+      {
+        "type": "img",
+        "file": "formulas/task18/106186.svg"
+      },
+      {
+        "type": "text",
+        "value": "изображена трапеция. Найдите\nдлину её средней линии."
+      },
+      {
+        "type": "drawing",
+        "file": "formulas/task18/106186_drawing.svg"
+      }
+    ],
+    "answer": "7",
+    "svgFiles": [
+      "formulas/task18/106186.svg",
+      "formulas/task18/106186_drawing.svg"
+    ]
+  },
+  {
+    "id": "123329",
+    "title": "Задача 2",
+    "prototype": "Тип 7",
+    "parts": [
+      {
+        "type": "text",
+        "value": "На клетчатой бумаге с размером клетки",
+        "newParagraph": true
+      },
+      {
+        "type": "img",
+        "file": "formulas/task18/123329.svg"
+      },
+      {
+        "type": "text",
+        "value": "изображена трапеция. Найдите\nдлину её средней линии."
+      },
+      {
+        "type": "drawing",
+        "file": "formulas/task18/123329_drawing.svg"
+      }
+    ],
+    "answer": "4",
+    "svgFiles": [
+      "formulas/task18/123329.svg",
+      "formulas/task18/123329_drawing.svg"
+    ]
+  },
+  {
+    "id": "123693",
+    "title": "Задача 3",
+    "prototype": "Тип 7",
+    "parts": [
+      {
+        "type": "text",
+        "value": "На клетчатой бумаге с размером клетки",
+        "newParagraph": true
+      },
+      {
+        "type": "img",
+        "file": "formulas/task18/123693.svg"
+      },
+      {
+        "type": "text",
+        "value": "изображена трапеция. Найдите\nдлину её средней линии."
+      },
+      {
+        "type": "drawing",
+        "file": "formulas/task18/123693_drawing.svg"
+      }
+    ],
+    "answer": "4",
+    "svgFiles": [
+      "formulas/task18/123693.svg",
+      "formulas/task18/123693_drawing.svg"
+    ]
+  },
+  {
+    "id": "140172",
+    "title": "Задача 4",
+    "prototype": "Тип 7",
+    "parts": [
+      {
+        "type": "text",
+        "value": "На клетчатой бумаге с размером клетки",
+        "newParagraph": true
+      },
+      {
+        "type": "img",
+        "file": "formulas/task18/140172.svg"
+      },
+      {
+        "type": "text",
+        "value": "изображена трапеция. Найдите\nдлину её средней линии."
+      },
+      {
+        "type": "drawing",
+        "file": "formulas/task18/140172_drawing.svg"
+      }
+    ],
+    "answer": "6",
+    "svgFiles": [
+      "formulas/task18/140172.svg",
+      "formulas/task18/140172_drawing.svg"
+    ]
+  },
+  {
+    "id": "140173",
+    "title": "Задача 5",
+    "prototype": "Тип 7",
+    "parts": [
+      {
+        "type": "text",
+        "value": "На клетчатой бумаге с размером клетки",
+        "newParagraph": true
+      },
+      {
+        "type": "img",
+        "file": "formulas/task18/140173.svg"
+      },
+      {
+        "type": "text",
+        "value": "изображена трапеция. Найдите\nдлину её средней линии."
+      },
+      {
+        "type": "drawing",
+        "file": "formulas/task18/140173_drawing.svg"
+      }
+    ],
+    "answer": "5",
+    "svgFiles": [
+      "formulas/task18/140173.svg",
+      "formulas/task18/140173_drawing.svg"
+    ]
+  },
+  {
+    "id": "140174",
+    "title": "Задача 6",
+    "prototype": "Тип 7",
+    "parts": [
+      {
+        "type": "text",
+        "value": "На клетчатой бумаге с размером клетки",
+        "newParagraph": true
+      },
+      {
+        "type": "img",
+        "file": "formulas/task18/140174.svg"
+      },
+      {
+        "type": "text",
+        "value": "изображена трапеция. Найдите\nдлину её средней линии."
+      },
+      {
+        "type": "drawing",
+        "file": "formulas/task18/140174_drawing.svg"
+      }
+    ],
+    "answer": "8",
+    "svgFiles": [
+      "formulas/task18/140174.svg",
+      "formulas/task18/140174_drawing.svg"
+    ]
+  },
+  {
+    "id": "140175",
+    "title": "Задача 7",
+    "prototype": "Тип 7",
+    "parts": [
+      {
+        "type": "text",
+        "value": "На клетчатой бумаге с размером клетки",
+        "newParagraph": true
+      },
+      {
+        "type": "img",
+        "file": "formulas/task18/140175.svg"
+      },
+      {
+        "type": "text",
+        "value": "изображена трапеция. Найдите\nдлину её средней линии."
+      },
+      {
+        "type": "drawing",
+        "file": "formulas/task18/140175_drawing.svg"
+      }
+    ],
+    "answer": "3",
+    "svgFiles": [
+      "formulas/task18/140175.svg",
+      "formulas/task18/140175_drawing.svg"
+    ]
+  },
+  {
+    "id": "140176",
+    "title": "Задача 8",
+    "prototype": "Тип 7",
+    "parts": [
+      {
+        "type": "text",
+        "value": "На клетчатой бумаге с размером клетки",
+        "newParagraph": true
+      },
+      {
+        "type": "img",
+        "file": "formulas/task18/140176.svg"
+      },
+      {
+        "type": "text",
+        "value": "изображена трапеция. Найдите\nдлину её средней линии."
+      },
+      {
+        "type": "drawing",
+        "file": "formulas/task18/140176_drawing.svg"
+      }
+    ],
+    "answer": "5",
+    "svgFiles": [
+      "formulas/task18/140176.svg",
+      "formulas/task18/140176_drawing.svg"
+    ]
+  },
+  {
+    "id": "140177",
+    "title": "Задача 9",
+    "prototype": "Тип 7",
+    "parts": [
+      {
+        "type": "text",
+        "value": "На клетчатой бумаге с размером клетки",
+        "newParagraph": true
+      },
+      {
+        "type": "img",
+        "file": "formulas/task18/140177.svg"
+      },
+      {
+        "type": "text",
+        "value": "изображена трапеция. Найдите\nдлину её средней линии."
+      },
+      {
+        "type": "drawing",
+        "file": "formulas/task18/140177_drawing.svg"
+      }
+    ],
+    "answer": "6",
+    "svgFiles": [
+      "formulas/task18/140177.svg",
+      "formulas/task18/140177_drawing.svg"
+    ]
+  },
+  {
+    "id": "140178",
+    "title": "Задача 10",
+    "prototype": "Тип 7",
+    "parts": [
+      {
+        "type": "text",
+        "value": "На клетчатой бумаге с размером клетки",
+        "newParagraph": true
+      },
+      {
+        "type": "img",
+        "file": "formulas/task18/140178.svg"
+      },
+      {
+        "type": "text",
+        "value": "изображена трапеция. Найдите\nдлину её средней линии."
+      },
+      {
+        "type": "drawing",
+        "file": "formulas/task18/140178_drawing.svg"
+      }
+    ],
+    "answer": "6",
+    "svgFiles": [
+      "formulas/task18/140178.svg",
+      "formulas/task18/140178_drawing.svg"
+    ]
+  },
+  {
+    "id": "140179",
+    "title": "Задача 11",
+    "prototype": "Тип 7",
+    "parts": [
+      {
+        "type": "text",
+        "value": "На клетчатой бумаге с размером клетки",
+        "newParagraph": true
+      },
+      {
+        "type": "img",
+        "file": "formulas/task18/140179.svg"
+      },
+      {
+        "type": "text",
+        "value": "изображена трапеция. Найдите\nдлину её средней линии."
+      },
+      {
+        "type": "drawing",
+        "file": "formulas/task18/140179_drawing.svg"
+      }
+    ],
+    "answer": "5",
+    "svgFiles": [
+      "formulas/task18/140179.svg",
+      "formulas/task18/140179_drawing.svg"
+    ]
+  },
+  {
+    "id": "140221",
+    "title": "Задача 12",
+    "prototype": "Тип 7",
+    "parts": [
+      {
+        "type": "text",
+        "value": "На клетчатой бумаге с размером клетки",
+        "newParagraph": true
+      },
+      {
+        "type": "img",
+        "file": "formulas/task18/140221.svg"
+      },
+      {
+        "type": "text",
+        "value": "изображена трапеция. Найдите\nдлину её средней линии."
+      },
+      {
+        "type": "drawing",
+        "file": "formulas/task18/140221_drawing.svg"
+      }
+    ],
+    "answer": "7",
+    "svgFiles": [
+      "formulas/task18/140221.svg",
+      "formulas/task18/140221_drawing.svg"
+    ]
+  },
+  {
+    "id": "44278",
+    "title": "Задача 1",
+    "prototype": "Тип 8",
+    "parts": [
+      {
+        "type": "text",
+        "value": "На клетчатой бумаге с размером клетки",
+        "newParagraph": true
+      },
+      {
+        "type": "img",
+        "file": "formulas/task18/44278.svg"
+      },
+      {
+        "type": "text",
+        "value": "изображена трапеция. Найдите её\nплощадь."
+      },
+      {
+        "type": "drawing",
+        "file": "formulas/task18/44278_drawing.svg"
+      }
+    ],
+    "answer": "12",
+    "svgFiles": [
+      "formulas/task18/44278.svg",
+      "formulas/task18/44278_drawing.svg"
+    ]
+  },
+  {
+    "id": "52698",
+    "title": "Задача 2",
+    "prototype": "Тип 8",
+    "parts": [
+      {
+        "type": "text",
+        "value": "На клетчатой бумаге с размером клетки",
+        "newParagraph": true
+      },
+      {
+        "type": "img",
+        "file": "formulas/task18/52698.svg"
+      },
+      {
+        "type": "text",
+        "value": "изображена трапеция. Найдите её\nплощадь."
+      },
+      {
+        "type": "drawing",
+        "file": "formulas/task18/52698_drawing.svg"
+      }
+    ],
+    "answer": "25",
+    "svgFiles": [
+      "formulas/task18/52698.svg",
+      "formulas/task18/52698_drawing.svg"
+    ]
+  },
+  {
+    "id": "106187",
+    "title": "Задача 3",
+    "prototype": "Тип 8",
+    "parts": [
+      {
+        "type": "text",
+        "value": "На клетчатой бумаге с размером клетки",
+        "newParagraph": true
+      },
+      {
+        "type": "img",
+        "file": "formulas/task18/106187.svg"
+      },
+      {
+        "type": "text",
+        "value": "изображена трапеция. Найдите её\nплощадь."
+      },
+      {
+        "type": "drawing",
+        "file": "formulas/task18/106187_drawing.svg"
+      }
+    ],
+    "answer": "42",
+    "svgFiles": [
+      "formulas/task18/106187.svg",
+      "formulas/task18/106187_drawing.svg"
+    ]
+  },
+  {
+    "id": "123328",
+    "title": "Задача 4",
+    "prototype": "Тип 8",
+    "parts": [
+      {
+        "type": "text",
+        "value": "На клетчатой бумаге с размером клетки",
+        "newParagraph": true
+      },
+      {
+        "type": "img",
+        "file": "formulas/task18/123328.svg"
+      },
+      {
+        "type": "text",
+        "value": "изображена трапеция. Найдите её\nплощадь."
+      },
+      {
+        "type": "drawing",
+        "file": "formulas/task18/123328_drawing.svg"
+      }
+    ],
+    "answer": "28",
+    "svgFiles": [
+      "formulas/task18/123328.svg",
+      "formulas/task18/123328_drawing.svg"
+    ]
+  },
+  {
+    "id": "140225",
+    "title": "Задача 5",
+    "prototype": "Тип 8",
+    "parts": [
+      {
+        "type": "text",
+        "value": "На клетчатой бумаге с размером клетки",
+        "newParagraph": true
+      },
+      {
+        "type": "img",
+        "file": "formulas/task18/140225.svg"
+      },
+      {
+        "type": "text",
+        "value": "изображена трапеция. Найдите её\nплощадь."
+      },
+      {
+        "type": "drawing",
+        "file": "formulas/task18/140225_drawing.svg"
+      }
+    ],
+    "answer": "10",
+    "svgFiles": [
+      "formulas/task18/140225.svg",
+      "formulas/task18/140225_drawing.svg"
+    ]
+  },
+  {
+    "id": "140231",
+    "title": "Задача 6",
+    "prototype": "Тип 8",
+    "parts": [
+      {
+        "type": "text",
+        "value": "На клетчатой бумаге с размером клетки",
+        "newParagraph": true
+      },
+      {
+        "type": "img",
+        "file": "formulas/task18/140231.svg"
+      },
+      {
+        "type": "text",
+        "value": "изображена трапеция. Найдите её\nплощадь."
+      },
+      {
+        "type": "drawing",
+        "file": "formulas/task18/140231_drawing.svg"
+      }
+    ],
+    "answer": "18",
+    "svgFiles": [
+      "formulas/task18/140231.svg",
+      "formulas/task18/140231_drawing.svg"
+    ]
+  },
+  {
+    "id": "140237",
+    "title": "Задача 7",
+    "prototype": "Тип 8",
+    "parts": [
+      {
+        "type": "text",
+        "value": "На клетчатой бумаге с размером клетки",
+        "newParagraph": true
+      },
+      {
+        "type": "img",
+        "file": "formulas/task18/140237.svg"
+      },
+      {
+        "type": "text",
+        "value": "изображена трапеция. Найдите её\nплощадь."
+      },
+      {
+        "type": "drawing",
+        "file": "formulas/task18/140237_drawing.svg"
+      }
+    ],
+    "answer": "28",
+    "svgFiles": [
+      "formulas/task18/140237.svg",
+      "formulas/task18/140237_drawing.svg"
+    ]
+  },
+  {
+    "id": "140243",
+    "title": "Задача 8",
+    "prototype": "Тип 8",
+    "parts": [
+      {
+        "type": "text",
+        "value": "На клетчатой бумаге с размером клетки",
+        "newParagraph": true
+      },
+      {
+        "type": "img",
+        "file": "formulas/task18/140243.svg"
+      },
+      {
+        "type": "text",
+        "value": "изображена трапеция. Найдите её\nплощадь."
+      },
+      {
+        "type": "drawing",
+        "file": "formulas/task18/140243_drawing.svg"
+      }
+    ],
+    "answer": "20",
+    "svgFiles": [
+      "formulas/task18/140243.svg",
+      "formulas/task18/140243_drawing.svg"
+    ]
+  },
+  {
+    "id": "140249",
+    "title": "Задача 9",
+    "prototype": "Тип 8",
+    "parts": [
+      {
+        "type": "text",
+        "value": "На клетчатой бумаге с размером клетки",
+        "newParagraph": true
+      },
+      {
+        "type": "img",
+        "file": "formulas/task18/140249.svg"
+      },
+      {
+        "type": "text",
+        "value": "изображена трапеция. Найдите её\nплощадь."
+      },
+      {
+        "type": "drawing",
+        "file": "formulas/task18/140249_drawing.svg"
+      }
+    ],
+    "answer": "35",
+    "svgFiles": [
+      "formulas/task18/140249.svg",
+      "formulas/task18/140249_drawing.svg"
+    ]
+  },
+  {
+    "id": "140250",
+    "title": "Задача 10",
+    "prototype": "Тип 8",
+    "parts": [
+      {
+        "type": "text",
+        "value": "На клетчатой бумаге с размером клетки",
+        "newParagraph": true
+      },
+      {
+        "type": "img",
+        "file": "formulas/task18/140250.svg"
+      },
+      {
+        "type": "text",
+        "value": "изображена трапеция. Найдите её\nплощадь."
+      },
+      {
+        "type": "drawing",
+        "file": "formulas/task18/140250_drawing.svg"
+      }
+    ],
+    "answer": "14",
+    "svgFiles": [
+      "formulas/task18/140250.svg",
+      "formulas/task18/140250_drawing.svg"
+    ]
+  },
+  {
+    "id": "140253",
+    "title": "Задача 11",
+    "prototype": "Тип 8",
+    "parts": [
+      {
+        "type": "text",
+        "value": "На клетчатой бумаге с размером клетки",
+        "newParagraph": true
+      },
+      {
+        "type": "img",
+        "file": "formulas/task18/140253.svg"
+      },
+      {
+        "type": "text",
+        "value": "изображена трапеция. Найдите её\nплощадь."
+      },
+      {
+        "type": "drawing",
+        "file": "formulas/task18/140253_drawing.svg"
+      }
+    ],
+    "answer": "36",
+    "svgFiles": [
+      "formulas/task18/140253.svg",
+      "formulas/task18/140253_drawing.svg"
+    ]
+  },
+  {
+    "id": "140260",
+    "title": "Задача 12",
+    "prototype": "Тип 8",
+    "parts": [
+      {
+        "type": "text",
+        "value": "На клетчатой бумаге с размером клетки",
+        "newParagraph": true
+      },
+      {
+        "type": "img",
+        "file": "formulas/task18/140260.svg"
+      },
+      {
+        "type": "text",
+        "value": "изображена трапеция. Найдите её\nплощадь."
+      },
+      {
+        "type": "drawing",
+        "file": "formulas/task18/140260_drawing.svg"
+      }
+    ],
+    "answer": "30",
+    "svgFiles": [
+      "formulas/task18/140260.svg",
+      "formulas/task18/140260_drawing.svg"
+    ]
+  },
+  {
+    "id": "106275",
+    "title": "Задача 1",
+    "prototype": "Тип 9",
+    "parts": [
+      {
+        "type": "text",
+        "value": "На клетчатой бумаге с размером клетки",
+        "newParagraph": true
+      },
+      {
+        "type": "img",
+        "file": "formulas/task18/106275.svg"
+      },
+      {
+        "type": "text",
+        "value": "изображены две точки. Найдите\nрасстояние между ними."
+      },
+      {
+        "type": "drawing",
+        "file": "formulas/task18/106275_drawing.svg"
+      }
+    ],
+    "answer": "10",
+    "svgFiles": [
+      "formulas/task18/106275.svg",
+      "formulas/task18/106275_drawing.svg"
+    ]
+  },
+  {
+    "id": "106276",
+    "title": "Задача 2",
+    "prototype": "Тип 9",
+    "parts": [
+      {
+        "type": "text",
+        "value": "На клетчатой бумаге с размером клетки",
+        "newParagraph": true
+      },
+      {
+        "type": "img",
+        "file": "formulas/task18/106276.svg"
+      },
+      {
+        "type": "text",
+        "value": "изображены две точки. Найдите\nрасстояние между ними."
+      },
+      {
+        "type": "drawing",
+        "file": "formulas/task18/106276_drawing.svg"
+      }
+    ],
+    "answer": "13",
+    "svgFiles": [
+      "formulas/task18/106276.svg",
+      "formulas/task18/106276_drawing.svg"
+    ]
+  },
+  {
+    "id": "122173",
+    "title": "Задача 3",
+    "prototype": "Тип 9",
+    "parts": [
+      {
+        "type": "text",
+        "value": "На клетчатой бумаге с размером клетки",
+        "newParagraph": true
+      },
+      {
+        "type": "img",
+        "file": "formulas/task18/122173.svg"
+      },
+      {
+        "type": "text",
+        "value": "изображены две точки. Найдите\nрасстояние между ними."
+      },
+      {
+        "type": "drawing",
+        "file": "formulas/task18/122173_drawing.svg"
+      }
+    ],
+    "answer": "13",
+    "svgFiles": [
+      "formulas/task18/122173.svg",
+      "formulas/task18/122173_drawing.svg"
+    ]
+  },
+  {
+    "id": "123375",
+    "title": "Задача 4",
+    "prototype": "Тип 9",
+    "parts": [
+      {
+        "type": "text",
+        "value": "На клетчатой бумаге с размером клетки",
+        "newParagraph": true
+      },
+      {
+        "type": "img",
+        "file": "formulas/task18/123375.svg"
+      },
+      {
+        "type": "text",
+        "value": "изображены две точки. Найдите\nрасстояние между ними."
+      },
+      {
+        "type": "drawing",
+        "file": "formulas/task18/123375_drawing.svg"
+      }
+    ],
+    "answer": "5",
+    "svgFiles": [
+      "formulas/task18/123375.svg",
+      "formulas/task18/123375_drawing.svg"
+    ]
+  },
+  {
+    "id": "140057",
+    "title": "Задача 5",
+    "prototype": "Тип 9",
+    "parts": [
+      {
+        "type": "text",
+        "value": "На клетчатой бумаге с размером клетки",
+        "newParagraph": true
+      },
+      {
+        "type": "img",
+        "file": "formulas/task18/140057.svg"
+      },
+      {
+        "type": "text",
+        "value": "изображены две точки. Найдите\nрасстояние между ними."
+      },
+      {
+        "type": "drawing",
+        "file": "formulas/task18/140057_drawing.svg"
+      }
+    ],
+    "answer": "13",
+    "svgFiles": [
+      "formulas/task18/140057.svg",
+      "formulas/task18/140057_drawing.svg"
+    ]
+  },
+  {
+    "id": "140058",
+    "title": "Задача 6",
+    "prototype": "Тип 9",
+    "parts": [
+      {
+        "type": "text",
+        "value": "На клетчатой бумаге с размером клетки",
+        "newParagraph": true
+      },
+      {
+        "type": "img",
+        "file": "formulas/task18/140058.svg"
+      },
+      {
+        "type": "text",
+        "value": "изображены две точки. Найдите\nрасстояние между ними."
+      },
+      {
+        "type": "drawing",
+        "file": "formulas/task18/140058_drawing.svg"
+      }
+    ],
+    "answer": "5",
+    "svgFiles": [
+      "formulas/task18/140058.svg",
+      "formulas/task18/140058_drawing.svg"
+    ]
+  },
+  {
+    "id": "140059",
+    "title": "Задача 7",
+    "prototype": "Тип 9",
+    "parts": [
+      {
+        "type": "text",
+        "value": "На клетчатой бумаге с размером клетки",
+        "newParagraph": true
+      },
+      {
+        "type": "img",
+        "file": "formulas/task18/140059.svg"
+      },
+      {
+        "type": "text",
+        "value": "изображены две точки. Найдите\nрасстояние между ними."
+      },
+      {
+        "type": "drawing",
+        "file": "formulas/task18/140059_drawing.svg"
+      }
+    ],
+    "answer": "5",
+    "svgFiles": [
+      "formulas/task18/140059.svg",
+      "formulas/task18/140059_drawing.svg"
+    ]
+  },
+  {
+    "id": "140060",
+    "title": "Задача 8",
+    "prototype": "Тип 9",
+    "parts": [
+      {
+        "type": "text",
+        "value": "На клетчатой бумаге с размером клетки",
+        "newParagraph": true
+      },
+      {
+        "type": "img",
+        "file": "formulas/task18/140060.svg"
+      },
+      {
+        "type": "text",
+        "value": "изображены две точки. Найдите\nрасстояние между ними."
+      },
+      {
+        "type": "drawing",
+        "file": "formulas/task18/140060_drawing.svg"
+      }
+    ],
+    "answer": "5",
+    "svgFiles": [
+      "formulas/task18/140060.svg",
+      "formulas/task18/140060_drawing.svg"
+    ]
+  },
+  {
+    "id": "140061",
+    "title": "Задача 9",
+    "prototype": "Тип 9",
+    "parts": [
+      {
+        "type": "text",
+        "value": "На клетчатой бумаге с размером клетки",
+        "newParagraph": true
+      },
+      {
+        "type": "img",
+        "file": "formulas/task18/140061.svg"
+      },
+      {
+        "type": "text",
+        "value": "изображены две точки. Найдите\nрасстояние между ними."
+      },
+      {
+        "type": "drawing",
+        "file": "formulas/task18/140061_drawing.svg"
+      }
+    ],
+    "answer": "10",
+    "svgFiles": [
+      "formulas/task18/140061.svg",
+      "formulas/task18/140061_drawing.svg"
+    ]
+  },
+  {
+    "id": "140062",
+    "title": "Задача 10",
+    "prototype": "Тип 9",
+    "parts": [
+      {
+        "type": "text",
+        "value": "На клетчатой бумаге с размером клетки",
+        "newParagraph": true
+      },
+      {
+        "type": "img",
+        "file": "formulas/task18/140062.svg"
+      },
+      {
+        "type": "text",
+        "value": "изображены две точки. Найдите\nрасстояние между ними."
+      },
+      {
+        "type": "drawing",
+        "file": "formulas/task18/140062_drawing.svg"
+      }
+    ],
+    "answer": "10",
+    "svgFiles": [
+      "formulas/task18/140062.svg",
+      "formulas/task18/140062_drawing.svg"
+    ]
+  },
+  {
+    "id": "140063",
+    "title": "Задача 11",
+    "prototype": "Тип 9",
+    "parts": [
+      {
+        "type": "text",
+        "value": "На клетчатой бумаге с размером клетки",
+        "newParagraph": true
+      },
+      {
+        "type": "img",
+        "file": "formulas/task18/140063.svg"
+      },
+      {
+        "type": "text",
+        "value": "изображены две точки. Найдите\nрасстояние между ними."
+      },
+      {
+        "type": "drawing",
+        "file": "formulas/task18/140063_drawing.svg"
+      }
+    ],
+    "answer": "10",
+    "svgFiles": [
+      "formulas/task18/140063.svg",
+      "formulas/task18/140063_drawing.svg"
+    ]
+  },
+  {
+    "id": "140064",
+    "title": "Задача 12",
+    "prototype": "Тип 9",
+    "parts": [
+      {
+        "type": "text",
+        "value": "На клетчатой бумаге с размером клетки",
+        "newParagraph": true
+      },
+      {
+        "type": "img",
+        "file": "formulas/task18/140064.svg"
+      },
+      {
+        "type": "text",
+        "value": "изображены две точки. Найдите\nрасстояние между ними."
+      },
+      {
+        "type": "drawing",
+        "file": "formulas/task18/140064_drawing.svg"
+      }
+    ],
+    "answer": "13",
+    "svgFiles": [
+      "formulas/task18/140064.svg",
+      "formulas/task18/140064_drawing.svg"
+    ]
+  },
+  {
+    "id": "106277",
+    "title": "Задача 1",
+    "prototype": "Тип 10",
+    "parts": [
+      {
+        "type": "text",
+        "value": "На клетчатой бумаге с размером клетки",
+        "newParagraph": true
+      },
+      {
+        "type": "img",
+        "file": "formulas/task18/106277_1.svg"
+      },
+      {
+        "type": "text",
+        "value": "изображена фигура. Найдите\nдлину отрезка"
+      },
+      {
+        "type": "img",
+        "file": "formulas/task18/106277_2.svg"
+      },
+      {
+        "type": "text",
+        "value": "по данным чертежа."
+      },
+      {
+        "type": "drawing",
+        "file": "formulas/task18/106277_drawing.svg"
+      }
+    ],
+    "answer": "3",
+    "svgFiles": [
+      "formulas/task18/106277_1.svg",
+      "formulas/task18/106277_2.svg",
+      "formulas/task18/106277_drawing.svg"
+    ]
+  },
+  {
+    "id": "106278",
+    "title": "Задача 2",
+    "prototype": "Тип 10",
+    "parts": [
+      {
+        "type": "text",
+        "value": "На клетчатой бумаге с размером клетки",
+        "newParagraph": true
+      },
+      {
+        "type": "img",
+        "file": "formulas/task18/106278_1.svg"
+      },
+      {
+        "type": "text",
+        "value": "изображена фигура. Найдите\nдлину отрезка"
+      },
+      {
+        "type": "img",
+        "file": "formulas/task18/106278_2.svg"
+      },
+      {
+        "type": "text",
+        "value": "по данным чертежа."
+      },
+      {
+        "type": "drawing",
+        "file": "formulas/task18/106278_drawing.svg"
+      }
+    ],
+    "answer": "1,5",
+    "svgFiles": [
+      "formulas/task18/106278_1.svg",
+      "formulas/task18/106278_2.svg",
+      "formulas/task18/106278_drawing.svg"
+    ]
+  },
+  {
+    "id": "123356",
+    "title": "Задача 3",
+    "prototype": "Тип 10",
+    "parts": [
+      {
+        "type": "text",
+        "value": "На клетчатой бумаге с размером клетки",
+        "newParagraph": true
+      },
+      {
+        "type": "img",
+        "file": "formulas/task18/123356_1.svg"
+      },
+      {
+        "type": "text",
+        "value": "изображена фигура. Найдите\nдлину отрезка"
+      },
+      {
+        "type": "img",
+        "file": "formulas/task18/123356_2.svg"
+      },
+      {
+        "type": "text",
+        "value": "по данным чертежа."
+      },
+      {
+        "type": "drawing",
+        "file": "formulas/task18/123356_drawing.svg"
+      }
+    ],
+    "answer": "2,5",
+    "svgFiles": [
+      "formulas/task18/123356_1.svg",
+      "formulas/task18/123356_2.svg",
+      "formulas/task18/123356_drawing.svg"
+    ]
+  },
+  {
+    "id": "140146",
+    "title": "Задача 4",
+    "prototype": "Тип 10",
+    "parts": [
+      {
+        "type": "text",
+        "value": "На клетчатой бумаге с размером клетки",
+        "newParagraph": true
+      },
+      {
+        "type": "img",
+        "file": "formulas/task18/140146_1.svg"
+      },
+      {
+        "type": "text",
+        "value": "изображена фигура. Найдите\nдлину отрезка"
+      },
+      {
+        "type": "img",
+        "file": "formulas/task18/140146_2.svg"
+      },
+      {
+        "type": "text",
+        "value": "по данным чертежа."
+      },
+      {
+        "type": "drawing",
+        "file": "formulas/task18/140146_drawing.svg"
+      }
+    ],
+    "answer": "2",
+    "svgFiles": [
+      "formulas/task18/140146_1.svg",
+      "formulas/task18/140146_2.svg",
+      "formulas/task18/140146_drawing.svg"
+    ]
+  },
+  {
+    "id": "140147",
+    "title": "Задача 5",
+    "prototype": "Тип 10",
+    "parts": [
+      {
+        "type": "text",
+        "value": "На клетчатой бумаге с размером клетки",
+        "newParagraph": true
+      },
+      {
+        "type": "img",
+        "file": "formulas/task18/140147_1.svg"
+      },
+      {
+        "type": "text",
+        "value": "изображена фигура. Найдите\nдлину отрезка"
+      },
+      {
+        "type": "img",
+        "file": "formulas/task18/140147_2.svg"
+      },
+      {
+        "type": "text",
+        "value": "по данным чертежа."
+      },
+      {
+        "type": "drawing",
+        "file": "formulas/task18/140147_drawing.svg"
+      }
+    ],
+    "answer": "2,5",
+    "svgFiles": [
+      "formulas/task18/140147_1.svg",
+      "formulas/task18/140147_2.svg",
+      "formulas/task18/140147_drawing.svg"
+    ]
+  },
+  {
+    "id": "140148",
+    "title": "Задача 6",
+    "prototype": "Тип 10",
+    "parts": [
+      {
+        "type": "text",
+        "value": "На клетчатой бумаге с размером клетки",
+        "newParagraph": true
+      },
+      {
+        "type": "img",
+        "file": "formulas/task18/140148_1.svg"
+      },
+      {
+        "type": "text",
+        "value": "изображена фигура. Найдите\nдлину отрезка"
+      },
+      {
+        "type": "img",
+        "file": "formulas/task18/140148_2.svg"
+      },
+      {
+        "type": "text",
+        "value": "по данным чертежа."
+      },
+      {
+        "type": "drawing",
+        "file": "formulas/task18/140148_drawing.svg"
+      }
+    ],
+    "answer": "3",
+    "svgFiles": [
+      "formulas/task18/140148_1.svg",
+      "formulas/task18/140148_2.svg",
+      "formulas/task18/140148_drawing.svg"
+    ]
+  },
+  {
+    "id": "140149",
+    "title": "Задача 7",
+    "prototype": "Тип 10",
+    "parts": [
+      {
+        "type": "text",
+        "value": "На клетчатой бумаге с размером клетки",
+        "newParagraph": true
+      },
+      {
+        "type": "img",
+        "file": "formulas/task18/140149_1.svg"
+      },
+      {
+        "type": "text",
+        "value": "изображена фигура. Найдите\nдлину отрезка"
+      },
+      {
+        "type": "img",
+        "file": "formulas/task18/140149_2.svg"
+      },
+      {
+        "type": "text",
+        "value": "по данным чертежа."
+      },
+      {
+        "type": "drawing",
+        "file": "formulas/task18/140149_drawing.svg"
+      }
+    ],
+    "answer": "1,5",
+    "svgFiles": [
+      "formulas/task18/140149_1.svg",
+      "formulas/task18/140149_2.svg",
+      "formulas/task18/140149_drawing.svg"
+    ]
+  },
+  {
+    "id": "140150",
+    "title": "Задача 8",
+    "prototype": "Тип 10",
+    "parts": [
+      {
+        "type": "text",
+        "value": "На клетчатой бумаге с размером клетки",
+        "newParagraph": true
+      },
+      {
+        "type": "img",
+        "file": "formulas/task18/140150_1.svg"
+      },
+      {
+        "type": "text",
+        "value": "изображена фигура. Найдите\nдлину отрезка"
+      },
+      {
+        "type": "img",
+        "file": "formulas/task18/140150_2.svg"
+      },
+      {
+        "type": "text",
+        "value": "по данным чертежа."
+      },
+      {
+        "type": "drawing",
+        "file": "formulas/task18/140150_drawing.svg"
+      }
+    ],
+    "answer": "1,5",
+    "svgFiles": [
+      "formulas/task18/140150_1.svg",
+      "formulas/task18/140150_2.svg",
+      "formulas/task18/140150_drawing.svg"
+    ]
+  },
+  {
+    "id": "140151",
+    "title": "Задача 9",
+    "prototype": "Тип 10",
+    "parts": [
+      {
+        "type": "text",
+        "value": "На клетчатой бумаге с размером клетки",
+        "newParagraph": true
+      },
+      {
+        "type": "img",
+        "file": "formulas/task18/140151_1.svg"
+      },
+      {
+        "type": "text",
+        "value": "изображена фигура. Найдите\nдлину отрезка"
+      },
+      {
+        "type": "img",
+        "file": "formulas/task18/140151_2.svg"
+      },
+      {
+        "type": "text",
+        "value": "по данным чертежа."
+      },
+      {
+        "type": "drawing",
+        "file": "formulas/task18/140151_drawing.svg"
+      }
+    ],
+    "answer": "3",
+    "svgFiles": [
+      "formulas/task18/140151_1.svg",
+      "formulas/task18/140151_2.svg",
+      "formulas/task18/140151_drawing.svg"
+    ]
+  },
+  {
+    "id": "140152",
+    "title": "Задача 10",
+    "prototype": "Тип 10",
+    "parts": [
+      {
+        "type": "text",
+        "value": "На клетчатой бумаге с размером клетки",
+        "newParagraph": true
+      },
+      {
+        "type": "img",
+        "file": "formulas/task18/140152_1.svg"
+      },
+      {
+        "type": "text",
+        "value": "изображена фигура. Найдите\nдлину отрезка"
+      },
+      {
+        "type": "img",
+        "file": "formulas/task18/140152_2.svg"
+      },
+      {
+        "type": "text",
+        "value": "по данным чертежа."
+      },
+      {
+        "type": "drawing",
+        "file": "formulas/task18/140152_drawing.svg"
+      }
+    ],
+    "answer": "2,5",
+    "svgFiles": [
+      "formulas/task18/140152_1.svg",
+      "formulas/task18/140152_2.svg",
+      "formulas/task18/140152_drawing.svg"
+    ]
+  },
+  {
+    "id": "140171",
+    "title": "Задача 11",
+    "prototype": "Тип 10",
+    "parts": [
+      {
+        "type": "text",
+        "value": "На клетчатой бумаге с размером клетки",
+        "newParagraph": true
+      },
+      {
+        "type": "img",
+        "file": "formulas/task18/140171_1.svg"
+      },
+      {
+        "type": "text",
+        "value": "изображена фигура. Найдите\nдлину отрезка"
+      },
+      {
+        "type": "img",
+        "file": "formulas/task18/140171_2.svg"
+      },
+      {
+        "type": "text",
+        "value": "по данным чертежа."
+      },
+      {
+        "type": "drawing",
+        "file": "formulas/task18/140171_drawing.svg"
+      }
+    ],
+    "answer": "2",
+    "svgFiles": [
+      "formulas/task18/140171_1.svg",
+      "formulas/task18/140171_2.svg",
+      "formulas/task18/140171_drawing.svg"
+    ]
+  },
+  {
+    "id": "106279",
+    "title": "Задача 1",
+    "prototype": "Тип 11",
+    "parts": [
+      {
+        "type": "text",
+        "value": "На клетчатой бумаге с размером клетки",
+        "newParagraph": true
+      },
+      {
+        "type": "img",
+        "file": "formulas/task18/106279_1.svg"
+      },
+      {
+        "type": "text",
+        "value": "изображена фигура. Найдите\nдлину отрезка"
+      },
+      {
+        "type": "img",
+        "file": "formulas/task18/106279_2.svg"
+      },
+      {
+        "type": "text",
+        "value": "по данным чертежа."
+      },
+      {
+        "type": "drawing",
+        "file": "formulas/task18/106279_drawing.svg"
+      }
+    ],
+    "answer": "4",
+    "svgFiles": [
+      "formulas/task18/106279_1.svg",
+      "formulas/task18/106279_2.svg",
+      "formulas/task18/106279_drawing.svg"
+    ]
+  },
+  {
+    "id": "106280",
+    "title": "Задача 2",
+    "prototype": "Тип 11",
+    "parts": [
+      {
+        "type": "text",
+        "value": "На клетчатой бумаге с размером клетки",
+        "newParagraph": true
+      },
+      {
+        "type": "img",
+        "file": "formulas/task18/106280_1.svg"
+      },
+      {
+        "type": "text",
+        "value": "изображена фигура. Найдите\nдлину отрезка"
+      },
+      {
+        "type": "img",
+        "file": "formulas/task18/106280_2.svg"
+      },
+      {
+        "type": "text",
+        "value": "по данным чертежа."
+      },
+      {
+        "type": "drawing",
+        "file": "formulas/task18/106280_drawing.svg"
+      }
+    ],
+    "answer": "1",
+    "svgFiles": [
+      "formulas/task18/106280_1.svg",
+      "formulas/task18/106280_2.svg",
+      "formulas/task18/106280_drawing.svg"
+    ]
+  },
+  {
+    "id": "123374",
+    "title": "Задача 3",
+    "prototype": "Тип 11",
+    "parts": [
+      {
+        "type": "text",
+        "value": "На клетчатой бумаге с размером клетки",
+        "newParagraph": true
+      },
+      {
+        "type": "img",
+        "file": "formulas/task18/123374_1.svg"
+      },
+      {
+        "type": "text",
+        "value": "изображена фигура. Найдите\nдлину отрезка"
+      },
+      {
+        "type": "img",
+        "file": "formulas/task18/123374_2.svg"
+      },
+      {
+        "type": "text",
+        "value": "по данным чертежа."
+      },
+      {
+        "type": "drawing",
+        "file": "formulas/task18/123374_drawing.svg"
+      }
+    ],
+    "answer": "2",
+    "svgFiles": [
+      "formulas/task18/123374_1.svg",
+      "formulas/task18/123374_2.svg",
+      "formulas/task18/123374_drawing.svg"
+    ]
+  },
+  {
+    "id": "123682",
+    "title": "Задача 4",
+    "prototype": "Тип 11",
+    "parts": [
+      {
+        "type": "text",
+        "value": "На клетчатой бумаге с размером клетки",
+        "newParagraph": true
+      },
+      {
+        "type": "img",
+        "file": "formulas/task18/123682_1.svg"
+      },
+      {
+        "type": "text",
+        "value": "изображена фигура. Найдите\nдлину отрезка"
+      },
+      {
+        "type": "img",
+        "file": "formulas/task18/123682_2.svg"
+      },
+      {
+        "type": "text",
+        "value": "по данным чертежа."
+      },
+      {
+        "type": "drawing",
+        "file": "formulas/task18/123682_drawing.svg"
+      }
+    ],
+    "answer": "5",
+    "svgFiles": [
+      "formulas/task18/123682_1.svg",
+      "formulas/task18/123682_2.svg",
+      "formulas/task18/123682_drawing.svg"
+    ]
+  },
+  {
+    "id": "140153",
+    "title": "Задача 5",
+    "prototype": "Тип 11",
+    "parts": [
+      {
+        "type": "text",
+        "value": "На клетчатой бумаге с размером клетки",
+        "newParagraph": true
+      },
+      {
+        "type": "img",
+        "file": "formulas/task18/140153_1.svg"
+      },
+      {
+        "type": "text",
+        "value": "изображена фигура. Найдите\nдлину отрезка"
+      },
+      {
+        "type": "img",
+        "file": "formulas/task18/140153_2.svg"
+      },
+      {
+        "type": "text",
+        "value": "по данным чертежа."
+      },
+      {
+        "type": "drawing",
+        "file": "formulas/task18/140153_drawing.svg"
+      }
+    ],
+    "answer": "1",
+    "svgFiles": [
+      "formulas/task18/140153_1.svg",
+      "formulas/task18/140153_2.svg",
+      "formulas/task18/140153_drawing.svg"
+    ]
+  },
+  {
+    "id": "140154",
+    "title": "Задача 6",
+    "prototype": "Тип 11",
+    "parts": [
+      {
+        "type": "text",
+        "value": "На клетчатой бумаге с размером клетки",
+        "newParagraph": true
+      },
+      {
+        "type": "img",
+        "file": "formulas/task18/140154_1.svg"
+      },
+      {
+        "type": "text",
+        "value": "изображена фигура. Найдите\nдлину отрезка"
+      },
+      {
+        "type": "img",
+        "file": "formulas/task18/140154_2.svg"
+      },
+      {
+        "type": "text",
+        "value": "по данным чертежа."
+      },
+      {
+        "type": "drawing",
+        "file": "formulas/task18/140154_drawing.svg"
+      }
+    ],
+    "answer": "3",
+    "svgFiles": [
+      "formulas/task18/140154_1.svg",
+      "formulas/task18/140154_2.svg",
+      "formulas/task18/140154_drawing.svg"
+    ]
+  },
+  {
+    "id": "140155",
+    "title": "Задача 7",
+    "prototype": "Тип 11",
+    "parts": [
+      {
+        "type": "text",
+        "value": "На клетчатой бумаге с размером клетки",
+        "newParagraph": true
+      },
+      {
+        "type": "img",
+        "file": "formulas/task18/140155_1.svg"
+      },
+      {
+        "type": "text",
+        "value": "изображена фигура. Найдите\nдлину отрезка"
+      },
+      {
+        "type": "img",
+        "file": "formulas/task18/140155_2.svg"
+      },
+      {
+        "type": "text",
+        "value": "по данным чертежа."
+      },
+      {
+        "type": "drawing",
+        "file": "formulas/task18/140155_drawing.svg"
+      }
+    ],
+    "answer": "4,5",
+    "svgFiles": [
+      "formulas/task18/140155_1.svg",
+      "formulas/task18/140155_2.svg",
+      "formulas/task18/140155_drawing.svg"
+    ]
+  },
+  {
+    "id": "140157",
+    "title": "Задача 8",
+    "prototype": "Тип 11",
+    "parts": [
+      {
+        "type": "text",
+        "value": "На клетчатой бумаге с размером клетки",
+        "newParagraph": true
+      },
+      {
+        "type": "img",
+        "file": "formulas/task18/140157_1.svg"
+      },
+      {
+        "type": "text",
+        "value": "изображена фигура. Найдите\nдлину отрезка"
+      },
+      {
+        "type": "img",
+        "file": "formulas/task18/140157_2.svg"
+      },
+      {
+        "type": "text",
+        "value": "по данным чертежа."
+      },
+      {
+        "type": "drawing",
+        "file": "formulas/task18/140157_drawing.svg"
+      }
+    ],
+    "answer": "1,5",
+    "svgFiles": [
+      "formulas/task18/140157_1.svg",
+      "formulas/task18/140157_2.svg",
+      "formulas/task18/140157_drawing.svg"
+    ]
+  },
+  {
+    "id": "140158",
+    "title": "Задача 9",
+    "prototype": "Тип 11",
+    "parts": [
+      {
+        "type": "text",
+        "value": "На клетчатой бумаге с размером клетки",
+        "newParagraph": true
+      },
+      {
+        "type": "img",
+        "file": "formulas/task18/140158_1.svg"
+      },
+      {
+        "type": "text",
+        "value": "изображена фигура. Найдите\nдлину отрезка"
+      },
+      {
+        "type": "img",
+        "file": "formulas/task18/140158_2.svg"
+      },
+      {
+        "type": "text",
+        "value": "по данным чертежа."
+      },
+      {
+        "type": "drawing",
+        "file": "formulas/task18/140158_drawing.svg"
+      }
+    ],
+    "answer": "2",
+    "svgFiles": [
+      "formulas/task18/140158_1.svg",
+      "formulas/task18/140158_2.svg",
+      "formulas/task18/140158_drawing.svg"
+    ]
+  },
+  {
+    "id": "140159",
+    "title": "Задача 10",
+    "prototype": "Тип 11",
+    "parts": [
+      {
+        "type": "text",
+        "value": "На клетчатой бумаге с размером клетки",
+        "newParagraph": true
+      },
+      {
+        "type": "img",
+        "file": "formulas/task18/140159_1.svg"
+      },
+      {
+        "type": "text",
+        "value": "изображена фигура. Найдите\nдлину отрезка"
+      },
+      {
+        "type": "img",
+        "file": "formulas/task18/140159_2.svg"
+      },
+      {
+        "type": "text",
+        "value": "по данным чертежа."
+      },
+      {
+        "type": "drawing",
+        "file": "formulas/task18/140159_drawing.svg"
+      }
+    ],
+    "answer": "2",
+    "svgFiles": [
+      "formulas/task18/140159_1.svg",
+      "formulas/task18/140159_2.svg",
+      "formulas/task18/140159_drawing.svg"
+    ]
+  },
+  {
+    "id": "140160",
+    "title": "Задача 11",
+    "prototype": "Тип 11",
+    "parts": [
+      {
+        "type": "text",
+        "value": "На клетчатой бумаге с размером клетки",
+        "newParagraph": true
+      },
+      {
+        "type": "img",
+        "file": "formulas/task18/140160_1.svg"
+      },
+      {
+        "type": "text",
+        "value": "изображена фигура. Найдите\nдлину отрезка"
+      },
+      {
+        "type": "img",
+        "file": "formulas/task18/140160_2.svg"
+      },
+      {
+        "type": "text",
+        "value": "по данным чертежа."
+      },
+      {
+        "type": "drawing",
+        "file": "formulas/task18/140160_drawing.svg"
+      }
+    ],
+    "answer": "1",
+    "svgFiles": [
+      "formulas/task18/140160_1.svg",
+      "formulas/task18/140160_2.svg",
+      "formulas/task18/140160_drawing.svg"
+    ]
+  },
+  {
+    "id": "140170",
+    "title": "Задача 12",
+    "prototype": "Тип 11",
+    "parts": [
+      {
+        "type": "text",
+        "value": "На клетчатой бумаге с размером клетки",
+        "newParagraph": true
+      },
+      {
+        "type": "img",
+        "file": "formulas/task18/140170_1.svg"
+      },
+      {
+        "type": "text",
+        "value": "изображена фигура. Найдите\nдлину отрезка"
+      },
+      {
+        "type": "img",
+        "file": "formulas/task18/140170_2.svg"
+      },
+      {
+        "type": "text",
+        "value": "по данным чертежа."
+      },
+      {
+        "type": "drawing",
+        "file": "formulas/task18/140170_drawing.svg"
+      }
+    ],
+    "answer": "1",
+    "svgFiles": [
+      "formulas/task18/140170_1.svg",
+      "formulas/task18/140170_2.svg",
+      "formulas/task18/140170_drawing.svg"
+    ]
+  },
+  {
+    "id": "106282",
+    "title": "Задача 1",
+    "prototype": "Тип 12",
+    "parts": [
+      {
+        "type": "text",
+        "value": "На клетчатой бумаге изображён треугольник",
+        "newParagraph": true
+      },
+      {
+        "type": "img",
+        "file": "formulas/task18/106282_1.svg"
+      },
+      {
+        "type": "text",
+        "value": "Во сколько раз отрезок"
+      },
+      {
+        "type": "img",
+        "file": "formulas/task18/106282_2.svg"
+      },
+      {
+        "type": "text",
+        "value": "длиннее отрезка"
+      },
+      {
+        "type": "img",
+        "file": "formulas/task18/106282_3.svg"
+      },
+      {
+        "type": "drawing",
+        "file": "formulas/task18/106282_drawing.svg"
+      }
+    ],
+    "answer": "1,5",
+    "svgFiles": [
+      "formulas/task18/106282_1.svg",
+      "formulas/task18/106282_2.svg",
+      "formulas/task18/106282_3.svg",
+      "formulas/task18/106282_drawing.svg"
+    ]
+  },
+  {
+    "id": "121007",
+    "title": "Задача 2",
+    "prototype": "Тип 12",
+    "parts": [
+      {
+        "type": "text",
+        "value": "На клетчатой бумаге изображён треугольник",
+        "newParagraph": true
+      },
+      {
+        "type": "img",
+        "file": "formulas/task18/121007_1.svg"
+      },
+      {
+        "type": "text",
+        "value": "Во сколько раз отрезок"
+      },
+      {
+        "type": "img",
+        "file": "formulas/task18/121007_2.svg"
+      },
+      {
+        "type": "text",
+        "value": "длиннее отрезка"
+      },
+      {
+        "type": "img",
+        "file": "formulas/task18/121007_3.svg"
+      },
+      {
+        "type": "drawing",
+        "file": "formulas/task18/121007_drawing.svg"
+      }
+    ],
+    "answer": "3",
+    "svgFiles": [
+      "formulas/task18/121007_1.svg",
+      "formulas/task18/121007_2.svg",
+      "formulas/task18/121007_3.svg",
+      "formulas/task18/121007_drawing.svg"
+    ]
+  },
+  {
+    "id": "123377",
+    "title": "Задача 3",
+    "prototype": "Тип 12",
+    "parts": [
+      {
+        "type": "text",
+        "value": "На клетчатой бумаге изображён треугольник",
+        "newParagraph": true
+      },
+      {
+        "type": "img",
+        "file": "formulas/task18/123377_1.svg"
+      },
+      {
+        "type": "text",
+        "value": "Во сколько раз отрезок"
+      },
+      {
+        "type": "img",
+        "file": "formulas/task18/123377_2.svg"
+      },
+      {
+        "type": "text",
+        "value": "длиннее отрезка"
+      },
+      {
+        "type": "img",
+        "file": "formulas/task18/123377_3.svg"
+      },
+      {
+        "type": "drawing",
+        "file": "formulas/task18/123377_drawing.svg"
+      }
+    ],
+    "answer": "2",
+    "svgFiles": [
+      "formulas/task18/123377_1.svg",
+      "formulas/task18/123377_2.svg",
+      "formulas/task18/123377_3.svg",
+      "formulas/task18/123377_drawing.svg"
+    ]
+  },
+  {
+    "id": "140169",
+    "title": "Задача 4",
+    "prototype": "Тип 12",
+    "parts": [
+      {
+        "type": "text",
+        "value": "На клетчатой бумаге изображён треугольник",
+        "newParagraph": true
+      },
+      {
+        "type": "img",
+        "file": "formulas/task18/140169_1.svg"
+      },
+      {
+        "type": "text",
+        "value": "Во сколько раз отрезок"
+      },
+      {
+        "type": "img",
+        "file": "formulas/task18/140169_2.svg"
+      },
+      {
+        "type": "text",
+        "value": "длиннее отрезка"
+      },
+      {
+        "type": "img",
+        "file": "formulas/task18/140169_3.svg"
+      },
+      {
+        "type": "drawing",
+        "file": "formulas/task18/140169_drawing.svg"
+      }
+    ],
+    "answer": "4",
+    "svgFiles": [
+      "formulas/task18/140169_1.svg",
+      "formulas/task18/140169_2.svg",
+      "formulas/task18/140169_3.svg",
+      "formulas/task18/140169_drawing.svg"
+    ]
+  },
+  {
+    "id": "106281",
+    "title": "Задача 1",
+    "prototype": "Тип 13",
+    "parts": [
+      {
+        "type": "text",
+        "value": "На клетчатой бумаге изображён треугольник",
+        "newParagraph": true
+      },
+      {
+        "type": "img",
+        "file": "formulas/task18/106281_1.svg"
+      },
+      {
+        "type": "text",
+        "value": "Во сколько раз отрезок"
+      },
+      {
+        "type": "img",
+        "file": "formulas/task18/106281_2.svg"
+      },
+      {
+        "type": "text",
+        "value": "короче отрезка"
+      },
+      {
+        "type": "img",
+        "file": "formulas/task18/106281_3.svg"
+      },
+      {
+        "type": "drawing",
+        "file": "formulas/task18/106281_drawing.svg"
+      }
+    ],
+    "answer": "3",
+    "svgFiles": [
+      "formulas/task18/106281_1.svg",
+      "formulas/task18/106281_2.svg",
+      "formulas/task18/106281_3.svg",
+      "formulas/task18/106281_drawing.svg"
+    ]
+  },
+  {
+    "id": "123376",
+    "title": "Задача 2",
+    "prototype": "Тип 13",
+    "parts": [
+      {
+        "type": "text",
+        "value": "На клетчатой бумаге изображён треугольник",
+        "newParagraph": true
+      },
+      {
+        "type": "img",
+        "file": "formulas/task18/123376_1.svg"
+      },
+      {
+        "type": "text",
+        "value": "Во сколько раз отрезок"
+      },
+      {
+        "type": "img",
+        "file": "formulas/task18/123376_2.svg"
+      },
+      {
+        "type": "text",
+        "value": "короче отрезка"
+      },
+      {
+        "type": "img",
+        "file": "formulas/task18/123376_3.svg"
+      },
+      {
+        "type": "drawing",
+        "file": "formulas/task18/123376_drawing.svg"
+      }
+    ],
+    "answer": "1,5",
+    "svgFiles": [
+      "formulas/task18/123376_1.svg",
+      "formulas/task18/123376_2.svg",
+      "formulas/task18/123376_3.svg",
+      "formulas/task18/123376_drawing.svg"
+    ]
+  },
+  {
+    "id": "123699",
+    "title": "Задача 3",
+    "prototype": "Тип 13",
+    "parts": [
+      {
+        "type": "text",
+        "value": "На клетчатой бумаге изображён треугольник",
+        "newParagraph": true
+      },
+      {
+        "type": "img",
+        "file": "formulas/task18/123699_1.svg"
+      },
+      {
+        "type": "text",
+        "value": "Во сколько раз отрезок"
+      },
+      {
+        "type": "img",
+        "file": "formulas/task18/123699_2.svg"
+      },
+      {
+        "type": "text",
+        "value": "короче отрезка"
+      },
+      {
+        "type": "img",
+        "file": "formulas/task18/123699_3.svg"
+      },
+      {
+        "type": "drawing",
+        "file": "formulas/task18/123699_drawing.svg"
+      }
+    ],
+    "answer": "2",
+    "svgFiles": [
+      "formulas/task18/123699_1.svg",
+      "formulas/task18/123699_2.svg",
+      "formulas/task18/123699_3.svg",
+      "formulas/task18/123699_drawing.svg"
+    ]
+  },
+  {
+    "id": "140168",
+    "title": "Задача 4",
+    "prototype": "Тип 13",
+    "parts": [
+      {
+        "type": "text",
+        "value": "На клетчатой бумаге изображён треугольник",
+        "newParagraph": true
+      },
+      {
+        "type": "img",
+        "file": "formulas/task18/140168_1.svg"
+      },
+      {
+        "type": "text",
+        "value": "Во сколько раз отрезок"
+      },
+      {
+        "type": "img",
+        "file": "formulas/task18/140168_2.svg"
+      },
+      {
+        "type": "text",
+        "value": "короче отрезка"
+      },
+      {
+        "type": "img",
+        "file": "formulas/task18/140168_3.svg"
+      },
+      {
+        "type": "drawing",
+        "file": "formulas/task18/140168_drawing.svg"
+      }
+    ],
+    "answer": "4",
+    "svgFiles": [
+      "formulas/task18/140168_1.svg",
+      "formulas/task18/140168_2.svg",
+      "formulas/task18/140168_3.svg",
+      "formulas/task18/140168_drawing.svg"
+    ]
+  },
+  {
+    "id": "106283",
+    "title": "Задача 1",
+    "prototype": "Тип 14",
+    "parts": [
+      {
+        "type": "text",
+        "value": "На клетчатой бумаге изображены два круга. Во сколько раз площадь большего\nкруга больше площади меньшего?",
+        "newParagraph": true
+      },
+      {
+        "type": "drawing",
+        "file": "formulas/task18/106283_drawing.svg"
+      }
+    ],
+    "answer": "9",
+    "svgFiles": [
+      "formulas/task18/106283_drawing.svg"
+    ]
+  },
+  {
+    "id": "106284",
+    "title": "Задача 2",
+    "prototype": "Тип 14",
+    "parts": [
+      {
+        "type": "text",
+        "value": "На клетчатой бумаге изображены два круга. Во сколько раз площадь большего\nкруга больше площади меньшего?",
+        "newParagraph": true
+      },
+      {
+        "type": "drawing",
+        "file": "formulas/task18/106284_drawing.svg"
+      }
+    ],
+    "answer": "4",
+    "svgFiles": [
+      "formulas/task18/106284_drawing.svg"
+    ]
+  },
+  {
+    "id": "123343",
+    "title": "Задача 3",
+    "prototype": "Тип 14",
+    "parts": [
+      {
+        "type": "text",
+        "value": "На клетчатой бумаге изображены два круга. Во сколько раз площадь большего\nкруга больше площади меньшего?",
+        "newParagraph": true
+      },
+      {
+        "type": "drawing",
+        "file": "formulas/task18/123343_drawing.svg"
+      }
+    ],
+    "answer": "2,25",
+    "svgFiles": [
+      "formulas/task18/123343_drawing.svg"
+    ]
+  },
+  {
+    "id": "140161",
+    "title": "Задача 4",
+    "prototype": "Тип 14",
+    "parts": [
+      {
+        "type": "text",
+        "value": "На клетчатой бумаге изображены два круга. Во сколько раз площадь большего\nкруга больше площади меньшего?",
+        "newParagraph": true
+      },
+      {
+        "type": "drawing",
+        "file": "formulas/task18/140161_drawing.svg"
+      }
+    ],
+    "answer": "4",
+    "svgFiles": [
+      "formulas/task18/140161_drawing.svg"
+    ]
+  },
+  {
+    "id": "140162",
+    "title": "Задача 5",
+    "prototype": "Тип 14",
+    "parts": [
+      {
+        "type": "text",
+        "value": "На клетчатой бумаге изображены два круга. Во сколько раз площадь большего\nкруга больше площади меньшего?",
+        "newParagraph": true
+      },
+      {
+        "type": "drawing",
+        "file": "formulas/task18/140162_drawing.svg"
+      }
+    ],
+    "answer": "16",
+    "svgFiles": [
+      "formulas/task18/140162_drawing.svg"
+    ]
+  },
+  {
+    "id": "106285",
+    "title": "Задача 1",
+    "prototype": "Тип 15",
+    "parts": [
+      {
+        "type": "text",
+        "value": "На клетчатой бумаге изображены два круга. Во сколько раз площадь большего\nкруга больше площади меньшего?",
+        "newParagraph": true
+      },
+      {
+        "type": "drawing",
+        "file": "formulas/task18/106285_drawing.svg"
+      }
+    ],
+    "answer": "10",
+    "svgFiles": [
+      "formulas/task18/106285_drawing.svg"
+    ]
+  },
+  {
+    "id": "106286",
+    "title": "Задача 2",
+    "prototype": "Тип 15",
+    "parts": [
+      {
+        "type": "text",
+        "value": "На клетчатой бумаге изображены два круга. Во сколько раз площадь большего\nкруга больше площади меньшего?",
+        "newParagraph": true
+      },
+      {
+        "type": "drawing",
+        "file": "formulas/task18/106286_drawing.svg"
+      }
+    ],
+    "answer": "8",
+    "svgFiles": [
+      "formulas/task18/106286_drawing.svg"
+    ]
+  },
+  {
+    "id": "116292",
+    "title": "Задача 3",
+    "prototype": "Тип 15",
+    "parts": [
+      {
+        "type": "text",
+        "value": "На клетчатой бумаге изображены два круга. Во сколько раз площадь большего\nкруга больше площади меньшего?",
+        "newParagraph": true
+      },
+      {
+        "type": "drawing",
+        "file": "formulas/task18/116292_drawing.svg"
+      }
+    ],
+    "answer": "1,25",
+    "svgFiles": [
+      "formulas/task18/116292_drawing.svg"
+    ]
+  },
+  {
+    "id": "123349",
+    "title": "Задача 4",
+    "prototype": "Тип 15",
+    "parts": [
+      {
+        "type": "text",
+        "value": "На клетчатой бумаге изображены два круга. Во сколько раз площадь большего\nкруга больше площади меньшего?",
+        "newParagraph": true
+      },
+      {
+        "type": "drawing",
+        "file": "formulas/task18/123349_drawing.svg"
+      }
+    ],
+    "answer": "1,8",
+    "svgFiles": [
+      "formulas/task18/123349_drawing.svg"
+    ]
+  },
+  {
+    "id": "137949",
+    "title": "Задача 5",
+    "prototype": "Тип 15",
+    "parts": [
+      {
+        "type": "text",
+        "value": "На клетчатой бумаге изображены два круга. Во сколько раз площадь большего\nкруга больше площади меньшего?",
+        "newParagraph": true
+      },
+      {
+        "type": "drawing",
+        "file": "formulas/task18/137949_drawing.svg"
+      }
+    ],
+    "answer": "2",
+    "svgFiles": [
+      "formulas/task18/137949_drawing.svg"
+    ]
+  },
+  {
+    "id": "140163",
+    "title": "Задача 6",
+    "prototype": "Тип 15",
+    "parts": [
+      {
+        "type": "text",
+        "value": "На клетчатой бумаге изображены два круга. Во сколько раз площадь большего\nкруга больше площади меньшего?",
+        "newParagraph": true
+      },
+      {
+        "type": "drawing",
+        "file": "formulas/task18/140163_drawing.svg"
+      }
+    ],
+    "answer": "2,5",
+    "svgFiles": [
+      "formulas/task18/140163_drawing.svg"
+    ]
+  },
+  {
+    "id": "140164",
+    "title": "Задача 7",
+    "prototype": "Тип 15",
+    "parts": [
+      {
+        "type": "text",
+        "value": "На клетчатой бумаге изображены два круга. Во сколько раз площадь большего\nкруга больше площади меньшего?",
+        "newParagraph": true
+      },
+      {
+        "type": "drawing",
+        "file": "formulas/task18/140164_drawing.svg"
+      }
+    ],
+    "answer": "2",
+    "svgFiles": [
+      "formulas/task18/140164_drawing.svg"
+    ]
+  },
+  {
+    "id": "140165",
+    "title": "Задача 8",
+    "prototype": "Тип 15",
+    "parts": [
+      {
+        "type": "text",
+        "value": "На клетчатой бумаге изображены два круга. Во сколько раз площадь большего\nкруга больше площади меньшего?",
+        "newParagraph": true
+      },
+      {
+        "type": "drawing",
+        "file": "formulas/task18/140165_drawing.svg"
+      }
+    ],
+    "answer": "5",
+    "svgFiles": [
+      "formulas/task18/140165_drawing.svg"
+    ]
+  },
+  {
+    "id": "140166",
+    "title": "Задача 9",
+    "prototype": "Тип 15",
+    "parts": [
+      {
+        "type": "text",
+        "value": "На клетчатой бумаге изображены два круга. Во сколько раз площадь большего\nкруга больше площади меньшего?",
+        "newParagraph": true
+      },
+      {
+        "type": "drawing",
+        "file": "formulas/task18/140166_drawing.svg"
+      }
+    ],
+    "answer": "4,5",
+    "svgFiles": [
+      "formulas/task18/140166_drawing.svg"
+    ]
+  },
+  {
+    "id": "140167",
+    "title": "Задача 10",
+    "prototype": "Тип 15",
+    "parts": [
+      {
+        "type": "text",
+        "value": "На клетчатой бумаге изображены два круга. Во сколько раз площадь большего\nкруга больше площади меньшего?",
+        "newParagraph": true
+      },
+      {
+        "type": "drawing",
+        "file": "formulas/task18/140167_drawing.svg"
+      }
+    ],
+    "answer": "3,2",
+    "svgFiles": [
+      "formulas/task18/140167_drawing.svg"
+    ]
+  }
+]

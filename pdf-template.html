@@ -159,8 +159,6 @@
     .task-images img {
       max-height: 130px;
       max-width: 100%;
-      border-radius: 4px;
-      border: 1px solid #E7E9EF;
       object-fit: contain;
     }
 
@@ -259,8 +257,16 @@
 <script>
   const params      = new URLSearchParams(location.search);
   const config      = params.get('config') || '';
+  const variantId   = params.get('id')     || '';
   const showTasks   = params.get('tasks')   !== '0';
   const showAnswers = params.get('answers') !== '0';
+
+  /** Маппинг прототипов 1-5 → названия */
+  const PROTO_1_5_NAMES = {
+    1: 'Дороги', 2: 'Квартиры', 3: 'Участки', 4: 'Печи',
+    5: 'Бумага', 6: 'Шины', 7: 'Мобильный интернет',
+  };
+  const GROUP_1_5 = new Set([1, 2, 3, 4, 5]);
 
   // ── Helpers ──────────────────────────────────────────────────────
   function esc(str) {
@@ -295,6 +301,47 @@
     });
   }
 
+  // ── Render parts (text + SVG sequence) ───────────────────────────
+  // Каждый text — новая строка; img — inline после текста; drawing — центрированный блок
+  function renderParts(parts) {
+    let html = '';
+    let currentLine = '';
+    let prevText = '';
+    function flushLine() {
+      if (currentLine) { html += `<div style="margin-bottom:3px;">${currentLine}</div>`; currentLine = ''; }
+    }
+    for (let i = 0; i < parts.length; i++) {
+      const p = parts[i];
+      const next = parts[i + 1];
+      if (p.type === 'drawing' && p.file) {
+        flushLine();
+        html += `<div style="text-align:center;margin:6px 0;"><img src="${p.file}" alt="" style="max-height:130px;max-width:100%;object-fit:contain;display:block;margin:0 auto;"></div>`;
+      } else {
+        if (p.newParagraph) flushLine();
+        if (p.type === 'text') {
+          if (currentLine) currentLine += ' ';
+          currentLine += `<span>${esc(p.value)}</span>`;
+          prevText = p.value || '';
+        } else if (p.type === 'img' && p.file) {
+          const isAnswerTable = /ответ/i.test(prevText);
+          const isBlock = !next || next.newParagraph;
+          if (isAnswerTable) {
+            if (currentLine) currentLine += ' ';
+            currentLine += `<img src="${p.file}" alt="" style="height:auto;max-height:56px;max-width:100%;vertical-align:middle;display:inline-block;">`;
+          } else if (isBlock) {
+            flushLine();
+            html += `<div style="text-align:center;margin:6px 0;"><img src="${p.file}" alt="" style="max-width:100%;height:auto;max-height:120px;object-fit:contain;display:block;margin:0 auto;"></div>`;
+          } else {
+            if (currentLine) currentLine += ' ';
+            currentLine += `<img src="${p.file}" alt="" style="height:1.4em;vertical-align:middle;display:inline-block;">`;
+          }
+        }
+      }
+    }
+    flushLine();
+    return html;
+  }
+
   // ── Build task card HTML ──────────────────────────────────────────
   function buildTaskCard(task, displayNum, total, showAnswerFilled) {
     const type       = task.type || {};
@@ -303,17 +350,35 @@
     const topic      = type.topic || '';
     const part       = type.part  || 1;
     const partLabel  = part === 1 ? 'Часть 1' : 'Часть 2';
+    // Для заданий 1-5 показываем название прототипа
+    const protoId = task.prototype;
+    const protoName = (protoId != null && GROUP_1_5.has(typeId)) ? PROTO_1_5_NAMES[protoId] : null;
     const isPholder  = task.placeholder || (!task.text && (!task.images || task.images.length === 0));
 
     // Body
     let bodyHtml = '';
+    let usedImages = false; // флаг: изображения уже включены через parts
     if (isPholder) {
       bodyHtml = `<div class="task-placeholder">Задание №${typeId} будет добавлено позже</div>`;
     } else {
-      if (task.text) {
-        bodyHtml += `<div class="task-text">${esc(task.text)}</div>`;
+      const rawText = task.text || '';
+      if (rawText.startsWith('[')) {
+        // Parts-формат: inline текст + SVG (задание 8 и PDF-парсер)
+        try {
+          const parts = JSON.parse(rawText);
+          bodyHtml += `<div class="task-text">${renderParts(parts)}</div>`;
+          usedImages = true; // SVG уже внутри parts, дублировать не нужно
+        } catch {
+          bodyHtml += `<div class="task-text">${esc(rawText)}</div>`;
+        }
+      } else if (rawText) {
+        // Обычный текст (возможно с LaTeX $...$)
+        const clean = rawText.replace(/\s*Источники?:\s*.+$/s, '').trim();
+        bodyHtml += `<div class="task-text">${clean}</div>`;
       }
-      if (task.images && task.images.length > 0) {
+      // Изображения из поля images (задания 6, 16, 19 и др.)
+      // Пропускаем если уже включены через parts
+      if (!usedImages && task.images && task.images.length > 0) {
         const imgs = task.images.map(src =>
           `<img src="${src}" alt="">`
         ).join('');
@@ -337,7 +402,7 @@
           <div class="task-num">${displayNum}</div>
           <div class="task-meta">
             <div class="task-meta-type">${esc(typeName)}</div>
-            <div class="task-meta-topic">${esc(topic)}</div>
+            <div class="task-meta-topic">${esc(topic)}${protoName ? ` · ${esc(protoName)}` : ''}</div>
           </div>
           <div class="task-part-badge">${partLabel}</div>
         </div>
@@ -375,12 +440,18 @@
   async function render() {
     const root = document.getElementById('root');
 
-    // Fetch tasks
+    // Fetch tasks — по сохранённому ID варианта или по config
     let tasks = [];
     try {
-      const res  = await fetch(`/api/tasks/random?config=${encodeURIComponent(config)}`);
-      const json = await res.json();
-      if (json.success) tasks = json.data;
+      if (variantId) {
+        const res  = await fetch(`/api/variants/${variantId}`);
+        const json = await res.json();
+        if (json.success) tasks = json.data.tasks;
+      } else if (config) {
+        const res  = await fetch(`/api/tasks/random?config=${encodeURIComponent(config)}`);
+        const json = await res.json();
+        if (json.success) tasks = json.data;
+      }
     } catch (e) {
       root.innerHTML = `<p style="color:red;padding:20px">Ошибка загрузки заданий: ${e.message}</p>`;
       document.body.dataset.ready = 'true';

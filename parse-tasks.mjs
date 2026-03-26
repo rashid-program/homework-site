@@ -168,29 +168,70 @@ function toLatex(exprLines) {
 
   while (idx < exprLines.length) {
     const cur = exprLines[idx];
+    // Нормализуем токен: убираем variation selectors и unicode-переменные
+    const normCur = cur.replace(/[\uFE00-\uFE0F]/g, '')
+                       .replace(/푥/g, 'x').replace(/푦/g, 'y')
+                       .replace(/푎/g, 'a').replace(/푏/g, 'b');
 
-    if (STANDALONE_OPS.has(cur)) {
+    // ── Знак корня √ (возможно с variation selector, уже снят в normCur)
+    if (normCur === '√') {
+      const next1 = exprLines[idx + 1];
+      const next2 = exprLines[idx + 2];
+      const n1norm = next1 ? next1.replace(/[\uFE00-\uFE0F]/g, '').replace(/푥/g, 'x').replace(/푦/g, 'y').replace(/푎/g, 'a').replace(/푏/g, 'b') : '';
+      const n2norm = next2 ? next2.replace(/[\uFE00-\uFE0F]/g, '').replace(/푥/g, 'x').replace(/푦/g, 'y').replace(/푎/g, 'a').replace(/푏/g, 'b') : '';
+
+      // Дробь под корнем: следующие два токена — чистые числа
+      if (n1norm && n2norm && /^[\d.,]+$/.test(n1norm) && /^[\d.,]+$/.test(n2norm)) {
+        latex += `\\sqrt{\\dfrac{${escLaTeX(next1)}}{${escLaTeX(next2)}}}`;
+        idx += 3;
+      } else if (n1norm) {
+        // Корень от одного выражения — собираем до оператора или конца
+        latex += `\\sqrt{${escLaTeX(next1)}}`;
+        idx += 2;
+      } else {
+        latex += '\\sqrt{}';
+        idx++;
+      }
+      continue;
+    }
+
+    if (STANDALONE_OPS.has(normCur)) {
       // Оператор-разделитель
-      if      (cur === '·' || cur === '×') latex += ' \\cdot ';
-      else if (cur === '−')               latex += ' - ';
-      else                                 latex += ` ${cur} `;
+      if      (normCur === '·' || normCur === '×') latex += ' \\cdot ';
+      else if (normCur === '−')                    latex += ' - ';
+      else                                          latex += ` ${normCur} `;
       idx++;
-    } else if (PARENS.has(cur)) {
+    } else if (PARENS.has(normCur)) {
       // Скобки — выводим как есть, они не числитель дроби
-      latex += cur;
+      latex += normCur;
       idx++;
-    } else if (
-      idx + 1 < exprLines.length &&
-      !STANDALONE_OPS.has(exprLines[idx + 1]) &&
-      !PARENS.has(exprLines[idx + 1])
-    ) {
-      // Дробь: числитель / знаменатель
-      latex += `\\dfrac{${escLaTeX(exprLines[idx])}}{${escLaTeX(exprLines[idx + 1])}}`;
-      idx += 2;
     } else {
-      // Одиночное выражение
-      latex += escLaTeX(cur);
-      idx++;
+      // Проверяем следующий токен
+      const next = idx + 1 < exprLines.length ? exprLines[idx + 1] : null;
+      const nextNorm = next ? next.replace(/[\uFE00-\uFE0F]/g, '').replace(/푥/g, 'x').replace(/푦/g, 'y').replace(/푎/g, 'a').replace(/푏/g, 'b') : null;
+
+      if (!nextNorm) {
+        // Последний токен
+        latex += escLaTeX(normCur);
+        idx++;
+      } else if (STANDALONE_OPS.has(nextNorm) || PARENS.has(nextNorm) || nextNorm === '√') {
+        // Следующий — оператор/скобка/корень → текущий одиночный
+        latex += escLaTeX(normCur);
+        idx++;
+      } else if (/[a-zA-Z]/.test(normCur) && /^\d+$/.test(nextNorm)) {
+        // Переменная/выражение с переменной + число → СТЕПЕНЬ: x^{4}
+        latex += escLaTeX(normCur) + `^{${nextNorm}}`;
+        idx += 2;
+      } else if (/^\d+$/.test(nextNorm) && /^[\d.,a-zA-Z]+$/.test(normCur)) {
+        // Число + следующее число → ДРОБЬ (для случая типа "13,2" / "1,2")
+        // Только если оба токена — числа (нет переменных в nextNorm)
+        latex += `\\dfrac{${escLaTeX(normCur)}}{${escLaTeX(nextNorm)}}`;
+        idx += 2;
+      } else {
+        // Одиночное выражение
+        latex += escLaTeX(normCur);
+        idx++;
+      }
     }
   }
 
@@ -199,6 +240,10 @@ function toLatex(exprLines) {
 
 function escLaTeX(s) {
   return s
+    .replace(/[\uFE00-\uFE0F]/g, '')   // strip variation selectors
+    .replace(/\u221A/g, '')             // убрать √ если случайно попал (обрабатывается в toLatex)
+    .replace(/푥/g, 'x').replace(/푦/g, 'y')  // unicode-переменные из PDF
+    .replace(/푎/g, 'a').replace(/푏/g, 'b')
     .replace(/·/g, '\\cdot ')
     .replace(/−/g, '-')
     .replace(/×/g, '\\times ')

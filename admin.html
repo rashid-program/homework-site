@@ -217,8 +217,14 @@
         Конструктор
       </a>
       <span class="text-white/20 text-sm">/</span>
-      <span class="text-white font-bold text-sm">Добавить задание</span>
+      <span class="text-white font-bold text-sm" id="headerTitle">Добавить задание</span>
     </div>
+    <a href="/admin-tasks.html" class="text-white/60 hover:text-white flex items-center gap-1.5 text-sm font-medium ml-auto" style="transition: color 0.15s ease;">
+      База заданий
+      <svg width="16" height="16" viewBox="0 0 16 16" fill="none">
+        <path d="M6 3l5 5-5 5" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+      </svg>
+    </a>
   </header>
 
   <!-- MAIN -->
@@ -427,6 +433,16 @@
     // Each item: { url: '/uploads/xxx.png', source: 'upload' | 'url' }
     const images = [];
 
+    // ── URL params ─────────────────────────────────────────────────────────────
+    const _urlParams = new URLSearchParams(window.location.search);
+    const _preselectedType = parseInt(_urlParams.get('type') || '0') || 0;
+
+    // Обновляем заголовок страницы если тип передан через URL
+    if (_preselectedType > 0) {
+      document.querySelector('h1').textContent = `Добавление задания №${_preselectedType}`;
+      document.title = `Добавить задание №${_preselectedType} — ОГЭ Математика`;
+    }
+
     // ── Load task types ────────────────────────────────────────────────────────
     async function loadTaskTypes() {
       let types = FALLBACK_TYPES;
@@ -453,6 +469,11 @@
       };
       select.appendChild(makeGroup('Первая часть (1–19)', part1));
       select.appendChild(makeGroup('Вторая часть (20–25)', part2));
+
+      // Автоматически выбираем тип если передан ?type=N
+      if (_preselectedType > 0) {
+        select.value = String(_preselectedType);
+      }
     }
 
     // ── Image state helpers ────────────────────────────────────────────────────

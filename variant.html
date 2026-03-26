@@ -8,6 +8,11 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&display=swap" rel="stylesheet">
   <script src="https://cdn.tailwindcss.com"></script>
+  <!-- KaTeX -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/katex.min.css">
+  <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/katex.min.js"></script>
+  <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/contrib/auto-render.min.js"
+    onload="window._katexReady = true; if(window._katexPendingRender) window._katexPendingRender();"></script>
   <script>
     tailwind.config = {
       theme: {
@@ -104,6 +109,11 @@
     ::-webkit-scrollbar-track { background: #EEEFF2; }
     ::-webkit-scrollbar-thumb { background: #BFC1C4; border-radius: 4px; }
     ::-webkit-scrollbar-thumb:hover { background: #8D96AF; }
+
+    /* Группа 1-5: левая синяя полоса у подзаданий */
+    .group15-block .task-card {
+      border-left: 3px solid #0399E9;
+    }
   </style>
 </head>
 
@@ -260,6 +270,15 @@
 
   <!-- ==================== SCRIPTS ==================== -->
   <script>
+    /** Задания 1-5 в ОГЭ — единый блок практико-ориентированных задач */
+    const GROUP_1_5 = new Set([1, 2, 3, 4, 5]);
+
+    /** Маппинг номера прототипа → название */
+    const PROTO_1_5_NAMES = {
+      1: 'Дороги', 2: 'Квартиры', 3: 'Участки', 4: 'Печи',
+      5: 'Бумага', 6: 'Шины', 7: 'Мобильный интернет',
+    };
+
     /**
      * Task data — mirrors the constructor page
      */
@@ -292,8 +311,11 @@
     };
 
     /**
-     * Parse config from URL: ?config=1:2,5:1,20:3
-     * Returns array of { taskTypeId, instanceIndex } in display order
+     * Parse config from URL.
+     * Formats:
+     *   typeId:count             — рандомные задания типа
+     *   typeId:protoId:count     — рандомные задания конкретного прото
+     * Returns array of { taskTypeId, protoId|null, instanceIndex } in display order
      */
     function parseConfig() {
       const params = new URLSearchParams(window.location.search);
@@ -304,14 +326,23 @@
       const pairs = configStr.split(',');
 
       for (const pair of pairs) {
-        const [idStr, countStr] = pair.split(':');
-        const taskTypeId = parseInt(idStr);
-        const count = parseInt(countStr);
+        const parts = pair.split(':');
+        let taskTypeId, protoId, count;
+
+        if (parts.length === 3) {
+          taskTypeId = parseInt(parts[0]);
+          protoId    = parseInt(parts[1]);
+          count      = parseInt(parts[2]);
+        } else {
+          taskTypeId = parseInt(parts[0]);
+          protoId    = null;
+          count      = parseInt(parts[1]);
+        }
 
         if (!taskTypeId || !count || !TASKS_MAP[taskTypeId]) continue;
 
         for (let i = 0; i < count; i++) {
-          tasks.push({ taskTypeId, instanceIndex: i });
+          tasks.push({ taskTypeId, protoId, instanceIndex: i });
         }
       }
 
@@ -325,10 +356,99 @@
      */
     function renderTaskCard(apiTask, fallbackMeta, displayNum, totalTasks) {
       const isPlaceholder = !apiTask || apiTask.placeholder || (!apiTask.text && (!apiTask.images || apiTask.images.length === 0));
-      const topic    = apiTask?.type?.topic   ?? fallbackMeta?.topic  ?? '—';
-      const part     = apiTask?.type?.part    ?? fallbackMeta?.part   ?? 1;
-      const typeId   = apiTask?.typeId        ?? fallbackMeta?.typeId ?? '?';
+      const topic     = apiTask?.type?.topic   ?? fallbackMeta?.topic  ?? '—';
+      const part      = apiTask?.type?.part    ?? fallbackMeta?.part   ?? 1;
+      const typeId    = apiTask?.typeId        ?? fallbackMeta?.typeId ?? '?';
+      const protoId   = apiTask?.prototype     ?? null;
       const partLabel = part === 1 ? 'Часть 1' : 'Часть 2';
+      const protoName = (protoId !== null && GROUP_1_5.has(typeId)) ? PROTO_1_5_NAMES[protoId] : null;
+      const protoLabel = protoId !== null
+        ? `<span class="inline-block ml-2 px-1.5 py-0.5 text-[10px] font-semibold rounded bg-brand-blue-light text-brand-blue">${protoName || `Прото ${protoId}`}</span>`
+        : '';
+
+      // Очищаем текст от "Источники: ..." в конце
+      // Внутри $...$ исправляем x2 → x^{2} (степени записаны без ^)
+      function fixLatex(text) {
+        return text.replace(/\$([^$]+)\$/g, (_, inner) => {
+          const fixed = inner.replace(/([a-zA-Z])(\d+)/g, '$1^{$2}');
+          return `$${fixed}$`;
+        });
+      }
+      // Функция рендера inline-структуры parts (текст + SVG + чертежи)
+      // newParagraph:true → новая строка; drawing → центрированный блок
+      function renderParts(parts) {
+        let html = '';
+        let currentLine = '';
+        let prevText = '';
+        function flushLine() {
+          if (currentLine) { html += `<div style="margin-bottom:4px;">${currentLine}</div>`; currentLine = ''; }
+        }
+        for (let i = 0; i < parts.length; i++) {
+          const p = parts[i];
+          const next = parts[i + 1];
+          if (p.type === 'drawing' && p.file) {
+            flushLine();
+            html += `<div style="text-align:center;margin:8px 0;"><img src="${p.file}" alt="" style="max-width:100%;height:auto;"></div>`;
+          } else {
+            if (p.newParagraph) flushLine();
+            if (p.type === 'text') {
+              if (currentLine) currentLine += ' ';
+              currentLine += `<span>${p.value}</span>`;
+              prevText = p.value;
+            } else if (p.type === 'img' && p.file) {
+              const isAnswerTable = /ответ/i.test(prevText);
+              const isBlock = !next || next.newParagraph;
+              if (isAnswerTable) {
+                if (currentLine) currentLine += ' ';
+                currentLine += `<img src="${p.file}" alt="" style="height:auto;max-height:56px;max-width:100%;vertical-align:middle;display:inline-block;">`;
+              } else if (isBlock) {
+                flushLine();
+                html += `<div style="text-align:center;margin:8px 0;"><img src="${p.file}" alt="" style="max-width:100%;height:auto;max-height:200px;"></div>`;
+              } else {
+                if (currentLine) currentLine += ' ';
+                currentLine += `<img src="${p.file}" alt="" style="height:1.4em;max-width:100%;vertical-align:middle;display:inline-block;">`;
+              }
+            }
+          }
+        }
+        flushLine();
+        return html;
+      }
+
+      let cleanText = '';
+      let partsHtml = '';
+      const rawText = apiTask?.text ?? '';
+      if (rawText.startsWith('[')) {
+        try {
+          const parts = JSON.parse(rawText);
+          partsHtml = `<div class="task-text text-base text-ink-dark leading-relaxed">${renderParts(parts)}</div>`;
+        } catch { cleanText = rawText; }
+      } else {
+        cleanText = rawText ? fixLatex(rawText.replace(/\s*Источники?:\s*.+$/s, '').trim()) : '';
+      }
+
+      // Источник: только "Банк ФИПИ" (обрезаем " / Школково" и подобное)
+      const sourceRaw = apiTask?.source ?? apiTask?.text?.match(/Источники?:\s*(.+)$/s)?.[1]?.trim() ?? null;
+      const sourceLabel = sourceRaw ? sourceRaw.replace(/\s*\/\s*Школково.*/i, '').trim() : null;
+      const sourceUrl   = apiTask?.sourceUrl ?? null;
+
+      const sourceHtml = sourceLabel
+        ? `<div class="text-right mt-3">
+             ${sourceUrl
+               ? `<a href="${sourceUrl}" target="_blank" rel="noopener" class="text-[11px] text-ink-faint hover:text-ink-muted font-medium" style="transition:color 0.15s ease;">${sourceLabel}</a>`
+               : `<span class="text-[11px] text-ink-faint font-medium">${sourceLabel}</span>`
+             }
+           </div>`
+        : '';
+
+      // Изображения из поля images (для заданий типа 6, 16, 19 и др.)
+      // Не добавляем если текст уже в parts-формате (SVG уже включены туда)
+      const taskImages = apiTask?.images ?? [];
+      const imagesHtml = taskImages.length > 0 && !partsHtml
+        ? taskImages.map(src =>
+            `<img src="${src}" alt="" class="max-w-full rounded-lg" style="display:block;margin:8px 0;">`
+          ).join('')
+        : '';
 
       // Тело задания: реальный текст или заглушка
       const bodyHtml = isPlaceholder
@@ -337,14 +457,9 @@
                Задание №${typeId} будет добавлено позже
              </p>
            </div>`
-        : `${apiTask.text ? `<div class="task-text text-sm text-ink-dark leading-relaxed">${escapeHtml(apiTask.text)}</div>` : ''}
-           ${apiTask.images?.length
-             ? `<div class="mt-4 flex flex-wrap gap-3">
-                  ${apiTask.images.map(src =>
-                    `<img src="${src}" alt="Иллюстрация к заданию" class="max-h-52 rounded-xl border border-surface-border object-contain">`
-                  ).join('')}
-                </div>`
-             : ''}`;
+        : `${partsHtml || (cleanText ? `<div class="task-text text-sm text-ink-dark leading-relaxed">${cleanText}</div>` : '')}
+           ${imagesHtml}
+           ${sourceHtml}`;
 
       return `
         <div class="task-card bg-surface-card rounded-2xl shadow-card overflow-hidden" data-task-db-id="${apiTask?.id ?? ''}">
@@ -356,7 +471,7 @@
               <div class="text-sm font-semibold text-ink-dark">Задание ${displayNum}</div>
               <div class="text-xs text-ink-muted mt-0.5">
                 Тип ${typeId}: ${topic}
-                <span class="inline-block ml-2 px-1.5 py-0.5 text-[10px] font-semibold rounded bg-surface-middle text-ink-faint">${partLabel}</span>
+                <span class="inline-block ml-2 px-1.5 py-0.5 text-[10px] font-semibold rounded bg-surface-middle text-ink-faint">${partLabel}</span>${protoLabel}
               </div>
             </div>
             <div class="text-xs text-ink-faint font-medium flex-shrink-0">${displayNum} / ${totalTasks}</div>
@@ -384,7 +499,261 @@
     }
 
     /**
-     * Initialize the variant page
+     * Рендер единого блока "Группа задач по тексту 1-5"
+     * tasks — массив из 5 заданий (typeId 1..5), displayNums — номера для ответов
+     */
+    function renderGroup15Block(tasks, displayNums, totalCount) {
+      // Рендерим внутренние карточки каждого подзадания
+      const subCards = tasks.map((apiTask, idx) => {
+        const typeId = apiTask?.typeId ?? (idx + 1);
+        const isPlaceholder = !apiTask || apiTask.placeholder || (!apiTask.text && (!apiTask.images || apiTask.images.length === 0));
+        const displayNum = displayNums[idx];
+
+        function renderParts(parts) {
+          let html = '';
+          let currentLine = '';
+          let prevText = '';
+          function flushLine() {
+            if (currentLine) { html += `<div style="margin-bottom:4px;">${currentLine}</div>`; currentLine = ''; }
+          }
+          for (let i = 0; i < parts.length; i++) {
+            const p = parts[i];
+            const next = parts[i + 1];
+            if (p.type === 'drawing' && p.file) {
+              flushLine();
+              html += `<div style="text-align:center;margin:8px 0;"><img src="${p.file}" alt="" style="max-width:100%;height:auto;"></div>`;
+            } else {
+              if (p.newParagraph) flushLine();
+              if (p.type === 'text') {
+                if (currentLine) currentLine += ' ';
+                currentLine += `<span>${p.value}</span>`;
+                prevText = p.value;
+              } else if (p.type === 'img' && p.file) {
+                const isAnswerTable = /ответ/i.test(prevText);
+                const isBlock = !next || next.newParagraph;
+                if (isAnswerTable) {
+                  if (currentLine) currentLine += ' ';
+                  currentLine += `<img src="${p.file}" alt="" style="height:auto;max-height:56px;max-width:100%;vertical-align:middle;display:inline-block;">`;
+                } else if (isBlock) {
+                  flushLine();
+                  html += `<div style="text-align:center;margin:8px 0;"><img src="${p.file}" alt="" style="max-width:100%;height:auto;max-height:200px;"></div>`;
+                } else {
+                  if (currentLine) currentLine += ' ';
+                  currentLine += `<img src="${p.file}" alt="" style="height:1.4em;max-width:100%;vertical-align:middle;display:inline-block;">`;
+                }
+              }
+            }
+          }
+          flushLine();
+          return html;
+        }
+
+        function fixLatex(text) {
+          return text.replace(/\$([^$]+)\$/g, (_, inner) => {
+            const fixed = inner.replace(/([a-zA-Z])(\d+)/g, '$1^{$2}');
+            return `$${fixed}$`;
+          });
+        }
+
+        let partsHtml = '';
+        let cleanText = '';
+        const rawText = apiTask?.text ?? '';
+        if (rawText.startsWith('[')) {
+          try {
+            const parts = JSON.parse(rawText);
+            partsHtml = `<div class="task-text text-base text-ink-dark leading-relaxed">${renderParts(parts)}</div>`;
+          } catch { cleanText = rawText; }
+        } else {
+          cleanText = rawText ? fixLatex(rawText.replace(/\s*Источники?:\s*.+$/s, '').trim()) : '';
+        }
+
+        const taskImages = apiTask?.images ?? [];
+        const imagesHtml = taskImages.length > 0 && !partsHtml
+          ? taskImages.map(src => `<img src="${src}" alt="" class="max-w-full rounded-lg" style="display:block;margin:8px 0;">`).join('')
+          : '';
+
+        const bodyHtml = isPlaceholder
+          ? `<div class="bg-surface-middle/60 rounded-xl p-4 border border-surface-border border-dashed">
+               <p class="text-sm text-ink-muted text-center font-medium">Задание №${typeId} будет добавлено позже</p>
+             </div>`
+          : `${partsHtml || (cleanText ? `<div class="task-text text-sm text-ink-dark leading-relaxed">${cleanText}</div>` : '')}${imagesHtml}`;
+
+        const subTopics = {1:'Вычисления',2:'Числовые неравенства',3:'Числа и вычисления',4:'Алгебраические выражения',5:'Уравнения и неравенства'};
+
+        return `
+          <div class="border-t border-surface-border/70 first:border-t-0">
+            <!-- Подзаголовок подзадания -->
+            <div class="flex items-center gap-2.5 px-5 md:px-6 py-3 bg-surface-middle/40">
+              <div class="w-7 h-7 rounded-full bg-brand-blue flex items-center justify-center flex-shrink-0">
+                <span class="text-white text-[10px] font-bold">${String(displayNum).padStart(2,'0')}</span>
+              </div>
+              <div class="flex-1 min-w-0">
+                <span class="text-xs font-semibold text-ink-dark">Задание ${typeId}</span>
+                <span class="text-xs text-ink-muted ml-1.5">${subTopics[typeId] || ''}</span>
+              </div>
+              <span class="text-xs text-ink-faint">${displayNum} / ${totalCount}</span>
+            </div>
+            <!-- Содержание -->
+            <div class="px-5 md:px-6 py-4">${bodyHtml}</div>
+            <!-- Ответ -->
+            <div class="px-5 md:px-6 pb-4">
+              <label class="block text-xs font-semibold text-ink-body mb-2" for="answer-${displayNum}">Ответ:</label>
+              <input
+                type="text"
+                id="answer-${displayNum}"
+                class="answer-input w-full px-4 py-2.5 text-sm text-ink-dark bg-surface-card border border-surface-border rounded-xl placeholder:text-ink-faint focus:outline-none"
+                placeholder="Введите ответ..."
+                autocomplete="off"
+              />
+            </div>
+          </div>`;
+      }).join('');
+
+      // Определяем прототип из первого задания группы
+      const groupProtoId = tasks[0]?.prototype ?? null;
+      const groupProtoName = groupProtoId !== null ? (PROTO_1_5_NAMES[groupProtoId] || `Прото ${groupProtoId}`) : '';
+      const protoSubtitle = groupProtoName
+        ? `Практико-ориентированные задачи · ${groupProtoName}`
+        : 'Практико-ориентированные задачи по тексту';
+
+      return `
+        <div class="task-card bg-surface-card rounded-2xl shadow-card overflow-hidden">
+          <!-- Заголовок блока -->
+          <div class="px-5 md:px-6 py-4 flex items-center gap-3 border-b border-surface-border bg-gradient-to-r from-brand-blue-pale to-surface-card">
+            <div class="w-9 h-9 rounded-full bg-brand-blue flex items-center justify-center flex-shrink-0 flex-col">
+              <span class="text-white text-[8px] font-bold leading-none">1–5</span>
+            </div>
+            <div class="flex-1 min-w-0">
+              <div class="text-sm font-bold text-ink-dark">Задания 1–5</div>
+              <div class="text-xs text-ink-muted mt-0.5">${protoSubtitle}</div>
+            </div>
+            <span class="flex-shrink-0 px-2 py-1 rounded-md bg-brand-blue-light text-brand-blue text-[10px] font-bold">5 заданий</span>
+          </div>
+          ${subCards}
+        </div>`;
+    }
+
+    /**
+     * Рендер списка заданий + KaTeX + actions bar
+     * Задания typeId 1-5, идущие подряд — объединяются в единый блок.
+     */
+    function renderTaskList(apiTasks, totalCount) {
+      const container = document.getElementById('tasks-container');
+
+      // Группируем: определяем "серии" заданий 1-5 подряд
+      const rendered = [];
+      let i = 0;
+      let displayNum = 1;
+
+      while (i < apiTasks.length) {
+        const apiTask = apiTasks[i];
+        const typeId = apiTask?.typeId;
+
+        // Проверяем: начинается ли здесь блок 1-5 (5 заданий подряд с typeId 1,2,3,4,5)
+        if (typeId === 1 && i + 4 < apiTasks.length) {
+          const slice = apiTasks.slice(i, i + 5);
+          const isGroup = slice.every((t, idx) => (t?.typeId ?? null) === idx + 1);
+          if (isGroup) {
+            const nums = [displayNum, displayNum+1, displayNum+2, displayNum+3, displayNum+4];
+            rendered.push(renderGroup15Block(slice, nums, totalCount));
+            displayNum += 5;
+            i += 5;
+            continue;
+          }
+        }
+
+        // Обычная карточка
+        const fallback = typeId ? { ...TASKS_MAP[typeId], typeId } : {};
+        rendered.push(renderTaskCard(apiTask, fallback, displayNum, totalCount));
+        displayNum++;
+        i++;
+      }
+
+      container.innerHTML = rendered.join('');
+
+      function runKatex() {
+        renderMathInElement(container, {
+          delimiters: [
+            { left: '$$', right: '$$', display: true },
+            { left: '$',  right: '$',  display: false },
+          ],
+          throwOnError: false,
+        });
+      }
+      if (window.renderMathInElement) runKatex();
+      else window._katexPendingRender = runKatex;
+
+      document.getElementById('actions-bar').classList.remove('hidden');
+
+      document.getElementById('check-btn').addEventListener('click', () => {
+        const answers = [];
+        for (let i = 1; i <= totalCount; i++) {
+          const input = document.getElementById(`answer-${i}`);
+          answers.push({ task: i, answer: input?.value.trim() ?? '' });
+        }
+        const filled = answers.filter(a => a.answer).length;
+        const empty = totalCount - filled;
+        if (filled === 0) { showNotification('Введите хотя бы один ответ', 'warning'); return; }
+        let message = `Заполнено ${filled} из ${totalCount} ответов.`;
+        if (empty > 0) message += ` Осталось: ${empty}.`;
+        message += '\n\nПроверка ответов будет доступна позже.';
+        showNotification(message, 'info');
+      });
+    }
+
+    /**
+     * Загрузка сохранённого варианта по ID (новый режим)
+     */
+    async function initById(variantId) {
+      document.getElementById('variant-summary').textContent = 'Загрузка варианта...';
+      document.getElementById('choice-summary').textContent = 'Загрузка варианта...';
+
+      try {
+        const res  = await fetch(`/api/variants/${variantId}`);
+        const json = await res.json();
+        if (!json.success) throw new Error(json.error || 'Вариант не найден');
+
+        const { tasks, note, createdAt } = json.data;
+        const totalCount = tasks.length;
+
+        if (totalCount === 0) {
+          document.getElementById('empty-state').classList.remove('hidden');
+          document.getElementById('variant-summary').textContent = 'Задания не выбраны';
+          return;
+        }
+
+        const dateStr = new Date(createdAt).toLocaleDateString('ru-RU', { day: 'numeric', month: 'long', year: 'numeric' });
+        const summary = (note ? `${note} · ` : '') + `${totalCount} ${getPluralForm(totalCount, 'задание', 'задания', 'заданий')} · ${dateStr}`;
+        document.getElementById('variant-summary').textContent = summary;
+        document.getElementById('choice-summary').textContent  = summary;
+
+        // Обновляем title страницы с ID варианта
+        document.title = `Вариант ${variantId} — ОГЭ Математика`;
+
+        // Показываем ID варианта в actions bar (постоянная ссылка)
+        const actionsBar = document.getElementById('actions-bar');
+        const shareHtml = `
+          <div class="mt-4 pt-4 border-t border-surface-border flex items-center gap-3">
+            <span class="text-xs text-ink-muted font-medium">Постоянная ссылка:</span>
+            <code class="flex-1 text-xs text-ink-body bg-surface-middle px-3 py-1.5 rounded-lg font-mono truncate">${window.location.origin}/variant.html?id=${variantId}</code>
+            <button onclick="navigator.clipboard.writeText('${window.location.origin}/variant.html?id=${variantId}').then(()=>showNotification('Ссылка скопирована','success'))"
+              class="flex-shrink-0 text-xs font-semibold text-brand-blue hover:text-brand-blue-hover px-3 py-1.5 rounded-lg bg-brand-blue-light hover:bg-brand-blue/20"
+              style="transition: background-color 0.15s ease, color 0.15s ease;">
+              Копировать
+            </button>
+          </div>`;
+        actionsBar.querySelector('.bg-surface-card').insertAdjacentHTML('beforeend', shareHtml);
+
+        renderTaskList(tasks, totalCount);
+      } catch (err) {
+        document.getElementById('variant-summary').textContent = 'Ошибка загрузки варианта';
+        document.getElementById('empty-state').classList.remove('hidden');
+        document.getElementById('empty-state').querySelector('p.text-sm').textContent = err.message;
+      }
+    }
+
+    /**
+     * Initialize the variant page (старый режим — config в URL)
      */
     async function init() {
       const configParam = new URLSearchParams(window.location.search).get('config');
@@ -400,7 +769,7 @@
       const word = getPluralForm(totalCount, 'задание', 'задания', 'заданий');
       document.getElementById('variant-summary').textContent = `${totalCount} ${word} в варианте`;
 
-      // Попытка получить реальные задания из API
+      // Получаем случайные задания из API
       let apiTasks = null;
       try {
         const res  = await fetch(`/api/tasks/random?config=${encodeURIComponent(configParam)}`);
@@ -409,50 +778,12 @@
       } catch { /* API недоступен */ }
 
       // Рендер: совмещаем API-ответ с конфигурацией
-      const container = document.getElementById('tasks-container');
-      const cards = parsedTasks.map((t, i) => {
+      const tasks = parsedTasks.map((t, i) => {
         const apiTask = apiTasks ? apiTasks[i] ?? null : null;
-        const fallback = { ...TASKS_MAP[t.taskTypeId], typeId: t.taskTypeId };
-        return renderTaskCard(apiTask, fallback, i + 1, totalCount);
+        return apiTask ?? { placeholder: true, typeId: t.taskTypeId, images: [] };
       });
 
-      container.innerHTML = cards.join('');
-
-      // KaTeX: рендерим формулы если библиотека загружена
-      if (window.renderMathInElement) {
-        renderMathInElement(container, { delimiters: [
-          { left: '$$', right: '$$', display: true },
-          { left: '$',  right: '$',  display: false },
-        ]});
-      }
-
-      // Show actions bar
-      document.getElementById('actions-bar').classList.remove('hidden');
-
-      // Check button handler (placeholder)
-      document.getElementById('check-btn').addEventListener('click', () => {
-        const answers = [];
-        for (let i = 1; i <= parsedTasks.length; i++) {
-          const input = document.getElementById(`answer-${i}`);
-          answers.push({ task: i, answer: input.value.trim() });
-        }
-
-        const filled = answers.filter(a => a.answer).length;
-        const empty = parsedTasks.length - filled;
-
-        if (filled === 0) {
-          showNotification('Введите хотя бы один ответ', 'warning');
-          return;
-        }
-
-        let message = `Заполнено ${filled} из ${parsedTasks.length} ответов.`;
-        if (empty > 0) {
-          message += ` Осталось: ${empty}.`;
-        }
-        message += '\n\nПроверка ответов будет доступна позже.';
-
-        showNotification(message, 'info');
-      });
+      renderTaskList(tasks, totalCount);
     }
 
     /**
@@ -575,11 +906,78 @@
     document.addEventListener('DOMContentLoaded', () => {
       const urlParams   = new URLSearchParams(window.location.search);
       const mode        = urlParams.get('mode');
+      const variantId   = urlParams.get('id');
       const configParam = urlParams.get('config') || '';
       const parsedCount = parseConfig().length;
 
+      if (variantId) {
+        // ── Режим постоянного варианта (?id=xxx) ──────────────────────────────
+        if (mode === 'solve') {
+          document.getElementById('solve-page').classList.remove('hidden');
+          initById(variantId);
+        } else {
+          // Страница выбора: кол-во неизвестно до загрузки → грузим сразу
+          document.getElementById('choice-page').classList.remove('hidden');
+
+          // Подключаем кнопку «Начать решение»
+          document.getElementById('start-solve-btn').addEventListener('click', () => {
+            const url = new URL(window.location.href);
+            url.searchParams.set('mode', 'solve');
+            window.location.href = url.toString();
+          });
+
+          // PDF кнопка
+          document.getElementById('download-pdf-btn').addEventListener('click', async () => {
+            const includeTasks   = document.getElementById('cb-tasks').checked;
+            const includeAnswers = document.getElementById('cb-answers').checked;
+            const errEl          = document.getElementById('pdf-error');
+            if (!includeTasks && !includeAnswers) { errEl.classList.remove('hidden'); return; }
+            errEl.classList.add('hidden');
+            const btn = document.getElementById('download-pdf-btn');
+            btn.disabled  = true;
+            btn.innerHTML = `<svg class="animate-spin" width="15" height="15" viewBox="0 0 15 15" fill="none" style="animation:spin 0.7s linear infinite"><circle cx="7.5" cy="7.5" r="6" stroke="currentColor" stroke-width="2" stroke-dasharray="28" stroke-dashoffset="10"/></svg> Генерируется...`;
+            try {
+              const res = await fetch('/api/export/pdf', {
+                method:  'POST',
+                headers: { 'Content-Type': 'application/json' },
+                body:    JSON.stringify({ variantId, includeTasks, includeAnswers }),
+              });
+              if (!res.ok) throw new Error(`HTTP ${res.status}`);
+              const blob = await res.blob();
+              const url  = URL.createObjectURL(blob);
+              const a    = document.createElement('a');
+              a.href = url; a.download = `variant-oge-${variantId}.pdf`;
+              document.body.appendChild(a); a.click();
+              document.body.removeChild(a);
+              URL.revokeObjectURL(url);
+            } catch (err) {
+              errEl.textContent = 'Ошибка: ' + err.message;
+              errEl.classList.remove('hidden');
+            } finally {
+              btn.disabled  = false;
+              btn.innerHTML = `<svg width="15" height="15" viewBox="0 0 15 15" fill="none"><path d="M7.5 2v8M4 7l3.5 3.5L11 7" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"/><path d="M2 12h11" stroke="currentColor" stroke-width="1.7" stroke-linecap="round"/></svg> Скачать PDF`;
+            }
+          });
+
+          // Подгружаем данные варианта для отображения кол-ва заданий
+          fetch(`/api/variants/${variantId}`)
+            .then(r => r.json())
+            .then(json => {
+              if (!json.success) return;
+              const count = json.data.tasks.length;
+              const note  = json.data.note;
+              const dateStr = new Date(json.data.createdAt).toLocaleDateString('ru-RU', { day: 'numeric', month: 'long', year: 'numeric' });
+              const summary = (note ? `${note} · ` : '') + `${count} ${getPluralForm(count, 'задание', 'задания', 'заданий')} · ${dateStr}`;
+              document.getElementById('choice-summary').textContent = summary;
+              document.title = `Вариант ${variantId} — ОГЭ Математика`;
+            })
+            .catch(() => {});
+        }
+        return;
+      }
+
+      // ── Старый режим (?config=...) ────────────────────────────────────────────
       if (parsedCount === 0) {
-        // Пустой вариант — показываем solve-page с empty state
         document.getElementById('solve-page').classList.remove('hidden');
         init();
         return;
